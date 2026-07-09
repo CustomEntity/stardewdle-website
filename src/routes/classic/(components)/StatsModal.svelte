@@ -35,9 +35,9 @@
                         label: locale.t('pages.classic.modals.stats.graph.label'),
                         data: Object.values(stats.tries_per_day || {}),
                         borderWidth: 2,
-                        borderColor: '#e6cc8f',
-                        backgroundColor: 'rgba(230, 204, 143, 0.1)',
-                        pointBackgroundColor: '#e6cc8f',
+                        borderColor: '#8a5a2b',
+                        backgroundColor: 'rgba(138, 90, 43, 0.14)',
+                        pointBackgroundColor: '#9a4b26',
                         tension: 0.4
                     }
                 ]
@@ -54,18 +54,18 @@
                     y: {
                         beginAtZero: true,
                         ticks: {
-                            color: '#ffffff'
+                            color: '#5a3a1c'
                         },
                         grid: {
-                            color: 'rgba(255, 255, 255, 0.1)'
+                            color: 'rgba(90, 58, 28, 0.14)'
                         }
                     },
                     x: {
                         ticks: {
-                            color: '#ffffff'
+                            color: '#5a3a1c'
                         },
                         grid: {
-                            color: 'rgba(255, 255, 255, 0.1)'
+                            color: 'rgba(90, 58, 28, 0.14)'
                         }
                     }
                 }
@@ -109,37 +109,37 @@
     {/snippet}
 
     {#snippet content()}
-        <div class="h-full sm:mx-[25%] mt-4 space-y-4 text-white">
+        <div class="h-full sm:mx-[25%] mt-4 space-y-4 text-[#4a3016]">
             <div class="space-y-4 flex flex-col items-center md:flex-row md:space-y-0 md:justify-center md:space-x-4">
                 <div class="text-center">
                     <p class="text-2xl" aria-label={locale.t('pages.classic.modals.stats.metrics.games_won.aria_label')}>
                         {locale.t('pages.classic.modals.stats.metrics.games_won.label')}
                     </p>
-                    <p class="text-5xl">{stats.wins}</p>
+                    <p class="text-5xl text-[#9a4b26]" style="text-shadow: 1px 1px 0 rgba(255,247,214,0.6);">{stats.wins}</p>
                 </div>
                 <div class="text-center">
                     <p class="text-2xl" aria-label={locale.t('pages.classic.modals.stats.metrics.average_tries.aria_label')}>
                         {locale.t('pages.classic.modals.stats.metrics.average_tries.label')}
                     </p>
-                    <p class="text-5xl">{stats.average_tries.toFixed(3)}</p>
+                    <p class="text-5xl text-[#9a4b26]" style="text-shadow: 1px 1px 0 rgba(255,247,214,0.6);">{stats.average_tries.toFixed(3)}</p>
                 </div>
                 <div class="text-center">
                     <p class="text-2xl" aria-label={locale.t('pages.classic.modals.stats.metrics.one_shots.aria_label')}>
                         {locale.t('pages.classic.modals.stats.metrics.one_shots.label')}
                     </p>
-                    <p class="text-5xl">{stats.one_shots}</p>
+                    <p class="text-5xl text-[#9a4b26]" style="text-shadow: 1px 1px 0 rgba(255,247,214,0.6);">{stats.one_shots}</p>
                 </div>
                 <div class="text-center">
                     <p class="text-2xl" aria-label={locale.t('pages.classic.modals.stats.metrics.current_streak.aria_label')}>
                         {locale.t('pages.classic.modals.stats.metrics.current_streak.label')}
                     </p>
-                    <p class="text-5xl">{stats.current_streak}</p>
+                    <p class="text-5xl text-[#9a4b26]" style="text-shadow: 1px 1px 0 rgba(255,247,214,0.6);">{stats.current_streak}</p>
                 </div>
                 <div class="text-center">
                     <p class="text-2xl" aria-label={locale.t('pages.classic.modals.stats.metrics.best_streak.aria_label')}>
                         {locale.t('pages.classic.modals.stats.metrics.best_streak.label')}
                     </p>
-                    <p class="text-5xl">{stats.best_streak}</p>
+                    <p class="text-5xl text-[#9a4b26]" style="text-shadow: 1px 1px 0 rgba(255,247,214,0.6);">{stats.best_streak}</p>
                 </div>
             </div>
             <div class="relative w-full h-[300px]">

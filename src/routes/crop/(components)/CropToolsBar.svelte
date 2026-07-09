@@ -93,14 +93,14 @@
         {#snippet content()}
             <div class="flex flex-col gap-5 text-left">
                 <div>
-                    <h2 class="font-bold text-lg text-white mb-2">{locale.t('pages.crop.modals.how_to_play_classic.introduction_title')}</h2>
-                    <p class="text-gray-300">{locale.t('pages.crop.modals.how_to_play_classic.introduction_description')}</p>
+                    <h2 class="font-bold text-lg text-[#6a3b18] mb-2">{locale.t('pages.crop.modals.how_to_play_classic.introduction_title')}</h2>
+                    <p class="text-[#4a3016]">{locale.t('pages.crop.modals.how_to_play_classic.introduction_description')}</p>
                 </div>
 
                 <div>
-                    <h2 class="font-bold text-lg text-white mb-2">{locale.t('pages.crop.modals.how_to_play_classic.attributes_title')}</h2>
-                    <p class="text-gray-300 mb-2">{locale.t('pages.crop.modals.how_to_play_classic.attributes_description')}</p>
-                    <ul class="list-none pl-0 text-gray-300">
+                    <h2 class="font-bold text-lg text-[#6a3b18] mb-2">{locale.t('pages.crop.modals.how_to_play_classic.attributes_title')}</h2>
+                    <p class="text-[#4a3016] mb-2">{locale.t('pages.crop.modals.how_to_play_classic.attributes_description')}</p>
+                    <ul class="list-none pl-0 text-[#4a3016]">
                         <li class="mb-1">{@html locale.t('pages.crop.modals.how_to_play_classic.attribute_item_1')}</li>
                         <li class="mb-1">{@html locale.t('pages.crop.modals.how_to_play_classic.attribute_item_2')}</li>
                         <li class="mb-1">{@html locale.t('pages.crop.modals.how_to_play_classic.attribute_item_3')}</li>
@@ -111,22 +111,22 @@
                 </div>
 
                 <div>
-                    <h2 class="font-bold text-lg text-white mb-2">{locale.t('pages.crop.modals.how_to_play_classic.feedback_title')}</h2>
-                    <p class="text-gray-300 mb-2">{locale.t('pages.crop.modals.how_to_play_classic.feedback_description')}</p>
-                    <ul class="list-none pl-0 text-gray-300">
+                    <h2 class="font-bold text-lg text-[#6a3b18] mb-2">{locale.t('pages.crop.modals.how_to_play_classic.feedback_title')}</h2>
+                    <p class="text-[#4a3016] mb-2">{locale.t('pages.crop.modals.how_to_play_classic.feedback_description')}</p>
+                    <ul class="list-none pl-0 text-[#4a3016]">
                         <li class="mb-1">{@html locale.t('pages.crop.modals.how_to_play_classic.feedback_item_1')}</li>
                         <li class="mb-1">{@html locale.t('pages.crop.modals.how_to_play_classic.feedback_item_2')}</li>
                     </ul>
-                    <p class="text-gray-300 mt-3 mb-2 font-semibold">{@html locale.t('pages.crop.modals.how_to_play_classic.feedback_arrows')}</p>
-                    <ul class="list-none pl-0 text-gray-300">
+                    <p class="text-[#4a3016] mt-3 mb-2 font-semibold">{@html locale.t('pages.crop.modals.how_to_play_classic.feedback_arrows')}</p>
+                    <ul class="list-none pl-0 text-[#4a3016]">
                         <li class="mb-1">{@html locale.t('pages.crop.modals.how_to_play_classic.feedback_arrow_up')}</li>
                         <li class="mb-1">{@html locale.t('pages.crop.modals.how_to_play_classic.feedback_arrow_down')}</li>
                     </ul>
                 </div>
 
                 <div>
-                    <h2 class="font-bold text-lg text-white mb-2">{locale.t('pages.crop.modals.how_to_play_classic.how_to_play_title')}</h2>
-                    <ol class="list-decimal pl-5 text-gray-300">
+                    <h2 class="font-bold text-lg text-[#6a3b18] mb-2">{locale.t('pages.crop.modals.how_to_play_classic.how_to_play_title')}</h2>
+                    <ol class="list-decimal pl-5 text-[#4a3016]">
                         <li class="mb-1">{locale.t('pages.crop.modals.how_to_play_classic.step_1')}</li>
                         <li class="mb-1">{locale.t('pages.crop.modals.how_to_play_classic.step_2')}</li>
                         <li class="mb-1">{locale.t('pages.crop.modals.how_to_play_classic.step_3')}</li>
@@ -138,8 +138,8 @@
                 </div>
 
                 <div>
-                    <h2 class="font-bold text-lg text-white mb-2">{locale.t('pages.crop.modals.how_to_play_classic.strategy_title')}</h2>
-                    <ul class="list-none pl-0 text-gray-300">
+                    <h2 class="font-bold text-lg text-[#6a3b18] mb-2">{locale.t('pages.crop.modals.how_to_play_classic.strategy_title')}</h2>
+                    <ul class="list-none pl-0 text-[#4a3016]">
                         <li class="mb-1">{locale.t('pages.crop.modals.how_to_play_classic.strategy_tip_1')}</li>
                         <li class="mb-1">{locale.t('pages.crop.modals.how_to_play_classic.strategy_tip_2')}</li>
                         <li class="mb-1">{locale.t('pages.crop.modals.how_to_play_classic.strategy_tip_3')}</li>
@@ -150,8 +150,8 @@
                 </div>
 
                 <div>
-                    <h2 class="font-bold text-lg text-white mb-2">{locale.t('pages.crop.modals.how_to_play_classic.daily_challenge_title')}</h2>
-                    <p class="text-gray-300">{locale.t('pages.crop.modals.how_to_play_classic.daily_challenge_description')}</p>
+                    <h2 class="font-bold text-lg text-[#6a3b18] mb-2">{locale.t('pages.crop.modals.how_to_play_classic.daily_challenge_title')}</h2>
+                    <p class="text-[#4a3016]">{locale.t('pages.crop.modals.how_to_play_classic.daily_challenge_description')}</p>
                 </div>
             </div>
         {/snippet}
