@@ -1,6 +1,5 @@
 <script lang="ts">
     import { goto } from "$app/navigation";
-    import locale from "$lib/stores/locale.svelte";
 
     interface Props {
         href: string;
@@ -18,24 +17,15 @@
         class: className = "w-full h-[150px]",
     }: Props = $props();
 
-    const ICONS: Record<string, { emoji: string; bg: string }> = {
-        classic: { emoji: "⭐", bg: "#5aa02f" },
-        crop: { emoji: "🌱", bg: "#7cb342" },
-        fish: { emoji: "🐟", bg: "#4a90d0" },
+    const ICONS: Record<string, string> = {
+        classic: "/ui/icon-classic.png",
+        crop: "/ui/icon-crop.png",
+        fish: "/ui/icon-fish.png",
     };
 
     function handleClick(event: MouseEvent) {
         event.preventDefault();
         goto(href, { replaceState: false });
-    }
-
-    function getResetTime() {
-        const now = new Date();
-        const nextReset = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1, 0, 0, 0));
-        const diff = nextReset.getTime() - now.getTime();
-        const hours = Math.floor(diff / 3600000);
-        const minutes = Math.floor((diff % 3600000) / 60000);
-        return `${hours}h ${minutes}m`;
     }
 </script>
 
@@ -45,8 +35,9 @@
     data-sveltekit-preload="hover"
     class="sv-panel mode-card {className}"
 >
-    <span class="reset">{locale.t('pages.home.reset_in', { time: getResetTime() })}</span>
-    <span class="icon" style="background:{ICONS[gameMode]?.bg ?? '#5aa02f'};">{ICONS[gameMode]?.emoji ?? '⭐'}</span>
+    <span class="icon">
+        <img src={ICONS[gameMode] ?? ICONS.classic} alt="" />
+    </span>
     <span class="txt">
         <span class="title">{title.toUpperCase()}</span>
         <span class="sub">{subtitle}</span>
@@ -68,25 +59,26 @@
     .mode-card:hover { transform: translateY(-2px); filter: brightness(1.03); }
     .mode-card:active { transform: translateY(0); }
 
-    .reset {
-        position: absolute;
-        top: 4px;
-        right: 14px;
-        font-size: 11px;
-        color: #9a7b4c;
-    }
-
+    /* Stardew inventory-slot icon box */
     .icon {
         flex: 0 0 auto;
-        width: 60px;
-        height: 60px;
+        width: 62px;
+        height: 62px;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 32px;
-        border-radius: 12px;
+        border-radius: 10px;
         border: 3px solid #4a3016;
-        box-shadow: inset 0 3px 0 rgba(255, 255, 255, 0.35), inset 0 -4px 0 rgba(0, 0, 0, 0.2);
+        background: #efd9a8;
+        box-shadow: inset 0 3px 0 rgba(255, 255, 255, 0.45), inset 0 -4px 0 rgba(0, 0, 0, 0.16);
+        overflow: hidden;
+    }
+    .icon img {
+        width: 46px;
+        height: 46px;
+        object-fit: contain;
+        image-rendering: pixelated;
+        filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.28));
     }
 
     .txt { display: flex; flex-direction: column; gap: 4px; text-align: left; }
@@ -100,6 +92,7 @@
 
     @media (max-width: 828px) {
         .title { font-size: 22px; }
-        .icon { width: 50px; height: 50px; font-size: 26px; }
+        .icon { width: 54px; height: 54px; }
+        .icon img { width: 40px; height: 40px; }
     }
 </style>
