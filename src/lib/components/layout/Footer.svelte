@@ -208,7 +208,7 @@
                         <p>{locale.t("layout.modals.about.discover")}</p>
                         <p>{locale.t("layout.modals.about.disclaimer")}</p>
 
-                        <p class="font-bold text-white">
+                        <p class="font-bold text-[#6a3b18]">
                             {locale.t("layout.modals.about.game_modes.title")}
                         </p>
                         <p>
@@ -217,7 +217,7 @@
                             )}
                         </p>
 
-                        <p class="font-bold text-white">
+                        <p class="font-bold text-[#6a3b18]">
                             {locale.t("layout.modals.about.dle_games.title")}
                         </p>
                         <p>
@@ -226,7 +226,7 @@
                             )}
                         </p>
 
-                        <p class="font-bold text-white">
+                        <p class="font-bold text-[#6a3b18]">
                             {locale.t("layout.modals.about.commitment.title")}
                         </p>
                         <p>
@@ -235,7 +235,7 @@
                             )}
                         </p>
 
-                        <p class="font-bold text-white">
+                        <p class="font-bold text-[#6a3b18]">
                             {locale.t("layout.modals.about.inspiration.title")}
                         </p>
                         <p>
@@ -244,7 +244,7 @@
                             )}
                         </p>
 
-                        <p class="font-bold text-white">
+                        <p class="font-bold text-[#6a3b18]">
                             {locale.t("layout.modals.about.credit.title")}
                         </p>
                         <p>
@@ -253,7 +253,7 @@
                             )}
                         </p>
 
-                        <p class="font-bold text-white">
+                        <p class="font-bold text-[#6a3b18]">
                             {locale.t("layout.modals.about.privacy.title")}
                         </p>
                         <p>
@@ -264,7 +264,7 @@
 
                         <p>{locale.t("layout.modals.about.thanks")}</p>
 
-                        <p class="flex flex-col font-bold text-white">
+                        <p class="flex flex-col font-bold text-[#6a3b18]">
                             <span
                                 >{locale.t(
                                     "layout.modals.about.signature.regards",

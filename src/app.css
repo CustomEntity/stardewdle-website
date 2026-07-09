@@ -54,6 +54,15 @@ body {
     color: #5a3a1c;
 }
 
+/* the game's letter / parchment card (9-slice from LooseSprites/letterBG.png) — for modals */
+.sv-letter {
+    border-style: solid;
+    border-width: 22px;
+    border-image: url('/ui/letter.png') 16 fill / 22px / 0 stretch;
+    image-rendering: pixelated;
+    color: #4a3016;
+}
+
 /* same wood frame, but a dark translucent-wood interior so existing white text stays readable */
 .sv-frame {
     border-style: solid;

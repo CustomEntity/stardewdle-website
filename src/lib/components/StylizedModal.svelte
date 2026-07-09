@@ -100,18 +100,16 @@
                 </defs>
             </svg>
         </button>
-        <div class="flex flex-col h-full border-[4px] border-[#5c3616] rounded-sm overflow-hidden">
-            <div
-                    style="box-shadow: inset 0 -3px 0 #5c3616;"
-                    class="h-[41px] bg-[#8a5a2b] "
-            >
-                <h2 class="flex justify-center items-center mt-1 text-white text-xl uppercase stardew-text">
+        <div class="sv-letter flex flex-col h-full overflow-hidden">
+            <div class="pt-1 pb-2">
+                <h2 class="flex justify-center items-center text-2xl uppercase text-[#6a3b18] font-lilita"
+                    style="text-shadow: 1px 1px 0 rgba(255,247,214,0.7);">
                     {@render title()}
                 </h2>
+                <div class="mx-auto mt-1 h-[3px] w-[70%] rounded-full bg-[#c9a24a]/60"></div>
             </div>
             <div
-                    style="box-shadow: inset 0 2px 0 rgba(255,255,255,0.05)"
-                    class="border-b-[2px] border-b-[#00000040] h-[50vh] bg-[#3a2412] p-6 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200 scrollbar-thumb-rounded-full scrollbar-track-rounded-full font-lilita text-white"
+                    class="h-[50vh] px-2 pb-2 overflow-y-auto font-lilita text-[#4a3016]"
             >
                 {@render content()}
             </div>
