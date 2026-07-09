@@ -1,50 +1,35 @@
-export async function GET() {
-	const body = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-            xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
-            xmlns:xhtml="https://www.w3.org/1999/xhtml"
-            xmlns:mobile="https://www.google.com/schemas/sitemap-mobile/1.0"
-            xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
-            xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
-            xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
-        >
-  <url>
-    <loc>https://www.brawldle.gg/</loc>
-    <lastmod>2025-10-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
+import { SITE_ORIGIN } from '$lib/constants';
 
-  <url>
-    <loc>https://www.brawldle.gg/classic</loc>
-    <lastmod>2025-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.brawldle.gg/gadget</loc>
-    <lastmod>2025-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-   
-  <url>
-    <loc>https://www.brawldle.gg/hypercharge</loc>
-    <lastmod>2025-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-     
-  <url>
-    <loc>https://www.brawldle.gg/pixel</loc>
-    <lastmod>2025-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>     
+export const prerender = true;
+
+const PAGES: { path: string; changefreq: string; priority: string }[] = [
+	{ path: '/', changefreq: 'daily', priority: '1.0' },
+	{ path: '/classic', changefreq: 'daily', priority: '0.9' },
+	{ path: '/crop', changefreq: 'daily', priority: '0.9' },
+	{ path: '/fish', changefreq: 'daily', priority: '0.9' }
+];
+
+export async function GET() {
+	const lastmod = new Date().toISOString().split('T')[0];
+	const urls = PAGES.map(
+		(p) => `  <url>
+    <loc>${SITE_ORIGIN}${p.path}</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>${p.changefreq}</changefreq>
+    <priority>${p.priority}</priority>
+  </url>`
+	).join('\n');
+
+	const body = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+${urls}
 </urlset>
 `;
-	const response = new Response(body);
-	response.headers.set('Content-Type', 'application/xml');
-	return response;
+
+	return new Response(body, {
+		headers: {
+			'Content-Type': 'application/xml',
+			'Cache-Control': 'max-age=0, s-maxage=3600'
+		}
+	});
 }

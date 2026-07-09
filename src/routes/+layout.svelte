@@ -10,9 +10,30 @@
     import TranslationApologyBanner from "$lib/components/TranslationApologyBanner.svelte";
     import { onMount } from "svelte";
     import { initAllDle } from "$lib/stores/alldle.svelte";
+    import { SITE_ORIGIN } from "$lib/constants";
 
     let { children, data } = $props();
     const isHomePage = derived(page, ($page) => $page.route.id === "/");
+
+    // Page-specific SEO, resolved in the active locale.
+    const metaTitle = $derived(
+        `${locale.t("layout.page_meta.site_name")} - ${
+            $page.data.name
+                ? locale.t(`pages.${$page.data.name}.page_meta.title` as any)
+                : locale.t("layout.page_meta.base_title")
+        }`,
+    );
+    const metaDescription = $derived(
+        $page.data.name
+            ? locale.t(`pages.${$page.data.name}.page_meta.description` as any)
+            : locale.t("layout.page_meta.base_description"),
+    );
+    const canonical = $derived(
+        SITE_ORIGIN +
+            ($page.url.pathname === "/"
+                ? "/"
+                : $page.url.pathname.replace(/\/$/, "")),
+    );
 
     onMount(() => {
         // Connect to AllDle SDK if running inside an AllDle iframe.
@@ -43,17 +64,15 @@
 </script>
 
 <svelte:head>
-    <title
-        >{locale.t("layout.page_meta.site_name")} - {$page.data.name
-            ? locale.t(`pages.${$page.data.name}.page_meta.title`)
-            : locale.t("layout.page_meta.base_title")}</title
-    >
-    <meta
-        name="description"
-        content={$page.data.description
-            ? locale.t(`pages.${$page.data.name}.page_meta.description`)
-            : locale.t("layout.page_meta.base_description")}
-    />
+    <title>{metaTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={metaTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={locale.locale} />
+    <meta name="twitter:title" content={metaTitle} />
+    <meta name="twitter:description" content={metaDescription} />
 </svelte:head>
 
 <SvBackground />
