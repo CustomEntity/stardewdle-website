@@ -79,6 +79,10 @@
         "emoji": {
           "title": "Emoji",
           "description": "Devinez avec les emojis"
+        },
+        "crop": {
+          "title": "Culture",
+          "description": "Devine la culture d'après ses stats"
         }
       },
       "reset_in": "Réinit. dans : {time}",
@@ -477,6 +481,172 @@
           "step_2": "Réfléchissez à quel villager ces emojis représentent.",
           "step_3": "Tapez ou sélectionnez votre réponse dans la liste.",
           "step_4": "Revenez demain pour un nouveau défi emoji !"
+        }
+      }
+    },
+    "crop": {
+      "page_meta": {
+        "title": "Classique",
+        "description": "Devine la culture de Stardew Valley du jour d'après ses stats !"
+      },
+      "errors": {
+        "no_daily_brawler": "Aucune culture du jour trouvée",
+        "generic_error": "Erreur : {message}"
+      },
+      "result": {
+        "success": "Bien joué !",
+        "failure": "Réessayez"
+      },
+      "scroll_hint": "← Faites défiler horizontalement pour voir plus →",
+      "yesterday": "La culture d'hier était <name>{brawlerName}</name>",
+      "share": {
+        "text": "J'ai trouvé la culture #Stardewdle #{id} en {tries} essais ",
+        "to_copy": "J'ai trouvé la culture #Stardewdle #{id} en {tries} essais\n{url}"
+      },
+      "victory": {
+        "stats_button": "Stats",
+        "back_home": "Retour à l'accueil",
+        "next_mode": "Jouer au Classique"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Devine la culture de Stardew Valley du jour",
+          "bottomHint": "Tape une culture pour commencer."
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Statistiques",
+            "alt": "Icône de statistiques"
+          },
+          "streak": {
+            "tooltip": "Série actuelle (Série de victoires consécutives)",
+            "alt": {
+              "active": "Icône de série active",
+              "inactive": "Icône de série inactive"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Notes de mise à jour",
+            "alt": "Icône des notes de mise à jour"
+          },
+          "howToPlay": {
+            "tooltip": "Comment jouer",
+            "alt": "Icône comment jouer"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Tape un nom de culture.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Statistiques",
+          "metrics": {
+            "games_won": {
+              "label": "Parties gagnées :",
+              "aria_label": "Nombre de parties gagnées"
+            },
+            "average_tries": {
+              "label": "Essais moyens :",
+              "aria_label": "Nombre moyen de tentatives par partie"
+            },
+            "one_shots": {
+              "label": "Du premier coup :",
+              "aria_label": "Nombre de parties gagnées en un essai"
+            },
+            "current_streak": {
+              "label": "Série actuelle :",
+              "aria_label": "Série de victoires actuelle"
+            },
+            "best_streak": {
+              "label": "Meilleure série :",
+              "aria_label": "Meilleure série de victoires"
+            }
+          },
+          "graph": {
+            "title": "Nombre d'essais par partie",
+            "label": "Essais",
+            "fallback": "Votre navigateur ne supporte pas l'élément canvas."
+          }
+        },
+        "patchNotes": {
+          "title": "Notes de mise à jour",
+          "states": {
+            "loading": {
+              "message": "Chargement des notes de mise à jour..."
+            },
+            "empty": {
+              "message": "Rien ici pour le moment"
+            },
+            "error": {
+              "title": "Échec du chargement des notes de mise à jour",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "Comment jouer : Mode Culture",
+          "introduction_title": "Mode Classique",
+          "introduction_description": "Devine la culture secrète de Stardew Valley du jour en comparant cinq attributs. Chaque essai donne un retour coloré et des flèches.",
+          "attributes_title": "Attributs de la culture",
+          "attributes_description": "Le Mode Culture compare ces attributs :",
+          "attribute_item_1": "• <strong>Croissance</strong> : jours pour pousser entièrement.",
+          "attribute_item_2": "• <strong>Prix</strong> : prix de vente de base en or.",
+          "attribute_item_3": "• <strong>Repousse</strong> : continue-t-elle à produire après récolte ? (Oui/Non).",
+          "attribute_item_4": "• <strong>Type</strong> : Légume, Fruit, Fleur, Cueillette ou Graine.",
+          "attribute_item_5": "• <strong>Saison</strong> : la ou les saisons où elle pousse.",
+          "attribute_item_6": "• <strong>Astuce</strong> : vert = correspondance exacte ; orange sur Saison = correspondance partielle.",
+          "feedback_title": "Retour",
+          "feedback_description": "Chaque case est colorée :",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Vert</span> : correspondance exacte avec le villageois secret.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rouge</span> : pas de correspondance.",
+          "feedback_arrows": "Des flèches apparaissent sur Croissance et Prix.",
+          "feedback_arrow_up": "• <strong>Flèche haut (↑)</strong> : la valeur de la culture secrète est PLUS ÉLEVÉE.",
+          "feedback_arrow_down": "• <strong>Flèche bas (↓)</strong> : la valeur de la culture secrète est PLUS BASSE.",
+          "how_to_play_title": "Comment jouer",
+          "step_1": "Fais un premier essai avec n’importe quel villageois de la liste.",
+          "step_2": "Regarde chaque case d’attribut se retourner et révéler le retour coloré.",
+          "step_3": "Lis les cases vertes et rouges pour repérer les attributs qui correspondent ou non.",
+          "step_4": "Utilise les flèches sur l’Anniversaire et l’Âge pour resserrer la fourchette.",
+          "step_5": "Fais ton prochain essai selon tous les retours reçus.",
+          "step_6": "Continue jusqu’à trouver le villageois secret !",
+          "step_7": "Reviens chaque jour pour un nouveau villageois à deviner.",
+          "strategy_title": "Conseils",
+          "strategy_tip_1": "• Commence par des villageois que tu connais bien pour établir une base.",
+          "strategy_tip_2": "• Le Quartier et la Saison réduisent vite le champ — beaucoup les partagent.",
+          "strategy_tip_3": "• Sers-toi des flèches pour éliminer des groupes entiers par anniversaire ou âge.",
+          "strategy_tip_4": "• L’Âge est ordinal : Enfant &lt; Ado &lt; Adulte.",
+          "strategy_tip_5": "• Un villageois doit correspondre à TOUS les retours verts à la fois.",
+          "strategy_tip_6": "• Genre, Quartier, Saison et Mariable correspondent exactement (pas de flèches).",
+          "daily_challenge_title": "Défi Quotidien Stardew Valley",
+          "daily_challenge_description": "Chaque jour apporte un nouveau villager à deviner avec des indices et des attributs uniques ! Ce jeu de devinettes quotidien aiguise votre connaissance des personnages de Stardew Valley et vous met au défi de penser stratégiquement. Partagez vos résultats avec vos amis et rivalisez pour le moins d'essais !"
+        }
+      },
+      "attributes": {
+        "headers": {
+          "crop": "Culture",
+          "growth": "Croissance",
+          "price": "Prix",
+          "regrow": "Repousse",
+          "type": "Type",
+          "season": "Saison"
+        },
+        "type": {
+          "Vegetable": "Légume",
+          "Fruit": "Fruit",
+          "Flower": "Fleur",
+          "Forage": "Cueillette",
+          "Seed": "Graine"
+        },
+        "season": {
+          "Spring": "Printemps",
+          "Summer": "Été",
+          "Fall": "Automne",
+          "Winter": "Hiver"
+        },
+        "regrow": {
+          "yes": "Oui",
+          "no": "Non"
         }
       }
     }

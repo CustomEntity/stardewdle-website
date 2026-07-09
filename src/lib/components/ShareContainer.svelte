@@ -11,14 +11,7 @@
             copyText: string;
             websiteUrl: string;
             class?: string;
-            tries?: {
-                gender: string;
-                region: string;
-                season: string;
-                birthday: string;
-                marriageable: string;
-                age: string;
-            }[]
+            tries?: Record<string, string>[]
         }
 
         let {text, copyText, websiteUrl, class: clazz, tries}: Props = $props();
@@ -34,12 +27,9 @@
             <div class="mt-4">
                 {#each tries.reverse().slice(0, 5) as attempt}
                     <p class="my-1 flex justify-center space-x-1">
-                        <span>{attempt.gender === 'CORRECT' ? '🟩' : '🟥'}</span>
-                        <span>{attempt.region === 'CORRECT' ? '🟩' : '🟥'}</span>
-                        <span>{attempt.season === 'CORRECT' ? '🟩' : '🟥'}</span>
-                        <span>{attempt.birthday === 'CORRECT' ? '🟩' : attempt.birthday === 'HIGHER' ? '⬆️' : attempt.birthday === 'LOWER' ? '⬇️' : '🟥'}</span>
-                        <span>{attempt.marriageable === 'CORRECT' ? '🟩' : '🟥'}</span>
-                        <span>{attempt.age === 'CORRECT' ? '🟩' : attempt.age === 'HIGHER' ? '⬆️' : attempt.age === 'LOWER' ? '⬇️' : '🟥'}</span>
+                        {#each Object.values(attempt) as status}
+                            <span>{status === 'CORRECT' ? '🟩' : status === 'HIGHER' ? '⬆️' : status === 'LOWER' ? '⬇️' : status === 'PARTIALLY-CORRECT' ? '🟧' : '🟥'}</span>
+                        {/each}
                     </p>
                 {/each}
                 {#if tries.length > 5}

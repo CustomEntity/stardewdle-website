@@ -8,21 +8,27 @@
     { locale.t('pages.home.title')}
 </h2>
 
-<div class="mt-6 w-full flex flex-col sm:grid sm:grid-cols-2 gap-6 sm:gap-0 sm:max-w-[500px]">
+<div class="mt-6 w-full flex flex-col gap-4 max-w-[440px]">
     <HomeButton
-            class={'w-full h-[180px]'}
+            class={'w-full h-[120px]'}
             title={ locale.t('pages.home.button.classic.title') }
             subtitle={ locale.t('pages.home.button.classic.description') }
             gameMode="classic"
             href="/classic"/>
     <HomeButton
-            class={'w-full h-[180px]'}
+            class={'w-full h-[120px]'}
+            title={ locale.t('pages.home.button.crop.title') }
+            subtitle={ locale.t('pages.home.button.crop.description') }
+            gameMode="crop"
+            href="/crop"/>
+    <HomeButton
+            class={'w-full h-[120px]'}
             title={ locale.t('pages.home.button.pixel.title') }
             subtitle={ locale.t('pages.home.button.pixel.description') }
             gameMode="pixel"
             href="/pixel"/>
     <HomeButton
-            class={'w-full h-[180px]'}
+            class={'w-full h-[120px]'}
             title={ locale.t('pages.home.button.emoji.title') }
             subtitle={ locale.t('pages.home.button.emoji.description') }
             gameMode="emoji"

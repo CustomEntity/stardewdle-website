@@ -42,6 +42,26 @@ interface DailyEmojiVillager {
     };
 }
 
+interface Crop {
+    id: number;
+    key: string;
+    name: string;
+    growth: number;
+    price: number;
+    regrow: boolean;
+    type: string;           // Vegetable | Fruit | Flower | Forage | Seed
+    seasons: string[];      // Spring | Summer | Fall | Winter
+    sprite: number | null;
+    sheet: string | null;   // springobjects | objects_2
+}
+
+interface DailyCropClassic {
+    id: number;
+    game_id: number;
+    date: string;
+    crop: Crop;
+}
+
 interface Brawler {
     id: number;
     name: string;

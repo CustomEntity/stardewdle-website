@@ -6,7 +6,7 @@
         href: string;
         title: string;
         subtitle: string;
-        gameMode: "classic" | "pixel" | "emoji";
+        gameMode: "classic" | "crop" | "pixel" | "emoji";
         class?: string;
     }
 
@@ -20,6 +20,7 @@
 
     const ICONS: Record<string, { emoji: string; bg: string }> = {
         classic: { emoji: "⭐", bg: "#5aa02f" },
+        crop: { emoji: "🌱", bg: "#7cb342" },
         pixel: { emoji: "🖼️", bg: "#8a5a34" },
         emoji: { emoji: "😀", bg: "#d9a520" },
     };

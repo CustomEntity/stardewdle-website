@@ -58,6 +58,33 @@ CREATE TABLE IF NOT EXISTS daily_emoji (
     villager_id INTEGER NOT NULL REFERENCES villagers(id)
 );
 
+CREATE TABLE IF NOT EXISTS crops (
+    id        SERIAL PRIMARY KEY,
+    key       TEXT UNIQUE NOT NULL,   -- harvest item id
+    growth    INTEGER,                -- days to grow
+    price     INTEGER,                -- base sell price (g)
+    regrow    BOOLEAN NOT NULL DEFAULT FALSE,
+    type      TEXT,                   -- Vegetable | Fruit | Flower | Forage | Seed
+    seasons   TEXT[],                 -- Spring | Summer | Fall | Winter (can be several)
+    sprite    INTEGER,                -- icon index
+    sheet     TEXT,                   -- springobjects | objects_2
+    released  BOOLEAN NOT NULL DEFAULT TRUE
+);
+
+CREATE TABLE IF NOT EXISTS crop_translations (
+    crop_id   INTEGER NOT NULL REFERENCES crops(id) ON DELETE CASCADE,
+    language  TEXT NOT NULL,
+    name      TEXT NOT NULL,
+    PRIMARY KEY (crop_id, language)
+);
+
+CREATE TABLE IF NOT EXISTS daily_crop (
+    id       SERIAL PRIMARY KEY,
+    game_id  INTEGER NOT NULL,
+    date     DATE NOT NULL UNIQUE,
+    crop_id  INTEGER NOT NULL REFERENCES crops(id)
+);
+
 CREATE TABLE IF NOT EXISTS patch_notes (
     id      SERIAL PRIMARY KEY,
     date    DATE NOT NULL,
