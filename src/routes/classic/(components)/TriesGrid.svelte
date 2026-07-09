@@ -134,7 +134,7 @@
 
 <div class="clue-container w-full overflow-x-auto overflow-y-hidden">
     <div class="mx-auto grid gap-x-1.5 gap-y-2 py-2 md:p-2"
-         style="grid-template-columns: 66px 80px 106px 84px 70px 106px 78px;">
+         style="grid-template-columns: 66px 80px 106px 84px 78px 106px 92px;">
         <!-- Headers -->
         {#each ['villager','gender','region','season','birthday','marriageable','age'] as h}
             <div class="min-h-9 flex items-center justify-center px-0.5">
@@ -148,8 +148,8 @@
         {#each attempts.slice().reverse() as attempt}
 
             <!-- Villager Portrait -->
-            <div class="h-18 w-full sv-cell"
-                 style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {backgroundColor(attempt.villager)};">
+            <div class="h-18 w-full sv-slot"
+                 style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8));">
                 <img src={attempt.villager.portrait_url}
                      alt={attempt.villager.name}
                      class="w-full h-full object-cover"/>
@@ -188,7 +188,7 @@
                     class:arrow-up={attempt.differences.birthday === 'HIGHER'}
                     class:arrow-down={attempt.differences.birthday === 'LOWER'}
                     style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.birthday)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 3 ? 'visible' : 'hidden'};">
-    <span class="z-10 text-white text-lg text-center break-words overflow-hidden px-1 w-full stardew-text">
+    <span class="z-10 text-white text-lg text-center whitespace-nowrap stardew-text">
         {attempt.villager.birth_day}
     </span>
             </div>
@@ -208,7 +208,7 @@
                     class:arrow-up={attempt.differences.age === 'HIGHER'}
                     class:arrow-down={attempt.differences.age === 'LOWER'}
                     style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.age)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 5 ? 'visible' : 'hidden'};">
-    <span class="z-10 text-white text-xs text-center break-words overflow-hidden px-1 w-full stardew-text">
+    <span class="z-10 text-white text-sm text-center whitespace-nowrap stardew-text">
         {translate('age', attempt.villager.age)}
     </span>
             </div>
@@ -220,22 +220,6 @@
 
     .arrow-container {
         position: relative;
-    }
-
-    .arrow-container.arrow-up::before,
-    .arrow-container.arrow-down::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-        background-image: url('/arrow.png');
-        background-position: center;
-        background-size: cover;
-        pointer-events: none;
-        z-index: 0;
-    }
-
-    .arrow-container.arrow-down::before {
-        transform: rotate(180deg);
     }
 
     @keyframes flipInY {

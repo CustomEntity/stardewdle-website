@@ -99,8 +99,8 @@
 
         {#each attempts.slice().reverse() as attempt}
             <!-- Fish icon -->
-            <div class="h-18 w-full sv-cell flex items-center justify-center"
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: transparent;">
+            <div class="h-18 w-full sv-slot flex items-center justify-center"
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8));">
                 <img src={`/fish/${attempt.fish.key}.png`} alt={attempt.fish.name} title={attempt.fish.name}
                      class="w-12 h-12 object-contain" style="image-rendering: pixelated;"/>
             </div>
@@ -142,12 +142,6 @@
 
 <style>
     .arrow-container { position: relative; }
-    .arrow-container.arrow-up::before, .arrow-container.arrow-down::before {
-        content: ''; position: absolute; inset: 0;
-        background-image: url('/arrow.png'); background-position: center; background-size: cover;
-        pointer-events: none; z-index: 0;
-    }
-    .arrow-container.arrow-down::before { transform: rotate(180deg); }
     @keyframes flipInY {
         from { transform: perspective(400px) rotate3d(0,1,0,90deg); animation-timing-function: ease-in; opacity: 0; }
         40% { transform: perspective(400px) rotate3d(0,1,0,-20deg); animation-timing-function: ease-in; }

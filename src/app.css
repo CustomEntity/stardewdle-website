@@ -86,34 +86,41 @@ body {
     box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.28), inset 0 -3px 0 rgba(0, 0, 0, 0.28);
 }
 
-/* authentic Stardew inventory slot (9-slice from Maps/MenuTiles.png) — our own "boxSquare".
-   The tan slot sprite is drawn as a 9-slice border-image (fill) so it stretches to any cell
-   width without distorting the corners; the clue status colour (--status) is multiplied over
-   the tan interior so the wood texture shows through, exactly like the reference grid. */
+/* authentic Stardew inventory slot (9-slice from Maps/MenuTiles.png).
+   .sv-cell — a clue cell: the brown double-line frame (transparent centre) is drawn as a
+   9-slice border-image so it stretches to any width without distorting the corners, and the
+   status colour fills the whole interior (border-box, so it also shows through the frame gap).
+   .sv-slot — a plain tan slot (filled sprite) used behind icons/portraits. */
 .sv-cell {
-    position: relative;
-    isolation: isolate;
+    border-style: solid;
+    border-width: 11px;
+    border-image: url('/ui/slot-frame.png') 12 / 11px / 0 stretch;
+    image-rendering: pixelated;
+    background: var(--status, transparent);
+    background-clip: border-box;
+    box-shadow: inset 0 3px 0 rgba(255, 255, 255, 0.16), inset 0 -5px 0 rgba(0, 0, 0, 0.20);
+}
+.sv-slot {
     border-style: solid;
     border-width: 11px;
     border-image: url('/ui/slot.png') 12 fill / 11px / 0 stretch;
     image-rendering: pixelated;
 }
-.sv-cell::after {
+/* small inline direction arrow for numeric/ordinal clue cells — rendered as a flex item next
+   to the value (never overflows the frame like the old full-cell chevron did). */
+.arrow-container.arrow-up::after,
+.arrow-container.arrow-down::after {
     content: '';
-    position: absolute;
-    inset: 5px;
-    border-radius: 2px;
-    background: var(--status, transparent);
-    mix-blend-mode: multiply;
-    opacity: 0.92;
-    z-index: 1;
-    pointer-events: none;
+    flex: 0 0 auto;
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.55));
 }
-/* keep cell content above the colour tint */
-.sv-cell :where(span, img, .z-10) {
-    position: relative;
-    z-index: 2;
-}
+.arrow-container.arrow-up::after { border-bottom: 10px solid #fff; }
+.arrow-container.arrow-down::after { border-top: 10px solid #fff; }
 
 /* Stardew wood scrollbar */
 * { scrollbar-color: #8a5a2b #e6c485; scrollbar-width: thin; }
