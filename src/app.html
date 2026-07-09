@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="%lang%">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+	<meta name="description" content="Daily Stardew Valley guessing game — guess the villager from clues: attributes, pixelated portraits, emojis and more.">
+
+	<!-- JSON-LD for better SEO -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebPage",
+			"name": "Stardewdle",
+			"description": "Daily Stardew Valley guessing game — guess the villager from clues.",
+			"image": "https://stardewdle.gg/og-image.webp"
+		}
+	</script>
+
+	<!-- Cache control -->
+	<meta http-equiv="Cache-control" content="no-cache, no-store">
+	<meta http-equiv="Pragma" content="no-cache">
+
+	<!-- Favicon -->
+	<link rel="icon" href="%sveltekit.assets%/favicon.webp" type="image/webp">
+	<link rel="icon" href="%sveltekit.assets%/favicon.ico" sizes="any" type="image/x-icon">
+
+	<!-- AllDle SDK — enables progression tracking when embedded in AllDle -->
+	<script src="https://cdn.alldle.net/sdk.js"></script>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,400" rel="stylesheet">
+
+	<!-- Dark mode protection -->
+	<meta name="darkreader-lock">
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Stardewdle - Daily Stardew Valley Guessing Game">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Daily Stardew Valley guessing game! Guess the villager from clues in Classic, Pixel and Emoji modes.">
+	<meta property="og:image" content="https://stardewdle.gg/og-image.webp">
+	<meta property="og:url" content="https://stardewdle.gg">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Stardewdle - Daily Stardew Valley Guessing Game">
+	<meta name="twitter:description" content="Daily Stardew Valley guessing game! Guess the villager from clues in Classic, Pixel and Emoji modes.">
+	<meta name="twitter:image" content="https://stardewdle.gg/og-image.webp">
+
+	<!-- PWA -->
+	<meta name="theme-color" content="#3a7d2c">
+	<link rel="apple-touch-icon" href="%sveltekit.assets%/apple-touch-icon.png">
+
+	<!-- Preload critical assets -->
+	<link rel="preload" href="%sveltekit.assets%/logo.svg" as="image" type="image/svg+xml">
+
+	<!-- Critical CSS -->
+	<style>
+		body {
+			height: 100dvh;
+			overflow: hidden;
+			margin: 0;
+			padding: 0;
+		}
+
+		body > #svelte-root {
+			height: 100%;
+			overflow-y: scroll;
+			overflow-x: hidden;
+		}
+
+		noscript div {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+	</style>
+
+	<title>Stardewdle</title>
+
+	%sveltekit.head%
+</head>
+<body data-sveltekit-preload-data="hover">
+<div id="svelte-root">%sveltekit.body%</div>
+
+<noscript>
+	<div>
+		<p>Please enable JavaScript to play Stardewdle</p>
+	</div>
+</noscript>
+</body>
+</html>

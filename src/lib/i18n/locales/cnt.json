@@ -1,0 +1,566 @@
+{
+  "lang": {
+    "name": "繁體中文"
+  },
+  "layout": {
+    "page_meta": {
+      "base_title": "猜測 Stardew Valley 元素",
+      "base_description": "Stardewdle - 每日 Stardew Valley 猜謎遊戲！每天迎接全新挑戰，測試你的荒野亂鬥知識",
+      "site_name": "Stardewdle"
+    },
+    "header": {
+      "home_link": "返回 Stardewdle 首頁",
+      "logo_alt": "Stardewdle 標誌"
+    },
+    "footer": {
+      "accessibility": {
+        "discord": "加入我們的 Discord 社群",
+        "information": "資訊",
+        "kofi": "在 Ko-fi 上支持我們",
+        "x": "在 X (Twitter) 上追蹤我們",
+        "reddit": "加入我們的 Reddit 社群"
+      },
+      "want_more": {
+        "title": "想要更多嗎？",
+        "description": "看看最大的 dle 遊戲集中站。"
+      },
+      "copyright": "Stardewdle - {year}",
+      "cookie_preferences": "更新 Cookie 偏好"
+    },
+    "modals": {
+      "about": {
+        "title": "關於",
+        "discover": "歡迎來到 Stardewdle，最棒的每日 Stardew Valley 猜謎遊戲！透過 6 種精彩的遊戲模式測試你對 Stardew Valley 世界的瞭解：經典、表情符號、台詞、技能、簽名與段位。每天發掘一位新英雄，並挑戰我們獨特的 -dle 遊戲體驗，靈感直接來自熱門的 Stardew Valley 競技射擊遊戲。",
+        "disclaimer": "Stardewdle 是由粉絲傾力打造的專案，使用了 Supercell 所擁有的素材。Supercell 不為本專案背書，亦未提供贊助。Stardew Valley 及所有相關角色皆為 Supercell 的註冊商標。",
+        "dle_games": {
+          "title": "與 Stardewdle 一同加入熱門 -dle 遊戲潮流",
+          "description": "Stardewdle 將令人欲罷不能的每日猜謎形式帶進 Stardew Valley 的世界。如同 Wordle、Heardle 與其他熱門 -dle 遊戲，Stardewdle 每天提供全新的謎題，以有趣且引人入勝的方式測試你的知識。我們多種獨特的遊戲模式讓 Stardewdle 成為目前最完整的 Stardew Valley 猜謎遊戲。"
+        },
+        "commitment": {
+          "title": "我們對 Stardew Valley 社群的承諾",
+          "description": "Stardewdle 不僅僅是一款遊戲。它是粉絲為粉絲打造的每日挑戰，讓你沉浸在精彩的 Stardew Valley 世界裡。我們仔細研究每一位角色，以確保所有遊戲模式中每日挑戰的正確性。隨著 Stardew Valley 陣容的擴增，我們的資料庫也同步擴充，讓你在這款終極 Stardew Valley 猜謎遊戲體驗中永遠都有新鮮內容可享用。"
+        },
+        "game_modes": {
+          "title": "我們每日 Stardew Valley 挑戰中的六種精彩遊戲模式",
+          "description": "Stardewdle 提供無與倫比的多樣性，包含多種獨特的遊戲模式：「經典」模式測試你對角色屬性的瞭解；「表情符號」模式讓你透過五個表情符號辨識英雄，每次猜測後揭露一個；「台詞」模式呈現遊戲中角色的對白，讓你與正確的英雄配對；「技能」模式展示角色技能的圖像供你辨識；「簽名」模式則顯示英雄的手寫簽名讓你辨認。每天都會帶來全新的 Stardew Valley 跨模式挑戰！"
+        },
+        "inspiration": {
+          "title": "靈感來自 Stardew Valley 與熱門 -dle 遊戲形式",
+          "description": "Stardewdle 將 Wordle 帶起的成癮式每日謎題格式，與 Stardew Valley 豐富的角色世界相結合。我們的猜謎遊戲是測試你 Stardew Valley 知識的絕佳方式，也能證明你是這款熱門手機對戰遊戲的真正粉絲。加入數千名 Stardew Valley 愛好者，每日透過我們獨特的猜謎挑戰自我。"
+        },
+        "credit": {
+          "title": "原始靈感",
+          "description": "最初的靈感來自 <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> 的 Stardewdle.io，最早的 Stardew Valley 每日猜謎遊戲。"
+        },
+        "privacy": {
+          "title": "隱私權與資料使用",
+          "description": "我們尊重您的隱私。Stardewdle 使用 cookie 來蒐集統計資料並個人化您的每日猜謎遊戲體驗。若想瞭解更多關於我們的隱私權政策，請瀏覽 <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">我們的專屬頁面</a>。"
+        },
+        "thanks": "感謝您成為 Stardewdle 社群的一員！每天都會有全新的 Stardew Valley 角色與挑戰等著您！",
+        "signature": {
+          "regards": "謹致敬意，",
+          "team": "Stardewdle 團隊 - 熱情的 Stardew Valley 粉絲"
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "測試你的 Stardew Valley 知識",
+      "button": {
+        "classic": {
+          "title": "經典",
+          "description": "每次嘗試都能取得線索"
+        },
+        "pixel": {
+          "title": "像素",
+          "description": "透過頭像像素進行猜測"
+        },
+        "emoji": {
+          "title": "表情符號",
+          "description": "透過表情符號線索進行猜測"
+        }
+      },
+      "reset_in": "重置於: {time}",
+      "royaledle_banner": {
+        "title": "玩 Royaledle",
+        "subtitle": "每日皇室戰爭角色猜謎",
+        "cta": "開始",
+        "new": "新"
+      }
+    },
+    "classic": {
+      "page_meta": {
+        "title": "經典",
+        "description": "猜出今日的 Stardew Valley 英雄！"
+      },
+      "errors": {
+        "no_daily_brawler": "找不到每日英雄",
+        "generic_error": "錯誤：{message}"
+      },
+      "result": {
+        "success": "做得好！",
+        "failure": "再試一次"
+      },
+      "scroll_hint": "← 水平捲動以檢視更多 →",
+      "yesterday": "昨日的英雄是 <name>{brawlerName}</name>",
+      "share": {
+        "text": "我在經典模式以 {tries} 次猜中了 #Stardewdle 英雄 #{id}",
+        "to_copy": "我在經典模式以 {tries} 次猜中了 #Stardewdle 英雄 #{id}\n"
+      },
+      "victory": {
+        "stats_button": "統計"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "猜出今日的 Stardew Valley 英雄",
+          "bottomHint": "輸入任一英雄名稱即可開始。",
+          "hints": {
+            "gadget": {
+              "unavailable": "{tries} 次後取得道具線索",
+              "available": "道具線索"
+            },
+            "hypercharge": {
+              "unavailable": "{tries} 次後取得超級充能線索",
+              "available": "超級充能線索"
+            },
+            "silhouette": {
+              "unavailable": "{tries} 次後取得剪影線索",
+              "available": "剪影線索"
+            }
+          }
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "統計資料",
+            "alt": "統計圖示"
+          },
+          "streak": {
+            "tooltip": "目前連勝（連續勝場）",
+            "alt": {
+              "active": "連勝啟用圖示",
+              "inactive": "連勝未啟用圖示"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "更新日誌",
+            "alt": "更新日誌圖示"
+          },
+          "howToPlay": {
+            "tooltip": "遊玩方式",
+            "alt": "遊玩方式圖示"
+          }
+        },
+        "answerInput": {
+          "placeholder": "輸入英雄名稱.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "統計資料",
+          "metrics": {
+            "games_won": {
+              "label": "獲勝場數：",
+              "aria_label": "獲勝場數"
+            },
+            "average_tries": {
+              "label": "平均嘗試次數：",
+              "aria_label": "每場平均嘗試次數"
+            },
+            "one_shots": {
+              "label": "一擊命中：",
+              "aria_label": "一次猜中的場數"
+            },
+            "current_streak": {
+              "label": "目前連勝：",
+              "aria_label": "目前連勝場數"
+            },
+            "best_streak": {
+              "label": "最佳連勝：",
+              "aria_label": "最佳連勝場數"
+            }
+          },
+          "graph": {
+            "title": "每場嘗試次數",
+            "label": "嘗試",
+            "fallback": "您的瀏覽器不支援 canvas 元素。"
+          }
+        },
+        "patchNotes": {
+          "title": "更新日誌",
+          "states": {
+            "loading": {
+              "message": "正在載入更新日誌……"
+            },
+            "empty": {
+              "message": "目前尚無內容"
+            },
+            "error": {
+              "title": "載入更新日誌失敗",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "如何遊玩 Stardewdle：經典模式 - Stardew Valley 每日挑戰",
+          "introduction_title": "瞭解 Stardewdle 的經典模式",
+          "introduction_description": "在「經典」模式中，你將透過策略性的猜謎遊戲，測試你對 Stardew Valley 英雄的瞭解。你的目標是分析六項關鍵屬性以辨識神祕英雄。每次猜測後，你會收到色彩編碼的回饋與方向箭頭，指引你在每日挑戰中找到正確答案。",
+          "attributes_title": "英雄屬性",
+          "attributes_description": "Stardewdle 的「經典」模式中，每位英雄具有以下六項關鍵屬性：",
+          "attribute_item_1": "• <strong>稀有度</strong>：英雄的稀有度等級（普通、稀有、超稀有、史詩、神話、傳奇、究極傳奇）。",
+          "attribute_item_2": "• <strong>職業</strong>：英雄在戰鬥中的角色（例如坦克、輸出、輔助、刺客）。",
+          "attribute_item_3": "• <strong>移動速度</strong>：英雄的移動速度（極慢、慢、普通、快、極快）。",
+          "attribute_item_4": "• <strong>射程</strong>：英雄的攻擊距離（極短、短、普通、遠、極遠）。",
+          "attribute_item_5": "• <strong>裝彈速度</strong>：英雄的裝彈速度（極慢、慢、普通、快、極快）。",
+          "attribute_item_6": "• <strong>年份</strong>：該英雄在 Stardew Valley 中推出的年份。",
+          "feedback_title": "理解色彩回饋",
+          "feedback_description": "每次猜測後，你會看到帶有翻轉動畫的色彩編碼回饋：",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">綠色</span>：正確！神祕英雄具備完全相同的屬性值。",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">紅色</span>：錯誤。神祕英雄不具備此屬性值。",
+          "feedback_arrows": "對於<strong>移動速度</strong>、<strong>射程</strong>、<strong>裝彈速度</strong>與<strong>年份</strong>等屬性，你會看到方向箭頭：",
+          "feedback_arrow_up": "• <strong>向上箭頭 (↑)</strong>：神祕英雄的數值高於你的猜測。",
+          "feedback_arrow_down": "• <strong>向下箭頭 (↓)</strong>：神祕英雄的數值低於你的猜測。",
+          "how_to_play_title": "玩轉 Stardewdle 的經典模式",
+          "step_1": "從搜尋清單中選擇任一英雄進行第一次猜測。",
+          "step_2": "觀察每個屬性方塊依序翻轉，揭露色彩編碼的回饋。",
+          "step_3": "分析綠色與紅色方塊，辨識符合與不符的屬性。",
+          "step_4": "利用移動速度、射程、裝彈速度與年份的方向箭頭來縮小範圍。",
+          "step_5": "依據綜合回饋進行下一次猜測。",
+          "step_6": "持續猜測直到正確辨識神祕英雄！",
+          "step_7": "每日回到「經典」模式猜測新英雄。",
+          "strategy_title": "致勝策略提示",
+          "strategy_tip_1": "• 從你熟悉的英雄開始，建立屬性模式的基準。",
+          "strategy_tip_2": "• 留意依序翻轉的動畫——每個方塊會按順序揭露資訊。",
+          "strategy_tip_3": "• 策略性運用箭頭：能讓你迅速排除整組英雄。",
+          "strategy_tip_4": "• 對於序數屬性（移動、射程、裝彈），請記住五級分級。",
+          "strategy_tip_5": "• 交叉比對多個屬性——英雄必須符合所有綠色回饋。",
+          "strategy_tip_6": "• 記得稀有度與職業必須完全一致（無箭頭，僅綠或紅）。",
+          "daily_challenge_title": "每日 Stardew Valley 挑戰",
+          "daily_challenge_description": "每天回到 Stardewdle 辨識新的神祕英雄！你之前的嘗試會以倒序顯示，每次猜測都帶有動畫。追蹤你的連勝紀錄，與朋友比較你在這場終極 Stardew Valley 知識測試中的表現。"
+        }
+      },
+      "attributes": {
+        "headers": {
+          "brawler": "英雄",
+          "rarity": "稀有度",
+          "class": "職業",
+          "movement": "移動",
+          "range": "射程",
+          "reload": "裝填",
+          "year": "年份"
+        },
+        "rarity": {
+          "common": "普通",
+          "rare": "稀有",
+          "super_rare": "超稀有",
+          "epic": "史詩",
+          "mythic": "神話",
+          "legendary": "傳奇",
+          "ultra_legendary": "超傳奇"
+        },
+        "class": {
+          "artillery": "砲兵",
+          "assassin": "刺客",
+          "controller": "控制者",
+          "damage_dealer": "輸出者",
+          "marksman": "狙擊手",
+          "support": "輔助",
+          "tank": "坦克"
+        },
+        "speed": {
+          "very_slow": "非常慢",
+          "slow": "慢",
+          "normal": "普通",
+          "fast": "快",
+          "very_fast": "非常快"
+        },
+        "range": {
+          "very_short": "非常短",
+          "short": "短",
+          "normal": "普通",
+          "long": "長",
+          "very_long": "非常長"
+        }
+      }
+    },
+    "pixel": {
+      "page_meta": {
+        "title": "像素",
+        "description": "從像素化頭像中猜出今日的 Stardew Valley 英雄！"
+      },
+      "errors": {
+        "no_daily_brawler": "找不到每日英雄",
+        "generic_error": "錯誤：{message}"
+      },
+      "result": {
+        "success": "做得好！",
+        "failure": "再試一次"
+      },
+      "scroll_hint": "← 水平捲動以檢視更多 →",
+      "yesterday": "昨日的英雄是 <n>{brawlerName}</n>",
+      "share": {
+        "text": "我在像素模式以 {tries} 次猜中了 #Stardewdle 英雄 #{id}",
+        "to_copy": "我從像素中在 {tries} 次內猜中了 #Stardewdle 英雄 #{id}\n"
+      },
+      "victory": {
+        "stats_button": "統計"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "從像素化頭像中猜出英雄"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "統計資料",
+            "alt": "統計圖示"
+          },
+          "streak": {
+            "tooltip": "目前連勝（連續勝場）",
+            "alt": {
+              "active": "連勝啟用圖示",
+              "inactive": "連勝未啟用圖示"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "更新日誌",
+            "alt": "更新日誌圖示"
+          },
+          "howToPlay": {
+            "tooltip": "遊玩方式",
+            "alt": "遊玩方式圖示"
+          }
+        },
+        "answerInput": {
+          "placeholder": "輸入英雄名稱.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "統計資料",
+          "metrics": {
+            "games_won": {
+              "label": "獲勝場數：",
+              "aria_label": "獲勝場數"
+            },
+            "average_tries": {
+              "label": "平均嘗試次數：",
+              "aria_label": "每場平均嘗試次數"
+            },
+            "one_shots": {
+              "label": "一擊命中：",
+              "aria_label": "一次猜中的場數"
+            },
+            "current_streak": {
+              "label": "目前連勝：",
+              "aria_label": "目前連勝場數"
+            },
+            "best_streak": {
+              "label": "最佳連勝：",
+              "aria_label": "最佳連勝場數"
+            }
+          },
+          "graph": {
+            "title": "每場嘗試次數",
+            "label": "嘗試",
+            "fallback": "您的瀏覽器不支援 canvas 元素。"
+          }
+        },
+        "patchNotes": {
+          "title": "更新日誌",
+          "states": {
+            "loading": {
+              "message": "正在載入更新日誌……"
+            },
+            "empty": {
+              "message": "目前尚無內容"
+            },
+            "error": {
+              "title": "載入更新日誌失敗",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_pixel": {
+          "title": "如何遊玩 Stardewdle：像素模式 - 漸進頭像揭露挑戰",
+          "introduction_title": "從像素化頭像辨識 Stardew Valley 角色",
+          "introduction_description": "「像素」模式提供獨特的視覺挑戰：你必須從高度像素化的頭像中辨識 Stardew Valley 角色，畫面會隨每次猜測逐漸變得清晰。這款創新的每日猜謎遊戲考驗你從有限視覺資訊中辨識英雄的能力，無論是休閒玩家還是死忠粉絲都很適合。",
+          "gameplay_title": "像素模式玩法機制",
+          "gameplay_description": "在這場 Stardew Valley 角色猜測挑戰中，你會看到一張高度像素化的英雄頭像。你的任務是盡快辨識角色。每次錯誤的猜測後，影像的像素化程度會逐步降低，揭露更多細節，協助你確認正確的英雄。",
+          "pixelation_system_title": "漸進式去像素化系統",
+          "pixelation_system_description": "「像素」模式具備動態清晰度系統：",
+          "pixelation_phase_1": "• <strong>初始階段</strong>：頭像最初被高度像素化，辨識極具挑戰。僅最顯眼的特徵與色彩圖樣可見。",
+          "pixelation_phase_2": "• <strong>漸進揭露</strong>：每次猜測後像素化程度降低，逐步揭露英雄頭像更多細節。約 12 次猜測後影像會完全清晰。",
+          "pixelation_phase_3": "• <strong>勝利揭露</strong>：當你正確辨識英雄後，頭像將立即變得完全清晰，完整呈現角色。",
+          "strategy_title": "像素模式致勝策略",
+          "strategy_tip_1": "• 關注像素影像中的主色調與色彩圖樣——許多英雄擁有招牌的配色方案。",
+          "strategy_tip_2": "• 即使被高度像素化，也要尋找獨特的形狀與剪影——部分英雄擁有獨特的頭型或配件。",
+          "strategy_tip_3": "• 留意背景顏色，它反映了英雄的稀有度，可協助縮小可能範圍。",
+          "strategy_tip_4": "• 善用排除法——已猜過的英雄可剔除，專注於尚未嘗試的對象。",
+          "strategy_tip_5": "• 考量整體構圖——部分英雄的頭像具有獨特的姿勢或定位。",
+          "strategy_tip_6": "• 當影像變得更清晰時，留意能區分特定角色的獨特配件、面部特徵或服裝細節。",
+          "daily_challenge_title": "每日 Stardew Valley 像素挑戰",
+          "daily_challenge_description": "每天都有新的「像素」模式挑戰，等待辨識一位不同的 Stardew Valley 角色！這款每日猜謎遊戲能磨練你的視覺辨識技巧，並考驗你對 Stardew Valley 角色設計的熟悉度。挑戰自己用最少的猜測次數辨識英雄，並與朋友分享成績！"
+        }
+      }
+    },
+    "emoji": {
+      "page_meta": {
+        "title": "表情符號",
+        "description": "透過表情符號線索猜出今日的 Stardew Valley 英雄！"
+      },
+      "errors": {
+        "no_daily_brawler": "找不到每日英雄",
+        "generic_error": "錯誤：{message}"
+      },
+      "yesterday": "昨日的英雄是 <name>{brawlerName}</name>",
+      "share": {
+        "text": "我在表情符號模式以 {tries} 次猜中了 #Stardewdle 英雄 #{id}",
+        "to_copy": "我從表情符號中在 {tries} 次內猜中了 #Stardewdle 英雄 #{id}\n"
+      },
+      "victory": {
+        "stats_button": "統計"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "這些表情符號代表哪位英雄？",
+          "next_emoji_hint": "在第 {tries} 次猜測後揭露下一個表情符號"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "統計資料",
+            "alt": "統計圖示"
+          },
+          "streak": {
+            "tooltip": "目前連勝（連續勝場）",
+            "alt": {
+              "active": "連勝啟用圖示",
+              "inactive": "連勝未啟用圖示"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "更新日誌",
+            "alt": "更新日誌圖示"
+          },
+          "howToPlay": {
+            "tooltip": "遊玩方式",
+            "alt": "遊玩方式圖示"
+          }
+        },
+        "answerInput": {
+          "placeholder": "輸入英雄名稱.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "統計資料",
+          "metrics": {
+            "games_won": {
+              "label": "獲勝場數：",
+              "aria_label": "獲勝場數"
+            },
+            "average_tries": {
+              "label": "平均嘗試次數：",
+              "aria_label": "每場平均嘗試次數"
+            },
+            "one_shots": {
+              "label": "一擊命中：",
+              "aria_label": "一次猜中的場數"
+            },
+            "current_streak": {
+              "label": "目前連勝：",
+              "aria_label": "目前連勝場數"
+            },
+            "best_streak": {
+              "label": "最佳連勝：",
+              "aria_label": "最佳連勝場數"
+            }
+          },
+          "graph": {
+            "title": "每場嘗試次數",
+            "label": "嘗試",
+            "fallback": "您的瀏覽器不支援 canvas 元素。"
+          }
+        },
+        "how_to_play": {
+          "title": "如何遊玩 Stardewdle：表情符號模式",
+          "introduction_title": "透過表情符號線索辨識英雄",
+          "introduction_description": "在「表情符號」模式中，你會看到代表某位英雄的表情符號，並需要猜出是哪一位。每次猜錯都會揭露一個新的表情符號。",
+          "how_to_play_title": "玩法",
+          "step_1": "仔細觀察顯示的表情符號。",
+          "step_2": "思考這些表情符號代表哪位英雄。",
+          "step_3": "從清單中輸入或選擇你的猜測。",
+          "step_4": "明天再回來挑戰新的表情符號！"
+        }
+      }
+    }
+  },
+  "common": {
+    "header": {
+      "button": {
+        "stats": {
+          "tooltip": "統計"
+        },
+        "streak": {
+          "tooltip": "目前連勝（連續勝場）"
+        },
+        "changelog": {
+          "tooltip": "更新日誌"
+        }
+      }
+    },
+    "soon": "敬請期待"
+  },
+  "components": {
+    "explanationBox": {
+      "errors": {
+        "no_content": "未提供內容"
+      }
+    },
+    "answerInput": {
+      "states": {
+        "loading": "載入中……",
+        "no_result": "無結果"
+      },
+      "button": {
+        "submit": {
+          "title": "送出"
+        }
+      }
+    },
+    "victoryContainer": {
+      "title": "你的遊戲",
+      "congratulations": "好棒棒！！",
+      "guess": {
+        "prefix": "你猜中了",
+        "character": "{name}"
+      },
+      "tries": {
+        "count": "嘗試次數：",
+        "value": "{count}"
+      },
+      "next": {
+        "timer": "下一位英雄將於",
+        "mode": "下一個模式："
+      },
+      "image": {
+        "alt": "勝利影像"
+      },
+      "you_found": "你找到了",
+      "number_of_tries": "嘗試次數: {count}"
+    },
+    "shareContainer": {
+      "title": "分享你的成績",
+      "buttons": {
+        "copy": {
+          "title": "複製",
+          "aria_label": "複製成績到剪貼簿"
+        },
+        "tweet": {
+          "title": "推文",
+          "aria_label": "在 X (Twitter) 上分享"
+        }
+      },
+      "and_more": "還有 {count} 個..."
+    }
+  }
+}

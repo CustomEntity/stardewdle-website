@@ -1,0 +1,566 @@
+{
+  "lang": {
+    "name": "Español"
+  },
+  "layout": {
+    "page_meta": {
+      "base_title": "Adivina Elementos de Stardew Valley",
+      "base_description": "Stardewdle - ¡El juego diario de adivinanzas de Stardew Valley! Acepta nuevos desafíos cada día y pon a prueba tus conocimientos de Battle Royale",
+      "site_name": "Stardewdle"
+    },
+    "header": {
+      "home_link": "Volver a la página de inicio de Stardewdle",
+      "logo_alt": "Logo de Stardewdle"
+    },
+    "footer": {
+      "accessibility": {
+        "discord": "Únete a nuestra comunidad de Discord",
+        "information": "Información",
+        "kofi": "Apóyanos en Ko-fi",
+        "x": "Síguenos en X (Twitter)",
+        "reddit": "Únete a nuestra comunidad de Reddit"
+      },
+      "want_more": {
+        "title": "¿Quieres más?",
+        "description": "Descubre el mayor centro de todos los juegos dle."
+      },
+      "copyright": "Stardewdle - {year}",
+      "cookie_preferences": "Actualizar preferencias de cookies"
+    },
+    "modals": {
+      "about": {
+        "title": "Acerca de",
+        "discover": "¡Bienvenido a Stardewdle, el mejor juego diario de adivinanzas de Stardew Valley! Pon a prueba tus conocimientos del universo de Stardew Valley a través de 6 emocionantes modos de juego: Classic, Emoji, Quote, Ability, Signature y Rank. Descubre un nuevo Villager cada día y desafíate a ti mismo con nuestra experiencia única de juego -dle inspirada directamente en el popular shooter competitivo de Stardew Valley.",
+        "disclaimer": "Stardewdle es un proyecto de fans creado con pasión utilizando recursos propiedad de Supercell. Supercell no patrocina ni respalda este proyecto. Stardew Valley y todos los personajes asociados son marcas registradas de Supercell.",
+        "dle_games": {
+          "title": "Únete a la Tendencia Popular de Juegos -dle con Stardewdle",
+          "description": "Stardewdle trae el adictivo formato de adivinanzas diarias al universo de Stardew Valley. Como Wordle, Heardle y otros juegos -dle populares, Stardewdle ofrece rompecabezas frescos diariamente que ponen a prueba tus conocimientos de formas divertidas y atractivas. Nuestros múltiples modos de juego únicos hacen de Stardewdle el juego de adivinanzas de Stardew Valley más completo disponible."
+        },
+        "commitment": {
+          "title": "Nuestro Compromiso con la Comunidad de Stardew Valley",
+          "description": "Stardewdle es mucho más que un simple juego. Es un desafío diario creado por fans, para fans, que te sumerge en el emocionante universo de Stardew Valley. Investigamos meticulosamente cada personaje para garantizar la precisión en nuestros desafíos diarios en todos los modos de juego. A medida que la lista de Stardew Valley se expande, también lo hace nuestra base de datos, asegurando que siempre tengas contenido fresco para disfrutar en esta experiencia definitiva de juego de adivinanzas de Stardew Valley."
+        },
+        "game_modes": {
+          "title": "Seis Emocionantes Modos de Juego en Nuestro Desafío Diario de Stardew Valley",
+          "description": "Stardewdle ofrece una variedad incomparable con múltiples modos de juego distintos: el modo Classic pone a prueba tus conocimientos sobre los atributos de los personajes, el modo Emoji te desafía a identificar villagers a partir de cinco emojis con uno revelado por intento, el modo Quote presenta diálogos de personajes del juego para que los emparejes con el villager correcto, el modo Ability muestra una imagen de la habilidad de un personaje para su identificación, y el modo Signature muestra la firma escrita de un villager para que la reconozcas. ¡Cada día trae nuevos desafíos de Stardew Valley en todos los modos!"
+        },
+        "inspiration": {
+          "title": "Inspirado en Stardew Valley y el Popular Formato de Juegos -dle",
+          "description": "Stardewdle combina el adictivo formato de rompecabezas diario popularizado por Wordle con el rico universo de personajes de Stardew Valley. Nuestro juego de adivinanzas ofrece la manera perfecta de poner a prueba tus conocimientos de Stardew Valley y demostrar que eres un verdadero fan de este popular juego de batalla móvil. Únete a miles de entusiastas de Stardew Valley que se desafían a sí mismos diariamente con nuestros rompecabezas de adivinanzas únicos."
+        },
+        "credit": {
+          "title": "Inspiración Original",
+          "description": "Originalmente inspirado por <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> y su sitio Stardewdle.io, el juego de adivinanzas diario de Stardew Valley original."
+        },
+        "privacy": {
+          "title": "Privacidad y Uso de Datos",
+          "description": "Respetamos tu privacidad. Stardewdle utiliza cookies para recopilar estadísticas y personalizar tu experiencia de juego diaria de adivinanzas. Para obtener más información sobre nuestra política de privacidad, visita <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">nuestra sección dedicada</a>."
+        },
+        "thanks": "¡Gracias por ser parte de la comunidad de Stardewdle! ¡Nuevos personajes y desafíos de Stardew Valley te esperan cada día!",
+        "signature": {
+          "regards": "Atentamente,",
+          "team": "El Equipo de Stardewdle - Fans Apasionados de Stardew Valley"
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Pon a prueba tus conocimientos de Stardew Valley",
+      "button": {
+        "classic": {
+          "title": "Clásico",
+          "description": "Obtén pistas en cada intento"
+        },
+        "pixel": {
+          "title": "Píxel",
+          "description": "Adivina desde píxeles del retrato"
+        },
+        "emoji": {
+          "title": "Emoji",
+          "description": "Adivina con los emojis"
+        }
+      },
+      "reset_in": "Reinicio en: {time}",
+      "royaledle_banner": {
+        "title": "Juega a Royaledle",
+        "subtitle": "Adivina el personaje de Clash Royale del día",
+        "cta": "Jugar",
+        "new": "NUEVO"
+      }
+    },
+    "classic": {
+      "page_meta": {
+        "title": "Clásico",
+        "description": "¡Adivina el villager de Stardew Valley de hoy!"
+      },
+      "errors": {
+        "no_daily_brawler": "No se encontró el villager diario",
+        "generic_error": "Error: {message}"
+      },
+      "result": {
+        "success": "¡Buen trabajo!",
+        "failure": "Inténtalo de nuevo"
+      },
+      "scroll_hint": "← Desliza horizontalmente para ver más →",
+      "yesterday": "El villager de ayer era <n>{brawlerName}</n>",
+      "share": {
+        "text": "Encontré el villager #{id} de #Stardewdle en modo classic en {tries} intentos ",
+        "to_copy": "Encontré el villager #{id} de #Stardewdle en modo classic en {tries} intentos\n"
+      },
+      "victory": {
+        "stats_button": "Estadísticas"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Adivina el villager de Stardew Valley de hoy",
+          "bottomHint": "Escribe cualquier villager para comenzar.",
+          "hints": {
+            "gadget": {
+              "unavailable": "Pista de Gadget en {tries} intentos",
+              "available": "Pista de Gadget"
+            },
+            "hypercharge": {
+              "unavailable": "Pista de Hypercharge en {tries} intentos",
+              "available": "Pista de Hypercharge"
+            },
+            "silhouette": {
+              "unavailable": "Pista de silueta en {tries} intentos",
+              "available": "Pista de silueta"
+            }
+          }
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Estadísticas",
+            "alt": "Icono de estadísticas"
+          },
+          "streak": {
+            "tooltip": "Racha actual (Serie de victorias consecutivas)",
+            "alt": {
+              "active": "Icono de racha activa",
+              "inactive": "Icono de racha inactiva"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Notas del parche",
+            "alt": "Icono de notas del parche"
+          },
+          "howToPlay": {
+            "tooltip": "Cómo jugar",
+            "alt": "Icono de cómo jugar"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Escribe el nombre del villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Estadísticas",
+          "metrics": {
+            "games_won": {
+              "label": "Partidas ganadas:",
+              "aria_label": "Número de partidas ganadas"
+            },
+            "average_tries": {
+              "label": "Intentos promedio:",
+              "aria_label": "Número promedio de intentos por partida"
+            },
+            "one_shots": {
+              "label": "Al primer intento:",
+              "aria_label": "Número de partidas ganadas en un intento"
+            },
+            "current_streak": {
+              "label": "Racha actual:",
+              "aria_label": "Racha de victorias actual"
+            },
+            "best_streak": {
+              "label": "Mejor racha:",
+              "aria_label": "Mejor racha de victorias"
+            }
+          },
+          "graph": {
+            "title": "Número de intentos por partida",
+            "label": "Intentos",
+            "fallback": "Tu navegador no soporta el elemento canvas."
+          }
+        },
+        "patchNotes": {
+          "title": "Notas del parche",
+          "states": {
+            "loading": {
+              "message": "Cargando notas del parche..."
+            },
+            "empty": {
+              "message": "Aún no hay nada aquí"
+            },
+            "error": {
+              "title": "Error al cargar las notas del parche",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "Cómo Jugar a Stardewdle: Modo Classic - Desafío de Adivinanza de Atributos",
+          "introduction_title": "Adivina el Villager del Día Usando Pistas de Atributos",
+          "introduction_description": "El Modo Classic es el juego de adivinanzas principal de Stardew Valley donde descifras qué personaje es analizando sus atributos únicos. Cada intento te acerca más revelando si tus suposiciones son más altas, más bajas o coinciden con los rasgos del villager misterioso. ¡Perfecto tanto para principiantes como para expertos de Stardew Valley!",
+          "attributes_title": "Atributos del Villager",
+          "attributes_description": "El Modo Classic de Stardewdle tiene estos seis atributos clave para cada Villager:",
+          "attribute_item_1": "• <strong>Rareza</strong>: El nivel de rareza del Villager (Común, Raro, Super Raro, Épico, Mítico, Legendario, Ultra Legendario).",
+          "attribute_item_2": "• <strong>Clase</strong>: El rol del Villager en combate (ej: Tanque, Tirador, Soporte, Asesino).",
+          "attribute_item_3": "• <strong>Movimiento</strong>: La velocidad de movimiento del Villager (Muy Lento, Lento, Normal, Rápido, Muy Rápido).",
+          "attribute_item_4": "• <strong>Alcance</strong>: El alcance de ataque del Villager (Muy Corto, Corto, Normal, Largo, Muy Largo).",
+          "attribute_item_5": "• <strong>Recarga</strong>: La velocidad de recarga del Villager (Muy Lento, Lento, Normal, Rápido, Muy Rápido).",
+          "attribute_item_6": "• <strong>Año</strong>: El año en que el Villager fue lanzado en Stardew Valley.",
+          "feedback_title": "Entendiendo las Pistas por Color",
+          "feedback_description": "Después de cada intento, recibirás retroalimentación codificada por color con una animación de giro para cada atributo:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Verde</span>: ¡Correcto! El Villager secreto tiene exactamente este valor.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rojo</span>: Incorrecto. El Villager secreto no tiene este valor.",
+          "feedback_arrows": "Para los atributos <strong>Movimiento</strong>, <strong>Alcance</strong>, <strong>Recarga</strong> y <strong>Año</strong>, verás flechas direccionales:",
+          "feedback_arrow_up": "• <strong>Flecha Arriba (↑)</strong>: El valor del Villager secreto es MAYOR que tu intento.",
+          "feedback_arrow_down": "• <strong>Flecha Abajo (↓)</strong>: El valor del Villager secreto es MENOR que tu intento.",
+          "how_to_play_title": "Jugando el Modo Classic de Stardewdle",
+          "step_1": "Comienza adivinando cualquier Villager desde la lista de búsqueda.",
+          "step_2": "Observa cómo cada casilla de atributo gira en secuencia, revelando la retroalimentación de color.",
+          "step_3": "Analiza las casillas verdes y rojas para identificar atributos coincidentes.",
+          "step_4": "Usa las flechas direccionales en Movimiento, Alcance, Recarga y Año para reducir las posibilidades.",
+          "step_5": "Haz tu siguiente intento basándote en la retroalimentación combinada recibida.",
+          "step_6": "¡Continúa hasta identificar correctamente al Villager secreto!",
+          "step_7": "Vuelve diariamente para un nuevo Villager a adivinar en Modo Classic.",
+          "strategy_title": "Estrategias Ganadoras",
+          "strategy_tip_1": "• Comienza con Villagers que conozcas bien para establecer una base de patrones.",
+          "strategy_tip_2": "• Presta atención a la animación de giro secuencial – cada casilla revela información en orden.",
+          "strategy_tip_3": "• Usa las flechas estratégicamente: ayudan a eliminar grupos enteros de Villagers.",
+          "strategy_tip_4": "• Para atributos ordinales (Movimiento, Alcance, Recarga), recuerda la escala de cinco niveles.",
+          "strategy_tip_5": "• Cruza múltiples atributos – un Villager debe coincidir con TODAS las pistas verdes.",
+          "strategy_tip_6": "• Recuerda que Rareza y Clase deben coincidir exactamente (sin flechas, solo verde o rojo).",
+          "daily_challenge_title": "Desafío Diario de Stardew Valley",
+          "daily_challenge_description": "¡Cada día trae un nuevo villager para adivinar con pistas y atributos únicos! Este juego diario de adivinanzas agudiza tu conocimiento de los personajes de Stardew Valley y te desafía a pensar estratégicamente. ¡Comparte tus resultados con amigos y compite por el menor número de intentos!"
+        }
+      },
+      "attributes": {
+        "headers": {
+          "brawler": "Villager",
+          "rarity": "Rareza",
+          "class": "Clase",
+          "movement": "Movimiento",
+          "range": "Alcance",
+          "reload": "Recarga",
+          "year": "Año"
+        },
+        "rarity": {
+          "common": "Común",
+          "rare": "Raro",
+          "super_rare": "Super Raro",
+          "epic": "Épico",
+          "mythic": "Mítico",
+          "legendary": "Legendario",
+          "ultra_legendary": "Ultra Legendario"
+        },
+        "class": {
+          "artillery": "Artillería",
+          "assassin": "Asesino",
+          "controller": "Controlador",
+          "damage_dealer": "Asaltante",
+          "marksman": "Tirador",
+          "support": "Soporte",
+          "tank": "Tanque"
+        },
+        "speed": {
+          "very_slow": "Muy Lento",
+          "slow": "Lento",
+          "normal": "Normal",
+          "fast": "Rápido",
+          "very_fast": "Muy Rápido"
+        },
+        "range": {
+          "very_short": "Muy Corto",
+          "short": "Corto",
+          "normal": "Normal",
+          "long": "Largo",
+          "very_long": "Muy Largo"
+        }
+      }
+    },
+    "pixel": {
+      "page_meta": {
+        "title": "Píxel",
+        "description": "¡Adivina el villager de Stardew Valley de hoy desde un retrato pixelado!"
+      },
+      "errors": {
+        "no_daily_brawler": "No se encontró el villager diario",
+        "generic_error": "Error: {message}"
+      },
+      "result": {
+        "success": "¡Buen trabajo!",
+        "failure": "Inténtalo de nuevo"
+      },
+      "scroll_hint": "← Desliza horizontalmente para ver más →",
+      "yesterday": "El villager de ayer era <n>{brawlerName}</n>",
+      "share": {
+        "text": "Encontré el villager #{id} de #Stardewdle en modo pixel en {tries} intentos ",
+        "to_copy": "Encontré el villager #{id} de #Stardewdle desde píxeles en {tries} intentos\n"
+      },
+      "victory": {
+        "stats_button": "Estadísticas"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Adivina el villager desde el retrato pixelado"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Estadísticas",
+            "alt": "Icono de estadísticas"
+          },
+          "streak": {
+            "tooltip": "Racha actual (Serie de victorias consecutivas)",
+            "alt": {
+              "active": "Icono de racha activa",
+              "inactive": "Icono de racha inactiva"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Notas del parche",
+            "alt": "Icono de notas del parche"
+          },
+          "howToPlay": {
+            "tooltip": "Cómo jugar",
+            "alt": "Icono de cómo jugar"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Escribe el nombre del villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Estadísticas",
+          "metrics": {
+            "games_won": {
+              "label": "Partidas ganadas:",
+              "aria_label": "Número de partidas ganadas"
+            },
+            "average_tries": {
+              "label": "Intentos promedio:",
+              "aria_label": "Número promedio de intentos por partida"
+            },
+            "one_shots": {
+              "label": "Al primer intento:",
+              "aria_label": "Número de partidas ganadas en un intento"
+            },
+            "current_streak": {
+              "label": "Racha actual:",
+              "aria_label": "Racha de victorias actual"
+            },
+            "best_streak": {
+              "label": "Mejor racha:",
+              "aria_label": "Mejor racha de victorias"
+            }
+          },
+          "graph": {
+            "title": "Número de intentos por partida",
+            "label": "Intentos",
+            "fallback": "Tu navegador no soporta el elemento canvas."
+          }
+        },
+        "patchNotes": {
+          "title": "Notas del parche",
+          "states": {
+            "loading": {
+              "message": "Cargando notas del parche..."
+            },
+            "empty": {
+              "message": "Aún no hay nada aquí"
+            },
+            "error": {
+              "title": "Error al cargar las notas del parche",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_pixel": {
+          "title": "Cómo Jugar a Stardewdle: Modo Pixel - Desafío de Revelación Progresiva de Retrato",
+          "introduction_title": "Identifica Personajes de Stardew Valley desde Retratos Pixelados",
+          "introduction_description": "El Modo Pixel ofrece un desafío visual único donde debes identificar personajes de Stardew Valley desde retratos muy pixelados que se vuelven gradualmente más claros con cada intento. Este innovador juego de adivinanzas diario pone a prueba tu capacidad de reconocer villagers con información visual limitada, perfecto tanto para jugadores casuales como para fans dedicados.",
+          "gameplay_title": "Mecánicas del Modo Pixel",
+          "gameplay_description": "En este desafío de adivinanza de personajes de Stardew Valley, se te presentará un retrato muy pixelado de un villager. Tu misión es identificar el personaje lo más rápido posible. Con cada intento incorrecto, la imagen se vuelve progresivamente menos pixelada, revelando más detalles para ayudarte a identificar el villager correcto.",
+          "pixelation_system_title": "Sistema de Despixelación Progresiva",
+          "pixelation_system_description": "El Modo Pixel cuenta con un sistema de claridad dinámico:",
+          "pixelation_phase_1": "• <strong>Fase Inicial</strong>: El retrato comienza muy pixelado, haciendo la identificación extremadamente desafiante. Solo las características más distintivas y los patrones de color son visibles.",
+          "pixelation_phase_2": "• <strong>Revelación Progresiva</strong>: Con cada intento, el nivel de pixelación disminuye, revelando gradualmente más detalles del retrato del villager. Después de aproximadamente 12 intentos, la imagen se vuelve completamente clara.",
+          "pixelation_phase_3": "• <strong>Revelación de Victoria</strong>: Cuando identificas correctamente el villager, el retrato instantáneamente se vuelve cristalino, revelando el personaje con todo detalle.",
+          "strategy_title": "Estrategias Ganadoras para el Modo Pixel",
+          "strategy_tip_1": "• Enfócate en los colores dominantes y patrones de color en la imagen pixelada: muchos villagers tienen esquemas de color característicos.",
+          "strategy_tip_2": "• Busca formas distintivas y siluetas, incluso cuando están muy pixeladas: algunos villagers tienen formas de cabeza o accesorios únicos.",
+          "strategy_tip_3": "• Presta atención al color de fondo, que refleja la rareza del villager y puede ayudar a reducir las posibilidades.",
+          "strategy_tip_4": "• Usa el proceso de eliminación: si ya has adivinado ciertos villagers, concéntrate en aquellos que aún no has probado.",
+          "strategy_tip_5": "• Considera la composición general: algunos villagers tienen poses o posicionamiento distintivo en sus retratos.",
+          "strategy_tip_6": "• A medida que la imagen se vuelve más clara, busca accesorios únicos, rasgos faciales o elementos de vestuario que distingan personajes específicos.",
+          "daily_challenge_title": "Desafíos Diarios de Píxeles de Stardew Valley",
+          "daily_challenge_description": "¡Cada día trae un nuevo desafío de Modo Pixel con un personaje diferente de Stardew Valley para identificar! Este juego de adivinanzas diario agudiza tus habilidades de reconocimiento visual y pone a prueba tu familiaridad con los diseños de personajes en el universo de Stardew Valley. ¡Desafíate a identificar villagers con el menor número de intentos y comparte tus resultados con amigos!"
+        }
+      }
+    },
+    "emoji": {
+      "page_meta": {
+        "title": "Emoji",
+        "description": "¡Adivina el villager de Stardew Valley de hoy a partir de pistas emoji!"
+      },
+      "errors": {
+        "no_daily_brawler": "No se encontró el villager diario",
+        "generic_error": "Error: {message}"
+      },
+      "yesterday": "El villager de ayer era <name>{brawlerName}</name>",
+      "share": {
+        "text": "Encontré el villager #{id} de #Stardewdle en modo emoji en {tries} intentos ",
+        "to_copy": "Encontré el villager #{id} de #Stardewdle con emojis en {tries} intentos\n"
+      },
+      "victory": {
+        "stats_button": "Estadísticas"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "¿Qué villager representan estos emojis?",
+          "next_emoji_hint": "Próximo emoji revelado después del intento {tries}"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Estadísticas",
+            "alt": "Icono de estadísticas"
+          },
+          "streak": {
+            "tooltip": "Racha actual (Serie de victorias consecutivas)",
+            "alt": {
+              "active": "Icono de racha activa",
+              "inactive": "Icono de racha inactiva"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Notas del parche",
+            "alt": "Icono de notas del parche"
+          },
+          "howToPlay": {
+            "tooltip": "Cómo jugar",
+            "alt": "Icono de cómo jugar"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Escribe el nombre del villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Estadísticas",
+          "metrics": {
+            "games_won": {
+              "label": "Partidas ganadas:",
+              "aria_label": "Número de partidas ganadas"
+            },
+            "average_tries": {
+              "label": "Intentos promedio:",
+              "aria_label": "Número promedio de intentos por partida"
+            },
+            "one_shots": {
+              "label": "Al primer intento:",
+              "aria_label": "Número de partidas ganadas en un intento"
+            },
+            "current_streak": {
+              "label": "Racha actual:",
+              "aria_label": "Racha de victorias actual"
+            },
+            "best_streak": {
+              "label": "Mejor racha:",
+              "aria_label": "Mejor racha de victorias"
+            }
+          },
+          "graph": {
+            "title": "Número de intentos por partida",
+            "label": "Intentos",
+            "fallback": "Tu navegador no soporta el elemento canvas."
+          }
+        },
+        "how_to_play": {
+          "title": "Cómo jugar: Modo Emoji",
+          "introduction_title": "Identifica villagers a partir de pistas emoji",
+          "introduction_description": "En el Modo Emoji, se te muestran emojis que representan un villager y debes adivinar cuál es. Un nuevo emoji se revela con cada respuesta incorrecta.",
+          "how_to_play_title": "Cómo jugar",
+          "step_1": "Observa detenidamente el/los emoji(s) mostrado(s).",
+          "step_2": "Piensa qué villager representan estos emojis.",
+          "step_3": "Escribe o selecciona tu respuesta de la lista.",
+          "step_4": "¡Vuelve mañana para un nuevo desafío emoji!"
+        }
+      }
+    }
+  },
+  "common": {
+    "header": {
+      "button": {
+        "stats": {
+          "tooltip": "Estadísticas"
+        },
+        "streak": {
+          "tooltip": "Racha actual (Victorias consecutivas)"
+        },
+        "changelog": {
+          "tooltip": "Registro de cambios"
+        }
+      }
+    },
+    "soon": "próximamente"
+  },
+  "components": {
+    "explanationBox": {
+      "errors": {
+        "no_content": "No se proporcionó contenido"
+      }
+    },
+    "answerInput": {
+      "states": {
+        "loading": "Cargando...",
+        "no_result": "Sin resultados"
+      },
+      "button": {
+        "submit": {
+          "title": "Enviar"
+        }
+      }
+    },
+    "victoryContainer": {
+      "title": "Tu partida",
+      "congratulations": "¡GG!",
+      "guess": {
+        "prefix": "Adivinaste",
+        "character": "{name}"
+      },
+      "tries": {
+        "count": "Número de intentos:",
+        "value": "{count}"
+      },
+      "next": {
+        "timer": "Próximo villager en",
+        "mode": "Próximo modo:"
+      },
+      "image": {
+        "alt": "Imagen de victoria"
+      },
+      "you_found": "Encontraste",
+      "number_of_tries": "Número de intentos: {count}"
+    },
+    "shareContainer": {
+      "title": "Comparte tu resultado",
+      "buttons": {
+        "copy": {
+          "title": "Copiar",
+          "aria_label": "Copiar resultado al portapapeles"
+        },
+        "tweet": {
+          "title": "Tuitear",
+          "aria_label": "Compartir en X (Twitter)"
+        }
+      },
+      "and_more": "y {count} más..."
+    }
+  }
+}

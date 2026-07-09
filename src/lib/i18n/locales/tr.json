@@ -1,0 +1,566 @@
+{
+  "lang": {
+    "name": "Türkçe"
+  },
+  "layout": {
+    "page_meta": {
+      "base_title": "Stardew Valley Öğelerini Tahmin Et",
+      "base_description": "Stardewdle - Günlük Stardew Valley tahmin oyunu! Her gün yeni zorluklarla karşılaşın ve Battle Royale bilginizi test edin",
+      "site_name": "Stardewdle"
+    },
+    "header": {
+      "home_link": "Stardewdle ana sayfasına dön",
+      "logo_alt": "Stardewdle Logosu"
+    },
+    "footer": {
+      "accessibility": {
+        "discord": "Discord topluluğumuza katılın",
+        "information": "Bilgi",
+        "kofi": "Bizi Ko-fi'de destekleyin",
+        "x": "Bizi X (Twitter) üzerinde takip edin",
+        "reddit": "Reddit topluluğumuza katılın"
+      },
+      "want_more": {
+        "title": "Daha fazlası mı istiyorsunuz?",
+        "description": "Tüm dle oyunları için en büyük merkeze göz atın."
+      },
+      "copyright": "Stardewdle - {year}",
+      "cookie_preferences": "Çerez tercihlerini güncelle"
+    },
+    "modals": {
+      "about": {
+        "title": "Hakkında",
+        "discover": "Stardewdle'a hoş geldiniz, en iyi günlük Stardew Valley tahmin oyunu! Stardew Valley evreni hakkındaki bilginizi 6 heyecan verici oyun modunda test edin: Classic, Emoji, Quote, Ability, Signature ve Rank. Her gün yeni bir Villager keşfedin ve popüler rekabetçi nişancı oyunu Stardew Valley'tan doğrudan ilham alan benzersiz -dle oyun deneyimimizle kendinize meydan okuyun.",
+        "disclaimer": "Stardewdle, Supercell'e ait varlıklar kullanılarak tutkuyla oluşturulmuş bir hayran projesidir. Supercell bu projeyi onaylamaz veya sponsor olmaz. Stardew Valley ve ilgili tüm karakterler Supercell'in tescilli ticari markalarıdır.",
+        "dle_games": {
+          "title": "Stardewdle ile Popüler -dle Oyunları Trendine Katılın",
+          "description": "Stardewdle, bağımlılık yapan günlük tahmin formatını Stardew Valley evrenine getiriyor. Wordle, Heardle ve diğer popüler -dle oyunları gibi Stardewdle, eğlenceli ve etkileyici şekillerde bilginizi test eden günlük taze bulmacalar sunar. Birden fazla benzersiz oyun modumuz, Stardewdle'ı mevcut en kapsamlı Stardew Valley tahmin oyunu yapar."
+        },
+        "commitment": {
+          "title": "Stardew Valley Topluluğuna Bağlılığımız",
+          "description": "Stardewdle sadece bir oyundan çok daha fazlasıdır. Stardew Valley'ın heyecan verici evrenine sizi daldıran, hayranlar tarafından hayranlar için oluşturulmuş günlük bir meydan okumadır. Tüm oyun modlarındaki günlük zorluklarımızda doğruluğu sağlamak için her karakteri titizlikle araştırıyoruz. Stardew Valley kadrosu genişledikçe, veritabanımız da büyüyor ve bu nihai Stardew Valley tahmin oyunu deneyiminde her zaman tadını çıkarabileceğiniz taze içerik sunmanızı sağlıyor."
+        },
+        "game_modes": {
+          "title": "Günlük Stardew Valley Meydan Okumamızda Altı Heyecan Verici Oyun Modu",
+          "description": "Stardewdle, birden çok farklı oyun moduyla benzersiz bir çeşitlilik sunar: Classic modu karakter özellikleri hakkındaki bilginizi test eder, Emoji modu sizi her tahminde bir tanesi açıklanan beş emojiden villager'ları belirlemeye davet eder, Quote modu doğru villager ile eşleştirmeniz için oyun içi karakter diyaloglarını sunar, Ability modu tanımlama için bir karakterin yeteneğinin bir görüntüsünü gösterir ve Signature modu tanımanız için bir villager'ın yazılı imzasını gösterir. Her gün tüm modlarda yeni Stardew Valley zorlukları getirir!"
+        },
+        "inspiration": {
+          "title": "Stardew Valley ve Popüler -dle Oyun Formatından İlham Alınmıştır",
+          "description": "Stardewdle, Wordle tarafından popülerleştirilen bağımlılık yapan günlük bulmaca formatını Stardew Valley'ın zengin karakter evreniyle birleştirir. Tahmin oyunumuz, Stardew Valley bilginizi test etmenin ve bu popüler mobil savaş oyununun gerçek bir hayranı olduğunuzu kanıtlamanın mükemmel yolunu sunar. Benzersiz tahmin bulmacalarımızla her gün kendine meydan okuyan binlerce Stardew Valley meraklısına katılın."
+        },
+        "credit": {
+          "title": "Orijinal İlham",
+          "description": "Orijinal olarak <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> ve onun Stardewdle.io'sundan, orijinal günlük Stardew Valley tahmin oyunundan ilham alınmıştır."
+        },
+        "privacy": {
+          "title": "Gizlilik ve Veri Kullanımı",
+          "description": "Gizliliğinize saygı duyuyoruz. Stardewdle, istatistik toplamak ve günlük tahmin oyun deneyiminizi kişiselleştirmek için çerezler kullanır. Gizlilik politikamız hakkında daha fazla bilgi edinmek için lütfen <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">özel bölümümüzü</a> ziyaret edin."
+        },
+        "thanks": "Stardewdle topluluğunun bir parçası olduğunuz için teşekkür ederiz! Yeni Stardew Valley karakterleri ve zorlukları her gün sizi bekliyor!",
+        "signature": {
+          "regards": "Saygılarımızla,",
+          "team": "Stardewdle Ekibi - Tutkulu Stardew Valley Hayranları"
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Stardew Valley bilginizi test edin",
+      "button": {
+        "classic": {
+          "title": "Klasik",
+          "description": "Her denemede ipuçları alın"
+        },
+        "pixel": {
+          "title": "Pixel",
+          "description": "Portre piksellerinden tahmin edin"
+        },
+        "emoji": {
+          "title": "Emoji",
+          "description": "Emoji ipuçlarından tahmin edin"
+        }
+      },
+      "reset_in": "Sıfırlanma: {time}",
+      "royaledle_banner": {
+        "title": "Royaledle Oyna",
+        "subtitle": "Günün Clash Royale karakterini tahmin et",
+        "cta": "Oyna",
+        "new": "YENİ"
+      }
+    },
+    "classic": {
+      "page_meta": {
+        "title": "Klasik",
+        "description": "Bugünkü Stardew Valley villager'ını tahmin edin!"
+      },
+      "errors": {
+        "no_daily_brawler": "Günlük villager bulunamadı",
+        "generic_error": "Hata: {message}"
+      },
+      "result": {
+        "success": "Aferin!",
+        "failure": "Tekrar deneyin"
+      },
+      "scroll_hint": "← Daha fazlasını görmek için yatay olarak kaydırın →",
+      "yesterday": "Dünkü villager <name>{brawlerName}</name> idi",
+      "share": {
+        "text": "#Stardewdle villager #{id}'yi classic modunda {tries} denemede buldum ",
+        "to_copy": "#Stardewdle villager #{id}'yi classic modunda {tries} denemede buldum\n"
+      },
+      "victory": {
+        "stats_button": "İstatistikler"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Bugünkü Stardew Valley villager'ını tahmin edin",
+          "bottomHint": "Başlamak için herhangi bir villager yazın.",
+          "hints": {
+            "gadget": {
+              "unavailable": "{tries} denemede Gadget ipucu",
+              "available": "Gadget ipucu"
+            },
+            "hypercharge": {
+              "unavailable": "{tries} denemede Hypercharge ipucu",
+              "available": "Hypercharge ipucu"
+            },
+            "silhouette": {
+              "unavailable": "{tries} denemede silüet ipucu",
+              "available": "Silüet ipucu"
+            }
+          }
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "İstatistikler",
+            "alt": "İstatistik simgesi"
+          },
+          "streak": {
+            "tooltip": "Mevcut seri (Ardışık galibiyetler serisi)",
+            "alt": {
+              "active": "Aktif seri simgesi",
+              "inactive": "İnaktif seri simgesi"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Yama notları",
+            "alt": "Yama notları simgesi"
+          },
+          "howToPlay": {
+            "tooltip": "Nasıl oynanır",
+            "alt": "Nasıl oynanır simgesi"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Villager adını yazın.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "İstatistikler",
+          "metrics": {
+            "games_won": {
+              "label": "Kazanılan oyunlar:",
+              "aria_label": "Kazanılan oyun sayısı"
+            },
+            "average_tries": {
+              "label": "Ortalama denemeler:",
+              "aria_label": "Oyun başına ortalama deneme sayısı"
+            },
+            "one_shots": {
+              "label": "Tek seferde:",
+              "aria_label": "Tek denemede kazanılan oyun sayısı"
+            },
+            "current_streak": {
+              "label": "Mevcut seri:",
+              "aria_label": "Mevcut galibiyet serisi"
+            },
+            "best_streak": {
+              "label": "En iyi seri:",
+              "aria_label": "En iyi galibiyet serisi"
+            }
+          },
+          "graph": {
+            "title": "Oyun başına deneme sayısı",
+            "label": "Denemeler",
+            "fallback": "Tarayıcınız canvas öğesini desteklemiyor."
+          }
+        },
+        "patchNotes": {
+          "title": "Yama notları",
+          "states": {
+            "loading": {
+              "message": "Yama notları yükleniyor..."
+            },
+            "empty": {
+              "message": "Henüz burada bir şey yok"
+            },
+            "error": {
+              "title": "Yama notları yüklenemedi",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "Stardewdle Nasıl Oynanır: Klasik Mod - Stardew Valley Günlük Meydan Okuma",
+          "introduction_title": "Stardewdle'ın Klasik Modunu Anlamak",
+          "introduction_description": "Klasik Mod'da, stratejik bir tahmin oyunu aracılığıyla Stardew Valley Villager'ları hakkındaki bilginizi test edersiniz. Hedefiniz, altı temel özelliği analiz ederek gizli Villager'ı belirlemektir. Her tahminde, bu günlük meydan okumada doğru cevaba ulaşmanız için size renk kodlu geri bildirim ve yön okları verilir.",
+          "attributes_title": "Villager Özellikleri",
+          "attributes_description": "Stardewdle'ın Klasik Modu, her Villager için bu altı temel özelliği içerir:",
+          "attribute_item_1": "• <strong>Nadirlik</strong>: Villager'ın nadirlik seviyesi (Yaygın, Nadir, Süper Nadir, Epik, Mitik, Efsanevi, Ultra Efsanevi).",
+          "attribute_item_2": "• <strong>Sınıf</strong>: Villager'ın savaştaki rolü (örn. Tank, Hasar Veren, Destek, Suikastçı).",
+          "attribute_item_3": "• <strong>Hareket</strong>: Villager'ın hareket hızı (Çok Yavaş, Yavaş, Normal, Hızlı, Çok Hızlı).",
+          "attribute_item_4": "• <strong>Menzil</strong>: Villager'ın saldırı menzili (Çok Kısa, Kısa, Normal, Uzun, Çok Uzun).",
+          "attribute_item_5": "• <strong>Şarjör</strong>: Villager'ın şarjör doldurma hızı (Çok Yavaş, Yavaş, Normal, Hızlı, Çok Hızlı).",
+          "attribute_item_6": "• <strong>Yıl</strong>: Villager'ın Stardew Valley'ta piyasaya sürüldüğü yıl.",
+          "feedback_title": "Renk Geri Bildirimini Anlamak",
+          "feedback_description": "Her tahminden sonra, her özellik için bir çevirme animasyonu ile renk kodlu geri bildirim alırsınız:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Yeşil</span>: Doğru! Gizli Villager tam olarak bu özellik değerine sahip.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Kırmızı</span>: Yanlış. Gizli Villager bu özellik değerine sahip değil.",
+          "feedback_arrows": "<strong>Hareket</strong>, <strong>Menzil</strong>, <strong>Şarjör</strong> ve <strong>Yıl</strong> özellikleri için yön okları göreceksiniz:",
+          "feedback_arrow_up": "• <strong>Yukarı Ok (↑)</strong>: Gizli Villager'ın değeri tahmininizden DAHA YÜKSEK.",
+          "feedback_arrow_down": "• <strong>Aşağı Ok (↓)</strong>: Gizli Villager'ın değeri tahmininizden DAHA DÜŞÜK.",
+          "how_to_play_title": "Stardewdle'ın Klasik Modunu Oynamak",
+          "step_1": "Arama listesinden herhangi bir Villager ile ilk tahmininizi yaparak başlayın.",
+          "step_2": "Her özellik karosunun sırayla çevrilmesini izleyerek renk kodlu geri bildirimi açıklayın.",
+          "step_3": "Eşleşen ve eşleşmeyen özellikleri belirlemek için yeşil ve kırmızı karoları analiz edin.",
+          "step_4": "Olasılıkları daraltmak için Hareket, Menzil, Şarjör ve Yıl üzerindeki yön oklarını kullanın.",
+          "step_5": "Aldığınız birleşik geri bildirime dayanarak bir sonraki tahmininizi yapın.",
+          "step_6": "Gizli Villager'ı doğru bir şekilde belirleyene kadar devam edin!",
+          "step_7": "Klasik Mod'da tahmin etmek için yeni bir Villager için her gün geri dönün.",
+          "strategy_title": "Kazanan Strateji İpuçları",
+          "strategy_tip_1": "• Özellik kalıplarının temelini oluşturmak için iyi tanıdığınız Villager'larla başlayın.",
+          "strategy_tip_2": "• Sıralı çevirme animasyonuna dikkat edin – her karo sırayla bilgi açıklar.",
+          "strategy_tip_3": "• Okları stratejik olarak kullanın: tüm Villager gruplarını hızlıca elemenize yardımcı olur.",
+          "strategy_tip_4": "• Sıralı özellikler için (Hareket, Menzil, Şarjör), beş kademeli ölçeği unutmayın.",
+          "strategy_tip_5": "• Birden fazla özelliği çapraz referans verin – bir Villager TÜM yeşil geri bildirimle eşleşmelidir.",
+          "strategy_tip_6": "• Nadirlik ve Sınıfın tam olarak eşleşmesi gerektiğini unutmayın (ok yok, sadece yeşil veya kırmızı).",
+          "daily_challenge_title": "Günlük Stardew Valley Meydan Okumaları",
+          "daily_challenge_description": "Her gün belirlemek için yeni bir gizli Villager için Stardewdle'a geri dönün! Önceki denemeleriniz, eklendikçe her tahminin animasyonlu olduğu ters kronolojik sırada görüntülenir. Stardew Valley bilgisinin bu nihai testinde serinizi takip edin ve becerilerinizi arkadaşlarınızla karşılaştırın."
+        }
+      },
+      "attributes": {
+        "headers": {
+          "brawler": "Villager",
+          "rarity": "Nadirlik",
+          "class": "Sınıf",
+          "movement": "Hareket",
+          "range": "Menzil",
+          "reload": "Yeniden Dolum",
+          "year": "Yıl"
+        },
+        "rarity": {
+          "common": "Sıradan",
+          "rare": "Nadir",
+          "super_rare": "Süper Nadir",
+          "epic": "Epik",
+          "mythic": "Mitik",
+          "legendary": "Efsanevi",
+          "ultra_legendary": "Ultra Efsanevi"
+        },
+        "class": {
+          "artillery": "Topçu",
+          "assassin": "Suikastçı",
+          "controller": "Kontrolör",
+          "damage_dealer": "Hasar Veren",
+          "marksman": "Nişancı",
+          "support": "Destek",
+          "tank": "Tank"
+        },
+        "speed": {
+          "very_slow": "Çok Yavaş",
+          "slow": "Yavaş",
+          "normal": "Normal",
+          "fast": "Hızlı",
+          "very_fast": "Çok Hızlı"
+        },
+        "range": {
+          "very_short": "Çok Kısa",
+          "short": "Kısa",
+          "normal": "Normal",
+          "long": "Uzun",
+          "very_long": "Çok Uzun"
+        }
+      }
+    },
+    "pixel": {
+      "page_meta": {
+        "title": "Pixel",
+        "description": "Bugünkü Stardew Valley villager'ını pikselli bir portreden tahmin edin!"
+      },
+      "errors": {
+        "no_daily_brawler": "Günlük villager bulunamadı",
+        "generic_error": "Hata: {message}"
+      },
+      "result": {
+        "success": "Aferin!",
+        "failure": "Tekrar deneyin"
+      },
+      "scroll_hint": "← Daha fazlasını görmek için yatay olarak kaydırın →",
+      "yesterday": "Dünkü villager <n>{brawlerName}</n> idi",
+      "share": {
+        "text": "#Stardewdle villager #{id}'yi pixel modunda {tries} denemede buldum ",
+        "to_copy": "#Stardewdle villager #{id}'yi piksellerden {tries} denemede buldum\n"
+      },
+      "victory": {
+        "stats_button": "İstatistikler"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Pikselli portreden villager'ı tahmin edin"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "İstatistikler",
+            "alt": "İstatistik simgesi"
+          },
+          "streak": {
+            "tooltip": "Mevcut seri (Ardışık galibiyetler serisi)",
+            "alt": {
+              "active": "Aktif seri simgesi",
+              "inactive": "İnaktif seri simgesi"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Yama notları",
+            "alt": "Yama notları simgesi"
+          },
+          "howToPlay": {
+            "tooltip": "Nasıl oynanır",
+            "alt": "Nasıl oynanır simgesi"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Villager adını yazın.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "İstatistikler",
+          "metrics": {
+            "games_won": {
+              "label": "Kazanılan oyunlar:",
+              "aria_label": "Kazanılan oyun sayısı"
+            },
+            "average_tries": {
+              "label": "Ortalama denemeler:",
+              "aria_label": "Oyun başına ortalama deneme sayısı"
+            },
+            "one_shots": {
+              "label": "Tek seferde:",
+              "aria_label": "Tek denemede kazanılan oyun sayısı"
+            },
+            "current_streak": {
+              "label": "Mevcut seri:",
+              "aria_label": "Mevcut galibiyet serisi"
+            },
+            "best_streak": {
+              "label": "En iyi seri:",
+              "aria_label": "En iyi galibiyet serisi"
+            }
+          },
+          "graph": {
+            "title": "Oyun başına deneme sayısı",
+            "label": "Denemeler",
+            "fallback": "Tarayıcınız canvas öğesini desteklemiyor."
+          }
+        },
+        "patchNotes": {
+          "title": "Yama notları",
+          "states": {
+            "loading": {
+              "message": "Yama notları yükleniyor..."
+            },
+            "empty": {
+              "message": "Henüz burada bir şey yok"
+            },
+            "error": {
+              "title": "Yama notları yüklenemedi",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_pixel": {
+          "title": "Stardewdle Nasıl Oynanır: Pixel Modu - Aşamalı Portre Açıklama Meydan Okuması",
+          "introduction_title": "Pikselli Portrelerden Stardew Valley Karakterlerini Belirleyin",
+          "introduction_description": "Pixel Modu, her tahminle giderek netleşen yoğun pikselli portrelerden Stardew Valley karakterlerini belirlemeniz gereken benzersiz bir görsel meydan okuma sunar. Bu yenilikçi günlük tahmin oyunu, sınırlı görsel bilgilerden villager'ları tanıma yeteneğinizi test eder, hem casual oyuncular hem de kararlı hayranlar için mükemmeldir.",
+          "gameplay_title": "Pixel Modu Oyun Mekanikleri",
+          "gameplay_description": "Bu Stardew Valley karakter tahmin meydan okumasında, bir villager'ın yoğun pikselli bir portresi size sunulacak. Göreviniz, karakteri olabildiğince hızlı belirlemektir. Her yanlış tahminle, görüntü giderek daha az pikselli hale gelir ve doğru villager'ı belirlemenize yardımcı olacak daha fazla detay ortaya çıkar.",
+          "pixelation_system_title": "Aşamalı Depikselizasyon Sistemi",
+          "pixelation_system_description": "Pixel Modu dinamik bir netlik sistemine sahiptir:",
+          "pixelation_phase_1": "• <strong>İlk Aşama</strong>: Portre yoğun pikselli olarak başlar, tanımlamayı son derece zorlaştırır. Yalnızca en ayırt edici özellikler ve renk desenleri görünür.",
+          "pixelation_phase_2": "• <strong>Aşamalı Açıklama</strong>: Her tahminle pikselizasyon seviyesi azalır, villager'ın portresinin daha fazla detayı yavaş yavaş ortaya çıkar. Yaklaşık 12 tahminden sonra, görüntü tamamen netleşir.",
+          "pixelation_phase_3": "• <strong>Zafer Açıklaması</strong>: Villager'ı doğru belirlediğinizde, portre anında kristal berraklığında olur ve karakteri tüm detaylarıyla ortaya çıkarır.",
+          "strategy_title": "Pixel Modu için Kazanan Stratejiler",
+          "strategy_tip_1": "• Pikselli görüntüdeki baskın renklere ve renk desenlerine odaklanın - birçok villager'ın imza renk şemaları vardır.",
+          "strategy_tip_2": "• Yoğun pikselli olsa bile ayırt edici şekilleri ve siluetleri arayın - bazı villager'ların benzersiz baş şekilleri veya aksesuarları vardır.",
+          "strategy_tip_3": "• Villager'ın nadirliğini yansıtan ve olasılıkları daraltmaya yardımcı olabilen arka plan rengine dikkat edin.",
+          "strategy_tip_4": "• Eleme sürecini kullanın - belirli villager'ları zaten tahmin ettiyseniz, henüz denemediklerinize odaklanın.",
+          "strategy_tip_5": "• Genel kompozisyonu düşünün - bazı villager'ların portrelerinde ayırt edici pozları veya konumlandırması vardır.",
+          "strategy_tip_6": "• Görüntü netleştikçe, belirli karakterleri ayırt eden benzersiz aksesuarlar, yüz hatları veya kostüm öğeleri arayın.",
+          "daily_challenge_title": "Günlük Stardew Valley Pixel Meydan Okumaları",
+          "daily_challenge_description": "Her gün belirlenecek farklı bir Stardew Valley karakteri ile yeni bir Pixel Modu meydan okuması getirir! Bu günlük tahmin oyunu, görsel tanıma becerilerinizi keskinleştirir ve Stardew Valley evrenindeki karakter tasarımları hakkındaki aşinalığınızı test eder. Villager'ları en az tahminle belirlemek için kendinize meydan okuyun ve sonuçlarınızı arkadaşlarınızla paylaşın!"
+        }
+      }
+    },
+    "emoji": {
+      "page_meta": {
+        "title": "Emoji",
+        "description": "Bugünkü Stardew Valley villager'ını emoji ipuçlarından tahmin edin!"
+      },
+      "errors": {
+        "no_daily_brawler": "Günlük villager bulunamadı",
+        "generic_error": "Hata: {message}"
+      },
+      "yesterday": "Dünkü villager <name>{brawlerName}</name> idi",
+      "share": {
+        "text": "#Stardewdle villager #{id}'yi emoji modunda {tries} denemede buldum ",
+        "to_copy": "#Stardewdle villager #{id}'yi emojilerden {tries} denemede buldum\n"
+      },
+      "victory": {
+        "stats_button": "İstatistikler"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Bu emojiler hangi villager'ı temsil ediyor?",
+          "next_emoji_hint": "{tries} tahmininden sonra sonraki emoji açıklanacak"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "İstatistikler",
+            "alt": "İstatistik simgesi"
+          },
+          "streak": {
+            "tooltip": "Mevcut seri (Ardışık galibiyetler serisi)",
+            "alt": {
+              "active": "Aktif seri simgesi",
+              "inactive": "İnaktif seri simgesi"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Yama notları",
+            "alt": "Yama notları simgesi"
+          },
+          "howToPlay": {
+            "tooltip": "Nasıl oynanır",
+            "alt": "Nasıl oynanır simgesi"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Villager adını yazın.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "İstatistikler",
+          "metrics": {
+            "games_won": {
+              "label": "Kazanılan oyunlar:",
+              "aria_label": "Kazanılan oyun sayısı"
+            },
+            "average_tries": {
+              "label": "Ortalama denemeler:",
+              "aria_label": "Oyun başına ortalama deneme sayısı"
+            },
+            "one_shots": {
+              "label": "Tek seferde:",
+              "aria_label": "Tek denemede kazanılan oyun sayısı"
+            },
+            "current_streak": {
+              "label": "Mevcut seri:",
+              "aria_label": "Mevcut galibiyet serisi"
+            },
+            "best_streak": {
+              "label": "En iyi seri:",
+              "aria_label": "En iyi galibiyet serisi"
+            }
+          },
+          "graph": {
+            "title": "Oyun başına deneme sayısı",
+            "label": "Denemeler",
+            "fallback": "Tarayıcınız canvas öğesini desteklemiyor."
+          }
+        },
+        "how_to_play": {
+          "title": "Stardewdle Nasıl Oynanır: Emoji Modu",
+          "introduction_title": "Emoji İpuçlarından Villager'ları Belirleyin",
+          "introduction_description": "Emoji Modu'nda, bir villager'ı temsil eden emojiler size gösterilir ve hangisi olduğunu tahmin etmeniz gerekir. Her yanlış tahminle yeni bir emoji açıklanır.",
+          "how_to_play_title": "Nasıl Oynanır",
+          "step_1": "Görüntülenen emoji(ler)e dikkatlice bakın.",
+          "step_2": "Bu emojilerin hangi villager'ı temsil ettiğini düşünün.",
+          "step_3": "Listeden tahmininizi yazın veya seçin.",
+          "step_4": "Yarın yeni bir emoji meydan okuması için geri dönün!"
+        }
+      }
+    }
+  },
+  "common": {
+    "header": {
+      "button": {
+        "stats": {
+          "tooltip": "İstatistikler"
+        },
+        "streak": {
+          "tooltip": "Mevcut seri (Ardışık galibiyetler)"
+        },
+        "changelog": {
+          "tooltip": "Değişiklik günlüğü"
+        }
+      }
+    },
+    "soon": "yakında"
+  },
+  "components": {
+    "explanationBox": {
+      "errors": {
+        "no_content": "İçerik sağlanmadı"
+      }
+    },
+    "answerInput": {
+      "states": {
+        "loading": "Yükleniyor...",
+        "no_result": "Sonuç yok"
+      },
+      "button": {
+        "submit": {
+          "title": "Gönder"
+        }
+      }
+    },
+    "victoryContainer": {
+      "title": "Oyununuz",
+      "congratulations": "GG !!",
+      "guess": {
+        "prefix": "Tahmin ettiniz",
+        "character": "{name}"
+      },
+      "tries": {
+        "count": "Deneme sayısı:",
+        "value": "{count}"
+      },
+      "next": {
+        "timer": "Sonraki villager",
+        "mode": "Sonraki mod:"
+      },
+      "image": {
+        "alt": "Zafer görüntüsü"
+      },
+      "you_found": "Buldun",
+      "number_of_tries": "Deneme sayısı: {count}"
+    },
+    "shareContainer": {
+      "title": "Sonucunuzu paylaşın",
+      "buttons": {
+        "copy": {
+          "title": "Kopyala",
+          "aria_label": "Sonucu panoya kopyala"
+        },
+        "tweet": {
+          "title": "Tweetle",
+          "aria_label": "X (Twitter) üzerinde paylaş"
+        }
+      },
+      "and_more": "ve {count} daha..."
+    }
+  }
+}

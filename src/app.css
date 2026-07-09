@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+
+@theme {
+    --font-refrigerator-deluxe: "Refrigerator-Deluxe";
+    --font-nunito: "Nunito";
+    --font-lilita: "Lilita One";
+    --breakpoint-md: 828px;
+}
+
+@font-face {
+    font-family: 'Lilita One';
+    src: url('/fonts/LilitaOne-Regular.ttf') format('truetype');
+    font-weight: bold;
+}
+
+body {
+    font-family: var(--font-lilita);
+    /* Stardew title-screen sky: night -> dawn -> day (mountains layered in <SvBackground>) */
+    background: linear-gradient(180deg, #16233f 0%, #274a76 30%, #3f7fae 52%, #86c7d2 78%, #a9dbdc 100%);
+    background-attachment: fixed;
+    min-height: 100dvh;
+}
+
+.stardew-text {
+    font-family: var(--font-lilita), sans-serif;
+    color: #ffffff;
+    vertical-align: text-top;
+    line-height: auto;
+
+    text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px  1px 0 #000000,
+            1px  1px 0 #000000,
+            -1px  0   0 #000000,
+            1px  0   0 #000000,
+            0   -1px 0 #000000,
+            0    1px 0 #000000;
+
+    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8));
+}
+
+/* ===== Stardew UI kit — built from the real game menu sprites ===== */
+
+/* Wood menu box (9-slice from Maps/MenuTiles.png). `fill` paints the sprite's
+   cream interior as the panel background. */
+.sv-panel {
+    border-style: solid;
+    border-width: 18px;
+    border-image: url('/ui/panel.png') 15 fill / 18px / 0 stretch;
+    image-rendering: pixelated;
+    color: #5a3a1c;
+}
+
+/* same wood frame, but a dark translucent-wood interior so existing white text stays readable */
+.sv-frame {
+    border-style: solid;
+    border-width: 18px;
+    border-image: url('/ui/panel.png') 15 / 18px / 0 stretch;
+    image-rendering: pixelated;
+    background: rgba(60, 38, 18, 0.88);
+    background-clip: padding-box;
+}
+
+/* dark-brown outlined heading text used inside cream panels */
+.sv-ink {
+    color: #58371a;
+    text-shadow: 1px 1px 0 rgba(255,247,214,0.6);
+}
+
+/* Stardew wood button (cream face, brown frame, reddish-brown label) */
+.sv-btn {
+    font-family: var(--font-lilita), sans-serif;
+    color: #9a4b26;
+    background: linear-gradient(#f8e6b4, #efd396);
+    border: 3px solid #7a4a24;
+    border-radius: 7px;
+    box-shadow: inset 0 2px 0 #fff7db, inset 0 -3px 0 #d9b06f, 0 2px 0 rgba(0,0,0,0.25);
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: transform 0.08s ease;
+}
+.sv-btn:hover { filter: brightness(1.04); }
+.sv-btn:active { transform: translateY(2px); box-shadow: inset 0 2px 0 #fff7db, 0 0 0 rgba(0,0,0,0.25); }

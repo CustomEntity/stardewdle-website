@@ -1,0 +1,566 @@
+{
+  "lang": {
+    "name": "Tiếng Việt"
+  },
+  "layout": {
+    "page_meta": {
+      "base_title": "Đoán Các Yếu Tố Stardew Valley",
+      "base_description": "Stardewdle - Trò chơi đoán Stardew Valley hàng ngày! Đón nhận thử thách mới mỗi ngày và kiểm tra kiến thức Battle Royale của bạn",
+      "site_name": "Stardewdle"
+    },
+    "header": {
+      "home_link": "Quay lại trang chủ Stardewdle",
+      "logo_alt": "Logo Stardewdle"
+    },
+    "footer": {
+      "accessibility": {
+        "discord": "Tham gia cộng đồng Discord của chúng tôi",
+        "information": "Thông tin",
+        "kofi": "Ủng hộ chúng tôi trên Ko-fi",
+        "x": "Theo dõi chúng tôi trên X (Twitter)",
+        "reddit": "Tham gia cộng đồng Reddit của chúng tôi"
+      },
+      "want_more": {
+        "title": "Muốn nhiều hơn?",
+        "description": "Khám phá trung tâm lớn nhất cho tất cả trò chơi dle."
+      },
+      "copyright": "Stardewdle - {year}",
+      "cookie_preferences": "Cập nhật tùy chọn cookie"
+    },
+    "modals": {
+      "about": {
+        "title": "Giới thiệu",
+        "discover": "Chào mừng bạn đến với Stardewdle, trò chơi đoán Stardew Valley hàng ngày hàng đầu! Kiểm tra kiến thức của bạn về vũ trụ Stardew Valley qua 6 chế độ chơi hấp dẫn: Classic, Emoji, Quote, Ability, Signature và Rank. Khám phá một Villager mới mỗi ngày và thử thách bản thân với trải nghiệm chơi -dle độc đáo lấy cảm hứng trực tiếp từ trò chơi bắn súng đối kháng nổi tiếng Stardew Valley.",
+        "disclaimer": "Stardewdle là một dự án của người hâm mộ được tạo ra với niềm đam mê, sử dụng các tài nguyên thuộc sở hữu của Supercell. Supercell không chứng thực hoặc tài trợ cho dự án này. Stardew Valley và tất cả các nhân vật liên quan là thương hiệu đã đăng ký của Supercell.",
+        "dle_games": {
+          "title": "Tham Gia Xu Hướng Trò Chơi -dle Phổ Biến với Stardewdle",
+          "description": "Stardewdle mang đến định dạng đoán hàng ngày gây nghiện cho vũ trụ Stardew Valley. Giống như Wordle, Heardle và các trò chơi -dle phổ biến khác, Stardewdle cung cấp các câu đố mới mỗi ngày để kiểm tra kiến thức của bạn theo những cách thú vị và hấp dẫn. Nhiều chế độ chơi độc đáo của chúng tôi biến Stardewdle thành trò chơi đoán Stardew Valley toàn diện nhất hiện có."
+        },
+        "commitment": {
+          "title": "Cam Kết của Chúng Tôi với Cộng Đồng Stardew Valley",
+          "description": "Stardewdle không chỉ là một trò chơi đơn thuần. Đó là một thử thách hàng ngày được tạo ra bởi người hâm mộ, dành cho người hâm mộ, đưa bạn đắm chìm vào vũ trụ thú vị của Stardew Valley. Chúng tôi nghiên cứu kỹ lưỡng từng nhân vật để đảm bảo độ chính xác trong các thử thách hàng ngày trên tất cả các chế độ chơi. Khi danh sách Stardew Valley mở rộng, cơ sở dữ liệu của chúng tôi cũng vậy, đảm bảo bạn luôn có nội dung mới để thưởng thức trong trải nghiệm trò chơi đoán Stardew Valley tối ưu này."
+        },
+        "game_modes": {
+          "title": "Sáu Chế Độ Chơi Hấp Dẫn trong Thử Thách Stardew Valley Hàng Ngày",
+          "description": "Stardewdle cung cấp sự đa dạng vô song với nhiều chế độ chơi riêng biệt: chế độ Classic kiểm tra kiến thức của bạn về thuộc tính nhân vật, chế độ Emoji thách thức bạn nhận diện villager từ năm emoji với một emoji được tiết lộ sau mỗi lần đoán, chế độ Quote trình bày các đoạn thoại của nhân vật trong trò chơi để bạn ghép với villager đúng, chế độ Ability hiển thị hình ảnh kỹ năng của một nhân vật để nhận diện, và chế độ Signature hiển thị chữ ký viết tay của villager để bạn nhận ra. Mỗi ngày mang đến những thử thách Stardew Valley mới trên mọi chế độ!"
+        },
+        "inspiration": {
+          "title": "Lấy Cảm Hứng từ Stardew Valley và Định Dạng Trò Chơi -dle Phổ Biến",
+          "description": "Stardewdle kết hợp định dạng câu đố hàng ngày gây nghiện được phổ biến bởi Wordle với vũ trụ nhân vật phong phú của Stardew Valley. Trò chơi đoán của chúng tôi mang đến cách hoàn hảo để kiểm tra kiến thức Stardew Valley của bạn và chứng minh rằng bạn là một người hâm mộ thực thụ của trò chơi chiến đấu di động phổ biến này. Hãy tham gia cùng hàng nghìn người đam mê Stardew Valley thử thách bản thân hàng ngày với những câu đố đoán độc đáo của chúng tôi."
+        },
+        "credit": {
+          "title": "Cảm Hứng Ban Đầu",
+          "description": "Lấy cảm hứng ban đầu từ <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a>'s Stardewdle.io, trò chơi đoán Stardew Valley hàng ngày nguyên bản."
+        },
+        "privacy": {
+          "title": "Quyền Riêng Tư và Sử Dụng Dữ Liệu",
+          "description": "Chúng tôi tôn trọng quyền riêng tư của bạn. Stardewdle sử dụng cookie để thu thập số liệu thống kê và cá nhân hóa trải nghiệm trò chơi đoán hàng ngày của bạn. Để tìm hiểu thêm về chính sách bảo mật của chúng tôi, vui lòng truy cập <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">phần dành riêng của chúng tôi</a>."
+        },
+        "thanks": "Cảm ơn bạn đã là một phần của cộng đồng Stardewdle! Các nhân vật và thử thách Stardew Valley mới đang chờ đón bạn mỗi ngày!",
+        "signature": {
+          "regards": "Trân trọng,",
+          "team": "Đội Ngũ Stardewdle - Những Người Hâm Mộ Đam Mê Stardew Valley"
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Kiểm tra kiến thức Stardew Valley của bạn",
+      "button": {
+        "classic": {
+          "title": "Cổ Điển",
+          "description": "Nhận manh mối sau mỗi lần thử"
+        },
+        "pixel": {
+          "title": "Pixel",
+          "description": "Đoán từ các pixel chân dung"
+        },
+        "emoji": {
+          "title": "Emoji",
+          "description": "Đoán từ các manh mối emoji"
+        }
+      },
+      "reset_in": "Đặt lại sau: {time}",
+      "royaledle_banner": {
+        "title": "Chơi Royaledle",
+        "subtitle": "Đoán nhân vật Clash Royale mỗi ngày",
+        "cta": "Chơi",
+        "new": "MỚI"
+      }
+    },
+    "classic": {
+      "page_meta": {
+        "title": "Cổ Điển",
+        "description": "Đoán villager Stardew Valley hôm nay!"
+      },
+      "errors": {
+        "no_daily_brawler": "Không tìm thấy villager hàng ngày",
+        "generic_error": "Lỗi: {message}"
+      },
+      "result": {
+        "success": "Làm tốt lắm!",
+        "failure": "Thử lại"
+      },
+      "scroll_hint": "← Cuộn ngang để xem thêm →",
+      "yesterday": "Villager hôm qua là <name>{brawlerName}</name>",
+      "share": {
+        "text": "Tôi đã tìm ra villager #{id} của #Stardewdle trong chế độ classic sau {tries} lần thử ",
+        "to_copy": "Tôi đã tìm ra villager #{id} của #Stardewdle trong chế độ classic sau {tries} lần thử\n"
+      },
+      "victory": {
+        "stats_button": "Thống kê"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Đoán villager Stardew Valley hôm nay",
+          "bottomHint": "Nhập tên bất kỳ villager nào để bắt đầu.",
+          "hints": {
+            "gadget": {
+              "unavailable": "Manh mối Gadget sau {tries} lần thử",
+              "available": "Manh mối Gadget"
+            },
+            "hypercharge": {
+              "unavailable": "Manh mối Hypercharge sau {tries} lần thử",
+              "available": "Manh mối Hypercharge"
+            },
+            "silhouette": {
+              "unavailable": "Manh mối hình bóng sau {tries} lần thử",
+              "available": "Manh mối hình bóng"
+            }
+          }
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Thống kê",
+            "alt": "Biểu tượng thống kê"
+          },
+          "streak": {
+            "tooltip": "Chuỗi hiện tại (Chuỗi chiến thắng liên tiếp)",
+            "alt": {
+              "active": "Biểu tượng chuỗi đang hoạt động",
+              "inactive": "Biểu tượng chuỗi không hoạt động"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Ghi chú cập nhật",
+            "alt": "Biểu tượng ghi chú cập nhật"
+          },
+          "howToPlay": {
+            "tooltip": "Cách chơi",
+            "alt": "Biểu tượng cách chơi"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Nhập tên villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Thống kê",
+          "metrics": {
+            "games_won": {
+              "label": "Số ván thắng:",
+              "aria_label": "Số ván thắng"
+            },
+            "average_tries": {
+              "label": "Số lần thử trung bình:",
+              "aria_label": "Số lần thử trung bình mỗi ván"
+            },
+            "one_shots": {
+              "label": "Đoán trúng lần đầu:",
+              "aria_label": "Số ván thắng ngay lần thử đầu tiên"
+            },
+            "current_streak": {
+              "label": "Chuỗi hiện tại:",
+              "aria_label": "Chuỗi chiến thắng hiện tại"
+            },
+            "best_streak": {
+              "label": "Chuỗi tốt nhất:",
+              "aria_label": "Chuỗi chiến thắng tốt nhất"
+            }
+          },
+          "graph": {
+            "title": "Số lần thử mỗi ván",
+            "label": "Lần thử",
+            "fallback": "Trình duyệt của bạn không hỗ trợ phần tử canvas."
+          }
+        },
+        "patchNotes": {
+          "title": "Ghi chú cập nhật",
+          "states": {
+            "loading": {
+              "message": "Đang tải ghi chú cập nhật..."
+            },
+            "empty": {
+              "message": "Chưa có gì ở đây"
+            },
+            "error": {
+              "title": "Tải ghi chú cập nhật thất bại",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "Cách Chơi Stardewdle: Chế Độ Classic - Thử Thách Stardew Valley Hàng Ngày",
+          "introduction_title": "Hiểu về Chế Độ Classic của Stardewdle",
+          "introduction_description": "Trong Chế Độ Classic, bạn sẽ kiểm tra kiến thức của mình về các Villager Stardew Valley qua một trò chơi đoán mang tính chiến lược. Mục tiêu của bạn là xác định Villager bí mật bằng cách phân tích sáu thuộc tính chính. Sau mỗi lần đoán, bạn sẽ nhận được phản hồi được mã hóa bằng màu sắc và mũi tên chỉ hướng để dẫn dắt bạn tới câu trả lời đúng trong thử thách hàng ngày này.",
+          "attributes_title": "Các Thuộc Tính của Villager",
+          "attributes_description": "Chế Độ Classic của Stardewdle có sáu thuộc tính chính sau cho mỗi Villager:",
+          "attribute_item_1": "• <strong>Độ hiếm</strong>: Cấp độ hiếm của Villager (Common, Rare, Super Rare, Epic, Mythic, Legendary, Ultra Legendary).",
+          "attribute_item_2": "• <strong>Lớp</strong>: Vai trò của Villager trong trận đấu (ví dụ: Tank, Damage Dealer, Support, Assassin).",
+          "attribute_item_3": "• <strong>Di chuyển</strong>: Tốc độ di chuyển của Villager (Rất chậm, Chậm, Bình thường, Nhanh, Rất nhanh).",
+          "attribute_item_4": "• <strong>Tầm bắn</strong>: Tầm tấn công của Villager (Rất ngắn, Ngắn, Bình thường, Dài, Rất dài).",
+          "attribute_item_5": "• <strong>Nạp đạn</strong>: Tốc độ nạp đạn của Villager (Rất chậm, Chậm, Bình thường, Nhanh, Rất nhanh).",
+          "attribute_item_6": "• <strong>Năm</strong>: Năm Villager được phát hành trong Stardew Valley.",
+          "feedback_title": "Hiểu về Phản Hồi Màu Sắc",
+          "feedback_description": "Sau mỗi lần đoán, bạn sẽ nhận được phản hồi được mã hóa bằng màu sắc với hiệu ứng lật cho mỗi thuộc tính:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Xanh lá</span>: Đúng! Villager bí mật có chính xác giá trị thuộc tính này.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Đỏ</span>: Sai. Villager bí mật không có giá trị thuộc tính này.",
+          "feedback_arrows": "Đối với các thuộc tính <strong>Di chuyển</strong>, <strong>Tầm bắn</strong>, <strong>Nạp đạn</strong> và <strong>Năm</strong>, bạn sẽ thấy mũi tên chỉ hướng:",
+          "feedback_arrow_up": "• <strong>Mũi Tên Lên (↑)</strong>: Giá trị của Villager bí mật CAO HƠN lần đoán của bạn.",
+          "feedback_arrow_down": "• <strong>Mũi Tên Xuống (↓)</strong>: Giá trị của Villager bí mật THẤP HƠN lần đoán của bạn.",
+          "how_to_play_title": "Chơi Chế Độ Classic của Stardewdle",
+          "step_1": "Bắt đầu bằng cách đoán bất kỳ Villager nào từ danh sách tìm kiếm.",
+          "step_2": "Quan sát từng ô thuộc tính lật theo trình tự, hé lộ phản hồi được mã hóa bằng màu sắc.",
+          "step_3": "Phân tích các ô xanh và đỏ để xác định các thuộc tính trùng khớp và không trùng khớp.",
+          "step_4": "Sử dụng mũi tên chỉ hướng trên Di chuyển, Tầm bắn, Nạp đạn và Năm để thu hẹp khả năng.",
+          "step_5": "Đoán lần tiếp theo dựa trên phản hồi tổng hợp đã nhận được.",
+          "step_6": "Tiếp tục cho đến khi bạn xác định đúng Villager bí mật!",
+          "step_7": "Quay lại mỗi ngày để có một Villager mới để đoán trong Chế Độ Classic.",
+          "strategy_title": "Mẹo Chiến Lược Chiến Thắng",
+          "strategy_tip_1": "• Bắt đầu với những Villager bạn biết rõ để thiết lập đường cơ sở cho các mẫu thuộc tính.",
+          "strategy_tip_2": "• Chú ý đến hiệu ứng lật theo trình tự – mỗi ô tiết lộ thông tin theo thứ tự.",
+          "strategy_tip_3": "• Sử dụng mũi tên một cách chiến lược: chúng giúp bạn nhanh chóng loại bỏ toàn bộ nhóm Villager.",
+          "strategy_tip_4": "• Đối với các thuộc tính theo thứ tự (Di chuyển, Tầm bắn, Nạp đạn), hãy nhớ thang năm cấp.",
+          "strategy_tip_5": "• Đối chiếu nhiều thuộc tính – một Villager phải khớp với TẤT CẢ phản hồi xanh lá.",
+          "strategy_tip_6": "• Hãy nhớ rằng Độ hiếm và Lớp phải khớp chính xác (không có mũi tên, chỉ xanh lá hoặc đỏ).",
+          "daily_challenge_title": "Thử Thách Stardew Valley Hàng Ngày",
+          "daily_challenge_description": "Quay lại Stardewdle mỗi ngày để có một Villager bí mật mới để xác định! Các lần thử trước đó của bạn được hiển thị theo thứ tự thời gian đảo ngược, với mỗi lần đoán được hoạt họa khi được thêm vào. Theo dõi chuỗi của bạn và so tài kỹ năng với bạn bè trong bài kiểm tra cuối cùng về kiến thức Stardew Valley."
+        }
+      },
+      "attributes": {
+        "headers": {
+          "brawler": "Villager",
+          "rarity": "Độ hiếm",
+          "class": "Lớp",
+          "movement": "Di chuyển",
+          "range": "Tầm",
+          "reload": "Nạp đạn",
+          "year": "Năm"
+        },
+        "rarity": {
+          "common": "Thường",
+          "rare": "Hiếm",
+          "super_rare": "Siêu Hiếm",
+          "epic": "Sử Thi",
+          "mythic": "Thần Thoại",
+          "legendary": "Huyền Thoại",
+          "ultra_legendary": "Siêu Huyền Thoại"
+        },
+        "class": {
+          "artillery": "Pháo binh",
+          "assassin": "Sát thủ",
+          "controller": "Kiểm soát",
+          "damage_dealer": "Gây sát thương",
+          "marksman": "Thiện xạ",
+          "support": "Hỗ trợ",
+          "tank": "Tank"
+        },
+        "speed": {
+          "very_slow": "Rất Chậm",
+          "slow": "Chậm",
+          "normal": "Bình Thường",
+          "fast": "Nhanh",
+          "very_fast": "Rất Nhanh"
+        },
+        "range": {
+          "very_short": "Rất Ngắn",
+          "short": "Ngắn",
+          "normal": "Bình Thường",
+          "long": "Xa",
+          "very_long": "Rất Xa"
+        }
+      }
+    },
+    "pixel": {
+      "page_meta": {
+        "title": "Pixel",
+        "description": "Đoán villager Stardew Valley hôm nay từ chân dung pixel hóa!"
+      },
+      "errors": {
+        "no_daily_brawler": "Không tìm thấy villager hàng ngày",
+        "generic_error": "Lỗi: {message}"
+      },
+      "result": {
+        "success": "Làm tốt lắm!",
+        "failure": "Thử lại"
+      },
+      "scroll_hint": "← Cuộn ngang để xem thêm →",
+      "yesterday": "Villager hôm qua là <n>{brawlerName}</n>",
+      "share": {
+        "text": "Tôi đã tìm ra villager #{id} của #Stardewdle trong chế độ pixel sau {tries} lần thử ",
+        "to_copy": "Tôi đã tìm ra villager #{id} của #Stardewdle từ pixel sau {tries} lần thử\n"
+      },
+      "victory": {
+        "stats_button": "Thống kê"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Đoán villager từ chân dung pixel hóa"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Thống kê",
+            "alt": "Biểu tượng thống kê"
+          },
+          "streak": {
+            "tooltip": "Chuỗi hiện tại (Chuỗi chiến thắng liên tiếp)",
+            "alt": {
+              "active": "Biểu tượng chuỗi đang hoạt động",
+              "inactive": "Biểu tượng chuỗi không hoạt động"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Ghi chú cập nhật",
+            "alt": "Biểu tượng ghi chú cập nhật"
+          },
+          "howToPlay": {
+            "tooltip": "Cách chơi",
+            "alt": "Biểu tượng cách chơi"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Nhập tên villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Thống kê",
+          "metrics": {
+            "games_won": {
+              "label": "Số ván thắng:",
+              "aria_label": "Số ván thắng"
+            },
+            "average_tries": {
+              "label": "Số lần thử trung bình:",
+              "aria_label": "Số lần thử trung bình mỗi ván"
+            },
+            "one_shots": {
+              "label": "Đoán trúng lần đầu:",
+              "aria_label": "Số ván thắng ngay lần thử đầu tiên"
+            },
+            "current_streak": {
+              "label": "Chuỗi hiện tại:",
+              "aria_label": "Chuỗi chiến thắng hiện tại"
+            },
+            "best_streak": {
+              "label": "Chuỗi tốt nhất:",
+              "aria_label": "Chuỗi chiến thắng tốt nhất"
+            }
+          },
+          "graph": {
+            "title": "Số lần thử mỗi ván",
+            "label": "Lần thử",
+            "fallback": "Trình duyệt của bạn không hỗ trợ phần tử canvas."
+          }
+        },
+        "patchNotes": {
+          "title": "Ghi chú cập nhật",
+          "states": {
+            "loading": {
+              "message": "Đang tải ghi chú cập nhật..."
+            },
+            "empty": {
+              "message": "Chưa có gì ở đây"
+            },
+            "error": {
+              "title": "Tải ghi chú cập nhật thất bại",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_pixel": {
+          "title": "Cách Chơi Stardewdle: Chế Độ Pixel - Thử Thách Tiết Lộ Chân Dung Tiến Triển",
+          "introduction_title": "Xác Định Nhân Vật Stardew Valley từ Chân Dung Pixel Hóa",
+          "introduction_description": "Chế Độ Pixel mang đến một thử thách trực quan độc đáo, nơi bạn phải xác định các nhân vật Stardew Valley từ chân dung pixel hóa nặng nề, dần trở nên rõ ràng hơn sau mỗi lần đoán. Trò chơi đoán hàng ngày sáng tạo này kiểm tra khả năng nhận diện villager từ thông tin trực quan hạn chế của bạn, hoàn hảo cho cả người chơi bình thường và người hâm mộ tận tâm.",
+          "gameplay_title": "Cơ Chế Lối Chơi của Chế Độ Pixel",
+          "gameplay_description": "Trong thử thách đoán nhân vật Stardew Valley này, bạn sẽ được trình bày một chân dung pixel hóa nặng của một villager. Nhiệm vụ của bạn là xác định nhân vật càng nhanh càng tốt. Sau mỗi lần đoán sai, hình ảnh sẽ dần ít pixel hơn, tiết lộ thêm chi tiết để giúp bạn xác định đúng villager.",
+          "pixelation_system_title": "Hệ Thống Giảm Pixel Tiến Triển",
+          "pixelation_system_description": "Chế Độ Pixel có hệ thống độ rõ động:",
+          "pixelation_phase_1": "• <strong>Giai Đoạn Đầu</strong>: Chân dung bắt đầu với mức pixel hóa nặng, khiến việc xác định cực kỳ khó khăn. Chỉ những đặc điểm và mẫu màu nổi bật nhất mới hiển thị.",
+          "pixelation_phase_2": "• <strong>Tiết Lộ Tiến Triển</strong>: Sau mỗi lần đoán, mức độ pixel hóa giảm xuống, dần dần tiết lộ thêm chi tiết của chân dung villager. Sau khoảng 12 lần đoán, hình ảnh trở nên hoàn toàn rõ ràng.",
+          "pixelation_phase_3": "• <strong>Tiết Lộ Chiến Thắng</strong>: Khi bạn xác định đúng villager, chân dung ngay lập tức trở nên rõ ràng như pha lê, tiết lộ nhân vật với đầy đủ chi tiết.",
+          "strategy_title": "Chiến Lược Chiến Thắng cho Chế Độ Pixel",
+          "strategy_tip_1": "• Tập trung vào màu sắc chủ đạo và các mẫu màu trong hình ảnh pixel hóa—nhiều villager có bảng màu đặc trưng.",
+          "strategy_tip_2": "• Tìm kiếm các hình dạng và bóng dáng đặc biệt, ngay cả khi pixel hóa nặng—một số villager có hình dáng đầu hoặc phụ kiện độc đáo.",
+          "strategy_tip_3": "• Chú ý đến màu nền, phản ánh độ hiếm của villager và có thể giúp thu hẹp khả năng.",
+          "strategy_tip_4": "• Sử dụng phương pháp loại trừ—nếu bạn đã đoán một số villager, hãy tập trung vào những villager bạn chưa thử.",
+          "strategy_tip_5": "• Cân nhắc bố cục tổng thể—một số villager có tư thế hoặc vị trí đặc biệt trong chân dung của họ.",
+          "strategy_tip_6": "• Khi hình ảnh trở nên rõ ràng hơn, hãy tìm kiếm các phụ kiện độc đáo, đặc điểm khuôn mặt hoặc yếu tố trang phục giúp phân biệt nhân vật cụ thể.",
+          "daily_challenge_title": "Thử Thách Pixel Stardew Valley Hàng Ngày",
+          "daily_challenge_description": "Mỗi ngày mang đến một thử thách Chế Độ Pixel mới với một nhân vật Stardew Valley khác để xác định! Trò chơi đoán hàng ngày này mài giũa kỹ năng nhận diện trực quan của bạn và kiểm tra sự quen thuộc của bạn với thiết kế nhân vật trong vũ trụ Stardew Valley. Hãy thử thách bản thân để xác định villager với số lần đoán ít nhất và chia sẻ kết quả với bạn bè!"
+        }
+      }
+    },
+    "emoji": {
+      "page_meta": {
+        "title": "Emoji",
+        "description": "Đoán villager Stardew Valley hôm nay từ các manh mối emoji!"
+      },
+      "errors": {
+        "no_daily_brawler": "Không tìm thấy villager hàng ngày",
+        "generic_error": "Lỗi: {message}"
+      },
+      "yesterday": "Villager hôm qua là <name>{brawlerName}</name>",
+      "share": {
+        "text": "Tôi đã tìm ra villager #{id} của #Stardewdle trong chế độ emoji sau {tries} lần thử ",
+        "to_copy": "Tôi đã tìm ra villager #{id} của #Stardewdle từ emoji sau {tries} lần thử\n"
+      },
+      "victory": {
+        "stats_button": "Thống kê"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Những emoji này đại diện cho villager nào?",
+          "next_emoji_hint": "Emoji tiếp theo được tiết lộ sau lần đoán {tries}"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Thống kê",
+            "alt": "Biểu tượng thống kê"
+          },
+          "streak": {
+            "tooltip": "Chuỗi hiện tại (Chuỗi chiến thắng liên tiếp)",
+            "alt": {
+              "active": "Biểu tượng chuỗi đang hoạt động",
+              "inactive": "Biểu tượng chuỗi không hoạt động"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Ghi chú cập nhật",
+            "alt": "Biểu tượng ghi chú cập nhật"
+          },
+          "howToPlay": {
+            "tooltip": "Cách chơi",
+            "alt": "Biểu tượng cách chơi"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Nhập tên villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Thống kê",
+          "metrics": {
+            "games_won": {
+              "label": "Số ván thắng:",
+              "aria_label": "Số ván thắng"
+            },
+            "average_tries": {
+              "label": "Số lần thử trung bình:",
+              "aria_label": "Số lần thử trung bình mỗi ván"
+            },
+            "one_shots": {
+              "label": "Đoán trúng lần đầu:",
+              "aria_label": "Số ván thắng ngay lần thử đầu tiên"
+            },
+            "current_streak": {
+              "label": "Chuỗi hiện tại:",
+              "aria_label": "Chuỗi chiến thắng hiện tại"
+            },
+            "best_streak": {
+              "label": "Chuỗi tốt nhất:",
+              "aria_label": "Chuỗi chiến thắng tốt nhất"
+            }
+          },
+          "graph": {
+            "title": "Số lần thử mỗi ván",
+            "label": "Lần thử",
+            "fallback": "Trình duyệt của bạn không hỗ trợ phần tử canvas."
+          }
+        },
+        "how_to_play": {
+          "title": "Cách Chơi Stardewdle: Chế Độ Emoji",
+          "introduction_title": "Xác Định Villager từ Manh Mối Emoji",
+          "introduction_description": "Trong Chế Độ Emoji, bạn sẽ thấy các emoji đại diện cho một villager và phải đoán xem đó là villager nào. Một emoji mới được tiết lộ sau mỗi lần đoán sai.",
+          "how_to_play_title": "Cách Chơi",
+          "step_1": "Quan sát kỹ (các) emoji được hiển thị.",
+          "step_2": "Suy nghĩ xem các emoji này đại diện cho villager nào.",
+          "step_3": "Nhập hoặc chọn lựa chọn của bạn từ danh sách.",
+          "step_4": "Quay lại vào ngày mai để có một thử thách emoji mới!"
+        }
+      }
+    }
+  },
+  "common": {
+    "header": {
+      "button": {
+        "stats": {
+          "tooltip": "Thống kê"
+        },
+        "streak": {
+          "tooltip": "Chuỗi hiện tại (Chiến thắng liên tiếp)"
+        },
+        "changelog": {
+          "tooltip": "Nhật ký thay đổi"
+        }
+      }
+    },
+    "soon": "sắp có"
+  },
+  "components": {
+    "explanationBox": {
+      "errors": {
+        "no_content": "Không có nội dung được cung cấp"
+      }
+    },
+    "answerInput": {
+      "states": {
+        "loading": "Đang tải...",
+        "no_result": "Không có kết quả"
+      },
+      "button": {
+        "submit": {
+          "title": "Gửi"
+        }
+      }
+    },
+    "victoryContainer": {
+      "title": "Ván chơi của bạn",
+      "congratulations": "GG !!",
+      "guess": {
+        "prefix": "Bạn đã đoán",
+        "character": "{name}"
+      },
+      "tries": {
+        "count": "Số lần thử:",
+        "value": "{count}"
+      },
+      "next": {
+        "timer": "Villager tiếp theo trong",
+        "mode": "Chế độ tiếp theo:"
+      },
+      "image": {
+        "alt": "Hình ảnh chiến thắng"
+      },
+      "you_found": "Bạn đã tìm thấy",
+      "number_of_tries": "Số lần thử: {count}"
+    },
+    "shareContainer": {
+      "title": "Chia sẻ kết quả của bạn",
+      "buttons": {
+        "copy": {
+          "title": "Sao chép",
+          "aria_label": "Sao chép kết quả vào bộ nhớ tạm"
+        },
+        "tweet": {
+          "title": "Tweet",
+          "aria_label": "Chia sẻ trên X (Twitter)"
+        }
+      },
+      "and_more": "và {count} khác..."
+    }
+  }
+}

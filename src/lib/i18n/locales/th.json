@@ -1,0 +1,566 @@
+{
+  "lang": {
+    "name": "ไทย"
+  },
+  "layout": {
+    "page_meta": {
+      "base_title": "ทายองค์ประกอบของ Stardew Valley",
+      "base_description": "Stardewdle - เกมทาย Stardew Valley รายวัน! รับมือกับความท้าทายใหม่ทุกวันและทดสอบความรู้ Battle Royale ของคุณ",
+      "site_name": "Stardewdle"
+    },
+    "header": {
+      "home_link": "กลับไปที่หน้าแรกของ Stardewdle",
+      "logo_alt": "โลโก้ Stardewdle"
+    },
+    "footer": {
+      "accessibility": {
+        "discord": "เข้าร่วมชุมชน Discord ของเรา",
+        "information": "ข้อมูล",
+        "kofi": "สนับสนุนเราได้ที่ Ko-fi",
+        "x": "ติดตามเราที่ X (Twitter)",
+        "reddit": "เข้าร่วมชุมชน Reddit ของเรา"
+      },
+      "want_more": {
+        "title": "ต้องการมากกว่านี้?",
+        "description": "ค้นพบศูนย์รวมที่ใหญ่ที่สุดสำหรับเกม dle ทั้งหมด"
+      },
+      "copyright": "Stardewdle - {year}",
+      "cookie_preferences": "อัปเดตการตั้งค่าคุกกี้"
+    },
+    "modals": {
+      "about": {
+        "title": "เกี่ยวกับ",
+        "discover": "ยินดีต้อนรับสู่ Stardewdle เกมทาย Stardew Valley รายวันชั้นนำ! ทดสอบความรู้ของคุณเกี่ยวกับจักรวาล Stardew Valley ผ่านโหมดเกมที่น่าตื่นเต้น 6 โหมด ได้แก่ Classic, Emoji, Quote, Ability, Signature และ Rank ค้นพบ Villager ใหม่ทุกวันและท้าทายตัวเองด้วยประสบการณ์เกม -dle อันเป็นเอกลักษณ์ที่ได้รับแรงบันดาลใจโดยตรงจากเกมยิงแข่งขันยอดนิยม Stardew Valley",
+        "disclaimer": "Stardewdle เป็นโครงการของแฟนๆ ที่สร้างขึ้นด้วยความหลงใหลโดยใช้ทรัพยากรที่เป็นของ Supercell Supercell ไม่ได้รับรองหรือสนับสนุนโครงการนี้ Stardew Valley และตัวละครที่เกี่ยวข้องทั้งหมดเป็นเครื่องหมายการค้าจดทะเบียนของ Supercell",
+        "dle_games": {
+          "title": "ร่วมเทรนด์เกม -dle ยอดนิยมกับ Stardewdle",
+          "description": "Stardewdle นำเสนอรูปแบบการทายรายวันที่น่าติดตามให้กับจักรวาล Stardew Valley เช่นเดียวกับ Wordle, Heardle และเกม -dle ยอดนิยมอื่นๆ Stardewdle เสนอปริศนาใหม่ทุกวันที่ทดสอบความรู้ของคุณในรูปแบบที่สนุกและน่าสนใจ โหมดเกมที่หลากหลายของเราทำให้ Stardewdle เป็นเกมทาย Stardew Valley ที่ครอบคลุมที่สุดที่มีอยู่"
+        },
+        "commitment": {
+          "title": "ความมุ่งมั่นของเราต่อชุมชน Stardew Valley",
+          "description": "Stardewdle ไม่ใช่แค่เกมเท่านั้น แต่เป็นความท้าทายรายวันที่สร้างขึ้นโดยแฟนๆ เพื่อแฟนๆ ที่จะพาคุณดื่มด่ำกับจักรวาลที่น่าตื่นเต้นของ Stardew Valley เราค้นคว้าตัวละครแต่ละตัวอย่างพิถีพิถันเพื่อให้แน่ใจถึงความถูกต้องของความท้าทายรายวันในทุกโหมดเกม เมื่อรายชื่อ Stardew Valley ขยายตัว ฐานข้อมูลของเราก็ขยายตัวตามไปด้วย เพื่อให้แน่ใจว่าคุณจะได้รับเนื้อหาใหม่ๆ ให้เพลิดเพลินอยู่เสมอในประสบการณ์เกมทาย Stardew Valley ขั้นสุดยอดนี้"
+        },
+        "game_modes": {
+          "title": "หกโหมดเกมที่น่าตื่นเต้นในความท้าทาย Stardew Valley รายวันของเรา",
+          "description": "Stardewdle นำเสนอความหลากหลายที่ไม่มีใครเทียบได้ด้วยโหมดเกมที่แตกต่างกันหลายโหมด: โหมด Classic ทดสอบความรู้ของคุณเกี่ยวกับคุณสมบัติของตัวละคร, โหมด Emoji ท้าทายให้คุณระบุ Villager จากอีโมจิห้าตัวโดยเปิดเผยทีละตัวต่อการทาย, โหมด Quote นำเสนอบทสนทนาตัวละครในเกมให้คุณจับคู่กับ Villager ที่ถูกต้อง, โหมด Ability แสดงภาพความสามารถของตัวละครเพื่อระบุตัวตน และโหมด Signature แสดงลายเซ็นของ Villager ให้คุณจดจำ ในแต่ละวันมีความท้าทาย Stardew Valley ใหม่ๆ ในทุกโหมด!"
+        },
+        "inspiration": {
+          "title": "ได้แรงบันดาลใจจาก Stardew Valley และรูปแบบเกม -dle ยอดนิยม",
+          "description": "Stardewdle ผสมผสานรูปแบบปริศนารายวันที่น่าติดตามซึ่งได้รับความนิยมจาก Wordle เข้ากับจักรวาลตัวละครอันทรงคุณค่าของ Stardew Valley เกมทายของเรานำเสนอวิธีที่สมบูรณ์แบบในการทดสอบความรู้ Stardew Valley ของคุณและพิสูจน์ว่าคุณเป็นแฟนตัวจริงของเกมต่อสู้บนมือถือยอดนิยมนี้ ร่วมเป็นหนึ่งในผู้คลั่งไคล้ Stardew Valley หลายพันคนที่ท้าทายตัวเองทุกวันด้วยปริศนาทายอันเป็นเอกลักษณ์ของเรา"
+        },
+        "credit": {
+          "title": "แรงบันดาลใจดั้งเดิม",
+          "description": "ได้รับแรงบันดาลใจดั้งเดิมจาก <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a>'s Stardewdle.io เกมทาย Stardew Valley รายวันต้นฉบับ"
+        },
+        "privacy": {
+          "title": "ความเป็นส่วนตัวและการใช้ข้อมูล",
+          "description": "เราเคารพความเป็นส่วนตัวของคุณ Stardewdle ใช้คุกกี้เพื่อรวบรวมสถิติและปรับแต่งประสบการณ์เกมทายรายวันของคุณ หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับนโยบายความเป็นส่วนตัวของเรา โปรดเยี่ยมชม <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">ส่วนเฉพาะของเรา</a>"
+        },
+        "thanks": "ขอบคุณที่เป็นส่วนหนึ่งของชุมชน Stardewdle! ตัวละครและความท้าทาย Stardew Valley ใหม่ๆ รอคุณอยู่ทุกวัน!",
+        "signature": {
+          "regards": "ด้วยความจริงใจ,",
+          "team": "ทีม Stardewdle - แฟนพันธุ์แท้ผู้หลงใหลใน Stardew Valley"
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "ทดสอบความรู้ Stardew Valley ของคุณ",
+      "button": {
+        "classic": {
+          "title": "คลาสสิก",
+          "description": "รับเบาะแสในทุกความพยายาม"
+        },
+        "pixel": {
+          "title": "Pixel",
+          "description": "ทายจากพิกเซลของภาพ"
+        },
+        "emoji": {
+          "title": "Emoji",
+          "description": "ทายจากเบาะแสอีโมจิ"
+        }
+      },
+      "reset_in": "รีเซ็ตใน: {time}",
+      "royaledle_banner": {
+        "title": "เล่น Royaledle",
+        "subtitle": "ทายตัวละคร Clash Royale ประจำวัน",
+        "cta": "เล่น",
+        "new": "ใหม่"
+      }
+    },
+    "classic": {
+      "page_meta": {
+        "title": "คลาสสิก",
+        "description": "ทาย villager ของ Stardew Valley วันนี้!"
+      },
+      "errors": {
+        "no_daily_brawler": "ไม่พบ villager ประจำวัน",
+        "generic_error": "ข้อผิดพลาด: {message}"
+      },
+      "result": {
+        "success": "ทำได้ดีมาก!",
+        "failure": "ลองอีกครั้ง"
+      },
+      "scroll_hint": "← เลื่อนแนวนอนเพื่อดูเพิ่มเติม →",
+      "yesterday": "Villager เมื่อวานคือ <name>{brawlerName}</name>",
+      "share": {
+        "text": "ฉันหา villager #{id} ของ #Stardewdle เจอในโหมด classic ภายใน {tries} ครั้ง ",
+        "to_copy": "ฉันหา villager #{id} ของ #Stardewdle เจอในโหมด classic ภายใน {tries} ครั้ง\n"
+      },
+      "victory": {
+        "stats_button": "สถิติ"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "ทาย villager ของ Stardew Valley วันนี้",
+          "bottomHint": "พิมพ์ชื่อ villager ใดก็ได้เพื่อเริ่มต้น",
+          "hints": {
+            "gadget": {
+              "unavailable": "เบาะแส Gadget ภายใน {tries} ครั้ง",
+              "available": "เบาะแส Gadget"
+            },
+            "hypercharge": {
+              "unavailable": "เบาะแส Hypercharge ภายใน {tries} ครั้ง",
+              "available": "เบาะแส Hypercharge"
+            },
+            "silhouette": {
+              "unavailable": "เบาะแสเงา ภายใน {tries} ครั้ง",
+              "available": "เบาะแสเงา"
+            }
+          }
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "สถิติ",
+            "alt": "ไอคอนสถิติ"
+          },
+          "streak": {
+            "tooltip": "สตรีคปัจจุบัน (ชนะติดต่อกัน)",
+            "alt": {
+              "active": "ไอคอนสตรีคที่ใช้งานอยู่",
+              "inactive": "ไอคอนสตรีคที่ไม่ใช้งาน"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "บันทึกการอัปเดต",
+            "alt": "ไอคอนบันทึกการอัปเดต"
+          },
+          "howToPlay": {
+            "tooltip": "วิธีเล่น",
+            "alt": "ไอคอนวิธีเล่น"
+          }
+        },
+        "answerInput": {
+          "placeholder": "พิมพ์ชื่อ villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "สถิติ",
+          "metrics": {
+            "games_won": {
+              "label": "เกมที่ชนะ:",
+              "aria_label": "จำนวนเกมที่ชนะ"
+            },
+            "average_tries": {
+              "label": "ความพยายามเฉลี่ย:",
+              "aria_label": "จำนวนความพยายามเฉลี่ยต่อเกม"
+            },
+            "one_shots": {
+              "label": "ทายถูกครั้งเดียว:",
+              "aria_label": "จำนวนเกมที่ชนะในการทายครั้งเดียว"
+            },
+            "current_streak": {
+              "label": "สตรีคปัจจุบัน:",
+              "aria_label": "สตรีคชนะปัจจุบัน"
+            },
+            "best_streak": {
+              "label": "สตรีคที่ดีที่สุด:",
+              "aria_label": "สตรีคชนะที่ดีที่สุด"
+            }
+          },
+          "graph": {
+            "title": "จำนวนความพยายามต่อเกม",
+            "label": "ความพยายาม",
+            "fallback": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบ canvas"
+          }
+        },
+        "patchNotes": {
+          "title": "บันทึกการอัปเดต",
+          "states": {
+            "loading": {
+              "message": "กำลังโหลดบันทึกการอัปเดต..."
+            },
+            "empty": {
+              "message": "ยังไม่มีอะไรที่นี่"
+            },
+            "error": {
+              "title": "โหลดบันทึกการอัปเดตล้มเหลว",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "วิธีเล่น Stardewdle: โหมดคลาสสิก - ความท้าทาย Stardew Valley รายวัน",
+          "introduction_title": "ทำความเข้าใจโหมดคลาสสิกของ Stardewdle",
+          "introduction_description": "ในโหมดคลาสสิก คุณจะทดสอบความรู้ของคุณเกี่ยวกับ Villager ของ Stardew Valley ผ่านเกมทายเชิงกลยุทธ์ เป้าหมายของคุณคือการระบุ Villager ลับโดยการวิเคราะห์คุณสมบัติหลักหกประการ ในการทายแต่ละครั้ง คุณจะได้รับฟีดแบ็คที่เข้ารหัสด้วยสีและลูกศรบอกทิศทางเพื่อนำคุณไปสู่คำตอบที่ถูกต้องในความท้าทายรายวันนี้",
+          "attributes_title": "คุณสมบัติของ Villager",
+          "attributes_description": "โหมดคลาสสิกของ Stardewdle มีคุณสมบัติหลักหกประการต่อไปนี้สำหรับ Villager แต่ละตัว:",
+          "attribute_item_1": "• <strong>ความหายาก</strong>: ระดับความหายากของ Villager (Common, Rare, Super Rare, Epic, Mythic, Legendary, Ultra Legendary)",
+          "attribute_item_2": "• <strong>คลาส</strong>: บทบาทของ Villager ในการต่อสู้ (เช่น Tank, Damage Dealer, Support, Assassin)",
+          "attribute_item_3": "• <strong>การเคลื่อนที่</strong>: ความเร็วในการเคลื่อนที่ของ Villager (ช้ามาก, ช้า, ปกติ, เร็ว, เร็วมาก)",
+          "attribute_item_4": "• <strong>ระยะ</strong>: ระยะโจมตีของ Villager (สั้นมาก, สั้น, ปกติ, ยาว, ยาวมาก)",
+          "attribute_item_5": "• <strong>การรีโหลด</strong>: ความเร็วการรีโหลดของ Villager (ช้ามาก, ช้า, ปกติ, เร็ว, เร็วมาก)",
+          "attribute_item_6": "• <strong>ปี</strong>: ปีที่ Villager เปิดตัวใน Stardew Valley",
+          "feedback_title": "ทำความเข้าใจฟีดแบ็คสี",
+          "feedback_description": "หลังจากการทายแต่ละครั้ง คุณจะได้รับฟีดแบ็คที่เข้ารหัสด้วยสีพร้อมแอนิเมชั่นพลิกสำหรับแต่ละคุณสมบัติ:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">เขียว</span>: ถูกต้อง! Villager ลับมีค่าคุณสมบัตินี้พอดี",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">แดง</span>: ไม่ถูกต้อง Villager ลับไม่มีค่าคุณสมบัตินี้",
+          "feedback_arrows": "สำหรับคุณสมบัติ <strong>การเคลื่อนที่</strong>, <strong>ระยะ</strong>, <strong>การรีโหลด</strong> และ <strong>ปี</strong> คุณจะเห็นลูกศรบอกทิศทาง:",
+          "feedback_arrow_up": "• <strong>ลูกศรขึ้น (↑)</strong>: ค่าของ Villager ลับสูงกว่าการทายของคุณ",
+          "feedback_arrow_down": "• <strong>ลูกศรลง (↓)</strong>: ค่าของ Villager ลับต่ำกว่าการทายของคุณ",
+          "how_to_play_title": "การเล่นโหมดคลาสสิกของ Stardewdle",
+          "step_1": "เริ่มต้นด้วยการทาย Villager ใดๆ จากรายการค้นหา",
+          "step_2": "สังเกตการพลิกของแต่ละช่องคุณสมบัติตามลำดับ ซึ่งจะเปิดเผยฟีดแบ็คที่เข้ารหัสด้วยสี",
+          "step_3": "วิเคราะห์ช่องสีเขียวและสีแดงเพื่อระบุคุณสมบัติที่ตรงและไม่ตรงกัน",
+          "step_4": "ใช้ลูกศรบอกทิศทางบนการเคลื่อนที่ ระยะ การรีโหลด และปีเพื่อจำกัดความเป็นไปได้",
+          "step_5": "ทายครั้งต่อไปตามฟีดแบ็คที่ได้รับรวมกัน",
+          "step_6": "ทำต่อไปจนกว่าคุณจะระบุ Villager ลับได้อย่างถูกต้อง!",
+          "step_7": "กลับมาทุกวันเพื่อทาย Villager ใหม่ในโหมดคลาสสิก",
+          "strategy_title": "เคล็ดลับกลยุทธ์การชนะ",
+          "strategy_tip_1": "• เริ่มต้นด้วย Villager ที่คุณรู้จักดีเพื่อสร้างพื้นฐานของรูปแบบคุณสมบัติ",
+          "strategy_tip_2": "• ให้ความสนใจกับแอนิเมชั่นพลิกตามลำดับ – แต่ละช่องเปิดเผยข้อมูลตามลำดับ",
+          "strategy_tip_3": "• ใช้ลูกศรอย่างมีกลยุทธ์: ช่วยให้คุณกำจัดกลุ่ม Villager ทั้งกลุ่มได้อย่างรวดเร็ว",
+          "strategy_tip_4": "• สำหรับคุณสมบัติแบบลำดับ (การเคลื่อนที่ ระยะ การรีโหลด) จดจำสเกลห้าระดับ",
+          "strategy_tip_5": "• อ้างอิงคุณสมบัติหลายอย่าง – Villager ต้องตรงกับฟีดแบ็คสีเขียวทั้งหมด",
+          "strategy_tip_6": "• จำไว้ว่าความหายากและคลาสต้องตรงกันพอดี (ไม่มีลูกศร แค่เขียวหรือแดง)",
+          "daily_challenge_title": "ความท้าทาย Stardew Valley รายวัน",
+          "daily_challenge_description": "กลับมาที่ Stardewdle ทุกวันเพื่อระบุ Villager ลับตัวใหม่! ความพยายามก่อนหน้าของคุณจะแสดงตามลำดับเวลาย้อนหลัง โดยการทายแต่ละครั้งจะมีแอนิเมชั่นเมื่อถูกเพิ่ม ติดตามสตรีคของคุณและเปรียบเทียบทักษะกับเพื่อนๆ ในการทดสอบความรู้ Stardew Valley สูงสุด"
+        }
+      },
+      "attributes": {
+        "headers": {
+          "brawler": "Villager",
+          "rarity": "ความหายาก",
+          "class": "คลาส",
+          "movement": "การเคลื่อนไหว",
+          "range": "ระยะ",
+          "reload": "โหลดซ้ำ",
+          "year": "ปี"
+        },
+        "rarity": {
+          "common": "ธรรมดา",
+          "rare": "หายาก",
+          "super_rare": "หายากสุด",
+          "epic": "เอปิก",
+          "mythic": "มิธิก",
+          "legendary": "เลเจนดารี",
+          "ultra_legendary": "อุลตร้าเลเจนดารี"
+        },
+        "class": {
+          "artillery": "ปืนใหญ่",
+          "assassin": "นักฆ่า",
+          "controller": "คอนโทรลเลอร์",
+          "damage_dealer": "สร้างความเสียหาย",
+          "marksman": "นักแม่น",
+          "support": "สนับสนุน",
+          "tank": "แท็งก์"
+        },
+        "speed": {
+          "very_slow": "ช้ามาก",
+          "slow": "ช้า",
+          "normal": "ปกติ",
+          "fast": "เร็ว",
+          "very_fast": "เร็วมาก"
+        },
+        "range": {
+          "very_short": "สั้นมาก",
+          "short": "สั้น",
+          "normal": "ปกติ",
+          "long": "ยาว",
+          "very_long": "ยาวมาก"
+        }
+      }
+    },
+    "pixel": {
+      "page_meta": {
+        "title": "Pixel",
+        "description": "ทาย villager ของ Stardew Valley วันนี้จากภาพพิกเซล!"
+      },
+      "errors": {
+        "no_daily_brawler": "ไม่พบ villager ประจำวัน",
+        "generic_error": "ข้อผิดพลาด: {message}"
+      },
+      "result": {
+        "success": "ทำได้ดีมาก!",
+        "failure": "ลองอีกครั้ง"
+      },
+      "scroll_hint": "← เลื่อนแนวนอนเพื่อดูเพิ่มเติม →",
+      "yesterday": "Villager เมื่อวานคือ <n>{brawlerName}</n>",
+      "share": {
+        "text": "ฉันหา villager #{id} ของ #Stardewdle เจอในโหมด pixel ภายใน {tries} ครั้ง ",
+        "to_copy": "ฉันหา villager #{id} ของ #Stardewdle เจอจากพิกเซลภายใน {tries} ครั้ง\n"
+      },
+      "victory": {
+        "stats_button": "สถิติ"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "ทาย villager จากภาพพิกเซล"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "สถิติ",
+            "alt": "ไอคอนสถิติ"
+          },
+          "streak": {
+            "tooltip": "สตรีคปัจจุบัน (ชนะติดต่อกัน)",
+            "alt": {
+              "active": "ไอคอนสตรีคที่ใช้งานอยู่",
+              "inactive": "ไอคอนสตรีคที่ไม่ใช้งาน"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "บันทึกการอัปเดต",
+            "alt": "ไอคอนบันทึกการอัปเดต"
+          },
+          "howToPlay": {
+            "tooltip": "วิธีเล่น",
+            "alt": "ไอคอนวิธีเล่น"
+          }
+        },
+        "answerInput": {
+          "placeholder": "พิมพ์ชื่อ villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "สถิติ",
+          "metrics": {
+            "games_won": {
+              "label": "เกมที่ชนะ:",
+              "aria_label": "จำนวนเกมที่ชนะ"
+            },
+            "average_tries": {
+              "label": "ความพยายามเฉลี่ย:",
+              "aria_label": "จำนวนความพยายามเฉลี่ยต่อเกม"
+            },
+            "one_shots": {
+              "label": "ทายถูกครั้งเดียว:",
+              "aria_label": "จำนวนเกมที่ชนะในการทายครั้งเดียว"
+            },
+            "current_streak": {
+              "label": "สตรีคปัจจุบัน:",
+              "aria_label": "สตรีคชนะปัจจุบัน"
+            },
+            "best_streak": {
+              "label": "สตรีคที่ดีที่สุด:",
+              "aria_label": "สตรีคชนะที่ดีที่สุด"
+            }
+          },
+          "graph": {
+            "title": "จำนวนความพยายามต่อเกม",
+            "label": "ความพยายาม",
+            "fallback": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบ canvas"
+          }
+        },
+        "patchNotes": {
+          "title": "บันทึกการอัปเดต",
+          "states": {
+            "loading": {
+              "message": "กำลังโหลดบันทึกการอัปเดต..."
+            },
+            "empty": {
+              "message": "ยังไม่มีอะไรที่นี่"
+            },
+            "error": {
+              "title": "โหลดบันทึกการอัปเดตล้มเหลว",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_pixel": {
+          "title": "วิธีเล่น Stardewdle: โหมด Pixel - ความท้าทายการเปิดเผยภาพแบบก้าวหน้า",
+          "introduction_title": "ระบุตัวละคร Stardew Valley จากภาพพิกเซล",
+          "introduction_description": "โหมด Pixel นำเสนอความท้าทายทางภาพอันเป็นเอกลักษณ์ที่คุณต้องระบุตัวละคร Stardew Valley จากภาพที่ถูกพิกเซลอย่างหนักซึ่งจะค่อยๆ ชัดเจนขึ้นในการทายแต่ละครั้ง เกมทายรายวันที่สร้างสรรค์นี้ทดสอบความสามารถของคุณในการจดจำ villager จากข้อมูลภาพที่จำกัด เหมาะสำหรับทั้งผู้เล่นทั่วไปและแฟนๆ ที่ทุ่มเท",
+          "gameplay_title": "กลไกการเล่นโหมด Pixel",
+          "gameplay_description": "ในความท้าทายการทายตัวละคร Stardew Valley นี้ คุณจะได้รับภาพพิกเซลหนักๆ ของ villager ภารกิจของคุณคือการระบุตัวละครให้เร็วที่สุด ในการทายผิดแต่ละครั้ง ภาพจะค่อยๆ พิกเซลน้อยลง เปิดเผยรายละเอียดเพิ่มเติมเพื่อช่วยให้คุณระบุ villager ที่ถูกต้อง",
+          "pixelation_system_title": "ระบบลดพิกเซลแบบก้าวหน้า",
+          "pixelation_system_description": "โหมด Pixel มีระบบความชัดเจนแบบไดนามิก:",
+          "pixelation_phase_1": "• <strong>ระยะเริ่มต้น</strong>: ภาพเริ่มต้นด้วยการพิกเซลอย่างหนัก ทำให้การระบุตัวตนยากมาก เฉพาะคุณสมบัติและรูปแบบสีที่โดดเด่นที่สุดเท่านั้นที่มองเห็นได้",
+          "pixelation_phase_2": "• <strong>การเปิดเผยแบบก้าวหน้า</strong>: ในการทายแต่ละครั้ง ระดับการพิกเซลจะลดลง ค่อยๆ เปิดเผยรายละเอียดเพิ่มเติมของภาพ villager หลังจากทายประมาณ 12 ครั้ง ภาพจะชัดเจนสมบูรณ์",
+          "pixelation_phase_3": "• <strong>การเปิดเผยชัยชนะ</strong>: เมื่อคุณระบุ villager ได้อย่างถูกต้อง ภาพจะกลายเป็นใสกระจ่างทันที เปิดเผยตัวละครในรายละเอียดเต็ม",
+          "strategy_title": "กลยุทธ์การชนะสำหรับโหมด Pixel",
+          "strategy_tip_1": "• ให้ความสนใจกับสีหลักและรูปแบบสีในภาพพิกเซล—villager หลายตัวมีโทนสีที่เป็นเอกลักษณ์",
+          "strategy_tip_2": "• มองหารูปทรงและเงาที่โดดเด่น แม้จะถูกพิกเซลอย่างหนัก—villager บางตัวมีรูปทรงหัวหรืออุปกรณ์เสริมที่ไม่เหมือนใคร",
+          "strategy_tip_3": "• ให้ความสนใจกับสีพื้นหลัง ซึ่งสะท้อนถึงความหายากของ villager และสามารถช่วยจำกัดความเป็นไปได้",
+          "strategy_tip_4": "• ใช้กระบวนการกำจัด—หากคุณได้ทาย villager บางตัวแล้ว ให้มุ่งเน้นที่ตัวที่คุณยังไม่ได้ลอง",
+          "strategy_tip_5": "• พิจารณาองค์ประกอบโดยรวม—villager บางตัวมีท่าทางหรือตำแหน่งที่โดดเด่นในภาพของพวกเขา",
+          "strategy_tip_6": "• เมื่อภาพชัดเจนขึ้น ให้มองหาอุปกรณ์เสริม คุณสมบัติใบหน้า หรือองค์ประกอบเครื่องแต่งกายที่เป็นเอกลักษณ์ที่แยกตัวละครเฉพาะ",
+          "daily_challenge_title": "ความท้าทาย Pixel ของ Stardew Valley รายวัน",
+          "daily_challenge_description": "ในแต่ละวันมีความท้าทายโหมด Pixel ใหม่พร้อมตัวละคร Stardew Valley ที่แตกต่างกันให้ระบุ! เกมทายรายวันนี้ช่วยลับทักษะการจดจำภาพของคุณและทดสอบความคุ้นเคยกับการออกแบบตัวละครในจักรวาล Stardew Valley ท้าทายตัวเองให้ระบุ villager ด้วยจำนวนการทายที่น้อยที่สุดและแชร์ผลลัพธ์กับเพื่อนๆ!"
+        }
+      }
+    },
+    "emoji": {
+      "page_meta": {
+        "title": "Emoji",
+        "description": "ทาย villager ของ Stardew Valley วันนี้จากเบาะแสอีโมจิ!"
+      },
+      "errors": {
+        "no_daily_brawler": "ไม่พบ villager ประจำวัน",
+        "generic_error": "ข้อผิดพลาด: {message}"
+      },
+      "yesterday": "Villager เมื่อวานคือ <name>{brawlerName}</name>",
+      "share": {
+        "text": "ฉันหา villager #{id} ของ #Stardewdle เจอในโหมด emoji ภายใน {tries} ครั้ง ",
+        "to_copy": "ฉันหา villager #{id} ของ #Stardewdle เจอจากอีโมจิภายใน {tries} ครั้ง\n"
+      },
+      "victory": {
+        "stats_button": "สถิติ"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "อีโมจิเหล่านี้แทน villager ตัวใด?",
+          "next_emoji_hint": "อีโมจิถัดไปจะเปิดเผยหลังจากทายครั้งที่ {tries}"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "สถิติ",
+            "alt": "ไอคอนสถิติ"
+          },
+          "streak": {
+            "tooltip": "สตรีคปัจจุบัน (ชนะติดต่อกัน)",
+            "alt": {
+              "active": "ไอคอนสตรีคที่ใช้งานอยู่",
+              "inactive": "ไอคอนสตรีคที่ไม่ใช้งาน"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "บันทึกการอัปเดต",
+            "alt": "ไอคอนบันทึกการอัปเดต"
+          },
+          "howToPlay": {
+            "tooltip": "วิธีเล่น",
+            "alt": "ไอคอนวิธีเล่น"
+          }
+        },
+        "answerInput": {
+          "placeholder": "พิมพ์ชื่อ villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "สถิติ",
+          "metrics": {
+            "games_won": {
+              "label": "เกมที่ชนะ:",
+              "aria_label": "จำนวนเกมที่ชนะ"
+            },
+            "average_tries": {
+              "label": "ความพยายามเฉลี่ย:",
+              "aria_label": "จำนวนความพยายามเฉลี่ยต่อเกม"
+            },
+            "one_shots": {
+              "label": "ทายถูกครั้งเดียว:",
+              "aria_label": "จำนวนเกมที่ชนะในการทายครั้งเดียว"
+            },
+            "current_streak": {
+              "label": "สตรีคปัจจุบัน:",
+              "aria_label": "สตรีคชนะปัจจุบัน"
+            },
+            "best_streak": {
+              "label": "สตรีคที่ดีที่สุด:",
+              "aria_label": "สตรีคชนะที่ดีที่สุด"
+            }
+          },
+          "graph": {
+            "title": "จำนวนความพยายามต่อเกม",
+            "label": "ความพยายาม",
+            "fallback": "เบราว์เซอร์ของคุณไม่รองรับองค์ประกอบ canvas"
+          }
+        },
+        "how_to_play": {
+          "title": "วิธีเล่น Stardewdle: โหมด Emoji",
+          "introduction_title": "ระบุ Villager จากเบาะแสอีโมจิ",
+          "introduction_description": "ในโหมด Emoji คุณจะเห็นอีโมจิที่แทน villager และต้องทายว่าเป็นตัวใด อีโมจิใหม่จะเปิดเผยในการทายผิดแต่ละครั้ง",
+          "how_to_play_title": "วิธีเล่น",
+          "step_1": "ดูอีโมจิที่แสดงอย่างละเอียด",
+          "step_2": "คิดถึง villager ตัวใดที่อีโมจิเหล่านี้แทน",
+          "step_3": "พิมพ์หรือเลือกการทายของคุณจากรายการ",
+          "step_4": "กลับมาวันพรุ่งนี้เพื่อความท้าทายอีโมจิใหม่!"
+        }
+      }
+    }
+  },
+  "common": {
+    "header": {
+      "button": {
+        "stats": {
+          "tooltip": "สถิติ"
+        },
+        "streak": {
+          "tooltip": "สตรีคปัจจุบัน (ชนะติดต่อกัน)"
+        },
+        "changelog": {
+          "tooltip": "บันทึกการเปลี่ยนแปลง"
+        }
+      }
+    },
+    "soon": "เร็วๆ นี้"
+  },
+  "components": {
+    "explanationBox": {
+      "errors": {
+        "no_content": "ไม่มีเนื้อหาที่ระบุไว้"
+      }
+    },
+    "answerInput": {
+      "states": {
+        "loading": "กำลังโหลด...",
+        "no_result": "ไม่มีผลลัพธ์"
+      },
+      "button": {
+        "submit": {
+          "title": "ส่ง"
+        }
+      }
+    },
+    "victoryContainer": {
+      "title": "เกมของคุณ",
+      "congratulations": "GG !!",
+      "guess": {
+        "prefix": "คุณทาย",
+        "character": "{name}"
+      },
+      "tries": {
+        "count": "จำนวนครั้งที่ทาย:",
+        "value": "{count}"
+      },
+      "next": {
+        "timer": "Villager ถัดไปอีก",
+        "mode": "โหมดถัดไป:"
+      },
+      "image": {
+        "alt": "ภาพชัยชนะ"
+      },
+      "you_found": "คุณพบ",
+      "number_of_tries": "จำนวนครั้งที่พยายาม: {count}"
+    },
+    "shareContainer": {
+      "title": "แชร์ผลลัพธ์ของคุณ",
+      "buttons": {
+        "copy": {
+          "title": "คัดลอก",
+          "aria_label": "คัดลอกผลลัพธ์ไปยังคลิปบอร์ด"
+        },
+        "tweet": {
+          "title": "ทวีต",
+          "aria_label": "แชร์บน X (Twitter)"
+        }
+      },
+      "and_more": "และอีก {count}..."
+    }
+  }
+}

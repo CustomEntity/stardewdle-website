@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 156" role="img" aria-label="Stardewdle">
+  <defs>
+    <linearGradient id="board" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ddab"/><stop offset="1" stop-color="#e6c485"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9743c"/><stop offset="1" stop-color="#7c4a22"/>
+    </linearGradient>
+    <filter id="sh" x="-6%" y="-6%" width="112%" height="118%">
+      <feDropShadow dx="0" dy="4" stdDeviation="0" flood-color="#1c1206" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#sh)">
+    <!-- outer wood frame -->
+    <rect x="18" y="14" width="444" height="118" rx="16" fill="url(#frame)" stroke="#5c3616" stroke-width="4"/>
+    <!-- board -->
+    <rect x="30" y="26" width="420" height="94" rx="9" fill="url(#board)" stroke="#c19a5b" stroke-width="2"/>
+    <!-- plank seams -->
+    <g stroke="#d3b071" stroke-width="2" opacity="0.7">
+      <line x1="34" y1="57" x2="446" y2="57"/><line x1="34" y1="89" x2="446" y2="89"/>
+    </g>
+    <!-- corner rope loops -->
+    <g fill="none" stroke="#caa24a" stroke-width="5">
+      <path d="M30 30 q-14 -14 -2 -26"/><path d="M450 30 q14 -14 2 -26"/>
+      <path d="M30 116 q-14 14 -2 26"/><path d="M450 116 q14 14 2 26"/>
+    </g>
+  </g>
+
+  <!-- wood-carved wordmark -->
+  <text x="240" y="93" text-anchor="middle"
+        font-family="'Arial Black','Helvetica Neue',Arial,sans-serif"
+        font-size="52" font-weight="900" letter-spacing="1"
+        fill="#8a4a1e" stroke="#5a2c0f" stroke-width="4" paint-order="stroke"
+        style="paint-order:stroke">Stardewdle</text>
+  <!-- top highlight on the letters -->
+  <text x="240" y="91" text-anchor="middle"
+        font-family="'Arial Black','Helvetica Neue',Arial,sans-serif"
+        font-size="52" font-weight="900" letter-spacing="1"
+        fill="#b06a2c" opacity="0.55">Stardewdle</text>
+</svg>

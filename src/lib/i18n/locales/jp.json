@@ -1,0 +1,566 @@
+{
+  "lang": {
+    "name": "日本語"
+  },
+  "layout": {
+    "page_meta": {
+      "base_title": "Stardew Valleyの要素を当てよう",
+      "base_description": "Stardewdle - 毎日遊べるStardew Valley推理ゲーム！毎日新しいチャレンジに挑戦して、バトルロイヤルの知識を試そう。",
+      "site_name": "Stardewdle"
+    },
+    "header": {
+      "home_link": "Stardewdleのホームページに戻る",
+      "logo_alt": "Stardewdleのロゴ"
+    },
+    "footer": {
+      "accessibility": {
+        "discord": "Discordコミュニティに参加する",
+        "information": "お知らせ",
+        "kofi": "Ko-fiで応援する",
+        "x": "X (Twitter) でフォローする",
+        "reddit": "Redditコミュニティに参加する"
+      },
+      "want_more": {
+        "title": "もっと遊びたい？",
+        "description": "すべての-dleゲームが集まる最大のハブをチェックしましょう。"
+      },
+      "copyright": "Stardewdle - {year}",
+      "cookie_preferences": "クッキー設定を更新"
+    },
+    "modals": {
+      "about": {
+        "title": "Stardewdleについて",
+        "discover": "Stardewdleへようこそ。毎日遊べる最高のStardew Valley推理ゲームです！クラシック、絵文字、セリフ、アビリティ、サイン、ランクの6つの楽しいゲームモードを通じて、Stardew Valleyの世界に関する知識を試しましょう。毎日新しいブロウラーを発見し、人気の競技型シューティングゲームStardew Valleyから直接インスピレーションを得たユニークな-dle体験に挑戦してください。",
+        "disclaimer": "Stardewdleは、Supercellが所有するアセットを使用してファンが情熱を込めて制作したプロジェクトです。Supercellはこのプロジェクトを公認・後援しているわけではありません。Stardew Valleyおよび関連するすべてのキャラクターはSupercellの登録商標です。",
+        "dle_games": {
+          "title": "Stardewdleで人気の-dleゲームトレンドに参加しよう",
+          "description": "StardewdleはStardew Valleyの世界に、中毒性のある毎日の推理フォーマットをお届けします。Wordle、Heardleなど人気の-dleゲームと同様、Stardewdleは毎日新鮮なパズルを提供し、楽しく魅力的な方法であなたの知識を試します。複数のユニークなゲームモードにより、Stardewdleは現在最も充実したStardew Valley推理ゲームとなっています。"
+        },
+        "commitment": {
+          "title": "Stardew Valleyコミュニティへの私たちの取り組み",
+          "description": "Stardewdleは単なるゲーム以上の存在です。ファンによって、ファンのために作られた毎日のチャレンジで、Stardew Valleyのワクワクする世界へとあなたを誘います。すべてのゲームモードでの毎日のチャレンジの正確性を保つため、各キャラクターを丁寧にリサーチしています。Stardew Valleyのロスターが拡大するにつれて、私たちのデータベースも拡大し、この究極のStardew Valley推理ゲーム体験で常に新鮮なコンテンツを楽しんでいただけるようにしています。"
+        },
+        "game_modes": {
+          "title": "毎日のStardew Valleyチャレンジに登場する6つの楽しいゲームモード",
+          "description": "Stardewdleは、複数の異なるゲームモードで他に類を見ない多彩さを提供します。クラシックモードはキャラクターの属性に関する知識を試し、絵文字モードは推測ごとに1つずつ明らかになる5つの絵文字からブロウラーを特定する挑戦をします。セリフモードでは、ゲーム内のキャラクターのセリフを正しいブロウラーと一致させ、アビリティモードではキャラクターのアビリティ画像を見て当て、サインモードではブロウラーのサインを表示して認識します。すべてのモードで毎日新しいStardew Valleyチャレンジが届きます！"
+        },
+        "inspiration": {
+          "title": "Stardew Valleyと人気の-dleゲームフォーマットからのインスピレーション",
+          "description": "Stardewdleは、Wordleが広めた中毒性のある毎日のパズルフォーマットと、Stardew Valleyの豊かなキャラクター世界を組み合わせています。私たちの推理ゲームは、Stardew Valleyの知識を試し、この人気モバイルバトルゲームの真のファンであることを証明する完璧な方法です。ユニークな推理パズルで毎日挑戦する数千人のStardew Valleyファンに加わりましょう。"
+        },
+        "credit": {
+          "title": "オリジナルのインスピレーション",
+          "description": "<a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a>氏のStardewdle.io、オリジナルのStardew Valley毎日推理ゲームから着想を得ています。"
+        },
+        "privacy": {
+          "title": "プライバシーとデータの利用について",
+          "description": "私たちはあなたのプライバシーを尊重します。Stardewdleは統計情報の収集と毎日の推理ゲーム体験のパーソナライズのためにCookieを使用します。プライバシーポリシーの詳細については、<a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">専用ページ</a>をご覧ください。"
+        },
+        "thanks": "Stardewdleコミュニティの一員になっていただきありがとうございます！新しいStardew Valleyキャラクターとチャレンジが毎日あなたを待っています！",
+        "signature": {
+          "regards": "心より、",
+          "team": "Stardewdleチーム - 情熱あふれるStardew Valleyファン"
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "あなたのStardew Valleyの知識を試そう",
+      "button": {
+        "classic": {
+          "title": "クラシック",
+          "description": "毎回ヒントを獲得"
+        },
+        "pixel": {
+          "title": "ピクセル",
+          "description": "ピクセル化されたポートレートから当てよう"
+        },
+        "emoji": {
+          "title": "絵文字",
+          "description": "絵文字のヒントから当てよう"
+        }
+      },
+      "reset_in": "リセットまで: {time}",
+      "royaledle_banner": {
+        "title": "Royaledleで遊ぶ",
+        "subtitle": "今日のクラロワキャラを当てよう",
+        "cta": "プレイ",
+        "new": "NEW"
+      }
+    },
+    "classic": {
+      "page_meta": {
+        "title": "クラシック",
+        "description": "今日のStardew Valleyブロウラーを当てよう！"
+      },
+      "errors": {
+        "no_daily_brawler": "本日のブロウラーが見つかりません",
+        "generic_error": "エラー: {message}"
+      },
+      "result": {
+        "success": "お見事！",
+        "failure": "もう一度挑戦"
+      },
+      "scroll_hint": "← 横にスクロールしてもっと表示 →",
+      "yesterday": "昨日のブロウラーは <name>{brawlerName}</name> でした",
+      "share": {
+        "text": "#Stardewdle のブロウラー #{id} をクラシックモードで {tries} 回で当てました ",
+        "to_copy": "#Stardewdle のブロウラー #{id} をクラシックモードで {tries} 回で当てました\n"
+      },
+      "victory": {
+        "stats_button": "統計"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "今日のStardew Valleyブロウラーを当てよう",
+          "bottomHint": "好きなブロウラーを入力してスタート。",
+          "hints": {
+            "gadget": {
+              "unavailable": "ガジェットのヒントまであと {tries} 回",
+              "available": "ガジェットのヒント"
+            },
+            "hypercharge": {
+              "unavailable": "ハイパーチャージのヒントまであと {tries} 回",
+              "available": "ハイパーチャージのヒント"
+            },
+            "silhouette": {
+              "unavailable": "シルエットのヒントまであと {tries} 回",
+              "available": "シルエットのヒント"
+            }
+          }
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "統計",
+            "alt": "統計アイコン"
+          },
+          "streak": {
+            "tooltip": "現在の連勝記録（連続勝利数）",
+            "alt": {
+              "active": "連勝中アイコン",
+              "inactive": "連勝中断アイコン"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "アップデート情報",
+            "alt": "アップデート情報アイコン"
+          },
+          "howToPlay": {
+            "tooltip": "遊び方",
+            "alt": "遊び方アイコン"
+          }
+        },
+        "answerInput": {
+          "placeholder": "ブロウラー名を入力.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "統計",
+          "metrics": {
+            "games_won": {
+              "label": "勝利数:",
+              "aria_label": "勝利したゲーム数"
+            },
+            "average_tries": {
+              "label": "平均挑戦回数:",
+              "aria_label": "1ゲームあたりの平均挑戦回数"
+            },
+            "one_shots": {
+              "label": "一発正解:",
+              "aria_label": "1回で勝利したゲーム数"
+            },
+            "current_streak": {
+              "label": "現在の連勝:",
+              "aria_label": "現在の連勝記録"
+            },
+            "best_streak": {
+              "label": "最高連勝:",
+              "aria_label": "最高の連勝記録"
+            }
+          },
+          "graph": {
+            "title": "ゲームごとの挑戦回数",
+            "label": "挑戦",
+            "fallback": "お使いのブラウザはcanvas要素に対応していません。"
+          }
+        },
+        "patchNotes": {
+          "title": "アップデート情報",
+          "states": {
+            "loading": {
+              "message": "アップデート情報を読み込み中..."
+            },
+            "empty": {
+              "message": "まだ何もありません"
+            },
+            "error": {
+              "title": "アップデート情報の読み込みに失敗しました",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "Stardewdleの遊び方: クラシックモード - 毎日のStardew Valleyチャレンジ",
+          "introduction_title": "Stardewdleのクラシックモードについて",
+          "introduction_description": "クラシックモードでは、戦略的な推理ゲームを通じてStardew Valleyのブロウラーに関する知識を試します。目的は、6つの主要な属性を分析してシークレットブロウラーを特定することです。各推測ごとに、色分けされたフィードバックと方向矢印が表示され、毎日のチャレンジで正解への手がかりとなります。",
+          "attributes_title": "ブロウラーの属性",
+          "attributes_description": "Stardewdleのクラシックモードでは、各ブロウラーに次の6つの主要な属性が用意されています:",
+          "attribute_item_1": "• <strong>レアリティ</strong>: ブロウラーのレアリティ（コモン、レア、スーパーレア、エピック、ミシック、レジェンダリー、ウルトラレジェンダリー）。",
+          "attribute_item_2": "• <strong>クラス</strong>: バトルでのブロウラーの役割（例: タンク、ダメージディーラー、サポート、アサシン）。",
+          "attribute_item_3": "• <strong>移動速度</strong>: ブロウラーの移動速度（とても遅い、遅い、普通、速い、とても速い）。",
+          "attribute_item_4": "• <strong>射程</strong>: ブロウラーの攻撃範囲（とても短い、短い、普通、長い、とても長い）。",
+          "attribute_item_5": "• <strong>リロード</strong>: ブロウラーのリロード速度（とても遅い、遅い、普通、速い、とても速い）。",
+          "attribute_item_6": "• <strong>登場年</strong>: ブロウラーがStardew Valleyに登場した年。",
+          "feedback_title": "色によるフィードバックの見方",
+          "feedback_description": "推測ごとに、各属性についてフリップアニメーション付きの色分けされたフィードバックが表示されます:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">緑</span>: 正解！シークレットブロウラーの属性値と完全に一致しています。",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">赤</span>: 不正解。シークレットブロウラーの属性値とは一致していません。",
+          "feedback_arrows": "<strong>移動速度</strong>、<strong>射程</strong>、<strong>リロード</strong>、<strong>登場年</strong>の属性については、方向矢印が表示されます:",
+          "feedback_arrow_up": "• <strong>上矢印 (↑)</strong>: シークレットブロウラーの値はあなたの推測より高いです。",
+          "feedback_arrow_down": "• <strong>下矢印 (↓)</strong>: シークレットブロウラーの値はあなたの推測より低いです。",
+          "how_to_play_title": "Stardewdleクラシックモードの遊び方",
+          "step_1": "まず検索リストから任意のブロウラーを最初の推測として選びましょう。",
+          "step_2": "各属性タイルが順番にめくれ、色分けされたフィードバックが表示されるのを見守りましょう。",
+          "step_3": "緑と赤のタイルを分析して、一致する属性と一致しない属性を見極めましょう。",
+          "step_4": "移動速度、射程、リロード、登場年の方向矢印を使って候補を絞り込みましょう。",
+          "step_5": "得られたフィードバックを総合して、次の推測を行いましょう。",
+          "step_6": "シークレットブロウラーを正しく当てるまで続けましょう！",
+          "step_7": "クラシックモードの新しいブロウラーを当てるため、毎日戻ってきてください。",
+          "strategy_title": "勝利のための戦略のヒント",
+          "strategy_tip_1": "• よく知っているブロウラーから始めて、属性のパターンの基準を作りましょう。",
+          "strategy_tip_2": "• タイルが順番にめくれるアニメーションに注目しましょう。各タイルが順番に情報を明らかにします。",
+          "strategy_tip_3": "• 矢印を戦略的に使いましょう。ブロウラーのグループ全体を素早く除外できます。",
+          "strategy_tip_4": "• 順序のある属性（移動速度、射程、リロード）については、5段階のスケールを覚えておきましょう。",
+          "strategy_tip_5": "• 複数の属性を照合しましょう。ブロウラーは緑のフィードバックすべてに一致する必要があります。",
+          "strategy_tip_6": "• レアリティとクラスは完全に一致する必要があることを忘れずに（矢印はなく、緑か赤のみ）。",
+          "daily_challenge_title": "毎日のStardew Valleyチャレンジ",
+          "daily_challenge_description": "毎日Stardewdleに戻ってきて、新しいシークレットブロウラーを特定しましょう！過去の挑戦は新しい順に表示され、新しい推測はアニメーション付きで追加されます。連勝記録を伸ばし、Stardew Valleyの知識の真の腕前を友達と競い合いましょう。"
+        }
+      },
+      "attributes": {
+        "headers": {
+          "brawler": "ブローラー",
+          "rarity": "レアリティ",
+          "class": "クラス",
+          "movement": "移動",
+          "range": "射程",
+          "reload": "リロード",
+          "year": "年"
+        },
+        "rarity": {
+          "common": "コモン",
+          "rare": "レア",
+          "super_rare": "スーパーレア",
+          "epic": "エピック",
+          "mythic": "ミシック",
+          "legendary": "レジェンダリー",
+          "ultra_legendary": "ウルトラレジェンダリー"
+        },
+        "class": {
+          "artillery": "砲兵",
+          "assassin": "暗殺者",
+          "controller": "コントローラー",
+          "damage_dealer": "ダメージディーラー",
+          "marksman": "射手",
+          "support": "サポート",
+          "tank": "タンク"
+        },
+        "speed": {
+          "very_slow": "とても遅い",
+          "slow": "遅い",
+          "normal": "普通",
+          "fast": "速い",
+          "very_fast": "とても速い"
+        },
+        "range": {
+          "very_short": "とても短い",
+          "short": "短い",
+          "normal": "普通",
+          "long": "長い",
+          "very_long": "とても長い"
+        }
+      }
+    },
+    "pixel": {
+      "page_meta": {
+        "title": "ピクセル",
+        "description": "今日のStardew Valleyブロウラーをピクセル化された画像から当てよう！"
+      },
+      "errors": {
+        "no_daily_brawler": "本日のブロウラーが見つかりません",
+        "generic_error": "エラー: {message}"
+      },
+      "result": {
+        "success": "お見事！",
+        "failure": "もう一度挑戦"
+      },
+      "scroll_hint": "← 横にスクロールしてもっと表示 →",
+      "yesterday": "昨日のブロウラーは <n>{brawlerName}</n> でした",
+      "share": {
+        "text": "#Stardewdle のブロウラー #{id} をピクセルモードで {tries} 回で当てました ",
+        "to_copy": "#Stardewdle のブロウラー #{id} をピクセルから {tries} 回で当てました\n"
+      },
+      "victory": {
+        "stats_button": "統計"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "ピクセル化されたポートレートからブロウラーを当てよう"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "統計",
+            "alt": "統計アイコン"
+          },
+          "streak": {
+            "tooltip": "現在の連勝記録（連続勝利数）",
+            "alt": {
+              "active": "連勝中アイコン",
+              "inactive": "連勝中断アイコン"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "アップデート情報",
+            "alt": "アップデート情報アイコン"
+          },
+          "howToPlay": {
+            "tooltip": "遊び方",
+            "alt": "遊び方アイコン"
+          }
+        },
+        "answerInput": {
+          "placeholder": "ブロウラー名を入力.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "統計",
+          "metrics": {
+            "games_won": {
+              "label": "勝利数:",
+              "aria_label": "勝利したゲーム数"
+            },
+            "average_tries": {
+              "label": "平均挑戦回数:",
+              "aria_label": "1ゲームあたりの平均挑戦回数"
+            },
+            "one_shots": {
+              "label": "一発正解:",
+              "aria_label": "1回で勝利したゲーム数"
+            },
+            "current_streak": {
+              "label": "現在の連勝:",
+              "aria_label": "現在の連勝記録"
+            },
+            "best_streak": {
+              "label": "最高連勝:",
+              "aria_label": "最高の連勝記録"
+            }
+          },
+          "graph": {
+            "title": "ゲームごとの挑戦回数",
+            "label": "挑戦",
+            "fallback": "お使いのブラウザはcanvas要素に対応していません。"
+          }
+        },
+        "patchNotes": {
+          "title": "アップデート情報",
+          "states": {
+            "loading": {
+              "message": "アップデート情報を読み込み中..."
+            },
+            "empty": {
+              "message": "まだ何もありません"
+            },
+            "error": {
+              "title": "アップデート情報の読み込みに失敗しました",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_pixel": {
+          "title": "Stardewdleの遊び方: ピクセルモード - 進化するポートレート公開チャレンジ",
+          "introduction_title": "ピクセル化されたポートレートからStardew Valleyキャラクターを特定",
+          "introduction_description": "ピクセルモードは、推測ごとに少しずつ鮮明になる、強くピクセル化されたポートレートからStardew Valleyのキャラクターを特定するというユニークなビジュアルチャレンジです。この革新的な毎日の推理ゲームは、限られた視覚情報からブロウラーを認識する力を試し、カジュアルプレイヤーにも熱心なファンにも最適です。",
+          "gameplay_title": "ピクセルモードのゲームプレイ",
+          "gameplay_description": "このStardew Valleyキャラクター推理チャレンジでは、強くピクセル化されたブロウラーのポートレートが表示されます。あなたの使命は、できるだけ早くキャラクターを特定することです。間違った推測ごとに、画像のピクセル化が進行的に弱まり、正しいブロウラーを特定するための詳細がより多く明らかになります。",
+          "pixelation_system_title": "進化する解像度システム",
+          "pixelation_system_description": "ピクセルモードには動的な明瞭度システムが搭載されています:",
+          "pixelation_phase_1": "• <strong>初期段階</strong>: ポートレートは強くピクセル化された状態で始まり、特定が非常に難しくなっています。最も特徴的な要素や色のパターンしか見えません。",
+          "pixelation_phase_2": "• <strong>段階的な公開</strong>: 推測ごとにピクセル化のレベルが下がり、ブロウラーのポートレートの詳細が徐々に明らかになります。約12回の推測の後、画像は完全に鮮明になります。",
+          "pixelation_phase_3": "• <strong>勝利時の公開</strong>: ブロウラーを正しく特定すると、ポートレートは即座に鮮明になり、キャラクターの全貌が明らかになります。",
+          "strategy_title": "ピクセルモードで勝つための戦略",
+          "strategy_tip_1": "• ピクセル化された画像の主要な色と色のパターンに注目しましょう。多くのブロウラーには特徴的なカラースキームがあります。",
+          "strategy_tip_2": "• 強くピクセル化されていても、特徴的な形状やシルエットを探しましょう。一部のブロウラーには独特の頭の形やアクセサリーがあります。",
+          "strategy_tip_3": "• 背景色に注目しましょう。これはブロウラーのレアリティを反映しており、候補を絞り込むのに役立ちます。",
+          "strategy_tip_4": "• 消去法を使いましょう。すでに特定のブロウラーを推測した場合は、まだ試していないものに集中しましょう。",
+          "strategy_tip_5": "• 全体の構図を考慮しましょう。一部のブロウラーはポートレートで特徴的なポーズや配置をしています。",
+          "strategy_tip_6": "• 画像が鮮明になるにつれて、特定のキャラクターを区別する独特のアクセサリー、顔の特徴、衣装の要素を探しましょう。",
+          "daily_challenge_title": "毎日のStardew Valleyピクセルチャレンジ",
+          "daily_challenge_description": "毎日新しいピクセルモードのチャレンジで、異なるStardew Valleyキャラクターを特定します！この毎日の推理ゲームは、視覚認識スキルを磨き、Stardew Valleyの世界のキャラクターデザインへの理解度を試します。最少の推測回数でブロウラーを特定し、結果を友達とシェアしましょう！"
+        }
+      }
+    },
+    "emoji": {
+      "page_meta": {
+        "title": "絵文字",
+        "description": "今日のStardew Valleyブロウラーを絵文字のヒントから当てよう！"
+      },
+      "errors": {
+        "no_daily_brawler": "本日のブロウラーが見つかりません",
+        "generic_error": "エラー: {message}"
+      },
+      "yesterday": "昨日のブロウラーは <name>{brawlerName}</name> でした",
+      "share": {
+        "text": "#Stardewdle のブロウラー #{id} を絵文字モードで {tries} 回で当てました ",
+        "to_copy": "#Stardewdle のブロウラー #{id} を絵文字から {tries} 回で当てました\n"
+      },
+      "victory": {
+        "stats_button": "統計"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "これらの絵文字が表すブロウラーは誰？",
+          "next_emoji_hint": "次の絵文字は {tries} 回目の推測後に公開"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "統計",
+            "alt": "統計アイコン"
+          },
+          "streak": {
+            "tooltip": "現在の連勝記録（連続勝利数）",
+            "alt": {
+              "active": "連勝中アイコン",
+              "inactive": "連勝中断アイコン"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "アップデート情報",
+            "alt": "アップデート情報アイコン"
+          },
+          "howToPlay": {
+            "tooltip": "遊び方",
+            "alt": "遊び方アイコン"
+          }
+        },
+        "answerInput": {
+          "placeholder": "ブロウラー名を入力.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "統計",
+          "metrics": {
+            "games_won": {
+              "label": "勝利数:",
+              "aria_label": "勝利したゲーム数"
+            },
+            "average_tries": {
+              "label": "平均挑戦回数:",
+              "aria_label": "1ゲームあたりの平均挑戦回数"
+            },
+            "one_shots": {
+              "label": "一発正解:",
+              "aria_label": "1回で勝利したゲーム数"
+            },
+            "current_streak": {
+              "label": "現在の連勝:",
+              "aria_label": "現在の連勝記録"
+            },
+            "best_streak": {
+              "label": "最高連勝:",
+              "aria_label": "最高の連勝記録"
+            }
+          },
+          "graph": {
+            "title": "ゲームごとの挑戦回数",
+            "label": "挑戦",
+            "fallback": "お使いのブラウザはcanvas要素に対応していません。"
+          }
+        },
+        "how_to_play": {
+          "title": "Stardewdleの遊び方: 絵文字モード",
+          "introduction_title": "絵文字のヒントからブロウラーを特定",
+          "introduction_description": "絵文字モードでは、ブロウラーを表す絵文字が表示され、それが誰なのかを当てる必要があります。間違えるたびに新しい絵文字が公開されます。",
+          "how_to_play_title": "遊び方",
+          "step_1": "表示された絵文字をよく観察しましょう。",
+          "step_2": "これらの絵文字がどのブロウラーを表しているか考えましょう。",
+          "step_3": "リストから推測を入力または選択しましょう。",
+          "step_4": "明日も新しい絵文字チャレンジに戻ってきてください！"
+        }
+      }
+    }
+  },
+  "common": {
+    "header": {
+      "button": {
+        "stats": {
+          "tooltip": "統計"
+        },
+        "streak": {
+          "tooltip": "現在の連勝（連続勝利数）"
+        },
+        "changelog": {
+          "tooltip": "変更履歴"
+        }
+      }
+    },
+    "soon": "近日公開"
+  },
+  "components": {
+    "explanationBox": {
+      "errors": {
+        "no_content": "コンテンツがありません"
+      }
+    },
+    "answerInput": {
+      "states": {
+        "loading": "読み込み中...",
+        "no_result": "結果なし"
+      },
+      "button": {
+        "submit": {
+          "title": "送信"
+        }
+      }
+    },
+    "victoryContainer": {
+      "title": "今日のゲーム",
+      "congratulations": "GG !!",
+      "guess": {
+        "prefix": "あなたの正解",
+        "character": "{name}"
+      },
+      "tries": {
+        "count": "挑戦回数:",
+        "value": "{count}"
+      },
+      "next": {
+        "timer": "次のブロウラーまで",
+        "mode": "次のモード:"
+      },
+      "image": {
+        "alt": "勝利の画像"
+      },
+      "you_found": "あなたは見つけました",
+      "number_of_tries": "試行回数: {count}"
+    },
+    "shareContainer": {
+      "title": "結果をシェアしよう",
+      "buttons": {
+        "copy": {
+          "title": "コピー",
+          "aria_label": "結果をクリップボードにコピー"
+        },
+        "tweet": {
+          "title": "ツイート",
+          "aria_label": "X (Twitter) でシェア"
+        }
+      },
+      "and_more": "あと{count}件..."
+    }
+  }
+}

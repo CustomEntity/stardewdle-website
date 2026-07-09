@@ -1,0 +1,10 @@
+node_modules
+dist
+coverage
+.env
+.idea
+.svelte-kit
+.DS_Store
+
+# regenerable 27MB raw game-asset dump (rebuild via scripts/datamine/extract-assets.mjs)
+game-assets/

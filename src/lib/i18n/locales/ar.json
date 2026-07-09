@@ -1,0 +1,566 @@
+{
+  "lang": {
+    "name": "العربية"
+  },
+  "layout": {
+    "page_meta": {
+      "base_title": "خمّن عناصر Stardew Valley",
+      "base_description": "Stardewdle - لعبة التخمين اليومية لـ Stardew Valley! واجه تحديات جديدة كل يوم واختبر معرفتك بـ Battle Royale",
+      "site_name": "Stardewdle"
+    },
+    "header": {
+      "home_link": "العودة إلى الصفحة الرئيسية لـ Stardewdle",
+      "logo_alt": "شعار Stardewdle"
+    },
+    "footer": {
+      "accessibility": {
+        "discord": "انضم إلى مجتمعنا على Discord",
+        "information": "معلومات",
+        "kofi": "ادعمنا على Ko-fi",
+        "x": "تابعنا على X (Twitter)",
+        "reddit": "انضم إلى مجتمعنا على Reddit"
+      },
+      "want_more": {
+        "title": "تريد المزيد ؟",
+        "description": "اكتشف أكبر مركز لجميع ألعاب dle."
+      },
+      "copyright": "Stardewdle - {year}",
+      "cookie_preferences": "تحديث تفضيلات ملفات تعريف الارتباط"
+    },
+    "modals": {
+      "about": {
+        "title": "حول",
+        "discover": "مرحبًا بك في Stardewdle، أفضل لعبة تخمين يومية لـ Stardew Valley! اختبر معرفتك بعالم Stardew Valley عبر 6 أوضاع لعب مثيرة: Classic وEmoji وQuote وAbility وSignature وRank. اكتشف Villager جديدًا كل يوم وتحدَّ نفسك مع تجربتنا الفريدة لألعاب الـ -dle المستوحاة مباشرةً من لعبة الإطلاق التنافسية الشهيرة Stardew Valley.",
+        "disclaimer": "Stardewdle مشروع أنشأه المعجبون بشغف باستخدام موارد تملكها Supercell. لا تدعم Supercell هذا المشروع ولا ترعاه. Stardew Valley وجميع الشخصيات المرتبطة بها هي علامات تجارية مسجلة لـ Supercell.",
+        "dle_games": {
+          "title": "انضم إلى موجة ألعاب الـ -dle الشهيرة مع Stardewdle",
+          "description": "يجلب Stardewdle صيغة التخمين اليومية المسببة للإدمان إلى عالم Stardew Valley. مثل Wordle وHeardle وغيرها من ألعاب الـ -dle الشهيرة، يقدم Stardewdle ألغازًا جديدة يوميًا تختبر معرفتك بطرق ممتعة وجذابة. أوضاع اللعب الفريدة المتعددة تجعل Stardewdle لعبة التخمين الأشمل لـ Stardew Valley المتاحة."
+        },
+        "commitment": {
+          "title": "التزامنا تجاه مجتمع Stardew Valley",
+          "description": "Stardewdle أكثر بكثير من مجرد لعبة. إنه تحدٍ يومي أنشأه المعجبون من أجل المعجبين، ويغمرك في عالم Stardew Valley المثير. نبحث بدقة عن كل شخصية لضمان الدقة في تحدياتنا اليومية عبر جميع أوضاع اللعب. ومع توسع قائمة Stardew Valley، تتوسع قاعدة بياناتنا أيضًا، مما يضمن لك دائمًا محتوى جديدًا للاستمتاع به في تجربة لعبة التخمين القصوى لـ Stardew Valley."
+        },
+        "game_modes": {
+          "title": "ستة أوضاع لعب مثيرة في تحدينا اليومي لـ Stardew Valley",
+          "description": "يقدم Stardewdle تنوعًا لا يضاهى مع أوضاع لعب متميزة متعددة: وضع Classic يختبر معرفتك بصفات الشخصيات، ووضع Emoji يتحداك لتحديد البراولرز من خمسة إيموجي مع كشف واحد بعد كل تخمين، ووضع Quote يعرض حوارات شخصيات داخل اللعبة لتربطها بالبراولر الصحيح، ووضع Ability يعرض صورة لقدرة شخصية ما لتحديدها، ووضع Signature يعرض التوقيع المكتوب لبراولر لتتعرف عليه. كل يوم يجلب تحديات جديدة لـ Stardew Valley عبر جميع الأوضاع!"
+        },
+        "inspiration": {
+          "title": "مستوحى من Stardew Valley وصيغة ألعاب الـ -dle الشهيرة",
+          "description": "يجمع Stardewdle بين صيغة الألغاز اليومية المسببة للإدمان التي شاع استخدامها بفضل Wordle، وعالم الشخصيات الغني لـ Stardew Valley. تقدم لعبة التخمين خاصتنا الطريقة المثالية لاختبار معرفتك بـ Stardew Valley وإثبات أنك من المعجبين الحقيقيين بهذه اللعبة الشعبية للقتال على الجوال. انضم إلى آلاف عشاق Stardew Valley الذين يتحدون أنفسهم يوميًا بألغاز التخمين الفريدة لدينا."
+        },
+        "credit": {
+          "title": "الإلهام الأصلي",
+          "description": "مستوحى أصلًا من <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> ولعبته Stardewdle.io، لعبة التخمين اليومية الأصلية لـ Stardew Valley."
+        },
+        "privacy": {
+          "title": "الخصوصية واستخدام البيانات",
+          "description": "نحترم خصوصيتك. يستخدم Stardewdle ملفات تعريف الارتباط لجمع الإحصاءات وتخصيص تجربة لعبة التخمين اليومية. لمعرفة المزيد عن سياسة الخصوصية الخاصة بنا، يرجى زيارة <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">القسم المخصص لذلك</a>."
+        },
+        "thanks": "شكرًا لكونك جزءًا من مجتمع Stardewdle! شخصيات وتحديات Stardew Valley جديدة تنتظرك يوميًا!",
+        "signature": {
+          "regards": "مع خالص التحيات،",
+          "team": "فريق Stardewdle - معجبون شغوفون بـ Stardew Valley"
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "اختبر معرفتك بـ Stardew Valley",
+      "button": {
+        "classic": {
+          "title": "Classic",
+          "description": "احصل على تلميحات في كل محاولة"
+        },
+        "pixel": {
+          "title": "Pixel",
+          "description": "خمّن من بكسلات الصورة الرمزية"
+        },
+        "emoji": {
+          "title": "Emoji",
+          "description": "خمّن من تلميحات الإيموجي"
+        }
+      },
+      "reset_in": "إعادة في: {time}",
+      "royaledle_banner": {
+        "title": "العب Royaledle",
+        "subtitle": "لعبة تخمين شخصية Clash Royale اليومية",
+        "cta": "العب",
+        "new": "جديد"
+      }
+    },
+    "classic": {
+      "page_meta": {
+        "title": "Classic",
+        "description": "خمّن villager اليوم في Stardew Valley!"
+      },
+      "errors": {
+        "no_daily_brawler": "لم يتم العثور على villager اليوم",
+        "generic_error": "خطأ: {message}"
+      },
+      "result": {
+        "success": "أحسنت!",
+        "failure": "حاول مجددًا"
+      },
+      "scroll_hint": "← مرّر أفقيًا لعرض المزيد →",
+      "yesterday": "كان villager الأمس <name>{brawlerName}</name>",
+      "share": {
+        "text": "وجدت villager #Stardewdle رقم #{id} في وضع classic خلال {tries} محاولات ",
+        "to_copy": "وجدت villager #Stardewdle رقم #{id} في وضع classic خلال {tries} محاولات\n"
+      },
+      "victory": {
+        "stats_button": "الإحصاءات"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "خمّن villager اليوم من Stardew Valley",
+          "bottomHint": "اكتب اسم أي villager للبدء.",
+          "hints": {
+            "gadget": {
+              "unavailable": "تلميح Gadget بعد {tries} محاولات",
+              "available": "تلميح Gadget"
+            },
+            "hypercharge": {
+              "unavailable": "تلميح Hypercharge بعد {tries} محاولات",
+              "available": "تلميح Hypercharge"
+            },
+            "silhouette": {
+              "unavailable": "تلميح الظل بعد {tries} محاولات",
+              "available": "تلميح الظل"
+            }
+          }
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "الإحصاءات",
+            "alt": "أيقونة الإحصاءات"
+          },
+          "streak": {
+            "tooltip": "السلسلة الحالية (سلسلة الانتصارات المتتالية)",
+            "alt": {
+              "active": "أيقونة سلسلة نشطة",
+              "inactive": "أيقونة سلسلة غير نشطة"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "ملاحظات التحديث",
+            "alt": "أيقونة ملاحظات التحديث"
+          },
+          "howToPlay": {
+            "tooltip": "كيفية اللعب",
+            "alt": "أيقونة كيفية اللعب"
+          }
+        },
+        "answerInput": {
+          "placeholder": "اكتب اسم villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "الإحصاءات",
+          "metrics": {
+            "games_won": {
+              "label": "الألعاب التي تم الفوز بها:",
+              "aria_label": "عدد الألعاب التي تم الفوز بها"
+            },
+            "average_tries": {
+              "label": "متوسط المحاولات:",
+              "aria_label": "متوسط عدد المحاولات لكل لعبة"
+            },
+            "one_shots": {
+              "label": "إصابات من الضربة الأولى:",
+              "aria_label": "عدد الألعاب التي تم الفوز بها من المحاولة الأولى"
+            },
+            "current_streak": {
+              "label": "السلسلة الحالية:",
+              "aria_label": "سلسلة الانتصارات الحالية"
+            },
+            "best_streak": {
+              "label": "أفضل سلسلة:",
+              "aria_label": "أفضل سلسلة انتصارات"
+            }
+          },
+          "graph": {
+            "title": "عدد المحاولات لكل لعبة",
+            "label": "المحاولات",
+            "fallback": "متصفحك لا يدعم عنصر canvas."
+          }
+        },
+        "patchNotes": {
+          "title": "ملاحظات التحديث",
+          "states": {
+            "loading": {
+              "message": "جارٍ تحميل ملاحظات التحديث..."
+            },
+            "empty": {
+              "message": "لا يوجد شيء هنا بعد"
+            },
+            "error": {
+              "title": "تعذّر تحميل ملاحظات التحديث",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "كيفية لعب Stardewdle: وضع Classic - تحدي Stardew Valley اليومي",
+          "introduction_title": "فهم وضع Classic في Stardewdle",
+          "introduction_description": "في وضع Classic، ستختبر معرفتك ببراولرز Stardew Valley عبر لعبة تخمين استراتيجية. هدفك هو تحديد البراولر السري من خلال تحليل ست صفات رئيسية. مع كل تخمين، ستتلقى ملاحظات مرمّزة بالألوان وأسهمًا اتجاهية لإرشادك نحو الإجابة الصحيحة في هذا التحدي اليومي.",
+          "attributes_title": "صفات البراولر",
+          "attributes_description": "يضم وضع Classic في Stardewdle هذه الصفات الست الرئيسية لكل براولر:",
+          "attribute_item_1": "• <strong>الندرة</strong>: مستوى ندرة البراولر (Common, Rare, Super Rare, Epic, Mythic, Legendary, Ultra Legendary).",
+          "attribute_item_2": "• <strong>الفئة</strong>: دور البراولر في المعركة (مثل Tank, Damage Dealer, Support, Assassin).",
+          "attribute_item_3": "• <strong>الحركة</strong>: سرعة حركة البراولر (Very Slow, Slow, Normal, Fast, Very Fast).",
+          "attribute_item_4": "• <strong>المدى</strong>: مدى هجوم البراولر (Very Short, Short, Normal, Long, Very Long).",
+          "attribute_item_5": "• <strong>إعادة التحميل</strong>: سرعة إعادة التحميل للبراولر (Very Slow, Slow, Normal, Fast, Very Fast).",
+          "attribute_item_6": "• <strong>السنة</strong>: السنة التي صدر فيها البراولر في Stardew Valley.",
+          "feedback_title": "فهم ملاحظات الألوان",
+          "feedback_description": "بعد كل تخمين، ستتلقى ملاحظات مرمّزة بالألوان مع رسم متحرك للقلب لكل صفة:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">أخضر</span>: صحيح! يمتلك البراولر السري بالضبط هذه القيمة للصفة.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">أحمر</span>: غير صحيح. لا يمتلك البراولر السري هذه القيمة للصفة.",
+          "feedback_arrows": "بالنسبة لصفات <strong>الحركة</strong> و<strong>المدى</strong> و<strong>إعادة التحميل</strong> و<strong>السنة</strong>، سترى أسهمًا اتجاهية:",
+          "feedback_arrow_up": "• <strong>سهم لأعلى (↑)</strong>: قيمة البراولر السري أعلى من تخمينك.",
+          "feedback_arrow_down": "• <strong>سهم لأسفل (↓)</strong>: قيمة البراولر السري أقل من تخمينك.",
+          "how_to_play_title": "كيفية لعب وضع Classic في Stardewdle",
+          "step_1": "ابدأ بأول تخمين لأي براولر من قائمة البحث.",
+          "step_2": "شاهد كيف يتقلب كل بلاط للصفة بالتسلسل، كاشفًا عن الملاحظات المرمّزة بالألوان.",
+          "step_3": "حلّل البلاطات الخضراء والحمراء لتحديد الصفات المتطابقة وغير المتطابقة.",
+          "step_4": "استخدم الأسهم الاتجاهية على الحركة والمدى وإعادة التحميل والسنة لتضييق الاحتمالات.",
+          "step_5": "قم بتخمينك التالي بناءً على الملاحظات المجمّعة المستلمة.",
+          "step_6": "استمر حتى تحدد البراولر السري بشكل صحيح!",
+          "step_7": "عد يوميًا لتخمين براولر جديد في وضع Classic.",
+          "strategy_title": "نصائح استراتيجية للفوز",
+          "strategy_tip_1": "• ابدأ بالبراولرز الذين تعرفهم جيدًا لإرساء قاعدة من أنماط الصفات.",
+          "strategy_tip_2": "• انتبه إلى الرسم المتحرك المتسلسل للقلب – كل بلاط يكشف المعلومات بترتيب.",
+          "strategy_tip_3": "• استخدم الأسهم بذكاء: فهي تساعدك على استبعاد مجموعات كاملة من البراولرز بسرعة.",
+          "strategy_tip_4": "• بالنسبة للصفات الترتيبية (الحركة، المدى، إعادة التحميل)، تذكر السلم ذا الخمس مستويات.",
+          "strategy_tip_5": "• قارن بين عدة صفات معًا – يجب أن يطابق البراولر جميع الملاحظات الخضراء.",
+          "strategy_tip_6": "• تذكر أن الندرة والفئة يجب أن تتطابقا تمامًا (لا توجد أسهم، فقط أخضر أو أحمر).",
+          "daily_challenge_title": "تحديات Stardew Valley اليومية",
+          "daily_challenge_description": "عد إلى Stardewdle كل يوم لتحديد براولر سري جديد! تُعرض محاولاتك السابقة بترتيب زمني عكسي، مع رسم متحرك لكل تخمين عند إضافته. تابع سلسلة انتصاراتك وقارن مهاراتك مع الأصدقاء في هذا الاختبار النهائي لمعرفة Stardew Valley."
+        }
+      },
+      "attributes": {
+        "headers": {
+          "brawler": "Villager",
+          "rarity": "الندرة",
+          "class": "الفئة",
+          "movement": "الحركة",
+          "range": "المدى",
+          "reload": "إعادة التحميل",
+          "year": "السنة"
+        },
+        "rarity": {
+          "common": "عادي",
+          "rare": "نادر",
+          "super_rare": "نادر جداً",
+          "epic": "ملحمي",
+          "mythic": "أسطوري",
+          "legendary": "خرافي",
+          "ultra_legendary": "خرافي جداً"
+        },
+        "class": {
+          "artillery": "مدفعية",
+          "assassin": "قاتل",
+          "controller": "متحكم",
+          "damage_dealer": "ضارب",
+          "marksman": "قناص",
+          "support": "دعم",
+          "tank": "دبابة"
+        },
+        "speed": {
+          "very_slow": "بطيء جداً",
+          "slow": "بطيء",
+          "normal": "عادي",
+          "fast": "سريع",
+          "very_fast": "سريع جداً"
+        },
+        "range": {
+          "very_short": "قصير جداً",
+          "short": "قصير",
+          "normal": "عادي",
+          "long": "طويل",
+          "very_long": "طويل جداً"
+        }
+      }
+    },
+    "pixel": {
+      "page_meta": {
+        "title": "Pixel",
+        "description": "خمّن villager اليوم في Stardew Valley من صورة رمزية مبكسلة!"
+      },
+      "errors": {
+        "no_daily_brawler": "لم يتم العثور على villager اليوم",
+        "generic_error": "خطأ: {message}"
+      },
+      "result": {
+        "success": "أحسنت!",
+        "failure": "حاول مجددًا"
+      },
+      "scroll_hint": "← مرّر أفقيًا لعرض المزيد →",
+      "yesterday": "كان villager الأمس <n>{brawlerName}</n>",
+      "share": {
+        "text": "وجدت villager #Stardewdle رقم #{id} في وضع pixel خلال {tries} محاولات ",
+        "to_copy": "وجدت villager #Stardewdle رقم #{id} من البكسلات خلال {tries} محاولات\n"
+      },
+      "victory": {
+        "stats_button": "الإحصاءات"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "خمّن البراولر من الصورة الرمزية المبكسلة"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "الإحصاءات",
+            "alt": "أيقونة الإحصاءات"
+          },
+          "streak": {
+            "tooltip": "السلسلة الحالية (سلسلة الانتصارات المتتالية)",
+            "alt": {
+              "active": "أيقونة سلسلة نشطة",
+              "inactive": "أيقونة سلسلة غير نشطة"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "ملاحظات التحديث",
+            "alt": "أيقونة ملاحظات التحديث"
+          },
+          "howToPlay": {
+            "tooltip": "كيفية اللعب",
+            "alt": "أيقونة كيفية اللعب"
+          }
+        },
+        "answerInput": {
+          "placeholder": "اكتب اسم villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "الإحصاءات",
+          "metrics": {
+            "games_won": {
+              "label": "الألعاب التي تم الفوز بها:",
+              "aria_label": "عدد الألعاب التي تم الفوز بها"
+            },
+            "average_tries": {
+              "label": "متوسط المحاولات:",
+              "aria_label": "متوسط عدد المحاولات لكل لعبة"
+            },
+            "one_shots": {
+              "label": "إصابات من الضربة الأولى:",
+              "aria_label": "عدد الألعاب التي تم الفوز بها من المحاولة الأولى"
+            },
+            "current_streak": {
+              "label": "السلسلة الحالية:",
+              "aria_label": "سلسلة الانتصارات الحالية"
+            },
+            "best_streak": {
+              "label": "أفضل سلسلة:",
+              "aria_label": "أفضل سلسلة انتصارات"
+            }
+          },
+          "graph": {
+            "title": "عدد المحاولات لكل لعبة",
+            "label": "المحاولات",
+            "fallback": "متصفحك لا يدعم عنصر canvas."
+          }
+        },
+        "patchNotes": {
+          "title": "ملاحظات التحديث",
+          "states": {
+            "loading": {
+              "message": "جارٍ تحميل ملاحظات التحديث..."
+            },
+            "empty": {
+              "message": "لا يوجد شيء هنا بعد"
+            },
+            "error": {
+              "title": "تعذّر تحميل ملاحظات التحديث",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_pixel": {
+          "title": "كيفية لعب Stardewdle: وضع Pixel - تحدي الكشف التدريجي للصورة الرمزية",
+          "introduction_title": "تحديد شخصيات Stardew Valley من الصور الرمزية المبكسلة",
+          "introduction_description": "يقدم وضع Pixel تحديًا بصريًا فريدًا حيث يجب عليك تحديد شخصيات Stardew Valley من صور رمزية مبكسلة بشدة تصبح أوضح تدريجيًا مع كل تخمين. تختبر لعبة التخمين اليومية المبتكرة هذه قدرتك على التعرف على البراولرز من معلومات بصرية محدودة، وهي مثالية لكل من اللاعبين العاديين والمعجبين المتحمسين.",
+          "gameplay_title": "آليات اللعب في وضع Pixel",
+          "gameplay_description": "في تحدي تخمين شخصيات Stardew Valley هذا، ستُعرض عليك صورة رمزية مبكسلة بشدة لبراولر. مهمتك هي تحديد الشخصية في أسرع وقت ممكن. مع كل تخمين خاطئ، يصبح مستوى البكسلة أقل، كاشفًا تدريجيًا عن مزيد من تفاصيل صورة البراولر.",
+          "pixelation_system_title": "نظام إزالة البكسلة التدريجي",
+          "pixelation_system_description": "يتميز وضع Pixel بنظام وضوح ديناميكي:",
+          "pixelation_phase_1": "• <strong>المرحلة الأولية</strong>: تبدأ الصورة الرمزية مبكسلة بشدة، مما يجعل التحديد صعبًا للغاية. تظهر فقط الميزات الأكثر تميزًا وأنماط الألوان.",
+          "pixelation_phase_2": "• <strong>الكشف التدريجي</strong>: مع كل تخمين، ينخفض مستوى البكسلة، كاشفًا تدريجيًا عن مزيد من تفاصيل صورة البراولر. بعد حوالي 12 تخمينًا، تصبح الصورة واضحة تمامًا.",
+          "pixelation_phase_3": "• <strong>كشف النصر</strong>: عندما تحدد البراولر بشكل صحيح، تصبح الصورة الرمزية واضحة تمامًا على الفور، كاشفة عن الشخصية بكامل تفاصيلها.",
+          "strategy_title": "استراتيجيات الفوز في وضع Pixel",
+          "strategy_tip_1": "• ركّز على الألوان السائدة وأنماط الألوان في الصورة المبكسلة – فالعديد من البراولرز يمتلكون مخططات ألوان مميزة.",
+          "strategy_tip_2": "• ابحث عن الأشكال والظلال المميزة، حتى عندما تكون مبكسلة بشدة – فبعض البراولرز يمتلكون أشكال رؤوس أو إكسسوارات فريدة.",
+          "strategy_tip_3": "• انتبه إلى لون الخلفية، الذي يعكس ندرة البراولر ويمكن أن يساعد في تضييق الاحتمالات.",
+          "strategy_tip_4": "• استخدم أسلوب الاستبعاد – إذا كنت قد خمّنت بالفعل بعض البراولرز، فركّز على الذين لم تجرّبهم بعد.",
+          "strategy_tip_5": "• ضع في اعتبارك التركيب العام – فبعض البراولرز يمتلكون أوضاعًا مميزة أو وضعيات في صورهم الرمزية.",
+          "strategy_tip_6": "• مع وضوح الصورة، ابحث عن الإكسسوارات الفريدة أو ملامح الوجه أو عناصر الزي التي تميز شخصيات بعينها.",
+          "daily_challenge_title": "تحديات Stardew Valley Pixel اليومية",
+          "daily_challenge_description": "كل يوم يجلب تحديًا جديدًا في وضع Pixel مع شخصية مختلفة من Stardew Valley لتحديدها! تصقل لعبة التخمين اليومية هذه مهاراتك في التعرف البصري وتختبر معرفتك بتصميمات الشخصيات في عالم Stardew Valley. تحدَّ نفسك لتحديد البراولرز بأقل عدد من التخمينات وشارك نتائجك مع الأصدقاء!"
+        }
+      }
+    },
+    "emoji": {
+      "page_meta": {
+        "title": "Emoji",
+        "description": "خمّن villager اليوم في Stardew Valley من تلميحات الإيموجي!"
+      },
+      "errors": {
+        "no_daily_brawler": "لم يتم العثور على villager اليوم",
+        "generic_error": "خطأ: {message}"
+      },
+      "yesterday": "كان villager الأمس <name>{brawlerName}</name>",
+      "share": {
+        "text": "وجدت villager #Stardewdle رقم #{id} في وضع emoji خلال {tries} محاولات ",
+        "to_copy": "وجدت villager #Stardewdle رقم #{id} من الإيموجي خلال {tries} محاولات\n"
+      },
+      "victory": {
+        "stats_button": "الإحصاءات"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "أي براولر تمثله هذه الإيموجي؟",
+          "next_emoji_hint": "سيتم كشف الإيموجي التالي بعد التخمين {tries}"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "الإحصاءات",
+            "alt": "أيقونة الإحصاءات"
+          },
+          "streak": {
+            "tooltip": "السلسلة الحالية (سلسلة الانتصارات المتتالية)",
+            "alt": {
+              "active": "أيقونة سلسلة نشطة",
+              "inactive": "أيقونة سلسلة غير نشطة"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "ملاحظات التحديث",
+            "alt": "أيقونة ملاحظات التحديث"
+          },
+          "howToPlay": {
+            "tooltip": "كيفية اللعب",
+            "alt": "أيقونة كيفية اللعب"
+          }
+        },
+        "answerInput": {
+          "placeholder": "اكتب اسم villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "الإحصاءات",
+          "metrics": {
+            "games_won": {
+              "label": "الألعاب التي تم الفوز بها:",
+              "aria_label": "عدد الألعاب التي تم الفوز بها"
+            },
+            "average_tries": {
+              "label": "متوسط المحاولات:",
+              "aria_label": "متوسط عدد المحاولات لكل لعبة"
+            },
+            "one_shots": {
+              "label": "إصابات من الضربة الأولى:",
+              "aria_label": "عدد الألعاب التي تم الفوز بها من المحاولة الأولى"
+            },
+            "current_streak": {
+              "label": "السلسلة الحالية:",
+              "aria_label": "سلسلة الانتصارات الحالية"
+            },
+            "best_streak": {
+              "label": "أفضل سلسلة:",
+              "aria_label": "أفضل سلسلة انتصارات"
+            }
+          },
+          "graph": {
+            "title": "عدد المحاولات لكل لعبة",
+            "label": "المحاولات",
+            "fallback": "متصفحك لا يدعم عنصر canvas."
+          }
+        },
+        "how_to_play": {
+          "title": "كيفية لعب Stardewdle: وضع Emoji",
+          "introduction_title": "تحديد البراولرز من تلميحات الإيموجي",
+          "introduction_description": "في وضع Emoji، تُعرض عليك إيموجي تمثل براولرًا وعليك تخمين أيها هو. يتم كشف إيموجي جديدة مع كل تخمين خاطئ.",
+          "how_to_play_title": "كيفية اللعب",
+          "step_1": "انظر بعناية إلى الإيموجي المعروضة.",
+          "step_2": "فكر في أي براولر تمثله هذه الإيموجي.",
+          "step_3": "اكتب أو اختر تخمينك من القائمة.",
+          "step_4": "عد غدًا لتحدي إيموجي جديد!"
+        }
+      }
+    }
+  },
+  "common": {
+    "header": {
+      "button": {
+        "stats": {
+          "tooltip": "الإحصاءات"
+        },
+        "streak": {
+          "tooltip": "السلسلة الحالية (انتصارات متتالية)"
+        },
+        "changelog": {
+          "tooltip": "سجل التغييرات"
+        }
+      }
+    },
+    "soon": "قريبًا"
+  },
+  "components": {
+    "explanationBox": {
+      "errors": {
+        "no_content": "لم يتم تقديم أي محتوى"
+      }
+    },
+    "answerInput": {
+      "states": {
+        "loading": "جارٍ التحميل...",
+        "no_result": "لا توجد نتائج"
+      },
+      "button": {
+        "submit": {
+          "title": "إرسال"
+        }
+      }
+    },
+    "victoryContainer": {
+      "title": "لعبتك",
+      "congratulations": "أحسنت!!",
+      "guess": {
+        "prefix": "لقد خمّنت",
+        "character": "{name}"
+      },
+      "tries": {
+        "count": "عدد المحاولات:",
+        "value": "{count}"
+      },
+      "next": {
+        "timer": "البراولر التالي خلال",
+        "mode": "الوضع التالي:"
+      },
+      "image": {
+        "alt": "صورة النصر"
+      },
+      "you_found": "لقد وجدت",
+      "number_of_tries": "عدد المحاولات: {count}"
+    },
+    "shareContainer": {
+      "title": "شارك نتيجتك",
+      "buttons": {
+        "copy": {
+          "title": "نسخ",
+          "aria_label": "نسخ النتيجة إلى الحافظة"
+        },
+        "tweet": {
+          "title": "تغريد",
+          "aria_label": "شارك على X (Twitter)"
+        }
+      },
+      "and_more": "و {count} أخرى..."
+    }
+  }
+}

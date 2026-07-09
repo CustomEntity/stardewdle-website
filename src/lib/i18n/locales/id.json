@@ -1,0 +1,566 @@
+{
+  "lang": {
+    "name": "Bahasa Indonesia"
+  },
+  "layout": {
+    "page_meta": {
+      "base_title": "Tebak Elemen Stardew Valley",
+      "base_description": "Stardewdle - Game tebak-tebakan harian Stardew Valley! Hadapi tantangan baru setiap hari dan uji pengetahuan Battle Royale-mu",
+      "site_name": "Stardewdle"
+    },
+    "header": {
+      "home_link": "Kembali ke halaman utama Stardewdle",
+      "logo_alt": "Logo Stardewdle"
+    },
+    "footer": {
+      "accessibility": {
+        "discord": "Bergabunglah dengan komunitas Discord kami",
+        "information": "Informasi",
+        "kofi": "Dukung kami di Ko-fi",
+        "x": "Ikuti kami di X (Twitter)",
+        "reddit": "Bergabunglah dengan komunitas Reddit kami"
+      },
+      "want_more": {
+        "title": "Ingin lebih banyak ?",
+        "description": "Jelajahi pusat terbesar untuk semua game dle."
+      },
+      "copyright": "Stardewdle - {year}",
+      "cookie_preferences": "Perbarui preferensi cookie"
+    },
+    "modals": {
+      "about": {
+        "title": "Tentang",
+        "discover": "Selamat datang di Stardewdle, game tebak-tebakan harian Stardew Valley terbaik! Uji pengetahuanmu tentang dunia Stardew Valley melalui 6 mode permainan seru: Classic, Emoji, Quote, Ability, Signature, dan Rank. Temukan Villager baru setiap hari dan tantang dirimu dengan pengalaman game -dle unik kami yang langsung terinspirasi dari shooter villager kompetitif populer Stardew Valley.",
+        "disclaimer": "Stardewdle adalah proyek penggemar yang dibuat dengan penuh semangat menggunakan aset milik Supercell. Supercell tidak mendukung atau mensponsori proyek ini. Stardew Valley dan semua karakter terkait merupakan merek dagang terdaftar dari Supercell.",
+        "dle_games": {
+          "title": "Ikuti Tren Game -dle Populer Bersama Stardewdle",
+          "description": "Stardewdle menghadirkan format tebakan harian yang adiktif ke dalam dunia Stardew Valley. Seperti Wordle, Heardle, dan game -dle populer lainnya, Stardewdle menyajikan teka-teki segar setiap hari yang menguji pengetahuanmu dengan cara yang menyenangkan dan menarik. Beragam mode permainan unik kami menjadikan Stardewdle sebagai game tebak Stardew Valley paling lengkap yang tersedia."
+        },
+        "commitment": {
+          "title": "Komitmen Kami terhadap Komunitas Stardew Valley",
+          "description": "Stardewdle jauh lebih dari sekadar permainan biasa. Ini adalah tantangan harian yang dibuat oleh penggemar, untuk penggemar, yang membenamkanmu ke dalam dunia Stardew Valley yang seru. Kami meneliti setiap karakter dengan cermat untuk memastikan keakuratan tantangan harian kami di semua mode permainan. Seiring bertambahnya roster Stardew Valley, basis data kami juga ikut berkembang, memastikan kamu selalu memiliki konten baru untuk dinikmati dalam pengalaman game tebak Stardew Valley terbaik ini."
+        },
+        "game_modes": {
+          "title": "Enam Mode Permainan Seru dalam Tantangan Harian Stardew Valley Kami",
+          "description": "Stardewdle menawarkan variasi tak tertandingi dengan beberapa mode permainan berbeda: mode Classic menguji pengetahuanmu tentang atribut karakter, mode Emoji menantangmu mengenali villager dari lima emoji dengan satu emoji terungkap setiap tebakan, mode Quote menampilkan dialog karakter dalam game untuk dicocokkan dengan villager yang tepat, mode Ability menampilkan gambar kemampuan karakter untuk diidentifikasi, dan mode Signature menampilkan tanda tangan tertulis seorang villager untuk dikenali. Setiap hari menghadirkan tantangan Stardew Valley baru di semua mode!"
+        },
+        "inspiration": {
+          "title": "Terinspirasi oleh Stardew Valley dan Format Game -dle yang Populer",
+          "description": "Stardewdle memadukan format teka-teki harian yang adiktif yang dipopulerkan Wordle dengan kekayaan dunia karakter Stardew Valley. Game tebak kami menawarkan cara sempurna untuk menguji pengetahuanmu tentang Stardew Valley dan membuktikan bahwa kamu adalah penggemar sejati game pertarungan mobile populer ini. Bergabunglah dengan ribuan penggemar Stardew Valley yang menantang diri mereka setiap hari dengan teka-teki tebak unik kami."
+        },
+        "credit": {
+          "title": "Inspirasi Asli",
+          "description": "Awalnya terinspirasi oleh Stardewdle.io dari <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a>, game tebak harian Stardew Valley yang asli."
+        },
+        "privacy": {
+          "title": "Privasi dan Penggunaan Data",
+          "description": "Kami menghormati privasimu. Stardewdle menggunakan cookie untuk mengumpulkan statistik dan mempersonalisasi pengalaman game tebak harianmu. Untuk mempelajari lebih lanjut kebijakan privasi kami, silakan kunjungi <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">bagian khusus kami</a>."
+        },
+        "thanks": "Terima kasih telah menjadi bagian dari komunitas Stardewdle! Karakter dan tantangan Stardew Valley baru menantimu setiap hari!",
+        "signature": {
+          "regards": "Hormat kami,",
+          "team": "Tim Stardewdle - Penggemar Stardew Valley yang Bersemangat"
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Uji pengetahuan Stardew Valley-mu",
+      "button": {
+        "classic": {
+          "title": "Classic",
+          "description": "Dapatkan petunjuk di setiap percobaan"
+        },
+        "pixel": {
+          "title": "Pixel",
+          "description": "Tebak dari piksel potret"
+        },
+        "emoji": {
+          "title": "Emoji",
+          "description": "Tebak dari petunjuk emoji"
+        }
+      },
+      "reset_in": "Reset dalam: {time}",
+      "royaledle_banner": {
+        "title": "Mainkan Royaledle",
+        "subtitle": "Tebak karakter Clash Royale harian",
+        "cta": "Main",
+        "new": "BARU"
+      }
+    },
+    "classic": {
+      "page_meta": {
+        "title": "Classic",
+        "description": "Tebak villager Stardew Valley hari ini!"
+      },
+      "errors": {
+        "no_daily_brawler": "Villager harian tidak ditemukan",
+        "generic_error": "Kesalahan: {message}"
+      },
+      "result": {
+        "success": "Bagus sekali!",
+        "failure": "Coba lagi"
+      },
+      "scroll_hint": "← Geser horizontal untuk melihat lebih banyak →",
+      "yesterday": "Villager kemarin adalah <name>{brawlerName}</name>",
+      "share": {
+        "text": "Saya menemukan villager #Stardewdle #{id} di mode classic dalam {tries} tembakan ",
+        "to_copy": "Saya menemukan villager #Stardewdle #{id} di mode classic dalam {tries} percobaan\n"
+      },
+      "victory": {
+        "stats_button": "Statistik"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Tebak villager Stardew Valley hari ini",
+          "bottomHint": "Ketik nama villager apa saja untuk memulai.",
+          "hints": {
+            "gadget": {
+              "unavailable": "Petunjuk Gadget dalam {tries} percobaan",
+              "available": "Petunjuk Gadget"
+            },
+            "hypercharge": {
+              "unavailable": "Petunjuk Hypercharge dalam {tries} percobaan",
+              "available": "Petunjuk Hypercharge"
+            },
+            "silhouette": {
+              "unavailable": "Petunjuk siluet dalam {tries} percobaan",
+              "available": "Petunjuk siluet"
+            }
+          }
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Statistik",
+            "alt": "Ikon statistik"
+          },
+          "streak": {
+            "tooltip": "Rentetan saat ini (Rangkaian kemenangan beruntun)",
+            "alt": {
+              "active": "Ikon rentetan aktif",
+              "inactive": "Ikon rentetan tidak aktif"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Catatan pembaruan",
+            "alt": "Ikon catatan pembaruan"
+          },
+          "howToPlay": {
+            "tooltip": "Cara bermain",
+            "alt": "Ikon cara bermain"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Ketik nama villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Statistik",
+          "metrics": {
+            "games_won": {
+              "label": "Permainan dimenangkan:",
+              "aria_label": "Jumlah permainan yang dimenangkan"
+            },
+            "average_tries": {
+              "label": "Rata-rata percobaan:",
+              "aria_label": "Rata-rata jumlah percobaan per permainan"
+            },
+            "one_shots": {
+              "label": "Sekali tebak:",
+              "aria_label": "Jumlah permainan yang dimenangkan dalam satu percobaan"
+            },
+            "current_streak": {
+              "label": "Rentetan saat ini:",
+              "aria_label": "Rentetan kemenangan saat ini"
+            },
+            "best_streak": {
+              "label": "Rentetan terbaik:",
+              "aria_label": "Rentetan kemenangan terbaik"
+            }
+          },
+          "graph": {
+            "title": "Jumlah percobaan per permainan",
+            "label": "Percobaan",
+            "fallback": "Peramban Anda tidak mendukung elemen canvas."
+          }
+        },
+        "patchNotes": {
+          "title": "Catatan pembaruan",
+          "states": {
+            "loading": {
+              "message": "Memuat catatan pembaruan..."
+            },
+            "empty": {
+              "message": "Belum ada apa-apa di sini"
+            },
+            "error": {
+              "title": "Gagal memuat catatan pembaruan",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "Cara Bermain Stardewdle: Mode Classic - Tantangan Harian Stardew Valley",
+          "introduction_title": "Memahami Mode Classic Stardewdle",
+          "introduction_description": "Di Mode Classic, kamu akan menguji pengetahuanmu tentang Villager Stardew Valley melalui game tebak strategis. Tujuanmu adalah mengidentifikasi Villager rahasia dengan menganalisis enam atribut utama. Pada setiap tebakan, kamu akan menerima umpan balik berkode warna dan tanda panah arah untuk memandumu menuju jawaban yang benar dalam tantangan harian ini.",
+          "attributes_title": "Atribut Villager",
+          "attributes_description": "Mode Classic Stardewdle menampilkan enam atribut utama berikut untuk setiap Villager:",
+          "attribute_item_1": "• <strong>Kelangkaan</strong>: Tingkat kelangkaan Villager (Common, Rare, Super Rare, Epic, Mythic, Legendary, Ultra Legendary).",
+          "attribute_item_2": "• <strong>Kelas</strong>: Peran Villager dalam pertempuran (mis., Tank, Damage Dealer, Support, Assassin).",
+          "attribute_item_3": "• <strong>Pergerakan</strong>: Kecepatan pergerakan Villager (Sangat Lambat, Lambat, Normal, Cepat, Sangat Cepat).",
+          "attribute_item_4": "• <strong>Jangkauan</strong>: Jangkauan serangan Villager (Sangat Pendek, Pendek, Normal, Panjang, Sangat Panjang).",
+          "attribute_item_5": "• <strong>Isi Ulang</strong>: Kecepatan isi ulang Villager (Sangat Lambat, Lambat, Normal, Cepat, Sangat Cepat).",
+          "attribute_item_6": "• <strong>Tahun</strong>: Tahun saat Villager dirilis di Stardew Valley.",
+          "feedback_title": "Memahami Umpan Balik Warna",
+          "feedback_description": "Setelah setiap tebakan, kamu akan menerima umpan balik berkode warna dengan animasi balik untuk setiap atribut:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Hijau</span>: Benar! Villager rahasia memiliki nilai atribut yang sama persis.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Merah</span>: Salah. Villager rahasia tidak memiliki nilai atribut ini.",
+          "feedback_arrows": "Untuk atribut <strong>Pergerakan</strong>, <strong>Jangkauan</strong>, <strong>Isi Ulang</strong>, dan <strong>Tahun</strong>, kamu akan melihat tanda panah arah:",
+          "feedback_arrow_up": "• <strong>Panah Atas (↑)</strong>: Nilai Villager rahasia LEBIH TINGGI dari tebakanmu.",
+          "feedback_arrow_down": "• <strong>Panah Bawah (↓)</strong>: Nilai Villager rahasia LEBIH RENDAH dari tebakanmu.",
+          "how_to_play_title": "Bermain Mode Classic Stardewdle",
+          "step_1": "Mulailah dengan membuat tebakan pertamamu dari villager mana pun pada daftar pencarian.",
+          "step_2": "Saksikan setiap kotak atribut berputar berurutan, mengungkap umpan balik berkode warna.",
+          "step_3": "Analisis kotak hijau dan merah untuk mengidentifikasi atribut yang cocok dan tidak cocok.",
+          "step_4": "Gunakan tanda panah arah pada Pergerakan, Jangkauan, Isi Ulang, dan Tahun untuk mempersempit kemungkinan.",
+          "step_5": "Buat tebakan berikutnya berdasarkan umpan balik gabungan yang diterima.",
+          "step_6": "Lanjutkan hingga kamu berhasil mengidentifikasi Villager rahasia!",
+          "step_7": "Kembali setiap hari untuk Villager baru yang harus ditebak di Mode Classic.",
+          "strategy_title": "Tips Strategi Menang",
+          "strategy_tip_1": "• Mulailah dengan Villager yang kamu kenal baik untuk membangun acuan pola atribut.",
+          "strategy_tip_2": "• Perhatikan animasi balik berurutan – setiap kotak mengungkap informasi secara berurutan.",
+          "strategy_tip_3": "• Gunakan tanda panah secara strategis: tanda panah membantu kamu cepat menyingkirkan banyak Villager sekaligus.",
+          "strategy_tip_4": "• Untuk atribut berurutan (Pergerakan, Jangkauan, Isi Ulang), ingatlah skala lima tingkat.",
+          "strategy_tip_5": "• Cocokkan beberapa atribut sekaligus – sebuah Villager harus mencocokkan SEMUA umpan balik hijau.",
+          "strategy_tip_6": "• Ingat bahwa Kelangkaan dan Kelas harus cocok persis (tanpa tanda panah, hanya hijau atau merah).",
+          "daily_challenge_title": "Tantangan Harian Stardew Valley",
+          "daily_challenge_description": "Kembalilah ke Stardewdle setiap hari untuk Villager rahasia baru yang harus diidentifikasi! Percobaanmu sebelumnya ditampilkan dalam urutan kronologis terbalik, dengan setiap tebakan dianimasikan saat ditambahkan. Pantau rentetan kemenanganmu dan bandingkan keahlianmu dengan teman dalam ujian akhir pengetahuan Stardew Valley ini."
+        }
+      },
+      "attributes": {
+        "headers": {
+          "brawler": "Villager",
+          "rarity": "Kelangkaan",
+          "class": "Kelas",
+          "movement": "Gerakan",
+          "range": "Jangkauan",
+          "reload": "Memuat Ulang",
+          "year": "Tahun"
+        },
+        "rarity": {
+          "common": "Umum",
+          "rare": "Langka",
+          "super_rare": "Super Langka",
+          "epic": "Epik",
+          "mythic": "Mitis",
+          "legendary": "Legendaris",
+          "ultra_legendary": "Ultra Legendaris"
+        },
+        "class": {
+          "artillery": "Artileri",
+          "assassin": "Pembunuh",
+          "controller": "Pengontrol",
+          "damage_dealer": "Penyerang",
+          "marksman": "Penembak Jitu",
+          "support": "Pendukung",
+          "tank": "Tank"
+        },
+        "speed": {
+          "very_slow": "Sangat Lambat",
+          "slow": "Lambat",
+          "normal": "Normal",
+          "fast": "Cepat",
+          "very_fast": "Sangat Cepat"
+        },
+        "range": {
+          "very_short": "Sangat Pendek",
+          "short": "Pendek",
+          "normal": "Normal",
+          "long": "Panjang",
+          "very_long": "Sangat Panjang"
+        }
+      }
+    },
+    "pixel": {
+      "page_meta": {
+        "title": "Pixel",
+        "description": "Tebak villager Stardew Valley hari ini dari potret berpiksel!"
+      },
+      "errors": {
+        "no_daily_brawler": "Villager harian tidak ditemukan",
+        "generic_error": "Kesalahan: {message}"
+      },
+      "result": {
+        "success": "Bagus sekali!",
+        "failure": "Coba lagi"
+      },
+      "scroll_hint": "← Geser horizontal untuk melihat lebih banyak →",
+      "yesterday": "Villager kemarin adalah <n>{brawlerName}</n>",
+      "share": {
+        "text": "Saya menemukan villager #Stardewdle #{id} di mode pixel dalam {tries} tembakan ",
+        "to_copy": "Saya menemukan villager #Stardewdle #{id} dari piksel dalam {tries} percobaan\n"
+      },
+      "victory": {
+        "stats_button": "Statistik"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Tebak villager dari potret berpiksel"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Statistik",
+            "alt": "Ikon statistik"
+          },
+          "streak": {
+            "tooltip": "Rentetan saat ini (Rangkaian kemenangan beruntun)",
+            "alt": {
+              "active": "Ikon rentetan aktif",
+              "inactive": "Ikon rentetan tidak aktif"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Catatan pembaruan",
+            "alt": "Ikon catatan pembaruan"
+          },
+          "howToPlay": {
+            "tooltip": "Cara bermain",
+            "alt": "Ikon cara bermain"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Ketik nama villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Statistik",
+          "metrics": {
+            "games_won": {
+              "label": "Permainan dimenangkan:",
+              "aria_label": "Jumlah permainan yang dimenangkan"
+            },
+            "average_tries": {
+              "label": "Rata-rata percobaan:",
+              "aria_label": "Rata-rata jumlah percobaan per permainan"
+            },
+            "one_shots": {
+              "label": "Sekali tebak:",
+              "aria_label": "Jumlah permainan yang dimenangkan dalam satu percobaan"
+            },
+            "current_streak": {
+              "label": "Rentetan saat ini:",
+              "aria_label": "Rentetan kemenangan saat ini"
+            },
+            "best_streak": {
+              "label": "Rentetan terbaik:",
+              "aria_label": "Rentetan kemenangan terbaik"
+            }
+          },
+          "graph": {
+            "title": "Jumlah percobaan per permainan",
+            "label": "Percobaan",
+            "fallback": "Peramban Anda tidak mendukung elemen canvas."
+          }
+        },
+        "patchNotes": {
+          "title": "Catatan pembaruan",
+          "states": {
+            "loading": {
+              "message": "Memuat catatan pembaruan..."
+            },
+            "empty": {
+              "message": "Belum ada apa-apa di sini"
+            },
+            "error": {
+              "title": "Gagal memuat catatan pembaruan",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_pixel": {
+          "title": "Cara Bermain Stardewdle: Mode Pixel - Tantangan Pengungkapan Potret Bertahap",
+          "introduction_title": "Identifikasi Karakter Stardew Valley dari Potret Berpiksel",
+          "introduction_description": "Mode Pixel menawarkan tantangan visual unik di mana kamu harus mengidentifikasi karakter Stardew Valley dari potret yang sangat berpiksel yang secara bertahap menjadi lebih jelas dengan setiap tebakan. Game tebak harian inovatif ini menguji kemampuanmu untuk mengenali villager dari informasi visual terbatas, sempurna untuk pemain kasual maupun penggemar setia.",
+          "gameplay_title": "Mekanika Permainan Mode Pixel",
+          "gameplay_description": "Dalam tantangan tebak karakter Stardew Valley ini, kamu akan disajikan potret villager yang sangat berpiksel. Misimu adalah mengidentifikasi karakter secepat mungkin. Pada setiap tebakan yang salah, gambar menjadi semakin tidak berpiksel, mengungkap lebih banyak detail untuk membantumu mengidentifikasi villager yang benar.",
+          "pixelation_system_title": "Sistem Penghilangan Piksel Bertahap",
+          "pixelation_system_description": "Mode Pixel menampilkan sistem kejelasan dinamis:",
+          "pixelation_phase_1": "• <strong>Fase Awal</strong>: Potret dimulai dengan sangat berpiksel, membuat identifikasi sangat menantang. Hanya fitur paling khas dan pola warna yang terlihat.",
+          "pixelation_phase_2": "• <strong>Pengungkapan Bertahap</strong>: Pada setiap tebakan, tingkat piksel berkurang, secara bertahap mengungkap lebih banyak detail potret villager. Setelah sekitar 12 tebakan, gambar menjadi benar-benar jelas.",
+          "pixelation_phase_3": "• <strong>Pengungkapan Kemenangan</strong>: Saat kamu mengidentifikasi villager dengan benar, potret langsung menjadi sangat jelas, mengungkap karakter dengan detail penuh.",
+          "strategy_title": "Strategi Menang untuk Mode Pixel",
+          "strategy_tip_1": "• Fokus pada warna dominan dan pola warna pada gambar berpiksel—banyak villager memiliki skema warna khas.",
+          "strategy_tip_2": "• Cari bentuk dan siluet khas, bahkan saat sangat berpiksel—beberapa villager memiliki bentuk kepala atau aksesori unik.",
+          "strategy_tip_3": "• Perhatikan warna latar belakang, yang mencerminkan kelangkaan villager dan dapat membantu mempersempit kemungkinan.",
+          "strategy_tip_4": "• Gunakan proses eliminasi—jika kamu sudah menebak villager tertentu, fokuslah pada yang belum kamu coba.",
+          "strategy_tip_5": "• Pertimbangkan komposisi keseluruhan—beberapa villager memiliki pose atau posisi khas dalam potret mereka.",
+          "strategy_tip_6": "• Saat gambar menjadi lebih jelas, cari aksesori unik, fitur wajah, atau elemen kostum yang membedakan karakter tertentu.",
+          "daily_challenge_title": "Tantangan Pixel Stardew Valley Harian",
+          "daily_challenge_description": "Setiap hari menghadirkan tantangan Mode Pixel baru dengan karakter Stardew Valley berbeda untuk diidentifikasi! Game tebak harian ini mengasah keterampilan pengenalan visualmu dan menguji keakrabanmu dengan desain karakter di dunia Stardew Valley. Tantang dirimu untuk mengidentifikasi villager dengan tebakan paling sedikit dan bagikan hasilmu dengan teman-teman!"
+        }
+      }
+    },
+    "emoji": {
+      "page_meta": {
+        "title": "Emoji",
+        "description": "Tebak villager Stardew Valley hari ini dari petunjuk emoji!"
+      },
+      "errors": {
+        "no_daily_brawler": "Villager harian tidak ditemukan",
+        "generic_error": "Kesalahan: {message}"
+      },
+      "yesterday": "Villager kemarin adalah <name>{brawlerName}</name>",
+      "share": {
+        "text": "Saya menemukan villager #Stardewdle #{id} di mode emoji dalam {tries} tembakan ",
+        "to_copy": "Saya menemukan villager #Stardewdle #{id} dari emoji dalam {tries} percobaan\n"
+      },
+      "victory": {
+        "stats_button": "Statistik"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Villager mana yang diwakili emoji ini?",
+          "next_emoji_hint": "Emoji berikutnya terungkap setelah tebakan ke-{tries}"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Statistik",
+            "alt": "Ikon statistik"
+          },
+          "streak": {
+            "tooltip": "Rentetan saat ini (Rangkaian kemenangan beruntun)",
+            "alt": {
+              "active": "Ikon rentetan aktif",
+              "inactive": "Ikon rentetan tidak aktif"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Catatan pembaruan",
+            "alt": "Ikon catatan pembaruan"
+          },
+          "howToPlay": {
+            "tooltip": "Cara bermain",
+            "alt": "Ikon cara bermain"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Ketik nama villager.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Statistik",
+          "metrics": {
+            "games_won": {
+              "label": "Permainan dimenangkan:",
+              "aria_label": "Jumlah permainan yang dimenangkan"
+            },
+            "average_tries": {
+              "label": "Rata-rata percobaan:",
+              "aria_label": "Rata-rata jumlah percobaan per permainan"
+            },
+            "one_shots": {
+              "label": "Sekali tebak:",
+              "aria_label": "Jumlah permainan yang dimenangkan dalam satu percobaan"
+            },
+            "current_streak": {
+              "label": "Rentetan saat ini:",
+              "aria_label": "Rentetan kemenangan saat ini"
+            },
+            "best_streak": {
+              "label": "Rentetan terbaik:",
+              "aria_label": "Rentetan kemenangan terbaik"
+            }
+          },
+          "graph": {
+            "title": "Jumlah percobaan per permainan",
+            "label": "Percobaan",
+            "fallback": "Peramban Anda tidak mendukung elemen canvas."
+          }
+        },
+        "how_to_play": {
+          "title": "Cara Bermain Stardewdle: Mode Emoji",
+          "introduction_title": "Identifikasi Villager dari Petunjuk Emoji",
+          "introduction_description": "Di Mode Emoji, kamu akan ditampilkan emoji yang mewakili seorang villager dan harus menebak siapa villager tersebut. Emoji baru akan terungkap pada setiap tebakan yang salah.",
+          "how_to_play_title": "Cara Bermain",
+          "step_1": "Perhatikan dengan saksama emoji yang ditampilkan.",
+          "step_2": "Pikirkan villager mana yang diwakili emoji-emoji ini.",
+          "step_3": "Ketik atau pilih tebakanmu dari daftar.",
+          "step_4": "Kembalilah besok untuk tantangan emoji baru!"
+        }
+      }
+    }
+  },
+  "common": {
+    "header": {
+      "button": {
+        "stats": {
+          "tooltip": "Statistik"
+        },
+        "streak": {
+          "tooltip": "Rentetan saat ini (Kemenangan beruntun)"
+        },
+        "changelog": {
+          "tooltip": "Catatan perubahan"
+        }
+      }
+    },
+    "soon": "segera"
+  },
+  "components": {
+    "explanationBox": {
+      "errors": {
+        "no_content": "Tidak ada konten yang disediakan"
+      }
+    },
+    "answerInput": {
+      "states": {
+        "loading": "Memuat...",
+        "no_result": "Tidak ada hasil"
+      },
+      "button": {
+        "submit": {
+          "title": "Kirim"
+        }
+      }
+    },
+    "victoryContainer": {
+      "title": "Permainanmu",
+      "congratulations": "GG !!",
+      "guess": {
+        "prefix": "Kamu menebak",
+        "character": "{name}"
+      },
+      "tries": {
+        "count": "Jumlah percobaan:",
+        "value": "{count}"
+      },
+      "next": {
+        "timer": "Villager berikutnya dalam",
+        "mode": "Mode berikutnya:"
+      },
+      "image": {
+        "alt": "Gambar kemenangan"
+      },
+      "you_found": "Kamu menemukan",
+      "number_of_tries": "Jumlah percobaan: {count}"
+    },
+    "shareContainer": {
+      "title": "Bagikan hasilmu",
+      "buttons": {
+        "copy": {
+          "title": "Salin",
+          "aria_label": "Salin hasil ke papan klip"
+        },
+        "tweet": {
+          "title": "Tweet",
+          "aria_label": "Bagikan di X (Twitter)"
+        }
+      },
+      "and_more": "dan {count} lainnya..."
+    }
+  }
+}

@@ -1,0 +1,566 @@
+{
+  "lang": {
+    "name": "Suomi"
+  },
+  "layout": {
+    "page_meta": {
+      "base_title": "Arvaa Stardew Valley -elementit",
+      "base_description": "Stardewdle - Päivittäinen Stardew Valley -arvauspeli! Ota vastaan uusia haasteita joka päivä ja testaa Battle Royale -tietämystäsi",
+      "site_name": "Stardewdle"
+    },
+    "header": {
+      "home_link": "Palaa Stardewdlen etusivulle",
+      "logo_alt": "Stardewdlen logo"
+    },
+    "footer": {
+      "accessibility": {
+        "discord": "Liity Discord-yhteisöömme",
+        "information": "Tiedot",
+        "kofi": "Tue meitä Ko-fissa",
+        "x": "Seuraa meitä X:ssä (Twitter)",
+        "reddit": "Liity Reddit-yhteisöömme"
+      },
+      "want_more": {
+        "title": "Haluatko lisää?",
+        "description": "Tutustu suurimpaan keskukseen kaikille dle-peleille."
+      },
+      "copyright": "Stardewdle - {year}",
+      "cookie_preferences": "Päivitä evästeasetukset"
+    },
+    "modals": {
+      "about": {
+        "title": "Tietoja",
+        "discover": "Tervetuloa Stardewdleen, ykkösenä päivittäisten Stardew Valley -arvauspelien joukossa! Testaa Stardew Valley -universumin tietämystäsi 6 jännittävän pelimuodon kautta: Classic, Emoji, Quote, Ability, Signature ja Rank. Löydä uusi Villager päivittäin ja haasta itsesi ainutlaatuisella -dle-pelikokemuksellamme, joka on suoraan inspiroitunut suositusta Stardew Valley -kilpailullisesta villager-räiskinnästä.",
+        "disclaimer": "Stardewdle on fanien intohimosta tekemä projekti, joka käyttää Supercellin omistamia resursseja. Supercell ei tue tai sponsoroi tätä projektia. Stardew Valley ja kaikki siihen liittyvät hahmot ovat Supercellin rekisteröityjä tavaramerkkejä.",
+        "dle_games": {
+          "title": "Liity suosittuun -dle-pelitrendiin Stardewdlen kanssa",
+          "description": "Stardewdle tuo koukuttavan päivittäisen arvausformaatin Stardew Valley -universumiin. Aivan kuten Wordle, Heardle ja muut suositut -dle-pelit, Stardewdle tarjoaa tuoreita pulmia päivittäin, jotka testaavat tietämystäsi hauskalla ja kiinnostavalla tavalla. Useat ainutlaatuiset pelimuotomme tekevät Stardewdlestä kattavimman saatavilla olevan Stardew Valley -arvauspelin."
+        },
+        "commitment": {
+          "title": "Sitoutumisemme Stardew Valley -yhteisöön",
+          "description": "Stardewdle on paljon enemmän kuin pelkkä peli. Se on faneilta faneille tehty päivittäinen haaste, joka uppouttaa sinut Stardew Valleyin jännittävään universumiin. Tutkimme jokaisen hahmon huolellisesti varmistaaksemme päivittäisten haasteidemme tarkkuuden kaikissa pelimuodoissa. Kun Stardew Valleyin hahmolista laajenee, niin laajenee tietokantamme, varmistaen että sinulla on aina tuoretta sisältöä nautittavaksi tässä äärimmäisessä Stardew Valley -arvauspelikokemuksessa."
+        },
+        "game_modes": {
+          "title": "Kuusi jännittävää pelimuotoa päivittäisessä Stardew Valley -haasteessamme",
+          "description": "Stardewdle tarjoaa vertaansa vailla olevaa monipuolisuutta useilla erilaisilla pelimuodoilla: Classic-tila testaa tietämystäsi hahmojen ominaisuuksista, Emoji-tila haastaa tunnistamaan villagerit viidestä emojista yksi paljastuen per arvaus, Quote-tila esittää pelin sisäisiä hahmodialogeja yhdistettäväksi oikeaan villageriin, Ability-tila näyttää kuvan hahmon kyvystä tunnistettavaksi, ja Signature-tila näyttää villagerin kirjallisen allekirjoituksen tunnistettavaksi. Jokainen päivä tuo uusia Stardew Valley -haasteita kaikissa tiloissa!"
+        },
+        "inspiration": {
+          "title": "Inspiraationa Stardew Valley ja suosittu -dle-peliformaatti",
+          "description": "Stardewdle yhdistää Wordlen suosituksi tekemän koukuttavan päivittäisen pulmaformaatin Stardew Valleyin rikkaaseen hahmouniversumiin. Arvauspelimme tarjoaa täydellisen tavan testata Stardew Valley -tietämystäsi ja todistaa, että olet tämän suositun mobiilitaistelupelin todellinen fani. Liity tuhansiin Stardew Valley -faneihin, jotka haastavat itseään päivittäin ainutlaatuisilla arvauspulmillamme."
+        },
+        "credit": {
+          "title": "Alkuperäinen inspiraatio",
+          "description": "Alun perin inspiroitunut <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dain</a> Stardewdle.io:sta, alkuperäisestä Stardew Valley -päivittäisestä arvauspelistä."
+        },
+        "privacy": {
+          "title": "Yksityisyys ja tietojen käyttö",
+          "description": "Kunnioitamme yksityisyyttäsi. Stardewdle käyttää evästeitä tilastojen keräämiseen ja päivittäisen arvauspelikokemuksesi personointiin. Lisätietoja tietosuojakäytännöstämme saat vierailemalla <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">erillisellä osiollamme</a>."
+        },
+        "thanks": "Kiitos, että olet osa Stardewdle-yhteisöä! Uudet Stardew Valley -hahmot ja -haasteet odottavat sinua päivittäin!",
+        "signature": {
+          "regards": "Ystävällisin terveisin,",
+          "team": "Stardewdle-tiimi - Intohimoisia Stardew Valley -faneja"
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Testaa Stardew Valley -tietämyksesi",
+      "button": {
+        "classic": {
+          "title": "Classic",
+          "description": "Saa vihjeitä jokaisella yrityksellä"
+        },
+        "pixel": {
+          "title": "Pixel",
+          "description": "Arvaa muotokuvan pikseleistä"
+        },
+        "emoji": {
+          "title": "Emoji",
+          "description": "Arvaa emoji-vihjeistä"
+        }
+      },
+      "reset_in": "Nollaus: {time}",
+      "royaledle_banner": {
+        "title": "Pelaa Royaledlea",
+        "subtitle": "Päivittäinen Clash Royale -arvuuttelu",
+        "cta": "Pelaa",
+        "new": "UUSI"
+      }
+    },
+    "classic": {
+      "page_meta": {
+        "title": "Classic",
+        "description": "Arvaa tämän päivän Stardew Valley -villager!"
+      },
+      "errors": {
+        "no_daily_brawler": "Päivittäistä villageria ei löytynyt",
+        "generic_error": "Virhe: {message}"
+      },
+      "result": {
+        "success": "Hyvin tehty!",
+        "failure": "Yritä uudelleen"
+      },
+      "scroll_hint": "← Vieritä vaakasuunnassa nähdäksesi lisää →",
+      "yesterday": "Eilisen villager oli <name>{brawlerName}</name>",
+      "share": {
+        "text": "Löysin #Stardewdle-villagerin #{id} classic-tilassa {tries} laukauksessa ",
+        "to_copy": "Löysin #Stardewdle-villagerin #{id} classic-tilassa {tries} yrityksessä\n"
+      },
+      "victory": {
+        "stats_button": "Tilastot"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Arvaa tämän päivän Stardew Valley -villager",
+          "bottomHint": "Aloita kirjoittamalla minkä tahansa villagerin nimi.",
+          "hints": {
+            "gadget": {
+              "unavailable": "Gadget-vihje {tries} yrityksen päästä",
+              "available": "Gadget-vihje"
+            },
+            "hypercharge": {
+              "unavailable": "Hypercharge-vihje {tries} yrityksen päästä",
+              "available": "Hypercharge-vihje"
+            },
+            "silhouette": {
+              "unavailable": "Siluettivihje {tries} yrityksen päästä",
+              "available": "Siluettivihje"
+            }
+          }
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Tilastot",
+            "alt": "Tilastokuvake"
+          },
+          "streak": {
+            "tooltip": "Nykyinen putki (Sarja peräkkäisiä voittoja)",
+            "alt": {
+              "active": "Aktiivinen putkikuvake",
+              "inactive": "Ei-aktiivinen putkikuvake"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Päivitysmuistiinpanot",
+            "alt": "Päivitysmuistiinpanojen kuvake"
+          },
+          "howToPlay": {
+            "tooltip": "Pelin ohjeet",
+            "alt": "Pelin ohjeet -kuvake"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Kirjoita villagerin nimi.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Tilastot",
+          "metrics": {
+            "games_won": {
+              "label": "Voitettuja pelejä:",
+              "aria_label": "Voitettujen pelien määrä"
+            },
+            "average_tries": {
+              "label": "Keskimääräiset yritykset:",
+              "aria_label": "Keskimääräinen yritysten määrä per peli"
+            },
+            "one_shots": {
+              "label": "Yhdellä yrityksellä:",
+              "aria_label": "Yhdellä yrityksellä voitettujen pelien määrä"
+            },
+            "current_streak": {
+              "label": "Nykyinen putki:",
+              "aria_label": "Nykyinen voittoputki"
+            },
+            "best_streak": {
+              "label": "Paras putki:",
+              "aria_label": "Paras voittoputki"
+            }
+          },
+          "graph": {
+            "title": "Yritysten määrä per peli",
+            "label": "Yritykset",
+            "fallback": "Selaimesi ei tue canvas-elementtiä."
+          }
+        },
+        "patchNotes": {
+          "title": "Päivitysmuistiinpanot",
+          "states": {
+            "loading": {
+              "message": "Ladataan päivitysmuistiinpanoja..."
+            },
+            "empty": {
+              "message": "Täällä ei ole vielä mitään"
+            },
+            "error": {
+              "title": "Päivitysmuistiinpanojen lataaminen epäonnistui",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "Kuinka pelata Stardewdleä: Classic-tila - Stardew Valley päivittäinen haaste",
+          "introduction_title": "Stardewdlen Classic-tilan ymmärtäminen",
+          "introduction_description": "Classic-tilassa testaat tietämystäsi Stardew Valleyin Villagereista strategisen arvauspelin kautta. Tavoitteesi on tunnistaa salainen Villager analysoimalla kuutta keskeistä ominaisuutta. Jokaisella arvauksella saat värikoodattua palautetta ja suuntanuolia, jotka ohjaavat sinua kohti oikeaa vastausta tässä päivittäisessä haasteessa.",
+          "attributes_title": "Villagerin ominaisuudet",
+          "attributes_description": "Stardewdlen Classic-tila sisältää nämä kuusi keskeistä ominaisuutta jokaiselle Villagerille:",
+          "attribute_item_1": "• <strong>Harvinaisuus</strong>: Villagerin harvinaisuusluokka (Common, Rare, Super Rare, Epic, Mythic, Legendary, Ultra Legendary).",
+          "attribute_item_2": "• <strong>Luokka</strong>: Villagerin rooli taistelussa (esim. Tank, Damage Dealer, Support, Assassin).",
+          "attribute_item_3": "• <strong>Liike</strong>: Villagerin liikkumisnopeus (Erittäin hidas, Hidas, Normaali, Nopea, Erittäin nopea).",
+          "attribute_item_4": "• <strong>Kantama</strong>: Villagerin hyökkäyskantama (Erittäin lyhyt, Lyhyt, Normaali, Pitkä, Erittäin pitkä).",
+          "attribute_item_5": "• <strong>Lataus</strong>: Villagerin latausnopeus (Erittäin hidas, Hidas, Normaali, Nopea, Erittäin nopea).",
+          "attribute_item_6": "• <strong>Vuosi</strong>: Vuosi, jolloin Villager julkaistiin Stardew Valleyissa.",
+          "feedback_title": "Väripalautteen ymmärtäminen",
+          "feedback_description": "Jokaisen arvauksen jälkeen saat värikoodattua palautetta käännösanimaation kanssa jokaiselle ominaisuudelle:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Vihreä</span>: Oikein! Salaisella Villagerilla on täsmälleen tämä ominaisuusarvo.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Punainen</span>: Väärin. Salaisella Villagerilla ei ole tätä ominaisuusarvoa.",
+          "feedback_arrows": "<strong>Liike</strong>-, <strong>Kantama</strong>-, <strong>Lataus</strong>- ja <strong>Vuosi</strong>-ominaisuuksien kohdalla näet suuntanuolia:",
+          "feedback_arrow_up": "• <strong>Nuoli ylös (↑)</strong>: Salaisen Villagerin arvo on KORKEAMPI kuin arvauksesi.",
+          "feedback_arrow_down": "• <strong>Nuoli alas (↓)</strong>: Salaisen Villagerin arvo on MATALAMPI kuin arvauksesi.",
+          "how_to_play_title": "Stardewdlen Classic-tilan pelaaminen",
+          "step_1": "Aloita tekemällä ensimmäinen arvauksesi mistä tahansa Villagerista hakulistasta.",
+          "step_2": "Katso, kuinka jokainen ominaisuusruutu kääntyy järjestyksessä paljastaen värikoodatun palautteen.",
+          "step_3": "Analysoi vihreät ja punaiset ruudut tunnistaaksesi täsmäävät ja täsmäämättömät ominaisuudet.",
+          "step_4": "Käytä Liikkeen, Kantaman, Latauksen ja Vuoden suuntanuolia kaventaaksesi mahdollisuuksia.",
+          "step_5": "Tee seuraava arvauksesi saatujen yhdistettyjen palautteiden perusteella.",
+          "step_6": "Jatka, kunnes tunnistat oikein salaisen Villagerin!",
+          "step_7": "Palaa päivittäin uuden Villagerin arvaamiseen Classic-tilassa.",
+          "strategy_title": "Voittavan strategian vinkkejä",
+          "strategy_tip_1": "• Aloita Villagereilla, jotka tunnet hyvin, vahvistaaksesi ominaisuusmallien lähtötason.",
+          "strategy_tip_2": "• Kiinnitä huomiota peräkkäiseen käännösanimaatioon - jokainen ruutu paljastaa tietoa järjestyksessä.",
+          "strategy_tip_3": "• Käytä nuolia strategisesti: ne auttavat sinua nopeasti eliminoimaan kokonaisia Villager-ryhmiä.",
+          "strategy_tip_4": "• Järjestysominaisuuksien (Liike, Kantama, Lataus) kohdalla muista viisitasoinen asteikko.",
+          "strategy_tip_5": "• Ristiinviittaa useita ominaisuuksia - Villagerin on vastattava KAIKKIA vihreitä palautteita.",
+          "strategy_tip_6": "• Muista, että Harvinaisuuden ja Luokan on täsmättävä tarkalleen (ei nuolia, vain vihreä tai punainen).",
+          "daily_challenge_title": "Päivittäiset Stardew Valley -haasteet",
+          "daily_challenge_description": "Palaa Stardewdleen joka päivä uuden salaisen Villagerin tunnistamiseen! Aiemmat yrityksesi näytetään käänteisessä aikajärjestyksessä, ja jokainen arvaus animoidaan lisättäessä. Seuraa putkeasi ja vertaa taitojasi ystävien kanssa tässä Stardew Valley -tietämyksen perimmäisessä testissä."
+        }
+      },
+      "attributes": {
+        "headers": {
+          "brawler": "Villager",
+          "rarity": "Harvinaisuus",
+          "class": "Luokka",
+          "movement": "Liike",
+          "range": "Kantama",
+          "reload": "Lataus",
+          "year": "Vuosi"
+        },
+        "rarity": {
+          "common": "Tavallinen",
+          "rare": "Harvinainen",
+          "super_rare": "Superharvinainen",
+          "epic": "Eeppinen",
+          "mythic": "Myyttinen",
+          "legendary": "Legendaarinen",
+          "ultra_legendary": "Ultralegendaarinen"
+        },
+        "class": {
+          "artillery": "Tykistö",
+          "assassin": "Salamurhaaja",
+          "controller": "Hallitsija",
+          "damage_dealer": "Vahinkoilija",
+          "marksman": "Tarkka-ampuja",
+          "support": "Tuki",
+          "tank": "Panssarivaunu"
+        },
+        "speed": {
+          "very_slow": "Erittäin Hidas",
+          "slow": "Hidas",
+          "normal": "Normaali",
+          "fast": "Nopea",
+          "very_fast": "Erittäin Nopea"
+        },
+        "range": {
+          "very_short": "Erittäin Lyhyt",
+          "short": "Lyhyt",
+          "normal": "Normaali",
+          "long": "Pitkä",
+          "very_long": "Erittäin Pitkä"
+        }
+      }
+    },
+    "pixel": {
+      "page_meta": {
+        "title": "Pixel",
+        "description": "Arvaa tämän päivän Stardew Valley -villager pikselöidystä muotokuvasta!"
+      },
+      "errors": {
+        "no_daily_brawler": "Päivittäistä villageria ei löytynyt",
+        "generic_error": "Virhe: {message}"
+      },
+      "result": {
+        "success": "Hyvin tehty!",
+        "failure": "Yritä uudelleen"
+      },
+      "scroll_hint": "← Vieritä vaakasuunnassa nähdäksesi lisää →",
+      "yesterday": "Eilisen villager oli <n>{brawlerName}</n>",
+      "share": {
+        "text": "Löysin #Stardewdle-villagerin #{id} pixel-tilassa {tries} laukauksessa ",
+        "to_copy": "Löysin #Stardewdle-villagerin #{id} pikseleistä {tries} yrityksessä\n"
+      },
+      "victory": {
+        "stats_button": "Tilastot"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Arvaa villager pikselöidystä muotokuvasta"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Tilastot",
+            "alt": "Tilastokuvake"
+          },
+          "streak": {
+            "tooltip": "Nykyinen putki (Sarja peräkkäisiä voittoja)",
+            "alt": {
+              "active": "Aktiivinen putkikuvake",
+              "inactive": "Ei-aktiivinen putkikuvake"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Päivitysmuistiinpanot",
+            "alt": "Päivitysmuistiinpanojen kuvake"
+          },
+          "howToPlay": {
+            "tooltip": "Pelin ohjeet",
+            "alt": "Pelin ohjeet -kuvake"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Kirjoita villagerin nimi.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Tilastot",
+          "metrics": {
+            "games_won": {
+              "label": "Voitettuja pelejä:",
+              "aria_label": "Voitettujen pelien määrä"
+            },
+            "average_tries": {
+              "label": "Keskimääräiset yritykset:",
+              "aria_label": "Keskimääräinen yritysten määrä per peli"
+            },
+            "one_shots": {
+              "label": "Yhdellä yrityksellä:",
+              "aria_label": "Yhdellä yrityksellä voitettujen pelien määrä"
+            },
+            "current_streak": {
+              "label": "Nykyinen putki:",
+              "aria_label": "Nykyinen voittoputki"
+            },
+            "best_streak": {
+              "label": "Paras putki:",
+              "aria_label": "Paras voittoputki"
+            }
+          },
+          "graph": {
+            "title": "Yritysten määrä per peli",
+            "label": "Yritykset",
+            "fallback": "Selaimesi ei tue canvas-elementtiä."
+          }
+        },
+        "patchNotes": {
+          "title": "Päivitysmuistiinpanot",
+          "states": {
+            "loading": {
+              "message": "Ladataan päivitysmuistiinpanoja..."
+            },
+            "empty": {
+              "message": "Täällä ei ole vielä mitään"
+            },
+            "error": {
+              "title": "Päivitysmuistiinpanojen lataaminen epäonnistui",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_pixel": {
+          "title": "Kuinka pelata Stardewdleä: Pixel-tila - Asteittaisen muotokuvan paljastushaaste",
+          "introduction_title": "Tunnista Stardew Valley -hahmot pikselöidyistä muotokuvista",
+          "introduction_description": "Pixel-tila tarjoaa ainutlaatuisen visuaalisen haasteen, jossa sinun on tunnistettava Stardew Valley -hahmoja vahvasti pikselöidyistä muotokuvista, jotka selkenevät asteittain jokaisella arvauksella. Tämä innovatiivinen päivittäinen arvauspeli testaa kykyäsi tunnistaa villagerit rajoitetusta visuaalisesta tiedosta, ja se on täydellinen sekä satunnaisille pelaajille että omistautuneille faneille.",
+          "gameplay_title": "Pixel-tilan pelimekaniikka",
+          "gameplay_description": "Tässä Stardew Valley -hahmojen arvaushaasteessa sinulle esitetään villagerin vahvasti pikselöity muotokuva. Tehtäväsi on tunnistaa hahmo niin nopeasti kuin mahdollista. Jokaisella väärällä arvauksella kuva muuttuu asteittain vähemmän pikselöidyksi, paljastaen lisää yksityiskohtia auttaen sinua tunnistamaan oikean villagerin.",
+          "pixelation_system_title": "Asteittainen depikselöintijärjestelmä",
+          "pixelation_system_description": "Pixel-tilassa on dynaaminen selkeysjärjestelmä:",
+          "pixelation_phase_1": "• <strong>Alkuvaihe</strong>: Muotokuva alkaa vahvasti pikselöitynä, mikä tekee tunnistamisesta erittäin haastavaa. Vain erottuvimmat piirteet ja värimallit ovat näkyvissä.",
+          "pixelation_phase_2": "• <strong>Asteittainen paljastus</strong>: Jokaisen arvauksen myötä pikselöinnin taso vähenee, paljastaen asteittain enemmän yksityiskohtia villagerin muotokuvasta. Noin 12 arvauksen jälkeen kuvasta tulee täysin selkeä.",
+          "pixelation_phase_3": "• <strong>Voittopaljastus</strong>: Kun tunnistat villagerin oikein, muotokuvasta tulee välittömästi kristallinkirkas, paljastaen hahmon täydellisesti.",
+          "strategy_title": "Voittavat strategiat Pixel-tilaan",
+          "strategy_tip_1": "• Keskity pikselöidyn kuvan vallitseviin väreihin ja värimalleihin - monilla villagereilla on tunnusomaiset värimaailmat.",
+          "strategy_tip_2": "• Etsi erottuvia muotoja ja siluetteja, vaikka kuva olisi vahvasti pikselöity - joillakin villagereilla on ainutlaatuisia päämuotoja tai asusteita.",
+          "strategy_tip_3": "• Kiinnitä huomiota taustaväriin, joka heijastaa villagerin harvinaisuutta ja voi auttaa kaventamaan mahdollisuuksia.",
+          "strategy_tip_4": "• Käytä eliminointimenetelmää - jos olet jo arvannut tiettyjä villagereita, keskity niihin, joita et ole vielä kokeillut.",
+          "strategy_tip_5": "• Mieti yleistä sommittelua - joillakin villagereilla on erottuvia poseerauksia tai asetteluja muotokuvissaan.",
+          "strategy_tip_6": "• Kun kuva selkenee, etsi ainutlaatuisia asusteita, kasvonpiirteitä tai puvun elementtejä, jotka erottavat tiettyjä hahmoja.",
+          "daily_challenge_title": "Päivittäiset Stardew Valley -pikselihaasteet",
+          "daily_challenge_description": "Jokainen päivä tuo uuden Pixel-tilan haasteen eri Stardew Valley -hahmon tunnistamiseksi! Tämä päivittäinen arvauspeli teroittaa visuaalisia tunnistustaitojasi ja testaa tuntemustasi Stardew Valley -universumin hahmosuunnitteluista. Haasta itsesi tunnistamaan villagerit mahdollisimman vähillä arvauksilla ja jaa tuloksesi ystävien kanssa!"
+        }
+      }
+    },
+    "emoji": {
+      "page_meta": {
+        "title": "Emoji",
+        "description": "Arvaa tämän päivän Stardew Valley -villager emoji-vihjeistä!"
+      },
+      "errors": {
+        "no_daily_brawler": "Päivittäistä villageria ei löytynyt",
+        "generic_error": "Virhe: {message}"
+      },
+      "yesterday": "Eilisen villager oli <name>{brawlerName}</name>",
+      "share": {
+        "text": "Löysin #Stardewdle-villagerin #{id} emoji-tilassa {tries} laukauksessa ",
+        "to_copy": "Löysin #Stardewdle-villagerin #{id} emojista {tries} yrityksessä\n"
+      },
+      "victory": {
+        "stats_button": "Tilastot"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Mitä villageria nämä emojit edustavat?",
+          "next_emoji_hint": "Seuraava emoji paljastetaan {tries}. yrityksen jälkeen"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Tilastot",
+            "alt": "Tilastokuvake"
+          },
+          "streak": {
+            "tooltip": "Nykyinen putki (Sarja peräkkäisiä voittoja)",
+            "alt": {
+              "active": "Aktiivinen putkikuvake",
+              "inactive": "Ei-aktiivinen putkikuvake"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Päivitysmuistiinpanot",
+            "alt": "Päivitysmuistiinpanojen kuvake"
+          },
+          "howToPlay": {
+            "tooltip": "Pelin ohjeet",
+            "alt": "Pelin ohjeet -kuvake"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Kirjoita villagerin nimi.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Tilastot",
+          "metrics": {
+            "games_won": {
+              "label": "Voitettuja pelejä:",
+              "aria_label": "Voitettujen pelien määrä"
+            },
+            "average_tries": {
+              "label": "Keskimääräiset yritykset:",
+              "aria_label": "Keskimääräinen yritysten määrä per peli"
+            },
+            "one_shots": {
+              "label": "Yhdellä yrityksellä:",
+              "aria_label": "Yhdellä yrityksellä voitettujen pelien määrä"
+            },
+            "current_streak": {
+              "label": "Nykyinen putki:",
+              "aria_label": "Nykyinen voittoputki"
+            },
+            "best_streak": {
+              "label": "Paras putki:",
+              "aria_label": "Paras voittoputki"
+            }
+          },
+          "graph": {
+            "title": "Yritysten määrä per peli",
+            "label": "Yritykset",
+            "fallback": "Selaimesi ei tue canvas-elementtiä."
+          }
+        },
+        "how_to_play": {
+          "title": "Kuinka pelata Stardewdleä: Emoji-tila",
+          "introduction_title": "Tunnista villagerit emoji-vihjeistä",
+          "introduction_description": "Emoji-tilassa sinulle näytetään emojit, jotka edustavat villageria, ja sinun on arvattava, kuka se on. Uusi emoji paljastetaan jokaisen väärän arvauksen myötä.",
+          "how_to_play_title": "Kuinka pelata",
+          "step_1": "Katso huolellisesti näytettyjä emojeja.",
+          "step_2": "Mieti, mitä villageria nämä emojit edustavat.",
+          "step_3": "Kirjoita tai valitse arvauksesi listalta.",
+          "step_4": "Palaa huomenna uuden emoji-haasteen pariin!"
+        }
+      }
+    }
+  },
+  "common": {
+    "header": {
+      "button": {
+        "stats": {
+          "tooltip": "Tilastot"
+        },
+        "streak": {
+          "tooltip": "Nykyinen putki (Peräkkäiset voitot)"
+        },
+        "changelog": {
+          "tooltip": "Muutosloki"
+        }
+      }
+    },
+    "soon": "pian"
+  },
+  "components": {
+    "explanationBox": {
+      "errors": {
+        "no_content": "Sisältöä ei annettu"
+      }
+    },
+    "answerInput": {
+      "states": {
+        "loading": "Ladataan...",
+        "no_result": "Ei tuloksia"
+      },
+      "button": {
+        "submit": {
+          "title": "Lähetä"
+        }
+      }
+    },
+    "victoryContainer": {
+      "title": "Pelisi",
+      "congratulations": "GG !!",
+      "guess": {
+        "prefix": "Arvasit",
+        "character": "{name}"
+      },
+      "tries": {
+        "count": "Yritysten määrä:",
+        "value": "{count}"
+      },
+      "next": {
+        "timer": "Seuraava villager",
+        "mode": "Seuraava tila:"
+      },
+      "image": {
+        "alt": "Voittokuva"
+      },
+      "you_found": "Löysit",
+      "number_of_tries": "Yritysten määrä: {count}"
+    },
+    "shareContainer": {
+      "title": "Jaa tuloksesi",
+      "buttons": {
+        "copy": {
+          "title": "Kopioi",
+          "aria_label": "Kopioi tulos leikepöydälle"
+        },
+        "tweet": {
+          "title": "Twiittaa",
+          "aria_label": "Jaa X:ssä (Twitter)"
+        }
+      },
+      "and_more": "ja {count} lisää..."
+    }
+  }
+}

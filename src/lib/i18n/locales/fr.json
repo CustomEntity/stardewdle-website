@@ -1,0 +1,553 @@
+{
+  "lang": {
+    "name": "Français"
+  },
+  "layout": {
+    "page_meta": {
+      "base_title": "Devinez les Éléments de Stardew Valley",
+      "base_description": "Stardewdle - Le jeu quotidien de devinettes Stardew Valley ! Relevez de nouveaux défis chaque jour et testez vos connaissances de Battle Royale",
+      "site_name": "Stardewdle"
+    },
+    "header": {
+      "home_link": "Retour à la page d'accueil de Stardewdle",
+      "logo_alt": "Logo Stardewdle"
+    },
+    "footer": {
+      "accessibility": {
+        "discord": "Rejoignez notre communauté Discord",
+        "information": "Information",
+        "kofi": "Soutenez-nous sur Ko-fi",
+        "x": "Suivez-nous sur X (Twitter)",
+        "reddit": "Rejoignez notre communauté Reddit"
+      },
+      "want_more": {
+        "title": "Envie de plus ?",
+        "description": "Découvrez le plus grand hub pour tous les jeux dle."
+      },
+      "copyright": "Stardewdle - {year}",
+      "cookie_preferences": "Modifier les préférences de cookies"
+    },
+    "modals": {
+      "about": {
+        "title": "À propos",
+        "discover": "Bienvenue sur Stardewdle, le meilleur jeu quotidien de devinettes Stardew Valley ! Testez vos connaissances de l'univers Stardew Valley à travers 6 modes de jeu passionnants : Classic, Emoji, Quote, Ability, Signature et Rank. Découvrez un nouveau Villager chaque jour et défiez-vous avec notre expérience de jeu -dle unique directement inspirée du populaire shooter compétitif Stardew Valley.",
+        "disclaimer": "Stardewdle est un projet de fans créé avec passion en utilisant des ressources appartenant à Supercell. Supercell ne cautionne ni ne parraine ce projet. Stardew Valley et tous les personnages associés sont des marques déposées de Supercell.",
+        "dle_games": {
+          "title": "Rejoignez la Tendance Populaire des Jeux -dle avec Stardewdle",
+          "description": "Stardewdle apporte le format addictif de devinettes quotidiennes à l'univers de Stardew Valley. Comme Wordle, Heardle et d'autres jeux -dle populaires, Stardewdle propose des énigmes fraîches quotidiennement qui testent vos connaissances de manière amusante et engageante. Nos multiples modes de jeu uniques font de Stardewdle le jeu de devinettes Stardew Valley le plus complet disponible."
+        },
+        "commitment": {
+          "title": "Notre Engagement envers la Communauté Stardew Valley",
+          "description": "Stardewdle est bien plus qu'un simple jeu. C'est un défi quotidien créé par des fans, pour des fans, qui vous plonge dans l'univers passionnant de Stardew Valley. Nous recherchons méticuleusement chaque personnage pour garantir l'exactitude de nos défis quotidiens dans tous les modes de jeu. Au fur et à mesure que le roster de Stardew Valley s'agrandit, notre base de données aussi, vous assurant d'avoir toujours du contenu frais à apprécier dans cette expérience ultime de jeu de devinettes Stardew Valley."
+        },
+        "game_modes": {
+          "title": "Six Modes de Jeu Passionnants dans Notre Défi Quotidien Stardew Valley",
+          "description": "Stardewdle offre une variété inégalée avec plusieurs modes de jeu distincts : le mode Classic teste vos connaissances sur les attributs des personnages, le mode Emoji vous met au défi d'identifier les villagers à partir de cinq emojis avec un révélé par essai, le mode Quote présente des dialogues de personnages du jeu pour que vous les associiez au bon villager, le mode Ability montre une image de la capacité d'un personnage pour l'identification, et le mode Signature affiche la signature écrite d'un villager pour que vous la reconnaissiez. Chaque jour apporte de nouveaux défis Stardew Valley dans tous les modes !"
+        },
+        "inspiration": {
+          "title": "Inspiré par Stardew Valley et le Format Populaire des Jeux -dle",
+          "description": "Stardewdle combine le format addictif de puzzle quotidien popularisé par Wordle avec le riche univers de personnages de Stardew Valley. Notre jeu de devinettes offre le moyen parfait de tester vos connaissances de Stardew Valley et de prouver que vous êtes un véritable fan de ce jeu de bataille mobile populaire. Rejoignez des milliers de passionnés de Stardew Valley qui se défient quotidiennement avec nos énigmes de devinettes uniques."
+        },
+        "credit": {
+          "title": "Inspiration Originale",
+          "description": "Originalement inspiré par <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> et son site Stardewdle.io, le jeu de devinettes quotidien Stardew Valley original."
+        },
+        "privacy": {
+          "title": "Confidentialité et Utilisation des Données",
+          "description": "Nous respectons votre vie privée. Stardewdle utilise des cookies pour collecter des statistiques et personnaliser votre expérience de jeu quotidienne de devinettes. Pour en savoir plus sur notre politique de confidentialité, veuillez consulter <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">notre section dédiée</a>."
+        },
+        "thanks": "Merci de faire partie de la communauté Stardewdle ! De nouveaux personnages et défis Stardew Valley vous attendent chaque jour !",
+        "signature": {
+          "regards": "Cordialement,",
+          "team": "L'Équipe Stardewdle - Fans Passionnés de Stardew Valley"
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Testez vos connaissances de Stardew Valley",
+      "button": {
+        "classic": {
+          "title": "Classique",
+          "description": "Obtenez des indices à chaque essai"
+        },
+        "pixel": {
+          "title": "Pixel",
+          "description": "Devinez à partir des pixels du portrait"
+        },
+        "emoji": {
+          "title": "Emoji",
+          "description": "Devinez avec les emojis"
+        }
+      },
+      "reset_in": "Réinit. dans : {time}",
+      "royaledle_banner": {
+        "title": "Joue à Royaledle",
+        "subtitle": "Devine le perso Clash Royale du jour",
+        "cta": "Jouer",
+        "new": "NOUVEAU"
+      }
+    },
+    "classic": {
+      "page_meta": {
+        "title": "Classique",
+        "description": "Devine le villageois de Stardew Valley du jour en mode Classique !"
+      },
+      "errors": {
+        "no_daily_brawler": "Aucun villageois du jour trouvé",
+        "generic_error": "Erreur : {message}"
+      },
+      "result": {
+        "success": "Bien joué !",
+        "failure": "Réessayez"
+      },
+      "scroll_hint": "← Faites défiler horizontalement pour voir plus →",
+      "yesterday": "Le villageois d'hier était <name>{brawlerName}</name>",
+      "share": {
+        "text": "J'ai trouvé le villageois #Stardewdle #{id} en mode classique en {tries} essais ",
+        "to_copy": "J'ai trouvé le villageois #Stardewdle #{id} en mode classique en {tries} essais\n{url}"
+      },
+      "victory": {
+        "stats_button": "Stats",
+        "back_home": "Retour à l'accueil"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Devine le villageois de Stardew Valley du jour",
+          "bottomHint": "Tape un villageois pour commencer."
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Statistiques",
+            "alt": "Icône de statistiques"
+          },
+          "streak": {
+            "tooltip": "Série actuelle (Série de victoires consécutives)",
+            "alt": {
+              "active": "Icône de série active",
+              "inactive": "Icône de série inactive"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Notes de mise à jour",
+            "alt": "Icône des notes de mise à jour"
+          },
+          "howToPlay": {
+            "tooltip": "Comment jouer",
+            "alt": "Icône comment jouer"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Tape un nom de villageois.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Statistiques",
+          "metrics": {
+            "games_won": {
+              "label": "Parties gagnées :",
+              "aria_label": "Nombre de parties gagnées"
+            },
+            "average_tries": {
+              "label": "Essais moyens :",
+              "aria_label": "Nombre moyen de tentatives par partie"
+            },
+            "one_shots": {
+              "label": "Du premier coup :",
+              "aria_label": "Nombre de parties gagnées en un essai"
+            },
+            "current_streak": {
+              "label": "Série actuelle :",
+              "aria_label": "Série de victoires actuelle"
+            },
+            "best_streak": {
+              "label": "Meilleure série :",
+              "aria_label": "Meilleure série de victoires"
+            }
+          },
+          "graph": {
+            "title": "Nombre d'essais par partie",
+            "label": "Essais",
+            "fallback": "Votre navigateur ne supporte pas l'élément canvas."
+          }
+        },
+        "patchNotes": {
+          "title": "Notes de mise à jour",
+          "states": {
+            "loading": {
+              "message": "Chargement des notes de mise à jour..."
+            },
+            "empty": {
+              "message": "Rien ici pour le moment"
+            },
+            "error": {
+              "title": "Échec du chargement des notes de mise à jour",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "Comment jouer à Stardewdle : Mode Classique",
+          "introduction_title": "Mode Classique",
+          "introduction_description": "Devine le villageois secret de Stardew Valley du jour. Analyse six attributs ; chaque essai donne un retour coloré et des flèches directionnelles pour te guider.",
+          "attributes_title": "Attributs du villageois",
+          "attributes_description": "Le Mode Classique compare ces six attributs :",
+          "attribute_item_1": "• <strong>Genre</strong> : Homme ou Femme.",
+          "attribute_item_2": "• <strong>Quartier</strong> : où il habite (Ville, Montagne, Forêt, Plage, Désert, Égouts, Île Gingembre).",
+          "attribute_item_3": "• <strong>Saison</strong> : la saison de son anniversaire (Printemps, Été, Automne, Hiver).",
+          "attribute_item_4": "• <strong>Anniversaire</strong> : le jour du mois de sa naissance (1–28).",
+          "attribute_item_5": "• <strong>Mariable</strong> : peut-on l’épouser (Oui ou Non).",
+          "attribute_item_6": "• <strong>Âge</strong> : Enfant, Ado ou Adulte.",
+          "feedback_title": "Retour",
+          "feedback_description": "Chaque case est colorée :",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Vert</span> : correspondance exacte avec le villageois secret.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rouge</span> : pas de correspondance.",
+          "feedback_arrows": "Des flèches apparaissent sur l’Anniversaire et l’Âge :",
+          "feedback_arrow_up": "• <strong>Flèche haut (↑)</strong> : la valeur du villageois secret est PLUS ÉLEVÉE (anniversaire plus tard / plus âgé).",
+          "feedback_arrow_down": "• <strong>Flèche bas (↓)</strong> : la valeur du villageois secret est PLUS BASSE (anniversaire plus tôt / plus jeune).",
+          "how_to_play_title": "Comment jouer",
+          "step_1": "Fais un premier essai avec n’importe quel villageois de la liste.",
+          "step_2": "Regarde chaque case d’attribut se retourner et révéler le retour coloré.",
+          "step_3": "Lis les cases vertes et rouges pour repérer les attributs qui correspondent ou non.",
+          "step_4": "Utilise les flèches sur l’Anniversaire et l’Âge pour resserrer la fourchette.",
+          "step_5": "Fais ton prochain essai selon tous les retours reçus.",
+          "step_6": "Continue jusqu’à trouver le villageois secret !",
+          "step_7": "Reviens chaque jour pour un nouveau villageois à deviner.",
+          "strategy_title": "Conseils",
+          "strategy_tip_1": "• Commence par des villageois que tu connais bien pour établir une base.",
+          "strategy_tip_2": "• Le Quartier et la Saison réduisent vite le champ — beaucoup les partagent.",
+          "strategy_tip_3": "• Sers-toi des flèches pour éliminer des groupes entiers par anniversaire ou âge.",
+          "strategy_tip_4": "• L’Âge est ordinal : Enfant &lt; Ado &lt; Adulte.",
+          "strategy_tip_5": "• Un villageois doit correspondre à TOUS les retours verts à la fois.",
+          "strategy_tip_6": "• Genre, Quartier, Saison et Mariable correspondent exactement (pas de flèches).",
+          "daily_challenge_title": "Défi Quotidien Stardew Valley",
+          "daily_challenge_description": "Chaque jour apporte un nouveau villager à deviner avec des indices et des attributs uniques ! Ce jeu de devinettes quotidien aiguise votre connaissance des personnages de Stardew Valley et vous met au défi de penser stratégiquement. Partagez vos résultats avec vos amis et rivalisez pour le moins d'essais !"
+        }
+      },
+      "attributes": {
+        "headers": {
+          "villager": "Villageois",
+          "gender": "Genre",
+          "region": "Quartier",
+          "season": "Saison",
+          "birthday": "Anniv.",
+          "marriageable": "Mariable",
+          "age": "Âge"
+        },
+        "gender": {
+          "Male": "Homme",
+          "Female": "Femme",
+          "Undefined": "Autre"
+        },
+        "region": {
+          "Town": "Ville",
+          "Mountain": "Montagne",
+          "Forest": "Forêt",
+          "Beach": "Plage",
+          "Desert": "Désert",
+          "Sewers": "Égouts",
+          "GingerIsland": "Île Gingembre"
+        },
+        "season": {
+          "Spring": "Printemps",
+          "Summer": "Été",
+          "Fall": "Automne",
+          "Winter": "Hiver"
+        },
+        "age": {
+          "Adult": "Adulte",
+          "Teen": "Ado",
+          "Child": "Enfant"
+        },
+        "marriageable": {
+          "yes": "Oui",
+          "no": "Non"
+        }
+      },
+      "gift_hint": "Cadeau préféré : {gift}",
+      "gift_hint_locked": "Indice cadeau dans {tries} essais"
+    },
+    "pixel": {
+      "page_meta": {
+        "title": "Pixel",
+        "description": "Devine le villageois de Stardew Valley du jour depuis un portrait pixelisé !"
+      },
+      "errors": {
+        "no_daily_brawler": "Aucun villageois du jour trouvé",
+        "generic_error": "Erreur : {message}"
+      },
+      "result": {
+        "success": "Bien joué !",
+        "failure": "Réessayez"
+      },
+      "scroll_hint": "← Faites défiler horizontalement pour voir plus →",
+      "yesterday": "Le villageois d'hier était <name>{brawlerName}</name>",
+      "share": {
+        "text": "J'ai trouvé le villageois #Stardewdle #{id} en mode pixel en {tries} essais ",
+        "to_copy": "J'ai trouvé le villageois #Stardewdle #{id} depuis les pixels en {tries} essais\n{url}"
+      },
+      "victory": {
+        "stats_button": "Stats",
+        "next_mode": "Jouer au Classique"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Devine le villageois du jour depuis le portrait pixelisé"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Statistiques",
+            "alt": "Icône de statistiques"
+          },
+          "streak": {
+            "tooltip": "Série actuelle (Série de victoires consécutives)",
+            "alt": {
+              "active": "Icône de série active",
+              "inactive": "Icône de série inactive"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Notes de mise à jour",
+            "alt": "Icône des notes de mise à jour"
+          },
+          "howToPlay": {
+            "tooltip": "Comment jouer",
+            "alt": "Icône comment jouer"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Tape un nom de villageois.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Statistiques",
+          "metrics": {
+            "games_won": {
+              "label": "Parties gagnées :",
+              "aria_label": "Nombre de parties gagnées"
+            },
+            "average_tries": {
+              "label": "Essais moyens :",
+              "aria_label": "Nombre moyen de tentatives par partie"
+            },
+            "one_shots": {
+              "label": "Du premier coup :",
+              "aria_label": "Nombre de parties gagnées en un essai"
+            },
+            "current_streak": {
+              "label": "Série actuelle :",
+              "aria_label": "Série de victoires actuelle"
+            },
+            "best_streak": {
+              "label": "Meilleure série :",
+              "aria_label": "Meilleure série de victoires"
+            }
+          },
+          "graph": {
+            "title": "Nombre d'essais par partie",
+            "label": "Essais",
+            "fallback": "Votre navigateur ne supporte pas l'élément canvas."
+          }
+        },
+        "patchNotes": {
+          "title": "Notes de mise à jour",
+          "states": {
+            "loading": {
+              "message": "Chargement des notes de mise à jour..."
+            },
+            "empty": {
+              "message": "Rien ici pour le moment"
+            },
+            "error": {
+              "title": "Échec du chargement des notes de mise à jour",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_pixel": {
+          "title": "Comment Jouer à Stardewdle : Mode Pixel - Défi de Révélation Progressive de Portrait",
+          "introduction_title": "Identifiez les Personnages de Stardew Valley à partir de Portraits Pixelisés",
+          "introduction_description": "Le Mode Pixel offre un défi visuel unique où vous devez identifier des personnages de Stardew Valley à partir de portraits fortement pixelisés qui deviennent progressivement plus clairs à chaque supposition. Ce jeu de devinettes quotidien innovant teste votre capacité à reconnaître les villagers à partir d'informations visuelles limitées, parfait pour les joueurs occasionnels comme pour les fans dévoués.",
+          "gameplay_title": "Mécaniques du Mode Pixel",
+          "gameplay_description": "Dans ce défi de devinette de personnages Stardew Valley, on vous présentera un portrait fortement pixelisé d'un villager. Votre mission est d'identifier le personnage aussi rapidement que possible. À chaque supposition incorrecte, l'image devient progressivement moins pixelisée, révélant plus de détails pour vous aider à identifier le bon villager.",
+          "pixelation_system_title": "Système de Dépixelisation Progressive",
+          "pixelation_system_description": "Le Mode Pixel dispose d'un système de clarté dynamique :",
+          "pixelation_phase_1": "• <strong>Phase Initiale</strong> : Le portrait commence fortement pixelisé, rendant l'identification extrêmement difficile. Seules les caractéristiques les plus distinctives et les motifs de couleur sont visibles.",
+          "pixelation_phase_2": "• <strong>Révélation Progressive</strong> : À chaque supposition, le niveau de pixelisation diminue, révélant progressivement plus de détails du portrait du villager. Après environ 12 suppositions, l'image devient complètement claire.",
+          "pixelation_phase_3": "• <strong>Révélation de Victoire</strong> : Lorsque vous identifiez correctement le villager, le portrait devient instantanément cristallin, révélant le personnage dans les moindres détails.",
+          "strategy_title": "Stratégies Gagnantes pour le Mode Pixel",
+          "strategy_tip_1": "• Concentrez-vous sur les couleurs dominantes et les motifs de couleur dans l'image pixelisée - de nombreux villagers ont des schémas de couleur signature.",
+          "strategy_tip_2": "• Cherchez des formes distinctives et des silhouettes, même lorsqu'elles sont fortement pixelisées - certains villagers ont des formes de tête ou des accessoires uniques.",
+          "strategy_tip_3": "• Faites attention à la couleur de fond, qui reflète la rareté du villager et peut aider à réduire les possibilités.",
+          "strategy_tip_4": "• Utilisez le processus d'élimination - si vous avez déjà deviné certains villagers, concentrez-vous sur ceux que vous n'avez pas encore essayés.",
+          "strategy_tip_5": "• Considérez la composition générale - certains villagers ont des poses ou un positionnement distinctif dans leurs portraits.",
+          "strategy_tip_6": "• Au fur et à mesure que l'image devient plus claire, cherchez des accessoires uniques, des traits faciaux ou des éléments de costume qui distinguent des personnages spécifiques.",
+          "daily_challenge_title": "Défis Quotidiens de Pixels Stardew Valley",
+          "daily_challenge_description": "Chaque jour apporte un nouveau défi de Mode Pixel avec un personnage différent de Stardew Valley à identifier ! Ce jeu de devinettes quotidien aiguise vos compétences de reconnaissance visuelle et teste votre familiarité avec les designs de personnages dans l'univers de Stardew Valley. Défiez-vous d'identifier les villagers avec le moins de suppositions et partagez vos résultats avec vos amis !"
+        }
+      }
+    },
+    "emoji": {
+      "page_meta": {
+        "title": "Emoji",
+        "description": "Devine le villageois de Stardew Valley du jour depuis des emojis !"
+      },
+      "errors": {
+        "no_daily_brawler": "Aucun villageois du jour trouvé",
+        "generic_error": "Erreur : {message}"
+      },
+      "yesterday": "Le villageois d'hier était <name>{brawlerName}</name>",
+      "share": {
+        "text": "J'ai trouvé le villageois #Stardewdle #{id} en mode emoji en {tries} essais ",
+        "to_copy": "J'ai trouvé le villageois #Stardewdle #{id} depuis les emojis en {tries} essais\n{url}"
+      },
+      "victory": {
+        "stats_button": "Stats"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Quel villageois représentent ces emojis ?",
+          "next_emoji_hint": "Prochain emoji révélé après l’essai {tries}"
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Statistiques",
+            "alt": "Icône de statistiques"
+          },
+          "streak": {
+            "tooltip": "Série actuelle (Série de victoires consécutives)",
+            "alt": {
+              "active": "Icône de série active",
+              "inactive": "Icône de série inactive"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Notes de mise à jour",
+            "alt": "Icône des notes de mise à jour"
+          },
+          "howToPlay": {
+            "tooltip": "Comment jouer",
+            "alt": "Icône comment jouer"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Tape un nom de villageois.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Statistiques",
+          "metrics": {
+            "games_won": {
+              "label": "Parties gagnées :",
+              "aria_label": "Nombre de parties gagnées"
+            },
+            "average_tries": {
+              "label": "Essais moyens :",
+              "aria_label": "Nombre moyen de tentatives par partie"
+            },
+            "one_shots": {
+              "label": "Du premier coup :",
+              "aria_label": "Nombre de parties gagnées en un essai"
+            },
+            "current_streak": {
+              "label": "Série actuelle :",
+              "aria_label": "Série de victoires actuelle"
+            },
+            "best_streak": {
+              "label": "Meilleure série :",
+              "aria_label": "Meilleure série de victoires"
+            }
+          },
+          "graph": {
+            "title": "Nombre d'essais par partie",
+            "label": "Essais",
+            "fallback": "Votre navigateur ne supporte pas l'élément canvas."
+          }
+        },
+        "how_to_play": {
+          "title": "Comment jouer : Mode Emoji",
+          "introduction_title": "Identifiez les villagers à partir d'indices emoji",
+          "introduction_description": "En mode Emoji, on vous montre des emojis représentant un villager et vous devez deviner lequel. Un nouvel emoji est révélé à chaque mauvaise réponse.",
+          "how_to_play_title": "Comment jouer",
+          "step_1": "Observez attentivement le(s) emoji(s) affiché(s).",
+          "step_2": "Réfléchissez à quel villager ces emojis représentent.",
+          "step_3": "Tapez ou sélectionnez votre réponse dans la liste.",
+          "step_4": "Revenez demain pour un nouveau défi emoji !"
+        }
+      }
+    }
+  },
+  "common": {
+    "header": {
+      "button": {
+        "stats": {
+          "tooltip": "Stats"
+        },
+        "streak": {
+          "tooltip": "Série actuelle (Victoires consécutives)"
+        },
+        "changelog": {
+          "tooltip": "Journal des modifications"
+        }
+      }
+    },
+    "soon": "bientôt"
+  },
+  "components": {
+    "explanationBox": {
+      "errors": {
+        "no_content": "Aucun contenu fourni"
+      }
+    },
+    "answerInput": {
+      "states": {
+        "loading": "Chargement...",
+        "no_result": "Aucun résultat"
+      },
+      "button": {
+        "submit": {
+          "title": "Soumettre"
+        }
+      }
+    },
+    "victoryContainer": {
+      "title": "Votre partie",
+      "congratulations": "GG !!",
+      "guess": {
+        "prefix": "Vous avez deviné",
+        "character": "{name}"
+      },
+      "tries": {
+        "count": "Nombre d'essais :",
+        "value": "{count}"
+      },
+      "next": {
+        "timer": "Prochain villageois dans",
+        "mode": "Prochain mode :"
+      },
+      "image": {
+        "alt": "Image de victoire"
+      },
+      "you_found": "Vous avez trouvé",
+      "number_of_tries": "Nombre d'essais : {count}"
+    },
+    "shareContainer": {
+      "title": "Partagez votre résultat",
+      "buttons": {
+        "copy": {
+          "title": "Copier",
+          "aria_label": "Copier le résultat dans le presse-papiers"
+        },
+        "tweet": {
+          "title": "Tweeter",
+          "aria_label": "Partager sur X (Twitter)"
+        }
+      },
+      "and_more": "et {count} de plus..."
+    }
+  }
+}
