@@ -37,27 +37,6 @@ CREATE TABLE IF NOT EXISTS daily_classic (
     villager_id INTEGER NOT NULL REFERENCES villagers(id)
 );
 
-CREATE TABLE IF NOT EXISTS daily_pixel (
-    id          SERIAL PRIMARY KEY,
-    game_id     INTEGER NOT NULL,
-    date        DATE NOT NULL UNIQUE,
-    villager_id INTEGER NOT NULL REFERENCES villagers(id)
-);
-
-CREATE TABLE IF NOT EXISTS villager_emojis (
-    villager_id INTEGER NOT NULL REFERENCES villagers(id) ON DELETE CASCADE,
-    emoji       TEXT NOT NULL,
-    position    INTEGER NOT NULL,
-    PRIMARY KEY (villager_id, position)
-);
-
-CREATE TABLE IF NOT EXISTS daily_emoji (
-    id          SERIAL PRIMARY KEY,
-    game_id     INTEGER NOT NULL,
-    date        DATE NOT NULL UNIQUE,
-    villager_id INTEGER NOT NULL REFERENCES villagers(id)
-);
-
 CREATE TABLE IF NOT EXISTS crops (
     id        SERIAL PRIMARY KEY,
     key       TEXT UNIQUE NOT NULL,   -- harvest item id

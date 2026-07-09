@@ -30,11 +30,11 @@
     "modals": {
       "about": {
         "title": "About",
-        "discover": "Welcome to Stardewdle, the daily Stardew Valley guessing game! Test your knowledge of Pelican Town's villagers across three modes — Classic, Pixel and Emoji — with a new villager to find every day.",
+        "discover": "Welcome to Stardewdle, the daily Stardew Valley guessing game! Test your knowledge across three modes — Classic (villagers), Crop and Fish — with a new puzzle every day.",
         "disclaimer": "Stardewdle is an unofficial fan project. Stardew Valley is created by ConcernedApe; all characters and artwork belong to their respective owners. This project is not affiliated with, sponsored by, or endorsed by ConcernedApe.",
         "game_modes": {
           "title": "Three daily modes",
-          "description": "Classic compares six villager attributes (gender, region, birthday season & day, marriageable and age). Pixel reveals a pixelated portrait that sharpens with each guess. Emoji shows five emoji clues, one more revealed per guess. Each mode has its own puzzle, every day."
+          "description": "Classic compares six villager attributes (gender, region, birthday, marriageable, age). Crop compares five crop attributes (growth, price, regrow, type, season). Fish compares five fish attributes (difficulty, behavior, season, weather, size). A fresh puzzle for each mode, every day."
         },
         "dle_games": {
           "title": "More -dle games",
@@ -71,14 +71,6 @@
         "classic": {
           "title": "Classic",
           "description": "Get clues on every try"
-        },
-        "pixel": {
-          "title": "Pixel",
-          "description": "Guess from portrait pixels"
-        },
-        "emoji": {
-          "title": "Emoji",
-          "description": "Guess from emoji clues"
         },
         "crop": {
           "title": "Crop",
@@ -276,217 +268,6 @@
       },
       "gift_hint": "Loved gift: {gift}",
       "gift_hint_locked": "Loved gift clue in {tries} guesses"
-    },
-    "pixel": {
-      "page_meta": {
-        "title": "Pixel",
-        "description": "Guess today's Stardew Valley villager from a pixelated portrait!"
-      },
-      "errors": {
-        "no_daily_brawler": "No daily villager found",
-        "generic_error": "Error: {message}"
-      },
-      "result": {
-        "success": "Good job!",
-        "failure": "Try again"
-      },
-      "scroll_hint": "← Scroll horizontally to view more →",
-      "yesterday": "Yesterday's villager was <name>{brawlerName}</name>",
-      "share": {
-        "text": "I found #Stardewdle villager #{id} in pixel mode in {tries} guesses ",
-        "to_copy": "I found #Stardewdle villager #{id} from pixels in {tries} guesses\n{url}"
-      },
-      "victory": {
-        "stats_button": "Stats",
-        "next_mode": "Play Classic"
-      },
-      "components": {
-        "explanationBox": {
-          "title": "Guess today's villager from the pixelated portrait"
-        },
-        "toolsBar": {
-          "stats": {
-            "tooltip": "Statistics",
-            "alt": "Statistics icon"
-          },
-          "streak": {
-            "tooltip": "Current streak (Series of consecutive victories)",
-            "alt": {
-              "active": "Active streak icon",
-              "inactive": "Inactive streak icon"
-            }
-          },
-          "patchNotes": {
-            "tooltip": "Patch notes",
-            "alt": "Patch notes icon"
-          },
-          "howToPlay": {
-            "tooltip": "How to play",
-            "alt": "How to play icon"
-          }
-        },
-        "answerInput": {
-          "placeholder": "Type a villager name.."
-        }
-      },
-      "modals": {
-        "stats": {
-          "title": "Statistics",
-          "metrics": {
-            "games_won": {
-              "label": "Games won:",
-              "aria_label": "Number of games won"
-            },
-            "average_tries": {
-              "label": "Average tries:",
-              "aria_label": "Average number of attempts per game"
-            },
-            "one_shots": {
-              "label": "One shots:",
-              "aria_label": "Number of games won in one try"
-            },
-            "current_streak": {
-              "label": "Current streak:",
-              "aria_label": "Current winning streak"
-            },
-            "best_streak": {
-              "label": "Best streak:",
-              "aria_label": "Best winning streak"
-            }
-          },
-          "graph": {
-            "title": "Number of tries per game",
-            "label": "Tries",
-            "fallback": "Your browser does not support the canvas element."
-          }
-        },
-        "patchNotes": {
-          "title": "Patch notes",
-          "states": {
-            "loading": {
-              "message": "Loading patch notes..."
-            },
-            "empty": {
-              "message": "Nothing here yet"
-            },
-            "error": {
-              "title": "Failed to load patch notes",
-              "message": "{error}"
-            }
-          }
-        },
-        "how_to_play_pixel": {
-          "title": "How to Play Stardewdle: Pixel Mode - Progressive Portrait Revelation Challenge",
-          "introduction_title": "Identify Stardew Valley Characters from Pixelated Portraits",
-          "introduction_description": "Pixel Mode offers a unique visual challenge where you must identify Stardew Valley characters from heavily pixelated portraits that gradually become clearer with each guess. This innovative daily guessing game tests your ability to recognize villagers from limited visual information, perfect for both casual players and dedicated fans.",
-          "gameplay_title": "Pixel Mode Gameplay Mechanics",
-          "gameplay_description": "In this Stardew Valley character guessing challenge, you'll be presented with a heavily pixelated portrait of a villager. Your mission is to identify the character as quickly as possible. With each incorrect guess, the image becomes progressively less pixelated, revealing more details to help you identify the correct villager.",
-          "pixelation_system_title": "Progressive Depixelization System",
-          "pixelation_system_description": "The Pixel Mode features a dynamic clarity system:",
-          "pixelation_phase_1": "• <strong>Initial Phase</strong>: The portrait starts heavily pixelated, making identification extremely challenging. Only the most distinctive features and color patterns are visible.",
-          "pixelation_phase_2": "• <strong>Progressive Reveal</strong>: With each guess, the pixelation level decreases, gradually revealing more details of the villager's portrait. After about 12 guesses, the image becomes completely clear.",
-          "pixelation_phase_3": "• <strong>Victory Reveal</strong>: When you correctly identify the villager, the portrait instantly becomes crystal clear, revealing the character in full detail.",
-          "strategy_title": "Winning Strategies for Pixel Mode",
-          "strategy_tip_1": "• Focus on dominant colors and color patterns in the pixelated image—many villagers have signature color schemes.",
-          "strategy_tip_2": "• Look for distinctive shapes and silhouettes, even when heavily pixelated—some villagers have unique head shapes or accessories.",
-          "strategy_tip_3": "• Pay attention to the background color, which reflects the villager's rarity and can help narrow down possibilities.",
-          "strategy_tip_4": "• Use the process of elimination—if you've already guessed certain villagers, focus on those you haven't tried yet.",
-          "strategy_tip_5": "• Consider the overall composition—some villagers have distinctive poses or positioning in their portraits.",
-          "strategy_tip_6": "• As the image becomes clearer, look for unique accessories, facial features, or costume elements that distinguish specific characters.",
-          "daily_challenge_title": "Daily Stardew Valley Pixel Challenges",
-          "daily_challenge_description": "Each day brings a new Pixel Mode challenge with a different Stardew Valley character to identify! This daily guessing game sharpens your visual recognition skills and tests your familiarity with character designs in the Stardew Valley universe. Challenge yourself to identify villagers with the fewest guesses and share your results with friends!"
-        }
-      }
-    },
-    "emoji": {
-      "page_meta": {
-        "title": "Emoji",
-        "description": "Guess today's Stardew Valley villager from emojis!"
-      },
-      "errors": {
-        "no_daily_brawler": "No daily villager found",
-        "generic_error": "Error: {message}"
-      },
-      "yesterday": "Yesterday's villager was <name>{brawlerName}</name>",
-      "share": {
-        "text": "I found #Stardewdle villager #{id} in emoji mode in {tries} guesses ",
-        "to_copy": "I found #Stardewdle villager #{id} from emojis in {tries} guesses\n{url}"
-      },
-      "victory": {
-        "stats_button": "Stats"
-      },
-      "components": {
-        "explanationBox": {
-          "title": "Which villager do these emojis represent?",
-          "next_emoji_hint": "Next emoji revealed after guess {tries}"
-        },
-        "toolsBar": {
-          "stats": {
-            "tooltip": "Statistics",
-            "alt": "Statistics icon"
-          },
-          "streak": {
-            "tooltip": "Current streak (Series of consecutive victories)",
-            "alt": {
-              "active": "Active streak icon",
-              "inactive": "Inactive streak icon"
-            }
-          },
-          "patchNotes": {
-            "tooltip": "Patch notes",
-            "alt": "Patch notes icon"
-          },
-          "howToPlay": {
-            "tooltip": "How to play",
-            "alt": "How to play icon"
-          }
-        },
-        "answerInput": {
-          "placeholder": "Type a villager name.."
-        }
-      },
-      "modals": {
-        "stats": {
-          "title": "Statistics",
-          "metrics": {
-            "games_won": {
-              "label": "Games won:",
-              "aria_label": "Number of games won"
-            },
-            "average_tries": {
-              "label": "Average tries:",
-              "aria_label": "Average number of attempts per game"
-            },
-            "one_shots": {
-              "label": "One shots:",
-              "aria_label": "Number of games won in one try"
-            },
-            "current_streak": {
-              "label": "Current streak:",
-              "aria_label": "Current winning streak"
-            },
-            "best_streak": {
-              "label": "Best streak:",
-              "aria_label": "Best winning streak"
-            }
-          },
-          "graph": {
-            "title": "Number of tries per game",
-            "label": "Tries",
-            "fallback": "Your browser does not support the canvas element."
-          }
-        },
-        "how_to_play": {
-          "title": "How to Play Stardewdle: Emoji Mode",
-          "introduction_title": "Identify Villagers from Emoji Clues",
-          "introduction_description": "In Emoji Mode, you are shown emojis that represent a villager and must guess which one it is. A new emoji is revealed with each wrong guess.",
-          "how_to_play_title": "How to Play",
-          "step_1": "Look carefully at the emoji(s) displayed.",
-          "step_2": "Think about which villager these emojis represent.",
-          "step_3": "Type or select your guess from the list.",
-          "step_4": "Return tomorrow for a new emoji challenge!"
-        }
-      }
     },
     "crop": {
       "page_meta": {

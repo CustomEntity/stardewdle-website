@@ -19,29 +19,6 @@ interface DailyClassicVillager {
     giftSprite: number | null;
 }
 
-interface DailyPixelVillager {
-    id: number;
-    game_id: number;
-    date: string;
-    villager: {
-        id: number;
-        name: string;
-        portrait_url: string;
-    };
-}
-
-interface DailyEmojiVillager {
-    id: number;
-    game_id: number;
-    date: string;
-    emojis: Array<{ emoji: string; position: number }>;
-    villager: {
-        id: number;
-        name: string;
-        portrait_url: string;
-    };
-}
-
 interface Crop {
     id: number;
     key: string;

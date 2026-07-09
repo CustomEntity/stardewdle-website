@@ -24,10 +24,6 @@ loadEnv();
 const villagers = JSON.parse(
   fs.readFileSync(path.join(__dirname, '../datamine/villagers.json'), 'utf8')
 );
-const emojiSets = JSON.parse(
-  fs.readFileSync(path.join(__dirname, '../datamine/villager-emojis.json'), 'utf8')
-);
-
 const dailyOnly = process.argv.includes('--daily-only');
 
 // deterministic daily pick so re-running is idempotent (no Math.random)
@@ -72,17 +68,8 @@ async function main() {
           );
         }
 
-        const emojis = emojiSets[v.key] || [];
-        for (let pos = 0; pos < emojis.length; pos++) {
-          await client.query(
-            `INSERT INTO villager_emojis (villager_id, emoji, position)
-             VALUES ($1,$2,$3)
-             ON CONFLICT (villager_id, position) DO UPDATE SET emoji=EXCLUDED.emoji`,
-            [id, emojis[pos], pos + 1]
-          );
-        }
       }
-      console.log(`✓ upserted ${villagers.length} villagers (+ en/fr names + emojis)`);
+      console.log(`✓ upserted ${villagers.length} villagers (+ en/fr names)`);
     }
 
     // seed daily_* tables for today .. +59 days.
@@ -91,9 +78,7 @@ async function main() {
     const pool = ids.map((r) => r.id);
     const today = new Date();
     const modes = [
-      { table: 'daily_classic', salt: 'classic' },
-      { table: 'daily_pixel', salt: 'pixel' },
-      { table: 'daily_emoji', salt: 'emoji' }
+      { table: 'daily_classic', salt: 'classic' }
     ];
     for (const { table, salt } of modes) {
       let inserted = 0;

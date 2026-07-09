@@ -6,7 +6,7 @@
         href: string;
         title: string;
         subtitle: string;
-        gameMode: "classic" | "crop" | "fish" | "pixel" | "emoji";
+        gameMode: "classic" | "crop" | "fish";
         class?: string;
     }
 
@@ -22,8 +22,6 @@
         classic: { emoji: "⭐", bg: "#5aa02f" },
         crop: { emoji: "🌱", bg: "#7cb342" },
         fish: { emoji: "🐟", bg: "#4a90d0" },
-        pixel: { emoji: "🖼️", bg: "#8a5a34" },
-        emoji: { emoji: "😀", bg: "#d9a520" },
     };
 
     function handleClick(event: MouseEvent) {
