@@ -69,7 +69,7 @@
                 onkeydown={handleKeydown}
                 {placeholder}
                 style=" filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8));"
-                type="text" class="rounded-sm bg-white border-[2px] border-black focus:border-blue-500 focus:ring-0 outline-none px-3 py-2 w-full text-black font-lilita text-lg">
+                type="text" class="sv-input px-3 py-2 w-full font-lilita text-lg">
 
         <MarvelRivalsButton
                 title={locale.t('components.answerInput.button.submit.title')}

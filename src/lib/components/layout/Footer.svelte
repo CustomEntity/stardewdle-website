@@ -25,7 +25,7 @@
         <LanguagePicker />
     </div>
     <div
-        class="border-[3px] border-[#74451f] bg-[#74451f99] font-lilita text-white relative flex flex-col p-6 gap-4 max-w-[450px]"
+        class="sv-frame font-lilita text-white relative flex flex-col p-6 gap-4 max-w-[450px]"
     >
         <div class="flex flex-col justify-center items-center">
             <p class="text-3xl text-center stardew-text">

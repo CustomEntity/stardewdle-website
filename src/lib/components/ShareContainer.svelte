@@ -27,7 +27,7 @@
             return copyText.replace(/#/g, '%23').replace(/\n/g, '%0A') + '%0A' + websiteUrl;
         }
     </script>
-    <div class="flex flex-col w-full justify-center items-center gap-1 text-center justify-items-center py-4 px-6 border-[3px] border-[#74451f] bg-[#74451f99] font-lilita"
+    <div class="flex flex-col w-full justify-center items-center gap-1 text-center justify-items-center py-4 px-6 sv-frame font-lilita"
     >
         <span class="text-xl text-white stardew-text max-w-[250px]">{@html text}</span>
         {#if tries}

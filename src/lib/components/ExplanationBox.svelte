@@ -16,7 +16,7 @@
     let {title, content: contentProp, activeHint, ...rest}: Props = $props();
 </script>
 
-<div class="relative w-full max-w-[370px] min-h-[135px] border-[3px] border-[#74451f] bg-[#74451f99] font-lilita">
+<div class="relative w-full max-w-[370px] min-h-[135px] sv-frame font-lilita">
     <!-- Content -->
     <div class="flex flex-col h-full w-full px-10  py-4 stardew-text">
         {@render contentProp?.()}

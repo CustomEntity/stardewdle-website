@@ -47,7 +47,7 @@
         class="flex flex-col gap-2.5 w-full {clazz} max-w-[370px]">
     <div
             bind:this={container}
-            class="bg-[#00b1b7]/40 rounded-sm border-2 border-[#a5ff00] flex flex-col w-full justify-center items-center  text-center justify-items-center py-4 px-6"
+            class="sv-frame flex flex-col w-full justify-center items-center text-center justify-items-center py-4 px-6"
     >
             <span class="text-center text-white text-[32px] font-normal stardew-text">
                 {@html formatVictoryText(locale.t('components.victoryContainer.congratulations'), {
@@ -105,7 +105,7 @@
     }
 
     .victory-text :global(.highlight) {
-        font-family: Brawl Stars;
+        font-family: var(--font-lilita), sans-serif;
         font-size: 28px;
         font-weight: 400;
         line-height: 28px;

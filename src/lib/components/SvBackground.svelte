@@ -43,6 +43,9 @@
         background-repeat: repeat-x;
         background-position: bottom center;
         image-rendering: pixelated;
+        /* soften the peaks into the sky so they read as atmosphere behind content */
+        -webkit-mask-image: linear-gradient(to top, #000 62%, transparent 100%);
+        mask-image: linear-gradient(to top, #000 62%, transparent 100%);
     }
 
     /* far (bluish) range, sitting a bit higher */
