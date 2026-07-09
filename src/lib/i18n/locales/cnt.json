@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "更新 Cookie 偏好"
     },
-    "modals": {
-      "about": {
-        "title": "關於",
-        "discover": "歡迎來到 Stardewdle，最棒的每日 Stardew Valley 猜謎遊戲！透過 6 種精彩的遊戲模式測試你對 Stardew Valley 世界的瞭解：經典、表情符號、台詞、技能、簽名與段位。每天發掘一位新英雄，並挑戰我們獨特的 -dle 遊戲體驗，靈感直接來自熱門的 Stardew Valley 競技射擊遊戲。",
-        "disclaimer": "Stardewdle 是由粉絲傾力打造的專案，使用了 Supercell 所擁有的素材。Supercell 不為本專案背書，亦未提供贊助。Stardew Valley 及所有相關角色皆為 Supercell 的註冊商標。",
-        "dle_games": {
-          "title": "與 Stardewdle 一同加入熱門 -dle 遊戲潮流",
-          "description": "Stardewdle 將令人欲罷不能的每日猜謎形式帶進 Stardew Valley 的世界。如同 Wordle、Heardle 與其他熱門 -dle 遊戲，Stardewdle 每天提供全新的謎題，以有趣且引人入勝的方式測試你的知識。我們多種獨特的遊戲模式讓 Stardewdle 成為目前最完整的 Stardew Valley 猜謎遊戲。"
-        },
-        "commitment": {
-          "title": "我們對 Stardew Valley 社群的承諾",
-          "description": "Stardewdle 不僅僅是一款遊戲。它是粉絲為粉絲打造的每日挑戰，讓你沉浸在精彩的 Stardew Valley 世界裡。我們仔細研究每一位角色，以確保所有遊戲模式中每日挑戰的正確性。隨著 Stardew Valley 陣容的擴增，我們的資料庫也同步擴充，讓你在這款終極 Stardew Valley 猜謎遊戲體驗中永遠都有新鮮內容可享用。"
-        },
-        "game_modes": {
-          "title": "我們每日 Stardew Valley 挑戰中的六種精彩遊戲模式",
-          "description": "Stardewdle 提供無與倫比的多樣性，包含多種獨特的遊戲模式：「經典」模式測試你對角色屬性的瞭解；「表情符號」模式讓你透過五個表情符號辨識英雄，每次猜測後揭露一個；「台詞」模式呈現遊戲中角色的對白，讓你與正確的英雄配對；「技能」模式展示角色技能的圖像供你辨識；「簽名」模式則顯示英雄的手寫簽名讓你辨認。每天都會帶來全新的 Stardew Valley 跨模式挑戰！"
-        },
-        "inspiration": {
-          "title": "靈感來自 Stardew Valley 與熱門 -dle 遊戲形式",
-          "description": "Stardewdle 將 Wordle 帶起的成癮式每日謎題格式，與 Stardew Valley 豐富的角色世界相結合。我們的猜謎遊戲是測試你 Stardew Valley 知識的絕佳方式，也能證明你是這款熱門手機對戰遊戲的真正粉絲。加入數千名 Stardew Valley 愛好者，每日透過我們獨特的猜謎挑戰自我。"
-        },
-        "credit": {
-          "title": "原始靈感",
-          "description": "最初的靈感來自 <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> 的 Stardewdle.io，最早的 Stardew Valley 每日猜謎遊戲。"
-        },
-        "privacy": {
-          "title": "隱私權與資料使用",
-          "description": "我們尊重您的隱私。Stardewdle 使用 cookie 來蒐集統計資料並個人化您的每日猜謎遊戲體驗。若想瞭解更多關於我們的隱私權政策，請瀏覽 <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">我們的專屬頁面</a>。"
-        },
-        "thanks": "感謝您成為 Stardewdle 社群的一員！每天都會有全新的 Stardew Valley 角色與挑戰等著您！",
-        "signature": {
-          "regards": "謹致敬意，",
-          "team": "Stardewdle 團隊 - 熱情的 Stardew Valley 粉絲"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

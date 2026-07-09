@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "Cập nhật tùy chọn cookie"
     },
-    "modals": {
-      "about": {
-        "title": "Giới thiệu",
-        "discover": "Chào mừng bạn đến với Stardewdle, trò chơi đoán Stardew Valley hàng ngày hàng đầu! Kiểm tra kiến thức của bạn về vũ trụ Stardew Valley qua 6 chế độ chơi hấp dẫn: Classic, Emoji, Quote, Ability, Signature và Rank. Khám phá một Villager mới mỗi ngày và thử thách bản thân với trải nghiệm chơi -dle độc đáo lấy cảm hứng trực tiếp từ trò chơi bắn súng đối kháng nổi tiếng Stardew Valley.",
-        "disclaimer": "Stardewdle là một dự án của người hâm mộ được tạo ra với niềm đam mê, sử dụng các tài nguyên thuộc sở hữu của Supercell. Supercell không chứng thực hoặc tài trợ cho dự án này. Stardew Valley và tất cả các nhân vật liên quan là thương hiệu đã đăng ký của Supercell.",
-        "dle_games": {
-          "title": "Tham Gia Xu Hướng Trò Chơi -dle Phổ Biến với Stardewdle",
-          "description": "Stardewdle mang đến định dạng đoán hàng ngày gây nghiện cho vũ trụ Stardew Valley. Giống như Wordle, Heardle và các trò chơi -dle phổ biến khác, Stardewdle cung cấp các câu đố mới mỗi ngày để kiểm tra kiến thức của bạn theo những cách thú vị và hấp dẫn. Nhiều chế độ chơi độc đáo của chúng tôi biến Stardewdle thành trò chơi đoán Stardew Valley toàn diện nhất hiện có."
-        },
-        "commitment": {
-          "title": "Cam Kết của Chúng Tôi với Cộng Đồng Stardew Valley",
-          "description": "Stardewdle không chỉ là một trò chơi đơn thuần. Đó là một thử thách hàng ngày được tạo ra bởi người hâm mộ, dành cho người hâm mộ, đưa bạn đắm chìm vào vũ trụ thú vị của Stardew Valley. Chúng tôi nghiên cứu kỹ lưỡng từng nhân vật để đảm bảo độ chính xác trong các thử thách hàng ngày trên tất cả các chế độ chơi. Khi danh sách Stardew Valley mở rộng, cơ sở dữ liệu của chúng tôi cũng vậy, đảm bảo bạn luôn có nội dung mới để thưởng thức trong trải nghiệm trò chơi đoán Stardew Valley tối ưu này."
-        },
-        "game_modes": {
-          "title": "Sáu Chế Độ Chơi Hấp Dẫn trong Thử Thách Stardew Valley Hàng Ngày",
-          "description": "Stardewdle cung cấp sự đa dạng vô song với nhiều chế độ chơi riêng biệt: chế độ Classic kiểm tra kiến thức của bạn về thuộc tính nhân vật, chế độ Emoji thách thức bạn nhận diện villager từ năm emoji với một emoji được tiết lộ sau mỗi lần đoán, chế độ Quote trình bày các đoạn thoại của nhân vật trong trò chơi để bạn ghép với villager đúng, chế độ Ability hiển thị hình ảnh kỹ năng của một nhân vật để nhận diện, và chế độ Signature hiển thị chữ ký viết tay của villager để bạn nhận ra. Mỗi ngày mang đến những thử thách Stardew Valley mới trên mọi chế độ!"
-        },
-        "inspiration": {
-          "title": "Lấy Cảm Hứng từ Stardew Valley và Định Dạng Trò Chơi -dle Phổ Biến",
-          "description": "Stardewdle kết hợp định dạng câu đố hàng ngày gây nghiện được phổ biến bởi Wordle với vũ trụ nhân vật phong phú của Stardew Valley. Trò chơi đoán của chúng tôi mang đến cách hoàn hảo để kiểm tra kiến thức Stardew Valley của bạn và chứng minh rằng bạn là một người hâm mộ thực thụ của trò chơi chiến đấu di động phổ biến này. Hãy tham gia cùng hàng nghìn người đam mê Stardew Valley thử thách bản thân hàng ngày với những câu đố đoán độc đáo của chúng tôi."
-        },
-        "credit": {
-          "title": "Cảm Hứng Ban Đầu",
-          "description": "Lấy cảm hứng ban đầu từ <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a>'s Stardewdle.io, trò chơi đoán Stardew Valley hàng ngày nguyên bản."
-        },
-        "privacy": {
-          "title": "Quyền Riêng Tư và Sử Dụng Dữ Liệu",
-          "description": "Chúng tôi tôn trọng quyền riêng tư của bạn. Stardewdle sử dụng cookie để thu thập số liệu thống kê và cá nhân hóa trải nghiệm trò chơi đoán hàng ngày của bạn. Để tìm hiểu thêm về chính sách bảo mật của chúng tôi, vui lòng truy cập <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">phần dành riêng của chúng tôi</a>."
-        },
-        "thanks": "Cảm ơn bạn đã là một phần của cộng đồng Stardewdle! Các nhân vật và thử thách Stardew Valley mới đang chờ đón bạn mỗi ngày!",
-        "signature": {
-          "regards": "Trân trọng,",
-          "team": "Đội Ngũ Stardewdle - Những Người Hâm Mộ Đam Mê Stardew Valley"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "Zaktualizuj preferencje cookies"
     },
-    "modals": {
-      "about": {
-        "title": "O nas",
-        "discover": "Witamy w Stardewdle, najlepszej codziennej grze w zgadywanie Stardew Valley! Sprawdź swoją wiedzę o uniwersum Stardew Valley w 6 ekscytujących trybach gry: Classic, Emoji, Quote, Ability, Signature i Rank. Odkrywaj nowego Villagera każdego dnia i podejmuj wyzwanie z naszym unikalnym doświadczeniem gry -dle, bezpośrednio inspirowanym popularną konkurencyjną strzelanką Stardew Valley.",
-        "disclaimer": "Stardewdle to projekt fanowski stworzony z pasją z wykorzystaniem zasobów należących do Supercell. Supercell nie wspiera ani nie sponsoruje tego projektu. Stardew Valley i wszystkie powiązane postacie są zastrzeżonymi znakami towarowymi Supercell.",
-        "dle_games": {
-          "title": "Dołącz do Popularnego Trendu Gier -dle z Stardewdle",
-          "description": "Stardewdle wprowadza wciągający format codziennego zgadywania do uniwersum Stardew Valley. Podobnie jak Wordle, Heardle i inne popularne gry -dle, Stardewdle oferuje codziennie świeże zagadki, które testują twoją wiedzę w zabawny i angażujący sposób. Nasze liczne unikalne tryby gry sprawiają, że Stardewdle to najbardziej kompleksowa dostępna gra w zgadywanie Stardew Valley."
-        },
-        "commitment": {
-          "title": "Nasze Zaangażowanie wobec Społeczności Stardew Valley",
-          "description": "Stardewdle to znacznie więcej niż tylko gra. To codzienne wyzwanie stworzone przez fanów dla fanów, które zanurza cię w ekscytujący świat Stardew Valley. Skrupulatnie analizujemy każdą postać, aby zapewnić dokładność naszych codziennych wyzwań we wszystkich trybach gry. W miarę jak roster Stardew Valley się powiększa, rośnie też nasza baza danych, gwarantując, że zawsze będziesz mieć świeże treści do cieszenia się tym ostatecznym doświadczeniem gry w zgadywanie Stardew Valley."
-        },
-        "game_modes": {
-          "title": "Sześć Ekscytujących Trybów Gry w Naszym Codziennym Wyzwaniu Stardew Valley",
-          "description": "Stardewdle oferuje niezrównaną różnorodność z wieloma odrębnymi trybami gry: tryb Classic testuje twoją wiedzę o atrybutach postaci, tryb Emoji wyzywa cię do identyfikacji villagerów na podstawie pięciu emoji, z których jedno jest ujawniane przy każdej próbie, tryb Quote prezentuje dialogi postaci z gry, abyś dopasował je do właściwego villagera, tryb Ability pokazuje obraz zdolności postaci do identyfikacji, a tryb Signature wyświetla pisemny podpis villagera, abyś go rozpoznał. Każdy dzień przynosi nowe wyzwania Stardew Valley we wszystkich trybach!"
-        },
-        "inspiration": {
-          "title": "Inspirowane przez Stardew Valley i Popularny Format Gier -dle",
-          "description": "Stardewdle łączy wciągający format codziennej zagadki spopularyzowany przez Wordle z bogatym uniwersum postaci Stardew Valley. Nasza gra w zgadywanie oferuje doskonały sposób na sprawdzenie swojej wiedzy o Stardew Valley i udowodnienie, że jesteś prawdziwym fanem tej popularnej mobilnej gry bitewnej. Dołącz do tysięcy entuzjastów Stardew Valley, którzy codziennie podejmują nasze unikalne zagadki w zgadywanie."
-        },
-        "credit": {
-          "title": "Oryginalna Inspiracja",
-          "description": "Pierwotnie zainspirowane przez <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> i jego Stardewdle.io, oryginalną codzienną grę w zgadywanie Stardew Valley."
-        },
-        "privacy": {
-          "title": "Prywatność i Wykorzystanie Danych",
-          "description": "Szanujemy twoją prywatność. Stardewdle używa plików cookie do zbierania statystyk i personalizacji twojego codziennego doświadczenia gry w zgadywanie. Aby dowiedzieć się więcej o naszej polityce prywatności, odwiedź <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">naszą dedykowaną sekcję</a>."
-        },
-        "thanks": "Dziękujemy za bycie częścią społeczności Stardewdle! Nowe postacie i wyzwania Stardew Valley czekają na ciebie każdego dnia!",
-        "signature": {
-          "regards": "Z poważaniem,",
-          "team": "Zespół Stardewdle - Pasjonujący Fani Stardew Valley"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

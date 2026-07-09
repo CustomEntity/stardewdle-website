@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "Çerez tercihlerini güncelle"
     },
-    "modals": {
-      "about": {
-        "title": "Hakkında",
-        "discover": "Stardewdle'a hoş geldiniz, en iyi günlük Stardew Valley tahmin oyunu! Stardew Valley evreni hakkındaki bilginizi 6 heyecan verici oyun modunda test edin: Classic, Emoji, Quote, Ability, Signature ve Rank. Her gün yeni bir Villager keşfedin ve popüler rekabetçi nişancı oyunu Stardew Valley'tan doğrudan ilham alan benzersiz -dle oyun deneyimimizle kendinize meydan okuyun.",
-        "disclaimer": "Stardewdle, Supercell'e ait varlıklar kullanılarak tutkuyla oluşturulmuş bir hayran projesidir. Supercell bu projeyi onaylamaz veya sponsor olmaz. Stardew Valley ve ilgili tüm karakterler Supercell'in tescilli ticari markalarıdır.",
-        "dle_games": {
-          "title": "Stardewdle ile Popüler -dle Oyunları Trendine Katılın",
-          "description": "Stardewdle, bağımlılık yapan günlük tahmin formatını Stardew Valley evrenine getiriyor. Wordle, Heardle ve diğer popüler -dle oyunları gibi Stardewdle, eğlenceli ve etkileyici şekillerde bilginizi test eden günlük taze bulmacalar sunar. Birden fazla benzersiz oyun modumuz, Stardewdle'ı mevcut en kapsamlı Stardew Valley tahmin oyunu yapar."
-        },
-        "commitment": {
-          "title": "Stardew Valley Topluluğuna Bağlılığımız",
-          "description": "Stardewdle sadece bir oyundan çok daha fazlasıdır. Stardew Valley'ın heyecan verici evrenine sizi daldıran, hayranlar tarafından hayranlar için oluşturulmuş günlük bir meydan okumadır. Tüm oyun modlarındaki günlük zorluklarımızda doğruluğu sağlamak için her karakteri titizlikle araştırıyoruz. Stardew Valley kadrosu genişledikçe, veritabanımız da büyüyor ve bu nihai Stardew Valley tahmin oyunu deneyiminde her zaman tadını çıkarabileceğiniz taze içerik sunmanızı sağlıyor."
-        },
-        "game_modes": {
-          "title": "Günlük Stardew Valley Meydan Okumamızda Altı Heyecan Verici Oyun Modu",
-          "description": "Stardewdle, birden çok farklı oyun moduyla benzersiz bir çeşitlilik sunar: Classic modu karakter özellikleri hakkındaki bilginizi test eder, Emoji modu sizi her tahminde bir tanesi açıklanan beş emojiden villager'ları belirlemeye davet eder, Quote modu doğru villager ile eşleştirmeniz için oyun içi karakter diyaloglarını sunar, Ability modu tanımlama için bir karakterin yeteneğinin bir görüntüsünü gösterir ve Signature modu tanımanız için bir villager'ın yazılı imzasını gösterir. Her gün tüm modlarda yeni Stardew Valley zorlukları getirir!"
-        },
-        "inspiration": {
-          "title": "Stardew Valley ve Popüler -dle Oyun Formatından İlham Alınmıştır",
-          "description": "Stardewdle, Wordle tarafından popülerleştirilen bağımlılık yapan günlük bulmaca formatını Stardew Valley'ın zengin karakter evreniyle birleştirir. Tahmin oyunumuz, Stardew Valley bilginizi test etmenin ve bu popüler mobil savaş oyununun gerçek bir hayranı olduğunuzu kanıtlamanın mükemmel yolunu sunar. Benzersiz tahmin bulmacalarımızla her gün kendine meydan okuyan binlerce Stardew Valley meraklısına katılın."
-        },
-        "credit": {
-          "title": "Orijinal İlham",
-          "description": "Orijinal olarak <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> ve onun Stardewdle.io'sundan, orijinal günlük Stardew Valley tahmin oyunundan ilham alınmıştır."
-        },
-        "privacy": {
-          "title": "Gizlilik ve Veri Kullanımı",
-          "description": "Gizliliğinize saygı duyuyoruz. Stardewdle, istatistik toplamak ve günlük tahmin oyun deneyiminizi kişiselleştirmek için çerezler kullanır. Gizlilik politikamız hakkında daha fazla bilgi edinmek için lütfen <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">özel bölümümüzü</a> ziyaret edin."
-        },
-        "thanks": "Stardewdle topluluğunun bir parçası olduğunuz için teşekkür ederiz! Yeni Stardew Valley karakterleri ve zorlukları her gün sizi bekliyor!",
-        "signature": {
-          "regards": "Saygılarımızla,",
-          "team": "Stardewdle Ekibi - Tutkulu Stardew Valley Hayranları"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

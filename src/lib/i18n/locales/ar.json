@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "تحديث تفضيلات ملفات تعريف الارتباط"
     },
-    "modals": {
-      "about": {
-        "title": "حول",
-        "discover": "مرحبًا بك في Stardewdle، أفضل لعبة تخمين يومية لـ Stardew Valley! اختبر معرفتك بعالم Stardew Valley عبر 6 أوضاع لعب مثيرة: Classic وEmoji وQuote وAbility وSignature وRank. اكتشف Villager جديدًا كل يوم وتحدَّ نفسك مع تجربتنا الفريدة لألعاب الـ -dle المستوحاة مباشرةً من لعبة الإطلاق التنافسية الشهيرة Stardew Valley.",
-        "disclaimer": "Stardewdle مشروع أنشأه المعجبون بشغف باستخدام موارد تملكها Supercell. لا تدعم Supercell هذا المشروع ولا ترعاه. Stardew Valley وجميع الشخصيات المرتبطة بها هي علامات تجارية مسجلة لـ Supercell.",
-        "dle_games": {
-          "title": "انضم إلى موجة ألعاب الـ -dle الشهيرة مع Stardewdle",
-          "description": "يجلب Stardewdle صيغة التخمين اليومية المسببة للإدمان إلى عالم Stardew Valley. مثل Wordle وHeardle وغيرها من ألعاب الـ -dle الشهيرة، يقدم Stardewdle ألغازًا جديدة يوميًا تختبر معرفتك بطرق ممتعة وجذابة. أوضاع اللعب الفريدة المتعددة تجعل Stardewdle لعبة التخمين الأشمل لـ Stardew Valley المتاحة."
-        },
-        "commitment": {
-          "title": "التزامنا تجاه مجتمع Stardew Valley",
-          "description": "Stardewdle أكثر بكثير من مجرد لعبة. إنه تحدٍ يومي أنشأه المعجبون من أجل المعجبين، ويغمرك في عالم Stardew Valley المثير. نبحث بدقة عن كل شخصية لضمان الدقة في تحدياتنا اليومية عبر جميع أوضاع اللعب. ومع توسع قائمة Stardew Valley، تتوسع قاعدة بياناتنا أيضًا، مما يضمن لك دائمًا محتوى جديدًا للاستمتاع به في تجربة لعبة التخمين القصوى لـ Stardew Valley."
-        },
-        "game_modes": {
-          "title": "ستة أوضاع لعب مثيرة في تحدينا اليومي لـ Stardew Valley",
-          "description": "يقدم Stardewdle تنوعًا لا يضاهى مع أوضاع لعب متميزة متعددة: وضع Classic يختبر معرفتك بصفات الشخصيات، ووضع Emoji يتحداك لتحديد البراولرز من خمسة إيموجي مع كشف واحد بعد كل تخمين، ووضع Quote يعرض حوارات شخصيات داخل اللعبة لتربطها بالبراولر الصحيح، ووضع Ability يعرض صورة لقدرة شخصية ما لتحديدها، ووضع Signature يعرض التوقيع المكتوب لبراولر لتتعرف عليه. كل يوم يجلب تحديات جديدة لـ Stardew Valley عبر جميع الأوضاع!"
-        },
-        "inspiration": {
-          "title": "مستوحى من Stardew Valley وصيغة ألعاب الـ -dle الشهيرة",
-          "description": "يجمع Stardewdle بين صيغة الألغاز اليومية المسببة للإدمان التي شاع استخدامها بفضل Wordle، وعالم الشخصيات الغني لـ Stardew Valley. تقدم لعبة التخمين خاصتنا الطريقة المثالية لاختبار معرفتك بـ Stardew Valley وإثبات أنك من المعجبين الحقيقيين بهذه اللعبة الشعبية للقتال على الجوال. انضم إلى آلاف عشاق Stardew Valley الذين يتحدون أنفسهم يوميًا بألغاز التخمين الفريدة لدينا."
-        },
-        "credit": {
-          "title": "الإلهام الأصلي",
-          "description": "مستوحى أصلًا من <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> ولعبته Stardewdle.io، لعبة التخمين اليومية الأصلية لـ Stardew Valley."
-        },
-        "privacy": {
-          "title": "الخصوصية واستخدام البيانات",
-          "description": "نحترم خصوصيتك. يستخدم Stardewdle ملفات تعريف الارتباط لجمع الإحصاءات وتخصيص تجربة لعبة التخمين اليومية. لمعرفة المزيد عن سياسة الخصوصية الخاصة بنا، يرجى زيارة <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">القسم المخصص لذلك</a>."
-        },
-        "thanks": "شكرًا لكونك جزءًا من مجتمع Stardewdle! شخصيات وتحديات Stardew Valley جديدة تنتظرك يوميًا!",
-        "signature": {
-          "regards": "مع خالص التحيات،",
-          "team": "فريق Stardewdle - معجبون شغوفون بـ Stardew Valley"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

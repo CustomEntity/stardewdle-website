@@ -175,7 +175,7 @@
         {#each attempts.slice().reverse() as attempt}
 
             <!-- Villager Portrait -->
-            <div class="size-18 border-black border-2"
+            <div class="size-18 sv-tile"
                  style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {backgroundColor(attempt.villager)};">
                 <img src={attempt.villager.portrait_url}
                      alt={attempt.villager.name}
@@ -184,7 +184,7 @@
 
             <!-- Gender -->
             <div
-                    class="square-{attempt.villager.id} size-18 relative border-black border-2 flex items-center justify-center"
+                    class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center"
                     style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.gender)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 0 ? 'visible' : 'hidden'}">
                 <span class="z-10 text-white text-xs text-center break-words overflow-hidden px-1 w-full stardew-text">
                     {translate('gender', attempt.villager.gender)}
@@ -193,7 +193,7 @@
 
             <!-- Region -->
             <div
-                    class="square-{attempt.villager.id} size-18 relative border-black border-2 flex items-center justify-center"
+                    class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center"
                     style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.region)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 1 ? 'visible' : 'hidden'}">
                 <span class="z-10 text-white text-xs text-center break-words overflow-hidden px-1 w-full stardew-text">
                     {translate('region', attempt.villager.region)}
@@ -202,7 +202,7 @@
 
             <!-- Birth Season -->
             <div
-                    class="square-{attempt.villager.id} size-18 relative border-black border-2 flex items-center justify-center"
+                    class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center"
                     style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.season)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 2 ? 'visible' : 'hidden'}">
                 <span class="z-10 text-white text-xs text-center break-words overflow-hidden px-1 w-full stardew-text">
                     {translate('season', attempt.villager.birth_season)}
@@ -211,7 +211,7 @@
 
             <!-- Birthday (day number) -->
             <div
-                    class="square-{attempt.villager.id} size-18 relative border-black border-2 flex items-center justify-center arrow-container"
+                    class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center arrow-container"
                     class:arrow-up={attempt.differences.birthday === 'HIGHER'}
                     class:arrow-down={attempt.differences.birthday === 'LOWER'}
                     style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.birthday)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 3 ? 'visible' : 'hidden'};">
@@ -222,7 +222,7 @@
 
             <!-- Marriageable -->
             <div
-                    class="square-{attempt.villager.id} size-18 relative border-black border-2 flex items-center justify-center"
+                    class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center"
                     style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.marriageable)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 4 ? 'visible' : 'hidden'};">
     <span class="z-10 text-white text-sm text-center break-words overflow-hidden px-1 w-full stardew-text">
         {translateMarriageable(attempt.villager.marriageable)}
@@ -231,7 +231,7 @@
 
             <!-- Age -->
             <div
-                    class="square-{attempt.villager.id} size-18 relative border-black border-2 flex items-center justify-center arrow-container"
+                    class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center arrow-container"
                     class:arrow-up={attempt.differences.age === 'HIGHER'}
                     class:arrow-down={attempt.differences.age === 'LOWER'}
                     style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.age)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 5 ? 'visible' : 'hidden'};">

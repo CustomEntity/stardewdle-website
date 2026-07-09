@@ -30,36 +30,36 @@
     "modals": {
       "about": {
         "title": "About",
-        "discover": "Welcome to Stardewdle, the premier daily Stardew Valley guessing game! Test your knowledge of the Stardew Valley universe through 6 exciting game modes: Classic, Emoji, Quote, Ability, Signature, and Rank. Discover a new Villager daily and challenge yourself with our unique -dle game experience directly inspired by the popular Stardew Valley competitive villager shooter.",
-        "disclaimer": "Stardewdle is a fan project created with passion using assets owned by Supercell. Supercell does not endorse or sponsor this project. Stardew Valley and all associated characters are registered trademarks of Supercell.",
+        "discover": "Welcome to Stardewdle, the daily Stardew Valley guessing game! Test your knowledge of Pelican Town's villagers across three modes — Classic, Pixel and Emoji — with a new villager to find every day.",
+        "disclaimer": "Stardewdle is an unofficial fan project. Stardew Valley is created by ConcernedApe; all characters and artwork belong to their respective owners. This project is not affiliated with, sponsored by, or endorsed by ConcernedApe.",
+        "game_modes": {
+          "title": "Three daily modes",
+          "description": "Classic compares six villager attributes (gender, region, birthday season & day, marriageable and age). Pixel reveals a pixelated portrait that sharpens with each guess. Emoji shows five emoji clues, one more revealed per guess. Each mode has its own puzzle, every day."
+        },
         "dle_games": {
-          "title": "Join the Popular -dle Games Trend with Stardewdle",
-          "description": "Stardewdle brings the addictive daily guessing format to the Stardew Valley universe. Like Wordle, Heardle, and other popular -dle games, Stardewdle offers fresh puzzles daily that test your knowledge in fun, engaging ways. Our multiple unique game modes make Stardewdle the most comprehensive Stardew Valley guessing game available."
+          "title": "More -dle games",
+          "description": "Enjoyed Stardewdle? Explore the whole family of daily -dle games in the hub linked in the menu."
         },
         "commitment": {
-          "title": "Our Commitment to the Stardew Valley Community",
-          "description": "Stardewdle is much more than just a game. It's a daily challenge created by fans, for fans, that immerses you in the exciting universe of Stardew Valley. We meticulously research each character to ensure accuracy in our daily challenges across all game modes. As the Stardew Valley roster expands, so does our database, ensuring you always have fresh content to enjoy in this ultimate Stardew Valley guessing game experience."
-        },
-        "game_modes": {
-          "title": "Six Exciting Game Modes in Our Daily Stardew Valley Challenge",
-          "description": "Stardewdle offers unmatched variety with multiple distinct game modes: Classic mode tests your knowledge of character attributes, Emoji mode challenges you to identify villagers from five emojis with one revealed per guess, Quote mode presents in-game character dialogue for you to match with the right villager, Ability mode shows an image of a character's ability for identification, and Signature mode displays a villager's written signature for you to recognize. Each day brings new Stardew Valley challenges across all modes!"
+          "title": "Daily challenge",
+          "description": "Come back each day for new villagers to guess, keep your streak alive, and share your results with friends."
         },
         "inspiration": {
-          "title": "Inspired by Stardew Valley and the Popular -dle Games Format",
-          "description": "Stardewdle combines the addictive daily puzzle format popularized by Wordle with the rich character universe of Stardew Valley. Our guessing game offers the perfect way to test your Stardew Valley knowledge and prove you're a true fan of this popular mobile battle game. Join thousands of Stardew Valley enthusiasts who challenge themselves daily with our unique guessing puzzles."
+          "title": "Inspiration",
+          "description": "Inspired by Wordle and the many wonderful -dle guessing games."
         },
         "credit": {
-          "title": "Original Inspiration",
-          "description": "Originally inspired by <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a>'s Stardewdle.io, the original Stardew Valley daily guessing game."
+          "title": "Credits",
+          "description": "Made by a fan, for fans of Stardew Valley. 🌱"
         },
         "privacy": {
-          "title": "Privacy and Data Use",
-          "description": "We respect your privacy. Stardewdle uses cookies to collect statistics and personalize your daily guessing game experience. To learn more about our privacy policy, please visit <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">our dedicated section</a>."
+          "title": "Privacy",
+          "description": "We keep it simple — your progress and streak are stored locally in your own browser."
         },
-        "thanks": "Thank you for being part of the Stardewdle community! New Stardew Valley characters and challenges await you daily!",
+        "thanks": "Thanks for playing, and happy farming!",
         "signature": {
-          "regards": "Yours sincerely,",
-          "team": "The Stardewdle Team - Passionate Stardew Valley Fans"
+          "regards": "With love,",
+          "team": "The Stardewdle team"
         }
       }
     }

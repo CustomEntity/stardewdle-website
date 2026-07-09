@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "Perbarui preferensi cookie"
     },
-    "modals": {
-      "about": {
-        "title": "Tentang",
-        "discover": "Selamat datang di Stardewdle, game tebak-tebakan harian Stardew Valley terbaik! Uji pengetahuanmu tentang dunia Stardew Valley melalui 6 mode permainan seru: Classic, Emoji, Quote, Ability, Signature, dan Rank. Temukan Villager baru setiap hari dan tantang dirimu dengan pengalaman game -dle unik kami yang langsung terinspirasi dari shooter villager kompetitif populer Stardew Valley.",
-        "disclaimer": "Stardewdle adalah proyek penggemar yang dibuat dengan penuh semangat menggunakan aset milik Supercell. Supercell tidak mendukung atau mensponsori proyek ini. Stardew Valley dan semua karakter terkait merupakan merek dagang terdaftar dari Supercell.",
-        "dle_games": {
-          "title": "Ikuti Tren Game -dle Populer Bersama Stardewdle",
-          "description": "Stardewdle menghadirkan format tebakan harian yang adiktif ke dalam dunia Stardew Valley. Seperti Wordle, Heardle, dan game -dle populer lainnya, Stardewdle menyajikan teka-teki segar setiap hari yang menguji pengetahuanmu dengan cara yang menyenangkan dan menarik. Beragam mode permainan unik kami menjadikan Stardewdle sebagai game tebak Stardew Valley paling lengkap yang tersedia."
-        },
-        "commitment": {
-          "title": "Komitmen Kami terhadap Komunitas Stardew Valley",
-          "description": "Stardewdle jauh lebih dari sekadar permainan biasa. Ini adalah tantangan harian yang dibuat oleh penggemar, untuk penggemar, yang membenamkanmu ke dalam dunia Stardew Valley yang seru. Kami meneliti setiap karakter dengan cermat untuk memastikan keakuratan tantangan harian kami di semua mode permainan. Seiring bertambahnya roster Stardew Valley, basis data kami juga ikut berkembang, memastikan kamu selalu memiliki konten baru untuk dinikmati dalam pengalaman game tebak Stardew Valley terbaik ini."
-        },
-        "game_modes": {
-          "title": "Enam Mode Permainan Seru dalam Tantangan Harian Stardew Valley Kami",
-          "description": "Stardewdle menawarkan variasi tak tertandingi dengan beberapa mode permainan berbeda: mode Classic menguji pengetahuanmu tentang atribut karakter, mode Emoji menantangmu mengenali villager dari lima emoji dengan satu emoji terungkap setiap tebakan, mode Quote menampilkan dialog karakter dalam game untuk dicocokkan dengan villager yang tepat, mode Ability menampilkan gambar kemampuan karakter untuk diidentifikasi, dan mode Signature menampilkan tanda tangan tertulis seorang villager untuk dikenali. Setiap hari menghadirkan tantangan Stardew Valley baru di semua mode!"
-        },
-        "inspiration": {
-          "title": "Terinspirasi oleh Stardew Valley dan Format Game -dle yang Populer",
-          "description": "Stardewdle memadukan format teka-teki harian yang adiktif yang dipopulerkan Wordle dengan kekayaan dunia karakter Stardew Valley. Game tebak kami menawarkan cara sempurna untuk menguji pengetahuanmu tentang Stardew Valley dan membuktikan bahwa kamu adalah penggemar sejati game pertarungan mobile populer ini. Bergabunglah dengan ribuan penggemar Stardew Valley yang menantang diri mereka setiap hari dengan teka-teki tebak unik kami."
-        },
-        "credit": {
-          "title": "Inspirasi Asli",
-          "description": "Awalnya terinspirasi oleh Stardewdle.io dari <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a>, game tebak harian Stardew Valley yang asli."
-        },
-        "privacy": {
-          "title": "Privasi dan Penggunaan Data",
-          "description": "Kami menghormati privasimu. Stardewdle menggunakan cookie untuk mengumpulkan statistik dan mempersonalisasi pengalaman game tebak harianmu. Untuk mempelajari lebih lanjut kebijakan privasi kami, silakan kunjungi <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">bagian khusus kami</a>."
-        },
-        "thanks": "Terima kasih telah menjadi bagian dari komunitas Stardewdle! Karakter dan tantangan Stardew Valley baru menantimu setiap hari!",
-        "signature": {
-          "regards": "Hormat kami,",
-          "team": "Tim Stardewdle - Penggemar Stardew Valley yang Bersemangat"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

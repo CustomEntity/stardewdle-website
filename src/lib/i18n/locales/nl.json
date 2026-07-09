@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "Cookie-voorkeuren bijwerken"
     },
-    "modals": {
-      "about": {
-        "title": "Over",
-        "discover": "Welkom bij Stardewdle, het beste dagelijkse Stardew Valley-raadspel! Test je kennis van het Stardew Valley-universum via 6 spannende speelmodi: Classic, Emoji, Quote, Ability, Signature en Rank. Ontdek dagelijks een nieuwe Villager en daag jezelf uit met onze unieke -dle-spelervaring, rechtstreeks geïnspireerd op de populaire Stardew Valley competitieve villager-shooter.",
-        "disclaimer": "Stardewdle is een fanproject dat met passie is gemaakt met assets die eigendom zijn van Supercell. Supercell ondersteunt of sponsort dit project niet. Stardew Valley en alle bijbehorende personages zijn geregistreerde handelsmerken van Supercell.",
-        "dle_games": {
-          "title": "Sluit je aan bij de populaire -dle-trend met Stardewdle",
-          "description": "Stardewdle brengt het verslavende dagelijkse raadformaat naar het Stardew Valley-universum. Net als Wordle, Heardle en andere populaire -dle-spellen biedt Stardewdle dagelijks verse puzzels die je kennis op een leuke en boeiende manier testen. Onze meerdere unieke speelmodi maken Stardewdle het meest complete Stardew Valley-raadspel dat beschikbaar is."
-        },
-        "commitment": {
-          "title": "Onze inzet voor de Stardew Valley-community",
-          "description": "Stardewdle is veel meer dan zomaar een spel. Het is een dagelijkse uitdaging gemaakt door fans, voor fans, die je onderdompelt in het spannende universum van Stardew Valley. We onderzoeken elk personage zorgvuldig om de nauwkeurigheid van onze dagelijkse uitdagingen in alle speelmodi te garanderen. Naarmate de Stardew Valley-roster groeit, groeit ook onze database, zodat je altijd verse content hebt om van te genieten in deze ultieme Stardew Valley-raadspelervaring."
-        },
-        "game_modes": {
-          "title": "Zes spannende speelmodi in onze dagelijkse Stardew Valley-uitdaging",
-          "description": "Stardewdle biedt ongeëvenaarde variatie met meerdere onderscheidende speelmodi: de Classic-modus test je kennis van personage-eigenschappen, de Emoji-modus daagt je uit om villagers te identificeren aan de hand van vijf emoji's met één onthuld per poging, de Quote-modus toont in-game personagedialogen die je aan de juiste villager moet koppelen, de Ability-modus toont een afbeelding van de vaardigheid van een personage ter identificatie, en de Signature-modus toont de geschreven handtekening van een villager om te herkennen. Elke dag brengt nieuwe Stardew Valley-uitdagingen in alle modi!"
-        },
-        "inspiration": {
-          "title": "Geïnspireerd door Stardew Valley en het populaire -dle-spelformaat",
-          "description": "Stardewdle combineert het verslavende dagelijkse puzzelformaat dat door Wordle populair werd met het rijke personage-universum van Stardew Valley. Ons raadspel biedt de perfecte manier om je Stardew Valley-kennis te testen en te bewijzen dat je een echte fan bent van dit populaire mobiele battlespel. Sluit je aan bij duizenden Stardew Valley-fans die zichzelf dagelijks uitdagen met onze unieke raadpuzzels."
-        },
-        "credit": {
-          "title": "Originele inspiratie",
-          "description": "Oorspronkelijk geïnspireerd door <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a>'s Stardewdle.io, het originele Stardew Valley dagelijkse raadspel."
-        },
-        "privacy": {
-          "title": "Privacy en gegevensgebruik",
-          "description": "We respecteren je privacy. Stardewdle gebruikt cookies om statistieken te verzamelen en je dagelijkse raadspelervaring te personaliseren. Voor meer informatie over ons privacybeleid kun je <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">onze speciale sectie</a> bezoeken."
-        },
-        "thanks": "Bedankt dat je deel uitmaakt van de Stardewdle-community! Dagelijks wachten nieuwe Stardew Valley-personages en uitdagingen op je!",
-        "signature": {
-          "regards": "Met vriendelijke groet,",
-          "team": "Het Stardewdle-team - Gepassioneerde Stardew Valley-fans"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

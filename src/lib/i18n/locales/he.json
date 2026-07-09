@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "עדכן העדפות עוגיות"
     },
-    "modals": {
-      "about": {
-        "title": "אודות",
-        "discover": "ברוכים הבאים ל-Stardewdle, משחק הניחושים היומי המוביל של Stardew Valley! בחנו את הידע שלכם ביקום של Stardew Valley דרך 6 מצבי משחק מרגשים: Classic, Emoji, Quote, Ability, Signature ו-Rank. גלו Villager חדש בכל יום ואתגרו את עצמכם בחוויית משחק -dle ייחודית בהשראת משחק היריות התחרותי הפופולרי Stardew Valley.",
-        "disclaimer": "Stardewdle הוא פרויקט מעריצים שנוצר בתשוקה תוך שימוש בנכסים שבבעלות Supercell. Supercell אינה מאשרת או נותנת חסות לפרויקט זה. Stardew Valley וכל הדמויות הקשורות הן סימני מסחר רשומים של Supercell.",
-        "dle_games": {
-          "title": "הצטרפו למגמת משחקי ה-dle הפופולריים עם Stardewdle",
-          "description": "Stardewdle מביא את פורמט הניחושים היומי הממכר ליקום של Stardew Valley. כמו Wordle, Heardle ומשחקי -dle פופולריים אחרים, Stardewdle מציע חידות חדשות מדי יום הבוחנות את הידע שלכם בדרכים מהנות ומעניינות. מצבי המשחק המגוונים והייחודיים שלנו הופכים את Stardewdle למשחק הניחושים המקיף ביותר של Stardew Valley הזמין."
-        },
-        "commitment": {
-          "title": "המחויבות שלנו לקהילת Stardew Valley",
-          "description": "Stardewdle הוא הרבה יותר ממשחק. זהו אתגר יומי שנוצר על ידי מעריצים, עבור מעריצים, שמטביל אתכם ביקום המרגש של Stardew Valley. אנו חוקרים בקפדנות כל דמות כדי להבטיח דיוק באתגרים היומיים שלנו בכל מצבי המשחק. ככל שרשימת ה-Stardew Valley מתרחבת, כך גם בסיס הנתונים שלנו, ומבטיח לכם תמיד תוכן רענן ליהנות ממנו בחוויית משחק הניחושים האולטימטיבית של Stardew Valley."
-        },
-        "game_modes": {
-          "title": "שישה מצבי משחק מרגשים באתגר היומי שלנו של Stardew Valley",
-          "description": "Stardewdle מציע מגוון שאין כדוגמתו עם מספר מצבי משחק נבדלים: מצב Classic בוחן את הידע שלכם על תכונות הדמויות, מצב Emoji מאתגר אתכם לזהות braulers מחמישה אימוג'ים כאשר אחד נחשף לאחר כל ניחוש, מצב Quote מציג דיאלוג מתוך המשחק שעליכם לשייך ל-villager הנכון, מצב Ability מציג תמונה של יכולת דמות לזיהוי, ומצב Signature מציג חתימה כתובה של villager לזיהוי. כל יום מביא אתגרי Stardew Valley חדשים בכל המצבים!"
-        },
-        "inspiration": {
-          "title": "בהשראת Stardew Valley ופורמט משחקי ה-dle הפופולרי",
-          "description": "Stardewdle משלב את פורמט הפאזל היומי הממכר שהפופולרי על ידי Wordle עם יקום הדמויות העשיר של Stardew Valley. משחק הניחושים שלנו מציע את הדרך המושלמת לבחון את הידע שלכם ב-Stardew Valley ולהוכיח שאתם מעריצים אמיתיים של משחק הקרבות הנייד הפופולרי הזה. הצטרפו לאלפי חובבי Stardew Valley שמאתגרים את עצמם מדי יום עם חידות הניחוש הייחודיות שלנו."
-        },
-        "credit": {
-          "title": "ההשראה המקורית",
-          "description": "בהשראה מקורית של <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> והאתר Stardewdle.io, משחק הניחושים היומי המקורי של Stardew Valley."
-        },
-        "privacy": {
-          "title": "פרטיות ושימוש בנתונים",
-          "description": "אנו מכבדים את הפרטיות שלכם. Stardewdle משתמש בעוגיות לאיסוף סטטיסטיקות והתאמה אישית של חוויית משחק הניחושים היומית שלכם. למידע נוסף על מדיניות הפרטיות שלנו, אנא בקרו ב<a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">סעיף הייעודי שלנו</a>."
-        },
-        "thanks": "תודה שאתם חלק מקהילת Stardewdle! דמויות ואתגרים חדשים של Stardew Valley מחכים לכם מדי יום!",
-        "signature": {
-          "regards": "בברכה,",
-          "team": "צוות Stardewdle - מעריצים נלהבים של Stardew Valley"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

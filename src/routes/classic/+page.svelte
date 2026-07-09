@@ -132,7 +132,7 @@ justify-content: center;
 overflow: hidden;
 pointer-events: none;"
     >
-        <Confetti
+        <Confetti colorArray={['#5aa02f','#7bc74d','#ffd24a','#e6c485','#8a5a2b','#c9863c']}
             x={[-5, 5]}
             y={[0, 0.1]}
             delay={[500, 2000]}

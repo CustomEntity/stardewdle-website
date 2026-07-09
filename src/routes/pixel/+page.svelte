@@ -134,7 +134,7 @@ justify-content: center;
 overflow: hidden;
 pointer-events: none;"
     >
-        <Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]} infinite duration={5000} amount={100} fallDistance="100vh" />
+        <Confetti colorArray={['#5aa02f','#7bc74d','#ffd24a','#e6c485','#8a5a2b','#c9863c']} x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]} infinite duration={5000} amount={100} fallDistance="100vh" />
     </div>
 {/if}
 <div class="flex flex-col items-center w-full gap-6">

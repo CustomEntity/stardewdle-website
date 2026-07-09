@@ -79,16 +79,16 @@
         />
     </div>
     {#if showMenu && searchOption !== ''}
-        <div class="absolute w-full bg-[#74451f] stardew-text flex flex-col overflow-y-auto max-h-[30vh] z-20 mt-1 border-[3px] border-[#74451f] scrollbar-thin scrollbar-thumb-[#74451f] scrollbar-track-[#74451f99] hover:scrollbar-thumb-[#4a7d2a]">
+        <div class="absolute w-full bg-[#f3ddab] flex flex-col overflow-y-auto max-h-[30vh] z-20 mt-1 border-[3px] border-[#7a4a24] overflow-hidden">
             {#if loading}
-                <div class="text-[#fff] p-2">{locale.t('components.answerInput.states.loading')}</div>
+                <div class="text-[#5a3a1c] p-2">{locale.t('components.answerInput.states.loading')}</div>
             {:else}
                 {#if filteredOptions.length === 0}
-                    <div class="text-[#fff] p-2">{locale.t('components.answerInput.states.no_result')}</div>
+                    <div class="text-[#5a3a1c] p-2">{locale.t('components.answerInput.states.no_result')}</div>
                 {:else}
                     {#each filteredOptions as option}
                         <button
-                                class="hover:bg-[#4a7d2a] text-left p-2 text-[#fff] cursor-pointer transition-colors duration-200"
+                                class="hover:bg-[#e6c485] text-left p-2 text-[#5a3a1c] cursor-pointer transition-colors duration-200"
                                 onmousedown={() => handleSelect(option)}
                         >
                             {@render item?.(option)}

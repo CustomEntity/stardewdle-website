@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "クッキー設定を更新"
     },
-    "modals": {
-      "about": {
-        "title": "Stardewdleについて",
-        "discover": "Stardewdleへようこそ。毎日遊べる最高のStardew Valley推理ゲームです！クラシック、絵文字、セリフ、アビリティ、サイン、ランクの6つの楽しいゲームモードを通じて、Stardew Valleyの世界に関する知識を試しましょう。毎日新しいブロウラーを発見し、人気の競技型シューティングゲームStardew Valleyから直接インスピレーションを得たユニークな-dle体験に挑戦してください。",
-        "disclaimer": "Stardewdleは、Supercellが所有するアセットを使用してファンが情熱を込めて制作したプロジェクトです。Supercellはこのプロジェクトを公認・後援しているわけではありません。Stardew Valleyおよび関連するすべてのキャラクターはSupercellの登録商標です。",
-        "dle_games": {
-          "title": "Stardewdleで人気の-dleゲームトレンドに参加しよう",
-          "description": "StardewdleはStardew Valleyの世界に、中毒性のある毎日の推理フォーマットをお届けします。Wordle、Heardleなど人気の-dleゲームと同様、Stardewdleは毎日新鮮なパズルを提供し、楽しく魅力的な方法であなたの知識を試します。複数のユニークなゲームモードにより、Stardewdleは現在最も充実したStardew Valley推理ゲームとなっています。"
-        },
-        "commitment": {
-          "title": "Stardew Valleyコミュニティへの私たちの取り組み",
-          "description": "Stardewdleは単なるゲーム以上の存在です。ファンによって、ファンのために作られた毎日のチャレンジで、Stardew Valleyのワクワクする世界へとあなたを誘います。すべてのゲームモードでの毎日のチャレンジの正確性を保つため、各キャラクターを丁寧にリサーチしています。Stardew Valleyのロスターが拡大するにつれて、私たちのデータベースも拡大し、この究極のStardew Valley推理ゲーム体験で常に新鮮なコンテンツを楽しんでいただけるようにしています。"
-        },
-        "game_modes": {
-          "title": "毎日のStardew Valleyチャレンジに登場する6つの楽しいゲームモード",
-          "description": "Stardewdleは、複数の異なるゲームモードで他に類を見ない多彩さを提供します。クラシックモードはキャラクターの属性に関する知識を試し、絵文字モードは推測ごとに1つずつ明らかになる5つの絵文字からブロウラーを特定する挑戦をします。セリフモードでは、ゲーム内のキャラクターのセリフを正しいブロウラーと一致させ、アビリティモードではキャラクターのアビリティ画像を見て当て、サインモードではブロウラーのサインを表示して認識します。すべてのモードで毎日新しいStardew Valleyチャレンジが届きます！"
-        },
-        "inspiration": {
-          "title": "Stardew Valleyと人気の-dleゲームフォーマットからのインスピレーション",
-          "description": "Stardewdleは、Wordleが広めた中毒性のある毎日のパズルフォーマットと、Stardew Valleyの豊かなキャラクター世界を組み合わせています。私たちの推理ゲームは、Stardew Valleyの知識を試し、この人気モバイルバトルゲームの真のファンであることを証明する完璧な方法です。ユニークな推理パズルで毎日挑戦する数千人のStardew Valleyファンに加わりましょう。"
-        },
-        "credit": {
-          "title": "オリジナルのインスピレーション",
-          "description": "<a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a>氏のStardewdle.io、オリジナルのStardew Valley毎日推理ゲームから着想を得ています。"
-        },
-        "privacy": {
-          "title": "プライバシーとデータの利用について",
-          "description": "私たちはあなたのプライバシーを尊重します。Stardewdleは統計情報の収集と毎日の推理ゲーム体験のパーソナライズのためにCookieを使用します。プライバシーポリシーの詳細については、<a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">専用ページ</a>をご覧ください。"
-        },
-        "thanks": "Stardewdleコミュニティの一員になっていただきありがとうございます！新しいStardew Valleyキャラクターとチャレンジが毎日あなたを待っています！",
-        "signature": {
-          "regards": "心より、",
-          "team": "Stardewdleチーム - 情熱あふれるStardew Valleyファン"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

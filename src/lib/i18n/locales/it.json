@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "Aggiorna preferenze cookie"
     },
-    "modals": {
-      "about": {
-        "title": "Informazioni",
-        "discover": "Benvenuto su Stardewdle, il miglior gioco quotidiano di indovinelli su Stardew Valley! Metti alla prova le tue conoscenze dell'universo Stardew Valley attraverso 6 entusiasmanti modalità di gioco: Classic, Emoji, Quote, Ability, Signature e Rank. Scopri un nuovo Villager ogni giorno e mettiti alla prova con la nostra esperienza di gioco -dle unica, direttamente ispirata al popolare shooter competitivo Stardew Valley.",
-        "disclaimer": "Stardewdle è un progetto fan-made creato con passione utilizzando risorse di proprietà di Supercell. Supercell non avalla né sponsorizza questo progetto. Stardew Valley e tutti i personaggi associati sono marchi registrati di Supercell.",
-        "dle_games": {
-          "title": "Unisciti alla Tendenza dei Giochi -dle Popolari con Stardewdle",
-          "description": "Stardewdle porta il formato di indovinelli quotidiani che dà dipendenza nell'universo di Stardew Valley. Come Wordle, Heardle e altri giochi -dle popolari, Stardewdle propone enigmi nuovi ogni giorno che mettono alla prova le tue conoscenze in modi divertenti e coinvolgenti. Le nostre molteplici modalità di gioco uniche rendono Stardewdle il gioco di indovinelli su Stardew Valley più completo disponibile."
-        },
-        "commitment": {
-          "title": "Il Nostro Impegno verso la Community di Stardew Valley",
-          "description": "Stardewdle è molto più di un semplice gioco. È una sfida quotidiana creata dai fan, per i fan, che ti immerge nell'entusiasmante universo di Stardew Valley. Ricerchiamo meticolosamente ogni personaggio per garantire l'accuratezza delle nostre sfide quotidiane in tutte le modalità di gioco. Man mano che il roster di Stardew Valley si espande, lo fa anche il nostro database, assicurandoti sempre nuovi contenuti da gustare in questa esperienza definitiva di gioco di indovinelli su Stardew Valley."
-        },
-        "game_modes": {
-          "title": "Sei Modalità di Gioco Entusiasmanti nella Nostra Sfida Quotidiana di Stardew Valley",
-          "description": "Stardewdle offre una varietà senza pari con molteplici modalità di gioco distinte: la modalità Classic mette alla prova la tua conoscenza degli attributi dei personaggi, la modalità Emoji ti sfida a identificare i villager a partire da cinque emoji con uno rivelato per ogni tentativo, la modalità Quote presenta dialoghi dei personaggi del gioco da abbinare al villager corretto, la modalità Ability mostra l'immagine di un'abilità del personaggio per l'identificazione, e la modalità Signature mostra la firma scritta di un villager da riconoscere. Ogni giorno porta nuove sfide di Stardew Valley in tutte le modalità!"
-        },
-        "inspiration": {
-          "title": "Ispirato a Stardew Valley e al Formato Popolare dei Giochi -dle",
-          "description": "Stardewdle combina il formato di puzzle quotidiano che dà dipendenza, reso popolare da Wordle, con il ricco universo di personaggi di Stardew Valley. Il nostro gioco di indovinelli offre il modo perfetto per mettere alla prova le tue conoscenze su Stardew Valley e dimostrare di essere un vero fan di questo popolare gioco di battaglia mobile. Unisciti a migliaia di appassionati di Stardew Valley che si sfidano ogni giorno con i nostri unici puzzle di indovinelli."
-        },
-        "credit": {
-          "title": "Ispirazione Originale",
-          "description": "Originariamente ispirato da <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> e dal suo Stardewdle.io, il gioco originale di indovinelli quotidiani su Stardew Valley."
-        },
-        "privacy": {
-          "title": "Privacy e Utilizzo dei Dati",
-          "description": "Rispettiamo la tua privacy. Stardewdle utilizza i cookie per raccogliere statistiche e personalizzare la tua esperienza di gioco quotidiana. Per saperne di più sulla nostra politica sulla privacy, visita <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">la nostra sezione dedicata</a>."
-        },
-        "thanks": "Grazie per far parte della community di Stardewdle! Nuovi personaggi e sfide di Stardew Valley ti aspettano ogni giorno!",
-        "signature": {
-          "regards": "Cordiali saluti,",
-          "team": "Il Team di Stardewdle - Fan Appassionati di Stardew Valley"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

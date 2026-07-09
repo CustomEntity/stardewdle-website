@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "Atualizar preferências de cookies"
     },
-    "modals": {
-      "about": {
-        "title": "Sobre",
-        "discover": "Bem-vindo ao Stardewdle, o melhor jogo diário de adivinhação de Stardew Valley! Teste o seu conhecimento do universo Stardew Valley através de 6 modos de jogo emocionantes: Classic, Emoji, Quote, Ability, Signature e Rank. Descubra um novo Villager todos os dias e desafie-se com a nossa experiência de jogo -dle única, diretamente inspirada no popular shooter competitivo Stardew Valley.",
-        "disclaimer": "Stardewdle é um projeto criado por fãs com paixão, utilizando recursos pertencentes à Supercell. A Supercell não apoia nem patrocina este projeto. Stardew Valley e todos os personagens associados são marcas registadas da Supercell.",
-        "dle_games": {
-          "title": "Junte-se à Tendência dos Jogos -dle Populares com o Stardewdle",
-          "description": "O Stardewdle traz o formato viciante de adivinhação diária ao universo de Stardew Valley. Tal como o Wordle, Heardle e outros jogos -dle populares, o Stardewdle oferece novos desafios todos os dias que testam o seu conhecimento de formas divertidas e envolventes. Os nossos múltiplos modos de jogo únicos fazem do Stardewdle o jogo de adivinhação de Stardew Valley mais completo disponível."
-        },
-        "commitment": {
-          "title": "O Nosso Compromisso com a Comunidade Stardew Valley",
-          "description": "O Stardewdle é muito mais do que apenas um jogo. É um desafio diário criado por fãs, para fãs, que o mergulha no emocionante universo de Stardew Valley. Pesquisamos meticulosamente cada personagem para garantir a precisão dos nossos desafios diários em todos os modos de jogo. À medida que o roster de Stardew Valley cresce, a nossa base de dados também, garantindo que terá sempre conteúdos novos para apreciar nesta experiência definitiva de jogo de adivinhação de Stardew Valley."
-        },
-        "game_modes": {
-          "title": "Seis Modos de Jogo Emocionantes no Nosso Desafio Diário de Stardew Valley",
-          "description": "O Stardewdle oferece uma variedade incomparável com vários modos de jogo distintos: o modo Classic testa o seu conhecimento sobre os atributos dos personagens, o modo Emoji desafia-o a identificar os villagers a partir de cinco emojis com um revelado por tentativa, o modo Quote apresenta diálogos dos personagens do jogo para que os associe ao villager correto, o modo Ability mostra uma imagem da habilidade de um personagem para identificação, e o modo Signature exibe a assinatura escrita de um villager para que a reconheça. Todos os dias trazem novos desafios de Stardew Valley em todos os modos!"
-        },
-        "inspiration": {
-          "title": "Inspirado em Stardew Valley e no Formato Popular dos Jogos -dle",
-          "description": "O Stardewdle combina o formato viciante de puzzle diário popularizado pelo Wordle com o rico universo de personagens de Stardew Valley. O nosso jogo de adivinhação oferece a forma perfeita de testar o seu conhecimento de Stardew Valley e provar que é um verdadeiro fã deste popular jogo de batalha móvel. Junte-se a milhares de entusiastas de Stardew Valley que se desafiam todos os dias com os nossos puzzles únicos de adivinhação."
-        },
-        "credit": {
-          "title": "Inspiração Original",
-          "description": "Originalmente inspirado por <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> e o seu Stardewdle.io, o jogo original de adivinhação diária de Stardew Valley."
-        },
-        "privacy": {
-          "title": "Privacidade e Utilização de Dados",
-          "description": "Respeitamos a sua privacidade. O Stardewdle utiliza cookies para recolher estatísticas e personalizar a sua experiência de jogo diária. Para saber mais sobre a nossa política de privacidade, por favor visite <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">a nossa secção dedicada</a>."
-        },
-        "thanks": "Obrigado por fazer parte da comunidade Stardewdle! Novos personagens e desafios de Stardew Valley esperam por si todos os dias!",
-        "signature": {
-          "regards": "Atenciosamente,",
-          "team": "A Equipa Stardewdle - Fãs Apaixonados de Stardew Valley"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

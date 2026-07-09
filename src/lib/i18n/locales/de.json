@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "Cookie-Einstellungen aktualisieren"
     },
-    "modals": {
-      "about": {
-        "title": "Über uns",
-        "discover": "Willkommen bei Stardewdle, dem besten täglichen Stardew Valley Ratespiel! Teste dein Wissen über das Stardew Valley Universum durch 6 spannende Spielmodi: Classic, Emoji, Quote, Ability, Signature und Rank. Entdecke täglich einen neuen Villager und fordere dich selbst heraus mit unserem einzigartigen -dle Spielerlebnis, das direkt vom beliebten Stardew Valley Competitive-Shooter inspiriert ist.",
-        "disclaimer": "Stardewdle ist ein Fan-Projekt, das mit Leidenschaft unter Verwendung von Ressourcen erstellt wurde, die Supercell gehören. Supercell unterstützt oder sponsert dieses Projekt nicht. Stardew Valley und alle zugehörigen Charaktere sind eingetragene Marken von Supercell.",
-        "dle_games": {
-          "title": "Schließe dich dem beliebten -dle Spiele-Trend mit Stardewdle an",
-          "description": "Stardewdle bringt das süchtig machende tägliche Rateformat ins Stardew Valley Universum. Wie Wordle, Heardle und andere beliebte -dle Spiele bietet Stardewdle täglich frische Rätsel, die dein Wissen auf unterhaltsame und ansprechende Weise testen. Unsere mehreren einzigartigen Spielmodi machen Stardewdle zum umfassendsten verfügbaren Stardew Valley Ratespiel."
-        },
-        "commitment": {
-          "title": "Unser Engagement für die Stardew Valley Community",
-          "description": "Stardewdle ist viel mehr als nur ein Spiel. Es ist eine tägliche Herausforderung, die von Fans für Fans erstellt wurde und dich in das aufregende Universum von Stardew Valley eintauchen lässt. Wir recherchieren jeden Charakter sorgfältig, um die Genauigkeit unserer täglichen Herausforderungen in allen Spielmodi zu gewährleisten. Während der Stardew Valley Kader wächst, wächst auch unsere Datenbank, sodass du immer frische Inhalte in diesem ultimativen Stardew Valley Ratespiel-Erlebnis genießen kannst."
-        },
-        "game_modes": {
-          "title": "Sechs spannende Spielmodi in unserer täglichen Stardew Valley Herausforderung",
-          "description": "Stardewdle bietet unübertroffene Vielfalt mit mehreren unterschiedlichen Spielmodi: Der Classic-Modus testet dein Wissen über Charaktereigenschaften, der Emoji-Modus fordert dich heraus, Villager anhand von fünf Emojis zu identifizieren, wobei eines pro Versuch enthüllt wird, der Quote-Modus präsentiert Charakterdialoge aus dem Spiel, die du dem richtigen Villager zuordnen musst, der Ability-Modus zeigt ein Bild einer Charakterfähigkeit zur Identifizierung, und der Signature-Modus zeigt die geschriebene Unterschrift eines Villagers, die du erkennen musst. Jeden Tag bringen alle Modi neue Stardew Valley Herausforderungen!"
-        },
-        "inspiration": {
-          "title": "Inspiriert von Stardew Valley und dem beliebten -dle Spiele-Format",
-          "description": "Stardewdle kombiniert das süchtig machende tägliche Rätselformat, das durch Wordle populär wurde, mit dem reichhaltigen Charakteruniversum von Stardew Valley. Unser Ratespiel bietet die perfekte Möglichkeit, dein Stardew Valley Wissen zu testen und zu beweisen, dass du ein echter Fan dieses beliebten Mobile-Kampfspiels bist. Schließe dich Tausenden von Stardew Valley Enthusiasten an, die sich täglich mit unseren einzigartigen Raterätseln herausfordern."
-        },
-        "credit": {
-          "title": "Ursprüngliche Inspiration",
-          "description": "Ursprünglich inspiriert von <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a> und seiner Website Stardewdle.io, dem originalen täglichen Stardew Valley Ratespiel."
-        },
-        "privacy": {
-          "title": "Datenschutz und Datennutzung",
-          "description": "Wir respektieren deine Privatsphäre. Stardewdle verwendet Cookies, um Statistiken zu sammeln und dein tägliches Ratespiel-Erlebnis zu personalisieren. Um mehr über unsere Datenschutzrichtlinie zu erfahren, besuche bitte <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">unseren dedizierten Bereich</a>."
-        },
-        "thanks": "Danke, dass du Teil der Stardewdle Community bist! Jeden Tag erwarten dich neue Stardew Valley Charaktere und Herausforderungen!",
-        "signature": {
-          "regards": "Mit freundlichen Grüßen,",
-          "team": "Das Stardewdle Team - Leidenschaftliche Stardew Valley Fans"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "Päivitä evästeasetukset"
     },
-    "modals": {
-      "about": {
-        "title": "Tietoja",
-        "discover": "Tervetuloa Stardewdleen, ykkösenä päivittäisten Stardew Valley -arvauspelien joukossa! Testaa Stardew Valley -universumin tietämystäsi 6 jännittävän pelimuodon kautta: Classic, Emoji, Quote, Ability, Signature ja Rank. Löydä uusi Villager päivittäin ja haasta itsesi ainutlaatuisella -dle-pelikokemuksellamme, joka on suoraan inspiroitunut suositusta Stardew Valley -kilpailullisesta villager-räiskinnästä.",
-        "disclaimer": "Stardewdle on fanien intohimosta tekemä projekti, joka käyttää Supercellin omistamia resursseja. Supercell ei tue tai sponsoroi tätä projektia. Stardew Valley ja kaikki siihen liittyvät hahmot ovat Supercellin rekisteröityjä tavaramerkkejä.",
-        "dle_games": {
-          "title": "Liity suosittuun -dle-pelitrendiin Stardewdlen kanssa",
-          "description": "Stardewdle tuo koukuttavan päivittäisen arvausformaatin Stardew Valley -universumiin. Aivan kuten Wordle, Heardle ja muut suositut -dle-pelit, Stardewdle tarjoaa tuoreita pulmia päivittäin, jotka testaavat tietämystäsi hauskalla ja kiinnostavalla tavalla. Useat ainutlaatuiset pelimuotomme tekevät Stardewdlestä kattavimman saatavilla olevan Stardew Valley -arvauspelin."
-        },
-        "commitment": {
-          "title": "Sitoutumisemme Stardew Valley -yhteisöön",
-          "description": "Stardewdle on paljon enemmän kuin pelkkä peli. Se on faneilta faneille tehty päivittäinen haaste, joka uppouttaa sinut Stardew Valleyin jännittävään universumiin. Tutkimme jokaisen hahmon huolellisesti varmistaaksemme päivittäisten haasteidemme tarkkuuden kaikissa pelimuodoissa. Kun Stardew Valleyin hahmolista laajenee, niin laajenee tietokantamme, varmistaen että sinulla on aina tuoretta sisältöä nautittavaksi tässä äärimmäisessä Stardew Valley -arvauspelikokemuksessa."
-        },
-        "game_modes": {
-          "title": "Kuusi jännittävää pelimuotoa päivittäisessä Stardew Valley -haasteessamme",
-          "description": "Stardewdle tarjoaa vertaansa vailla olevaa monipuolisuutta useilla erilaisilla pelimuodoilla: Classic-tila testaa tietämystäsi hahmojen ominaisuuksista, Emoji-tila haastaa tunnistamaan villagerit viidestä emojista yksi paljastuen per arvaus, Quote-tila esittää pelin sisäisiä hahmodialogeja yhdistettäväksi oikeaan villageriin, Ability-tila näyttää kuvan hahmon kyvystä tunnistettavaksi, ja Signature-tila näyttää villagerin kirjallisen allekirjoituksen tunnistettavaksi. Jokainen päivä tuo uusia Stardew Valley -haasteita kaikissa tiloissa!"
-        },
-        "inspiration": {
-          "title": "Inspiraationa Stardew Valley ja suosittu -dle-peliformaatti",
-          "description": "Stardewdle yhdistää Wordlen suosituksi tekemän koukuttavan päivittäisen pulmaformaatin Stardew Valleyin rikkaaseen hahmouniversumiin. Arvauspelimme tarjoaa täydellisen tavan testata Stardew Valley -tietämystäsi ja todistaa, että olet tämän suositun mobiilitaistelupelin todellinen fani. Liity tuhansiin Stardew Valley -faneihin, jotka haastavat itseään päivittäin ainutlaatuisilla arvauspulmillamme."
-        },
-        "credit": {
-          "title": "Alkuperäinen inspiraatio",
-          "description": "Alun perin inspiroitunut <a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dain</a> Stardewdle.io:sta, alkuperäisestä Stardew Valley -päivittäisestä arvauspelistä."
-        },
-        "privacy": {
-          "title": "Yksityisyys ja tietojen käyttö",
-          "description": "Kunnioitamme yksityisyyttäsi. Stardewdle käyttää evästeitä tilastojen keräämiseen ja päivittäisen arvauspelikokemuksesi personointiin. Lisätietoja tietosuojakäytännöstämme saat vierailemalla <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">erillisellä osiollamme</a>."
-        },
-        "thanks": "Kiitos, että olet osa Stardewdle-yhteisöä! Uudet Stardew Valley -hahmot ja -haasteet odottavat sinua päivittäin!",
-        "signature": {
-          "regards": "Ystävällisin terveisin,",
-          "team": "Stardewdle-tiimi - Intohimoisia Stardew Valley -faneja"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

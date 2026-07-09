@@ -27,42 +27,7 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "쿠키 기본 설정 업데이트"
     },
-    "modals": {
-      "about": {
-        "title": "Stardewdle 소개",
-        "discover": "최고의 일일 Stardew Valley 추리 게임, Stardewdle에 오신 것을 환영합니다! 클래식, 이모지, 대사, 어빌리티, 시그니처, 랭크의 6가지 흥미로운 게임 모드를 통해 Stardew Valley 세계에 대한 지식을 시험해보세요. 매일 새로운 브롤러를 발견하고, 인기 경쟁 슈팅 게임 Stardew Valley에서 직접 영감을 받은 독특한 -dle 게임 경험에 도전해보세요.",
-        "disclaimer": "Stardewdle은 Supercell이 소유한 자산을 사용하여 팬들이 열정을 담아 만든 프로젝트입니다. Supercell은 본 프로젝트를 보증하거나 후원하지 않습니다. Stardew Valley 및 모든 관련 캐릭터는 Supercell의 등록 상표입니다.",
-        "dle_games": {
-          "title": "Stardewdle과 함께 인기 -dle 게임 트렌드에 동참하세요",
-          "description": "Stardewdle은 중독성 있는 일일 추리 형식을 Stardew Valley 세계에 가져옵니다. Wordle, Heardle 및 기타 인기 -dle 게임처럼, Stardewdle은 매일 새로운 퍼즐을 제공하며 재미있고 매력적인 방법으로 여러분의 지식을 시험합니다. 다양한 독창적인 게임 모드 덕분에 Stardewdle은 현재 가장 풍부한 Stardew Valley 추리 게임입니다."
-        },
-        "commitment": {
-          "title": "Stardew Valley 커뮤니티에 대한 약속",
-          "description": "Stardewdle은 단순한 게임 그 이상입니다. 팬에 의해, 팬을 위해 만들어진 일일 도전으로, 여러분을 흥미진진한 Stardew Valley 세계로 안내합니다. 모든 게임 모드의 일일 도전에서 정확성을 보장하기 위해 각 캐릭터를 꼼꼼히 조사합니다. Stardew Valley 로스터가 확장됨에 따라 저희 데이터베이스도 함께 확장되어, 이 궁극의 Stardew Valley 추리 게임 경험에서 항상 새로운 콘텐츠를 즐기실 수 있도록 합니다."
-        },
-        "game_modes": {
-          "title": "일일 Stardew Valley 도전의 6가지 흥미로운 게임 모드",
-          "description": "Stardewdle은 여러 가지 독특한 게임 모드로 비교할 수 없는 다양성을 제공합니다. 클래식 모드는 캐릭터 속성에 대한 지식을 시험하고, 이모지 모드는 추측마다 하나씩 공개되는 5개의 이모지로 브롤러를 식별하는 도전입니다. 대사 모드는 게임 내 캐릭터의 대사를 적절한 브롤러와 매칭시키고, 어빌리티 모드는 캐릭터 어빌리티 이미지를 보여 식별하게 하며, 시그니처 모드는 브롤러의 서명을 보여주어 인식하게 합니다. 모든 모드에서 매일 새로운 Stardew Valley 도전이 펼쳐집니다!"
-        },
-        "inspiration": {
-          "title": "Stardew Valley와 인기 -dle 게임 형식에서 영감을 받음",
-          "description": "Stardewdle은 Wordle이 대중화한 중독성 있는 일일 퍼즐 형식과 Stardew Valley의 풍부한 캐릭터 세계를 결합합니다. 저희 추리 게임은 Stardew Valley 지식을 시험하고 이 인기 모바일 배틀 게임의 진정한 팬임을 증명할 수 있는 완벽한 방법입니다. 독창적인 추리 퍼즐로 매일 도전하는 수천 명의 Stardew Valley 애호가와 함께하세요."
-        },
-        "credit": {
-          "title": "오리지널 영감",
-          "description": "<a href=\"https://github.com/CouldNot\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#57aecf] underline\">Dale Dai</a>의 Stardewdle.io, 오리지널 일일 Stardew Valley 추리 게임에서 영감을 받았습니다."
-        },
-        "privacy": {
-          "title": "개인정보 보호 및 데이터 사용",
-          "description": "저희는 여러분의 개인정보를 존중합니다. Stardewdle은 통계 수집 및 일일 추리 게임 경험의 개인화를 위해 쿠키를 사용합니다. 개인정보 처리방침에 대한 자세한 내용은 <a href=\"/privacy\" target=\"_blank\" class=\"text-[#57aecf] underline\">전용 페이지</a>를 참조하세요."
-        },
-        "thanks": "Stardewdle 커뮤니티의 일원이 되어 주셔서 감사합니다! 매일 새로운 Stardew Valley 캐릭터와 도전이 여러분을 기다립니다!",
-        "signature": {
-          "regards": "감사합니다,",
-          "team": "Stardewdle 팀 - 열정적인 Stardew Valley 팬"
-        }
-      }
-    }
+    "modals": {}
   },
   "pages": {
     "home": {

@@ -4,7 +4,8 @@
 @theme {
     --font-refrigerator-deluxe: "Refrigerator-Deluxe";
     --font-nunito: "Nunito";
-    --font-lilita: "Lilita One";
+    --font-lilita: "Pixelify Sans", "Lilita One", ui-sans-serif, sans-serif;
+    --font-stardew: "Pixelify Sans", ui-sans-serif, sans-serif;
     --breakpoint-md: 828px;
 }
 
@@ -68,6 +69,20 @@ body {
     color: #58371a;
     text-shadow: 1px 1px 0 rgba(255,247,214,0.6);
 }
+
+/* Stardew inventory-slot tile (used by the comparison grid cells) */
+.sv-tile {
+    border: 2px solid #2f2110;
+    border-radius: 6px;
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.28), inset 0 -3px 0 rgba(0, 0, 0, 0.28);
+}
+
+/* Stardew wood scrollbar */
+* { scrollbar-color: #8a5a2b #e6c485; scrollbar-width: thin; }
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { background: #e6c485; }
+::-webkit-scrollbar-thumb { background: #8a5a2b; border: 2px solid #e6c485; border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: #a06a34; }
 
 /* Stardew wood button (cream face, brown frame, reddish-brown label) */
 .sv-btn {
