@@ -701,7 +701,7 @@
         "value": "{count}"
       },
       "next": {
-        "timer": "Sonraki villager",
+        "timer": "Sonraki bulmaca",
         "mode": "Sonraki mod:"
       },
       "image": {

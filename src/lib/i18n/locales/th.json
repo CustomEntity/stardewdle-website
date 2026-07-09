@@ -701,7 +701,7 @@
         "value": "{count}"
       },
       "next": {
-        "timer": "Villager ถัดไปอีก",
+        "timer": "ปริศนาถัดไปใน",
         "mode": "โหมดถัดไป:"
       },
       "image": {

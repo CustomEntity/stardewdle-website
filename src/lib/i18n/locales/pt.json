@@ -701,7 +701,7 @@
         "value": "{count}"
       },
       "next": {
-        "timer": "Próximo villager em",
+        "timer": "Próximo desafio em",
         "mode": "Próximo modo:"
       },
       "image": {

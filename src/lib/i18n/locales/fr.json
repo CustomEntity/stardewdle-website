@@ -648,7 +648,7 @@
         "value": "{count}"
       },
       "next": {
-        "timer": "Prochain villageois dans",
+        "timer": "Prochain puzzle dans",
         "mode": "Prochain mode :"
       },
       "image": {

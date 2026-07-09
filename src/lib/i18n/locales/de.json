@@ -701,7 +701,7 @@
         "value": "{count}"
       },
       "next": {
-        "timer": "Nächster Villager in",
+        "timer": "Nächstes Rätsel in",
         "mode": "Nächster Modus:"
       },
       "image": {

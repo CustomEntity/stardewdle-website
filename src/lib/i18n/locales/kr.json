@@ -701,7 +701,7 @@
         "value": "{count}"
       },
       "next": {
-        "timer": "다음 브롤러까지",
+        "timer": "다음 퍼즐까지",
         "mode": "다음 모드:"
       },
       "image": {

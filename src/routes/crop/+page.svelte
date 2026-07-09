@@ -6,6 +6,7 @@
     import { WEBSITE_URL } from "$lib/constants";
     import { media } from "$lib/media";
     import VictoryContainer from "$lib/components/VictoryContainer.svelte";
+    import HomeButton from "$lib/components/buttons/HomeButton.svelte";
     import StatsModal from "./(components)/StatsModal.svelte";
     import locale from "$lib/stores/locale.svelte";
     import { Confetti } from "svelte-confetti";
@@ -150,9 +151,12 @@
                                 </StatsModal>
                             {/snippet}
                             {#snippet nextMode()}
-                                <a href="/villager" class="stardew-text text-lg text-[#e6cc8f] underline underline-offset-4 hover:text-white">
-                                    {locale.t("pages.crop.victory.next_mode")}
-                                </a>
+                                <HomeButton
+                                    class="w-full max-w-[380px] h-[96px] mt-1"
+                                    title={locale.t("pages.home.button.fish.title")}
+                                    subtitle={locale.t("pages.home.button.fish.description")}
+                                    gameMode="fish"
+                                    href="/fish"/>
                             {/snippet}
                         </VictoryContainer>
                         <ShareContainer

@@ -701,7 +701,7 @@
         "value": "{count}"
       },
       "next": {
-        "timer": "下一位英雄在",
+        "timer": "下一个谜题",
         "mode": "下一个模式："
       },
       "image": {

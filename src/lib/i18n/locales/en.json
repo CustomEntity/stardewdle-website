@@ -648,7 +648,7 @@
         "value": "{count}"
       },
       "next": {
-        "timer": "Next villager in",
+        "timer": "Next puzzle in",
         "mode": "Next mode:"
       },
       "image": {
