@@ -68,8 +68,8 @@
     "home": {
       "title": "Teste o seu conhecimento de Stardew Valley",
       "button": {
-        "classic": {
-          "title": "Clássico",
+        "villager": {
+          "title": "Aldeão",
           "description": "Receba pistas a cada tentativa"
         },
         "crop": {
@@ -89,7 +89,7 @@
         "new": "NOVO"
       }
     },
-    "classic": {
+    "villager": {
       "page_meta": {
         "title": "Clássico",
         "description": "Adivinhe o villager de Stardew Valley de hoje!"

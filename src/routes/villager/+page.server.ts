@@ -15,7 +15,7 @@ async function loadYesterdayVillager(language: string = 'en'): Promise<{ game_id
     const statement = `
         SELECT d.game_id,
                ${nameSubquery('d.villager_id')} as name
-        FROM daily_classic d
+        FROM daily_villager d
         WHERE d.date = CURRENT_DATE - 1
         LIMIT 1
     `;
@@ -52,7 +52,7 @@ async function loadVillagers(language: string = 'en'): Promise<Villager[]> {
     }));
 }
 
-async function loadDailyVillager(language: string = 'en'): Promise<DailyClassicVillager | null> {
+async function loadDailyVillager(language: string = 'en'): Promise<DailyVillager | null> {
     const statement = `
         SELECT d.id,
                d.game_id,
@@ -68,7 +68,7 @@ async function loadDailyVillager(language: string = 'en'): Promise<DailyClassicV
                ${nameSubquery('v.id')} as name,
                (v.loved_gifts->>0) as gift_hint,
                v.loved_gift_sprite as gift_sprite
-        FROM daily_classic d
+        FROM daily_villager d
             JOIN villagers v ON d.villager_id = v.id
         WHERE d.date = CURRENT_DATE
         LIMIT 1
@@ -107,9 +107,9 @@ export const load: PageServerLoad = async ({ cookies }) => {
             villagers: loadVillagers(language),
         };
     } catch (err) {
-        console.error('Failed to load daily classic data:', err);
+        console.error('Failed to load daily villager data:', err);
         throw error(500, {
-            message: 'Failed to load daily classic data'
+            message: 'Failed to load daily villager data'
         });
     }
 };

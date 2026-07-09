@@ -68,8 +68,8 @@
     "home": {
       "title": "Stardew Valley 지식을 시험해보세요",
       "button": {
-        "classic": {
-          "title": "클래식",
+        "villager": {
+          "title": "주민",
           "description": "매 시도마다 단서를 얻으세요"
         },
         "crop": {
@@ -89,7 +89,7 @@
         "new": "NEW"
       }
     },
-    "classic": {
+    "villager": {
       "page_meta": {
         "title": "클래식",
         "description": "오늘의 Stardew Valley 브롤러를 맞혀보세요!"

@@ -10,7 +10,7 @@ interface Villager {
     portrait_url: string;
 }
 
-interface DailyClassicVillager {
+interface DailyVillager {
     id: number;
     game_id: number;
     date: string;

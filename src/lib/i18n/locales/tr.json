@@ -68,8 +68,8 @@
     "home": {
       "title": "Stardew Valley bilginizi test edin",
       "button": {
-        "classic": {
-          "title": "Klasik",
+        "villager": {
+          "title": "Köylü",
           "description": "Her denemede ipuçları alın"
         },
         "crop": {
@@ -89,7 +89,7 @@
         "new": "YENİ"
       }
     },
-    "classic": {
+    "villager": {
       "page_meta": {
         "title": "Klasik",
         "description": "Bugünkü Stardew Valley villager'ını tahmin edin!"

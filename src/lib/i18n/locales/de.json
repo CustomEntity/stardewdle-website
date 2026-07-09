@@ -68,8 +68,8 @@
     "home": {
       "title": "Teste dein Stardew Valley Wissen",
       "button": {
-        "classic": {
-          "title": "Klassisch",
+        "villager": {
+          "title": "Dorfbewohner",
           "description": "Erhalte Hinweise bei jedem Versuch"
         },
         "crop": {
@@ -89,7 +89,7 @@
         "new": "NEU"
       }
     },
-    "classic": {
+    "villager": {
       "page_meta": {
         "title": "Klassisch",
         "description": "Rate den heutigen Stardew Valley Villager!"

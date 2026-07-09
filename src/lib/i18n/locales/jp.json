@@ -68,8 +68,8 @@
     "home": {
       "title": "あなたのStardew Valleyの知識を試そう",
       "button": {
-        "classic": {
-          "title": "クラシック",
+        "villager": {
+          "title": "住民",
           "description": "毎回ヒントを獲得"
         },
         "crop": {
@@ -89,7 +89,7 @@
         "new": "NEW"
       }
     },
-    "classic": {
+    "villager": {
       "page_meta": {
         "title": "クラシック",
         "description": "今日のStardew Valleyブロウラーを当てよう！"

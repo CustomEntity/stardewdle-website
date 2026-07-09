@@ -10,14 +10,14 @@
     import locale from "$lib/stores/locale.svelte";
     import { Confetti } from "svelte-confetti";
     import MarvelRivalsButton from "$lib/components/buttons/MarvelRivalsButton.svelte";
-    import ClassicToolsBar from "./(components)/ClassicToolsBar.svelte";
-    import { useClassicGameData } from "$lib/stores/classicGameData.svelte";
+    import VillagerToolsBar from "./(components)/VillagerToolsBar.svelte";
+    import { useVillagerGameData } from "$lib/stores/villagerGameData.svelte";
     import AnswerInput from "$lib/components/AnswerInput.svelte";
     import TriesGrid from "./(components)/TriesGrid.svelte";
     import { notifyModeComplete } from "$lib/stores/alldle.svelte";
 
     const { data } = $props();
-    const classicGameData = useClassicGameData();
+    const villagerGameData = useVillagerGameData();
     let isWon = $state(false);
     let wonDivElement: HTMLDivElement | undefined = $state();
     let innerWidth = 0;
@@ -36,14 +36,14 @@
         regionColors[villager?.region] || "#caa472";
 
     function getShareText(gameId: number, triesCount: number): string {
-        return locale.t("pages.classic.share.text", {
+        return locale.t("pages.villager.share.text", {
             id: gameId,
             tries: triesCount,
         });
     }
 
     function getCopyShareText(gameId: number, triesCount: number): string {
-        return locale.t("pages.classic.share.to_copy", {
+        return locale.t("pages.villager.share.to_copy", {
             id: gameId,
             tries: triesCount,
             url: "https://" + WEBSITE_URL,
@@ -67,16 +67,16 @@
             return;
         }
 
-        classicGameData.addTry(villager.id);
+        villagerGameData.addTry(villager.id);
 
         if (villager.id === daily.villager.id) {
             isWon = true;
             await tick();
             wonDivElement?.scrollIntoView({ behavior: "smooth" });
-            classicGameData.win();
-            notifyModeComplete("classic", {
+            villagerGameData.win();
+            notifyModeComplete("villager", {
                 won: true,
-                attempts: classicGameData.tries.length,
+                attempts: villagerGameData.tries.length,
             });
         }
     }
@@ -88,12 +88,12 @@
             return;
         }
 
-        if (dailyGame.game_id !== classicGameData.game) {
-            classicGameData.resetTries(dailyGame.game_id);
+        if (dailyGame.game_id !== villagerGameData.game) {
+            villagerGameData.resetTries(dailyGame.game_id);
         }
 
         // Check if already won
-        if (classicGameData.tries.includes(dailyGame.villager.id)) {
+        if (villagerGameData.tries.includes(dailyGame.villager.id)) {
             isWon = true;
         }
     });
@@ -159,9 +159,9 @@ pointer-events: none;"
     </div>
 {/if}
 <div class="flex flex-col items-center w-full gap-6">
-    <ClassicToolsBar
+    <VillagerToolsBar
         patchNotes={data.patchNotes}
-        gameData={classicGameData.data}
+        gameData={villagerGameData.data}
     />
 
     {#await Promise.all([data?.villagers, data?.daily])}
@@ -170,40 +170,40 @@ pointer-events: none;"
         </div>
     {:then [villagers, daily]}
         <ExplanationBox
-            title={locale.t("pages.classic.components.explanationBox.title")}
+            title={locale.t("pages.villager.components.explanationBox.title")}
             bottomHint={locale.t(
-                "pages.classic.components.explanationBox.bottomHint",
+                "pages.villager.components.explanationBox.bottomHint",
             )}
         >
             {#snippet content()}
                 <div class="relative w-full text-center text-white">
                     <span class="uppercase text-2xl font-normal leading-none">
                         {locale.t(
-                            "pages.classic.components.explanationBox.title",
+                            "pages.villager.components.explanationBox.title",
                         )}
                     </span>
-                    {#if classicGameData.tries.length === 0}
+                    {#if villagerGameData.tries.length === 0}
                         <span class="block mt-2 text-lg text-white/70">
                             {locale.t(
-                                "pages.classic.components.explanationBox.bottomHint",
+                                "pages.villager.components.explanationBox.bottomHint",
                             )}
                         </span>
                     {/if}
-                    {#if classicGameData.tries.length > 0}
+                    {#if villagerGameData.tries.length > 0}
                         <span class="block mt-4 text-lg">
-                            {#if classicGameData.tries.length >= 6 || isWon}
+                            {#if villagerGameData.tries.length >= 6 || isWon}
                                 <span class="inline-flex items-center justify-center gap-2 text-[#e6cc8f]">
                                     {#if daily?.giftSprite != null}
                                         <span style={giftIconStyle(daily.giftSprite)}></span>
                                     {/if}
-                                    {locale.t("pages.classic.gift_hint", {
+                                    {locale.t("pages.villager.gift_hint", {
                                         gift: daily?.giftHint,
                                     })}
                                 </span>
                             {:else}
                                 <span class="text-white/50">
-                                    {locale.t("pages.classic.gift_hint_locked", {
-                                        tries: 6 - classicGameData.tries.length,
+                                    {locale.t("pages.villager.gift_hint_locked", {
+                                        tries: 6 - villagerGameData.tries.length,
                                     })}
                                 </span>
                             {/if}
@@ -214,17 +214,17 @@ pointer-events: none;"
         </ExplanationBox>
     {:catch error}
         <p class="text-[#e6cc8f] text-lg font-poppins tracking-wide">
-            {locale.t("pages.classic.errors.generic_error", {
+            {locale.t("pages.villager.errors.generic_error", {
                 message: error.message,
             })}
         </p>
     {/await}
 
     <div class="flex flex-col items-center w-full md:max-w-[660px]">
-        {#await Promise.all( [data?.villagers, data?.daily, data?.yesterday], ) then [villagers, daily, yesterdayClassic]}
+        {#await Promise.all( [data?.villagers, data?.daily, data?.yesterday], ) then [villagers, daily, yesterdayVillager]}
             {#if !daily}
                 <p class="text-white text-lg font-poppins tracking-wide">
-                    {locale.t("pages.classic.errors.no_daily_brawler")}
+                    {locale.t("pages.villager.errors.no_daily_brawler")}
                 </p>
             {:else}
                 <div class="flex flex-col items-center w-full gap-4">
@@ -235,12 +235,12 @@ pointer-events: none;"
                                 option
                                     .toLowerCase()
                                     .includes(searchTerm.toLowerCase()) &&
-                                !classicGameData.tries.includes(
+                                !villagerGameData.tries.includes(
                                     villagers.find((v) => v.name === option)?.id,
                                 )}
                             options={villagers?.map((v) => v.name)}
                             placeholder={locale.t(
-                                "pages.classic.components.answerInput.placeholder",
+                                "pages.villager.components.answerInput.placeholder",
                             )}
                             onselect={handleSelect}
                         >
@@ -268,7 +268,7 @@ pointer-events: none;"
 
                         {#if innerWidth <= 768}
                             <p class="text-gray-300">
-                                {locale.t("pages.classic.scroll_hint")}
+                                {locale.t("pages.villager.scroll_hint")}
                             </p>
                         {/if}
                     </div>
@@ -282,11 +282,11 @@ pointer-events: none;"
                                 (v) => v.id === daily.villager.id,
                             )?.portrait_url)}
                             imageAlt={daily.villager.name}
-                            triesCount={classicGameData.tries.length}
+                            triesCount={villagerGameData.tries.length}
                             bind:container={wonDivElement}
                         >
                             {#snippet statsButton()}
-                                <StatsModal stats={classicGameData.data.stats}>
+                                <StatsModal stats={villagerGameData.data.stats}>
                                     {#snippet button(toggleModal)}
                                         <MarvelRivalsButton
                                             slant="none"
@@ -294,7 +294,7 @@ pointer-events: none;"
                                             width="150px"
                                             height="49px"
                                             title={locale.t(
-                                                "pages.classic.victory.stats_button",
+                                                "pages.villager.victory.stats_button",
                                             )}
                                         ></MarvelRivalsButton>
                                     {/snippet}
@@ -305,22 +305,22 @@ pointer-events: none;"
                                     href="/"
                                     class="stardew-text text-lg text-[#e6cc8f] underline underline-offset-4 hover:text-white"
                                 >
-                                    {locale.t("pages.classic.victory.back_home")}
+                                    {locale.t("pages.villager.victory.back_home")}
                                 </a>
                             {/snippet}
                         </VictoryContainer>
                         <ShareContainer
                             copyText={getCopyShareText(
                                 daily.game_id,
-                                classicGameData.tries.length,
+                                villagerGameData.tries.length,
                             )}
                             class="w-full"
                             text={getShareText(
                                 daily.game_id,
-                                classicGameData.tries.length,
+                                villagerGameData.tries.length,
                             )}
                             websiteUrl={WEBSITE_URL}
-                            tries={classicGameData.tries
+                            tries={villagerGameData.tries
                                 .map((tryId) => {
                                     const villager = villagers.find(
                                         (v) => v.id === tryId,
@@ -363,13 +363,13 @@ pointer-events: none;"
                         />
                     </div>
                 {/if}
-                {#if yesterdayClassic}
+                {#if yesterdayVillager}
                     {@const formattedText = locale.t(
-                        "pages.classic.yesterday",
+                        "pages.villager.yesterday",
                         {
                             prefix: "",
-                            gameId: yesterdayClassic.game_id,
-                            brawlerName: yesterdayClassic.name,
+                            gameId: yesterdayVillager.game_id,
+                            brawlerName: yesterdayVillager.name,
                         },
                     )}
 

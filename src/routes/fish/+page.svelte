@@ -150,7 +150,7 @@
                                 </StatsModal>
                             {/snippet}
                             {#snippet nextMode()}
-                                <a href="/classic" class="stardew-text text-lg text-[#e6cc8f] underline underline-offset-4 hover:text-white">
+                                <a href="/villager" class="stardew-text text-lg text-[#e6cc8f] underline underline-offset-4 hover:text-white">
                                     {locale.t("pages.fish.victory.next_mode")}
                                 </a>
                             {/snippet}

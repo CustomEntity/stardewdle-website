@@ -1,6 +1,6 @@
 export const load = async ({ data }) => {
     return {
         ...data,
-        name: 'classic',
+        name: 'villager',
     };
 };

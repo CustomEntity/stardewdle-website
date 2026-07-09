@@ -68,8 +68,8 @@
     "home": {
       "title": "Metti alla prova le tue conoscenze su Stardew Valley",
       "button": {
-        "classic": {
-          "title": "Classic",
+        "villager": {
+          "title": "Abitante",
           "description": "Ottieni indizi a ogni tentativo"
         },
         "crop": {
@@ -89,7 +89,7 @@
         "new": "NUOVO"
       }
     },
-    "classic": {
+    "villager": {
       "page_meta": {
         "title": "Classic",
         "description": "Indovina il villager di Stardew Valley di oggi!"

@@ -68,8 +68,8 @@
     "home": {
       "title": "Testez vos connaissances de Stardew Valley",
       "button": {
-        "classic": {
-          "title": "Classique",
+        "villager": {
+          "title": "Villageois",
           "description": "Obtenez des indices à chaque essai"
         },
         "crop": {
@@ -89,7 +89,7 @@
         "new": "NOUVEAU"
       }
     },
-    "classic": {
+    "villager": {
       "page_meta": {
         "title": "Classique",
         "description": "Devine le villageois de Stardew Valley du jour en mode Classique !"

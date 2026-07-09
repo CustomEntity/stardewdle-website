@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS villager_translations (
     PRIMARY KEY (villager_id, language)
 );
 
-CREATE TABLE IF NOT EXISTS daily_classic (
+CREATE TABLE IF NOT EXISTS daily_villager (
     id          SERIAL PRIMARY KEY,
     game_id     INTEGER NOT NULL,
     date        DATE NOT NULL UNIQUE,

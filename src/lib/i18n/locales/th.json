@@ -68,8 +68,8 @@
     "home": {
       "title": "ทดสอบความรู้ Stardew Valley ของคุณ",
       "button": {
-        "classic": {
-          "title": "คลาสสิก",
+        "villager": {
+          "title": "ชาวบ้าน",
           "description": "รับเบาะแสในทุกความพยายาม"
         },
         "crop": {
@@ -89,7 +89,7 @@
         "new": "ใหม่"
       }
     },
-    "classic": {
+    "villager": {
       "page_meta": {
         "title": "คลาสสิก",
         "description": "ทาย villager ของ Stardew Valley วันนี้!"

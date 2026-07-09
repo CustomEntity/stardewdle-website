@@ -1,5 +1,5 @@
 // Stardewdle DB setup + seed.
-//   node scripts/db/seed-villagers.mjs            -> apply schema + upsert villagers/translations + seed 60 days of daily_classic
+//   node scripts/db/seed-villagers.mjs            -> apply schema + upsert villagers/translations + seed 60 days of daily_villager
 //   node scripts/db/seed-villagers.mjs --daily-only
 // Requires DATABASE_URL in env (.env) and the `pg` package.
 import fs from 'node:fs';
@@ -78,7 +78,7 @@ async function main() {
     const pool = ids.map((r) => r.id);
     const today = new Date();
     const modes = [
-      { table: 'daily_classic', salt: 'classic' }
+      { table: 'daily_villager', salt: 'villager' }
     ];
     for (const { table, salt } of modes) {
       let inserted = 0;

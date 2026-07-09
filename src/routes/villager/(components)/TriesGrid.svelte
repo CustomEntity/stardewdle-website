@@ -1,6 +1,6 @@
 <!-- TriesGrid.svelte -->
 <script lang="ts">
-    import {useClassicGameData} from "$lib/stores/classicGameData.svelte";
+    import {useVillagerGameData} from "$lib/stores/villagerGameData.svelte";
     import {onMount, tick} from "svelte";
     import locale from "$lib/stores/locale.svelte";
     import {media} from "$lib/media";
@@ -11,7 +11,7 @@
     }
 
     const {dailyVillager, villagers}: Props = $props();
-    const classicGameData = useClassicGameData();
+    const villagerGameData = useVillagerGameData();
 
     // Animation state tracking
     let animations: Record<string, number> = $state({});
@@ -46,7 +46,7 @@
     };
 
     // Derived attempts with per-column comparison
-    const attempts = $derived(classicGameData?.tries.map(tryId => {
+    const attempts = $derived(villagerGameData?.tries.map(tryId => {
         const villager = villagers.find(v => v.id === tryId);
         if (!villager) return null;
 
@@ -119,12 +119,12 @@
         }
     }
 
-    // translate an enum value against pages.classic.attributes.<group>.<value>,
+    // translate an enum value against pages.villager.attributes.<group>.<value>,
     // falling back to a prettified raw value
     const translate = (group: string, value: string | null) => {
         if (!value) return '-';
         const slug = value.replace(/\s+/g, '');
-        const key = `pages.classic.attributes.${group}.${slug}` as const;
+        const key = `pages.villager.attributes.${group}.${slug}` as const;
         const translated = locale.t(key as any);
         return translated === key ? value : translated;
     }
@@ -140,7 +140,7 @@
         {#each ['villager','gender','region','season','birthday','marriageable','age'] as h}
             <div class="min-h-9 flex items-center justify-center px-0.5">
                 <span class="text-xs md:text-sm leading-[1.05] text-center stardew-text">
-                    {locale.t(`pages.classic.attributes.headers.${h}` as any)}
+                    {locale.t(`pages.villager.attributes.headers.${h}` as any)}
                 </span>
             </div>
         {/each}

@@ -68,8 +68,8 @@
     "home": {
       "title": "测试你的 Stardew Valley 知识",
       "button": {
-        "classic": {
-          "title": "经典",
+        "villager": {
+          "title": "村民",
           "description": "每次尝试都获得线索"
         },
         "crop": {
@@ -89,7 +89,7 @@
         "new": "新"
       }
     },
-    "classic": {
+    "villager": {
       "page_meta": {
         "title": "经典",
         "description": "猜出今日的 Stardew Valley 英雄！"

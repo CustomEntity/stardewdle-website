@@ -11,10 +11,10 @@
 <div class="mt-6 w-full flex flex-col gap-4 max-w-[440px]">
     <HomeButton
             class={'w-full h-[120px]'}
-            title={ locale.t('pages.home.button.classic.title') }
-            subtitle={ locale.t('pages.home.button.classic.description') }
-            gameMode="classic"
-            href="/classic"/>
+            title={ locale.t('pages.home.button.villager.title') }
+            subtitle={ locale.t('pages.home.button.villager.description') }
+            gameMode="villager"
+            href="/villager"/>
     <HomeButton
             class={'w-full h-[120px]'}
             title={ locale.t('pages.home.button.crop.title') }

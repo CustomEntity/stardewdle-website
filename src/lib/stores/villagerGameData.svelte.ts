@@ -1,11 +1,11 @@
 import {type BaseGameData, createGameData} from "$lib/stores/baseGameData.svelte";
 
-type ClassicId = number;
-export type ClassicGameData = BaseGameData<ClassicId> & {
+type VillagerId = number;
+export type VillagerGameData = BaseGameData<VillagerId> & {
     
 }
 
-const defaultValue: ClassicGameData = {
+const defaultValue: VillagerGameData = {
     game: 0,
     stats: {
         wins: 0,
@@ -21,9 +21,9 @@ const defaultValue: ClassicGameData = {
 
 let instance: ReturnType<typeof createGameData> | null = null;
 
-export function useClassicGameData() {
+export function useVillagerGameData() {
     if (!instance) {
-        instance = createGameData('classic_data', defaultValue);
+        instance = createGameData('villager_data', defaultValue);
     }
     return instance;
 }

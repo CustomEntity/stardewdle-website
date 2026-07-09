@@ -32,7 +32,7 @@
                 labels: Object.keys(stats.tries_per_day || {}),
                 datasets: [
                     {
-                        label: locale.t('pages.classic.modals.stats.graph.label'),
+                        label: locale.t('pages.villager.modals.stats.graph.label'),
                         data: Object.values(stats.tries_per_day || {}),
                         borderWidth: 2,
                         borderColor: '#8a5a2b',
@@ -105,39 +105,39 @@
     {/snippet}
 
     {#snippet title()}
-        {locale.t('pages.classic.modals.stats.title')}
+        {locale.t('pages.villager.modals.stats.title')}
     {/snippet}
 
     {#snippet content()}
         <div class="h-full sm:mx-[25%] mt-4 space-y-4 text-[#4a3016]">
             <div class="space-y-4 flex flex-col items-center md:flex-row md:space-y-0 md:justify-center md:space-x-4">
                 <div class="text-center">
-                    <p class="text-2xl" aria-label={locale.t('pages.classic.modals.stats.metrics.games_won.aria_label')}>
-                        {locale.t('pages.classic.modals.stats.metrics.games_won.label')}
+                    <p class="text-2xl" aria-label={locale.t('pages.villager.modals.stats.metrics.games_won.aria_label')}>
+                        {locale.t('pages.villager.modals.stats.metrics.games_won.label')}
                     </p>
                     <p class="text-5xl text-[#9a4b26]" style="text-shadow: 1px 1px 0 rgba(255,247,214,0.6);">{stats.wins}</p>
                 </div>
                 <div class="text-center">
-                    <p class="text-2xl" aria-label={locale.t('pages.classic.modals.stats.metrics.average_tries.aria_label')}>
-                        {locale.t('pages.classic.modals.stats.metrics.average_tries.label')}
+                    <p class="text-2xl" aria-label={locale.t('pages.villager.modals.stats.metrics.average_tries.aria_label')}>
+                        {locale.t('pages.villager.modals.stats.metrics.average_tries.label')}
                     </p>
                     <p class="text-5xl text-[#9a4b26]" style="text-shadow: 1px 1px 0 rgba(255,247,214,0.6);">{stats.average_tries.toFixed(3)}</p>
                 </div>
                 <div class="text-center">
-                    <p class="text-2xl" aria-label={locale.t('pages.classic.modals.stats.metrics.one_shots.aria_label')}>
-                        {locale.t('pages.classic.modals.stats.metrics.one_shots.label')}
+                    <p class="text-2xl" aria-label={locale.t('pages.villager.modals.stats.metrics.one_shots.aria_label')}>
+                        {locale.t('pages.villager.modals.stats.metrics.one_shots.label')}
                     </p>
                     <p class="text-5xl text-[#9a4b26]" style="text-shadow: 1px 1px 0 rgba(255,247,214,0.6);">{stats.one_shots}</p>
                 </div>
                 <div class="text-center">
-                    <p class="text-2xl" aria-label={locale.t('pages.classic.modals.stats.metrics.current_streak.aria_label')}>
-                        {locale.t('pages.classic.modals.stats.metrics.current_streak.label')}
+                    <p class="text-2xl" aria-label={locale.t('pages.villager.modals.stats.metrics.current_streak.aria_label')}>
+                        {locale.t('pages.villager.modals.stats.metrics.current_streak.label')}
                     </p>
                     <p class="text-5xl text-[#9a4b26]" style="text-shadow: 1px 1px 0 rgba(255,247,214,0.6);">{stats.current_streak}</p>
                 </div>
                 <div class="text-center">
-                    <p class="text-2xl" aria-label={locale.t('pages.classic.modals.stats.metrics.best_streak.aria_label')}>
-                        {locale.t('pages.classic.modals.stats.metrics.best_streak.label')}
+                    <p class="text-2xl" aria-label={locale.t('pages.villager.modals.stats.metrics.best_streak.aria_label')}>
+                        {locale.t('pages.villager.modals.stats.metrics.best_streak.label')}
                     </p>
                     <p class="text-5xl text-[#9a4b26]" style="text-shadow: 1px 1px 0 rgba(255,247,214,0.6);">{stats.best_streak}</p>
                 </div>
@@ -148,10 +148,10 @@
                         id="statsChart"
                         style="position: absolute; left: 0; top: 0; width: 100%; height: 100%;"
                 >
-                    {locale.t('pages.classic.modals.stats.graph.fallback')}
+                    {locale.t('pages.villager.modals.stats.graph.fallback')}
                 </canvas>
             </div>
-            <p class="text-xl text-center">{locale.t('pages.classic.modals.stats.graph.title')}</p>
+            <p class="text-xl text-center">{locale.t('pages.villager.modals.stats.graph.title')}</p>
         </div>
     {/snippet}
 </StylizedModal>

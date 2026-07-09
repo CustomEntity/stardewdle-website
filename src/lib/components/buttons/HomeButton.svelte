@@ -5,20 +5,20 @@
         href: string;
         title: string;
         subtitle: string;
-        gameMode: "classic" | "crop" | "fish";
+        gameMode: "villager" | "crop" | "fish";
         class?: string;
     }
 
     let {
         href = "",
-        title = "CLASSIC",
+        title = "VILLAGER",
         subtitle = "",
-        gameMode = "classic",
+        gameMode = "villager",
         class: className = "w-full h-[150px]",
     }: Props = $props();
 
     const ICONS: Record<string, string> = {
-        classic: "/ui/icon-classic.png",
+        villager: "/ui/icon-villager.png",
         crop: "/ui/icon-crop.png",
         fish: "/ui/icon-fish.png",
     };
@@ -36,7 +36,7 @@
     class="sv-panel mode-card {className}"
 >
     <span class="icon">
-        <img src={ICONS[gameMode] ?? ICONS.classic} alt="" />
+        <img src={ICONS[gameMode] ?? ICONS.villager} alt="" />
     </span>
     <span class="txt">
         <span class="title">{title.toUpperCase()}</span>

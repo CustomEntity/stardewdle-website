@@ -68,8 +68,8 @@
     "home": {
       "title": "Проверьте свои знания о Stardew Valley",
       "button": {
-        "classic": {
-          "title": "Классический",
+        "villager": {
+          "title": "Житель",
           "description": "Получайте подсказки с каждой попыткой"
         },
         "crop": {
@@ -89,7 +89,7 @@
         "new": "НОВОЕ"
       }
     },
-    "classic": {
+    "villager": {
       "page_meta": {
         "title": "Классический",
         "description": "Угадайте сегодняшнего бойца Stardew Valley!"

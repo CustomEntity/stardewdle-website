@@ -68,8 +68,8 @@
     "home": {
       "title": "Test your Stardew Valley knowledge",
       "button": {
-        "classic": {
-          "title": "Classic",
+        "villager": {
+          "title": "Villager",
           "description": "Get clues on every try"
         },
         "crop": {
@@ -89,7 +89,7 @@
         "new": "NEW"
       }
     },
-    "classic": {
+    "villager": {
       "page_meta": {
         "title": "Classic",
         "description": "Guess today's Stardew Valley villager in Classic mode!"
@@ -189,11 +189,11 @@
           }
         },
         "how_to_play_classic": {
-          "title": "How to Play Stardewdle: Classic Mode",
-          "introduction_title": "Classic Mode",
+          "title": "How to Play Stardewdle: Villager Mode",
+          "introduction_title": "Villager Mode",
           "introduction_description": "Guess the secret Stardew Valley villager of the day. Analyze six attributes; each guess gives color-coded feedback and directional arrows to guide you.",
           "attributes_title": "Villager Attributes",
-          "attributes_description": "Classic Mode compares these six attributes:",
+          "attributes_description": "Villager Mode compares these six attributes:",
           "attribute_item_1": "• <strong>Gender</strong>: Male or Female.",
           "attribute_item_2": "• <strong>Region</strong>: where they live (Town, Mountain, Forest, Beach, Desert, Sewers, Ginger Island).",
           "attribute_item_3": "• <strong>Season</strong>: their birthday season (Spring, Summer, Fall, Winter).",
@@ -214,7 +214,7 @@
           "step_4": "Use the arrows on Birthday and Age to narrow the range.",
           "step_5": "Make your next guess based on all the feedback received.",
           "step_6": "Continue until you correctly identify the secret villager!",
-          "step_7": "Return daily for a new villager to guess in Classic Mode.",
+          "step_7": "Return daily for a new villager to guess in Villager Mode.",
           "strategy_title": "Strategy Tips",
           "strategy_tip_1": "• Start with villagers you know well to establish a baseline of attributes.",
           "strategy_tip_2": "• Region and Season narrow the pool fast — many villagers share them.",
