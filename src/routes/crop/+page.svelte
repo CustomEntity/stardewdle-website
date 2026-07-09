@@ -4,6 +4,7 @@
     import Spinner from "$lib/components/spinner/Spinner.svelte";
     import ShareContainer from "$lib/components/ShareContainer.svelte";
     import { WEBSITE_URL } from "$lib/constants";
+    import { media } from "$lib/media";
     import VictoryContainer from "$lib/components/VictoryContainer.svelte";
     import StatsModal from "./(components)/StatsModal.svelte";
     import locale from "$lib/stores/locale.svelte";
@@ -114,7 +115,7 @@
                             {#snippet item(option)}
                                 {@const crop = crops.find((c) => c.name === option)}
                                 <span class="flex items-center gap-2">
-                                    <img src={`/crops/${crop?.key}.png`} alt={option}
+                                    <img src={media(`/crops/${crop?.key}.png`)} alt={option}
                                          style="background-color: {BG}; image-rendering: pixelated;"
                                          class="size-10 object-contain p-1"/>
                                     {option}
@@ -135,7 +136,7 @@
                         <VictoryContainer
                             class="w-full mt-8"
                             name={daily.crop.name}
-                            imageUrl={`/crops/${daily.crop.key}.png`}
+                            imageUrl={media(`/crops/${daily.crop.key}.png`)}
                             imageAlt={daily.crop.name}
                             triesCount={cropGameData.tries.length}
                             bind:container={wonDivElement}

@@ -3,6 +3,7 @@
     import {useClassicGameData} from "$lib/stores/classicGameData.svelte";
     import {onMount, tick} from "svelte";
     import locale from "$lib/stores/locale.svelte";
+    import {media} from "$lib/media";
 
     interface Props {
         dailyVillager: Villager;
@@ -150,7 +151,7 @@
             <!-- Villager Portrait -->
             <div class="h-18 w-full sv-slot"
                  style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8));">
-                <img src={attempt.villager.portrait_url}
+                <img src={media(attempt.villager.portrait_url)}
                      alt={attempt.villager.name}
                      class="w-full h-full object-cover"/>
             </div>

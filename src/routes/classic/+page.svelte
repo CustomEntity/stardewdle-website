@@ -4,6 +4,7 @@
     import Spinner from "$lib/components/spinner/Spinner.svelte";
     import ShareContainer from "$lib/components/ShareContainer.svelte";
     import { WEBSITE_URL } from "$lib/constants";
+    import { media } from "$lib/media";
     import VictoryContainer from "$lib/components/VictoryContainer.svelte";
     import StatsModal from "./(components)/StatsModal.svelte";
     import locale from "$lib/stores/locale.svelte";
@@ -249,7 +250,7 @@ pointer-events: none;"
                                 )}
                                 <span class="flex items-center gap-2">
                                     <img
-                                        src={villager?.portrait_url}
+                                        src={media(villager?.portrait_url)}
                                         alt={option}
                                         style="background-color: {backgroundColor(
                                             villager,
@@ -277,9 +278,9 @@ pointer-events: none;"
                         <VictoryContainer
                             class="w-full mt-8"
                             name={daily.villager.name}
-                            imageUrl={villagers.find(
+                            imageUrl={media(villagers.find(
                                 (v) => v.id === daily.villager.id,
-                            )?.portrait_url}
+                            )?.portrait_url)}
                             imageAlt={daily.villager.name}
                             triesCount={classicGameData.tries.length}
                             bind:container={wonDivElement}

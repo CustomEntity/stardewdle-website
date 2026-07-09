@@ -3,6 +3,7 @@
     import { useCropGameData } from "$lib/stores/cropGameData.svelte";
     import { onMount, tick } from "svelte";
     import locale from "$lib/stores/locale.svelte";
+    import { media } from "$lib/media";
 
     interface Props {
         dailyCrop: Crop;
@@ -106,7 +107,7 @@
             <!-- Crop icon -->
             <div class="h-18 w-full sv-slot flex items-center justify-center"
                  style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8));">
-                <img src={`/crops/${attempt.crop.key}.png`} alt={attempt.crop.name}
+                <img src={media(`/crops/${attempt.crop.key}.png`)} alt={attempt.crop.name}
                      title={attempt.crop.name}
                      class="w-12 h-12 object-contain" style="image-rendering: pixelated;"/>
             </div>
