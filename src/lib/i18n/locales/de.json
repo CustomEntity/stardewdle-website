@@ -27,7 +27,42 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "Cookie-Einstellungen aktualisieren"
     },
-    "modals": {}
+    "modals": {
+      "about": {
+        "commitment": {
+          "description": "Komm jeden Tag wieder, um neue Dorfbewohner zu erraten, halte deine Serie am Leben und teile deine Ergebnisse mit Freunden.",
+          "title": "Tägliche Herausforderung"
+        },
+        "credit": {
+          "description": "Gemacht von einem Fan, für Fans von Stardew Valley. 🌱",
+          "title": "Credits"
+        },
+        "disclaimer": "Stardewdle ist ein inoffizielles Fanprojekt. Stardew Valley wurde von ConcernedApe erschaffen; alle Charaktere und Grafiken gehören ihren jeweiligen Eigentümern. Dieses Projekt steht in keiner Verbindung zu ConcernedApe und wird von ConcernedApe weder gesponsert noch unterstützt.",
+        "discover": "Willkommen bei Stardewdle, dem täglichen Stardew-Valley-Ratespiel! Teste dein Wissen in drei Modi — Klassisch (Dorfbewohner), Anbau und Fisch — mit einem neuen Rätsel jeden Tag.",
+        "dle_games": {
+          "description": "Hat dir Stardewdle gefallen? Entdecke die ganze Familie täglicher -dle-Spiele im Hub, der im Menü verlinkt ist.",
+          "title": "Weitere -dle-Spiele"
+        },
+        "game_modes": {
+          "description": "Klassisch vergleicht sechs Dorfbewohner-Attribute (Geschlecht, Region, Geburtstag, Heiratbar, Alter). Anbau vergleicht fünf Attribute (Wachstum, Preis, Nachwachsen, Typ, Jahreszeit). Fisch vergleicht fünf Attribute (Schwierigkeit, Verhalten, Jahreszeit, Wetter, Größe). Jeden Tag ein neues Rätsel für jeden Modus.",
+          "title": "Drei tägliche Modi"
+        },
+        "inspiration": {
+          "description": "Inspiriert von Wordle und den vielen wunderbaren -dle-Ratespielen.",
+          "title": "Inspiration"
+        },
+        "privacy": {
+          "description": "Wir halten es einfach — dein Fortschritt und deine Serie werden lokal in deinem eigenen Browser gespeichert.",
+          "title": "Datenschutz"
+        },
+        "signature": {
+          "regards": "Mit Liebe,",
+          "team": "Das Stardewdle-Team"
+        },
+        "thanks": "Danke fürs Spielen, und frohes Farmen!",
+        "title": "Über"
+      }
+    }
   },
   "pages": {
     "home": {
@@ -36,6 +71,14 @@
         "classic": {
           "title": "Klassisch",
           "description": "Erhalte Hinweise bei jedem Versuch"
+        },
+        "crop": {
+          "description": "Errate die Pflanze anhand ihrer Werte",
+          "title": "Anbau"
+        },
+        "fish": {
+          "description": "Errate den Fisch anhand seiner Werte",
+          "title": "Fisch"
         }
       },
       "reset_in": "Reset in: {time}",
@@ -66,7 +109,8 @@
         "to_copy": "Ich habe #Stardewdle Villager #{id} im Classic-Modus in {tries} Versuchen gefunden\n"
       },
       "victory": {
-        "stats_button": "Statistiken"
+        "stats_button": "Statistiken",
+        "back_home": "Zurück zur Startseite"
       },
       "components": {
         "explanationBox": {
@@ -204,7 +248,14 @@
           "movement": "Bewegung",
           "range": "Reichweite",
           "reload": "Nachladen",
-          "year": "Jahr"
+          "year": "Jahr",
+          "age": "Alter",
+          "birthday": "Geburtstag",
+          "gender": "Geschlecht",
+          "marriageable": "Heiratbar",
+          "region": "Region",
+          "season": "Jahreszeit",
+          "villager": "Dorfbewohner"
         },
         "rarity": {
           "common": "Gewöhnlich",
@@ -237,8 +288,372 @@
           "normal": "Normal",
           "long": "Lang",
           "very_long": "Sehr Lang"
+        },
+        "age": {
+          "Adult": "Erwachsener",
+          "Child": "Kind",
+          "Teen": "Teenager"
+        },
+        "gender": {
+          "Female": "Weiblich",
+          "Male": "Männlich",
+          "Undefined": "Divers"
+        },
+        "marriageable": {
+          "no": "Nein",
+          "yes": "Ja"
+        },
+        "region": {
+          "Beach": "Strand",
+          "Desert": "Wüste",
+          "Forest": "Wald",
+          "GingerIsland": "Ginger-Insel",
+          "Mountain": "Berg",
+          "Sewers": "Kanalisation",
+          "Town": "Stadt"
+        },
+        "season": {
+          "Fall": "Herbst",
+          "Spring": "Frühling",
+          "Summer": "Sommer",
+          "Winter": "Winter"
         }
-      }
+      },
+      "gift_hint": "Lieblingsgeschenk: {gift}",
+      "gift_hint_locked": "Hinweis zum Lieblingsgeschenk in {tries} Versuchen"
+    },
+    "crop": {
+      "attributes": {
+        "headers": {
+          "crop": "Pflanze",
+          "growth": "Wachstum",
+          "price": "Preis",
+          "regrow": "Nachwachsen",
+          "season": "Jahreszeit",
+          "type": "Typ"
+        },
+        "regrow": {
+          "no": "Nein",
+          "yes": "Ja"
+        },
+        "season": {
+          "Fall": "Herbst",
+          "Spring": "Frühling",
+          "Summer": "Sommer",
+          "Winter": "Winter"
+        },
+        "type": {
+          "Flower": "Blume",
+          "Forage": "Sammelobjekt",
+          "Fruit": "Obst",
+          "Seed": "Samen",
+          "Vegetable": "Gemüse"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "Gib den Namen einer Pflanze ein.."
+        },
+        "explanationBox": {
+          "bottomHint": "Gib eine beliebige Pflanze ein, um zu beginnen.",
+          "title": "Errate die heutige Stardew-Valley-Pflanze"
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "Spielanleitung-Symbol",
+            "tooltip": "Spielanleitung"
+          },
+          "patchNotes": {
+            "alt": "Patch-Notes-Symbol",
+            "tooltip": "Patch-Notes"
+          },
+          "stats": {
+            "alt": "Statistik-Symbol",
+            "tooltip": "Statistik"
+          },
+          "streak": {
+            "alt": {
+              "active": "Symbol für aktive Serie",
+              "inactive": "Symbol für inaktive Serie"
+            },
+            "tooltip": "Aktuelle Serie (Folge aufeinanderfolgender Siege)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "Fehler: {message}",
+        "no_daily_brawler": "Keine tägliche Pflanze gefunden"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "attribute_item_1": "• <strong>Wachstum</strong>: Tage bis zur vollen Reife.",
+          "attribute_item_2": "• <strong>Preis</strong>: Grundverkaufspreis in Gold.",
+          "attribute_item_3": "• <strong>Nachwachsen</strong>: Produziert sie nach der Ernte weiter? (Ja/Nein).",
+          "attribute_item_4": "• <strong>Typ</strong>: Gemüse, Obst, Blume, Sammelobjekt oder Samen.",
+          "attribute_item_5": "• <strong>Jahreszeit</strong>: die Jahreszeit(en), in der sie wächst.",
+          "attribute_item_6": "• <strong>Tipp</strong>: Grün bedeutet exakte Übereinstimmung; Orange bei Jahreszeit bedeutet teilweise Überschneidung.",
+          "attributes_description": "Der Anbau-Modus vergleicht folgende Attribute:",
+          "attributes_title": "Anbau-Attribute",
+          "daily_challenge_description": "Komm jeden Tag wieder für einen neuen geheimen Dorfbewohner. Verfolge deine Serie und teile dein Ergebnis mit Freunden.",
+          "daily_challenge_title": "Tägliche Herausforderung",
+          "feedback_arrow_down": "• <strong>Pfeil nach unten (↓)</strong>: Der Wert der geheimen Pflanze ist NIEDRIGER.",
+          "feedback_arrow_up": "• <strong>Pfeil nach oben (↑)</strong>: Der Wert der geheimen Pflanze ist HÖHER.",
+          "feedback_arrows": "Pfeile erscheinen bei Wachstum und Preis.",
+          "feedback_description": "Jedes Feld ist farblich gekennzeichnet:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Grün</span>: exakte Übereinstimmung mit dem geheimen Dorfbewohner.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rot</span>: keine Übereinstimmung.",
+          "feedback_title": "Feedback",
+          "how_to_play_title": "Spielanleitung",
+          "introduction_description": "Errate die geheime Stardew-Valley-Pflanze des Tages, indem du fünf Attribute vergleichst. Jeder Versuch liefert farbcodiertes Feedback und Pfeile.",
+          "introduction_title": "Klassischer Modus",
+          "step_1": "Mache deinen ersten Versuch mit einem beliebigen Dorfbewohner aus der Suchliste.",
+          "step_2": "Beobachte, wie sich jedes Attributfeld nacheinander umdreht und farbcodiertes Feedback zeigt.",
+          "step_3": "Lies die grünen und roten Felder, um übereinstimmende und nicht übereinstimmende Attribute zu erkennen.",
+          "step_4": "Nutze die Pfeile bei Geburtstag und Alter, um den Bereich einzugrenzen.",
+          "step_5": "Mache deinen nächsten Versuch basierend auf dem gesamten erhaltenen Feedback.",
+          "step_6": "Mach weiter, bis du den geheimen Dorfbewohner richtig erraten hast!",
+          "step_7": "Komm täglich wieder für einen neuen Dorfbewohner im Klassischen Modus.",
+          "strategy_tip_1": "• Beginne mit Dorfbewohnern, die du gut kennst, um eine Basis an Attributen zu schaffen.",
+          "strategy_tip_2": "• Region und Jahreszeit grenzen die Auswahl schnell ein — viele Dorfbewohner teilen sich diese.",
+          "strategy_tip_3": "• Nutze Pfeile, um ganze Gruppen nach Geburtstag oder Alter auszuschließen.",
+          "strategy_tip_4": "• Alter ist ordinal: Kind &lt; Teenager &lt; Erwachsener.",
+          "strategy_tip_5": "• Ein Dorfbewohner muss ALLES grüne Feedback gleichzeitig erfüllen.",
+          "strategy_tip_6": "• Geschlecht, Region, Jahreszeit und Heiratbar müssen exakt übereinstimmen (keine Pfeile).",
+          "strategy_title": "Strategietipps",
+          "title": "Spielanleitung: Anbau-Modus"
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "Hier gibt es noch nichts"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "Patch-Notes konnten nicht geladen werden"
+            },
+            "loading": {
+              "message": "Patch-Notes werden geladen..."
+            }
+          },
+          "title": "Patch-Notes"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "Dein Browser unterstützt das Canvas-Element nicht.",
+            "label": "Versuche",
+            "title": "Anzahl der Versuche pro Spiel"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "Durchschnittliche Anzahl der Versuche pro Spiel",
+              "label": "Durchschnittliche Versuche:"
+            },
+            "best_streak": {
+              "aria_label": "Beste Siegesserie",
+              "label": "Beste Serie:"
+            },
+            "current_streak": {
+              "aria_label": "Aktuelle Siegesserie",
+              "label": "Aktuelle Serie:"
+            },
+            "games_won": {
+              "aria_label": "Anzahl der gewonnenen Spiele",
+              "label": "Gewonnene Spiele:"
+            },
+            "one_shots": {
+              "aria_label": "Anzahl der Spiele, die im ersten Versuch gewonnen wurden",
+              "label": "Volltreffer:"
+            }
+          },
+          "title": "Statistik"
+        }
+      },
+      "page_meta": {
+        "description": "Errate die heutige Stardew-Valley-Pflanze anhand ihrer Werte!",
+        "title": "Klassisch"
+      },
+      "result": {
+        "failure": "Versuch es noch mal",
+        "success": "Gut gemacht!"
+      },
+      "scroll_hint": "← Horizontal scrollen, um mehr zu sehen →",
+      "share": {
+        "text": "Ich habe die #Stardewdle-Pflanze Nr. {id} in {tries} Versuchen gefunden ",
+        "to_copy": "Ich habe die #Stardewdle-Pflanze Nr. {id} in {tries} Versuchen gefunden\n{url}"
+      },
+      "victory": {
+        "back_home": "Zurück zur Startseite",
+        "next_mode": "Klassisch spielen",
+        "stats_button": "Statistik"
+      },
+      "yesterday": "Die gestrige Pflanze war <name>{brawlerName}</name>"
+    },
+    "fish": {
+      "attributes": {
+        "behavior": {
+          "Dart": "Ruckartig",
+          "Floater": "Schwebend",
+          "Mixed": "Gemischt",
+          "Sinker": "Sinkend",
+          "Smooth": "Gleichmäßig"
+        },
+        "headers": {
+          "behavior": "Verhalten",
+          "difficulty": "Schwierigkeit",
+          "fish": "Fisch",
+          "season": "Jahreszeit",
+          "size": "Größe",
+          "weather": "Wetter"
+        },
+        "season": {
+          "Fall": "Herbst",
+          "Spring": "Frühling",
+          "Summer": "Sommer",
+          "Winter": "Winter"
+        },
+        "weather": {
+          "Any": "Beliebig",
+          "Rainy": "Regnerisch",
+          "Sunny": "Sonnig"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "Gib den Namen eines Fisches ein.."
+        },
+        "explanationBox": {
+          "bottomHint": "Gib einen beliebigen Fisch ein, um zu beginnen.",
+          "title": "Errate den heutigen Stardew-Valley-Fisch"
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "Spielanleitung-Symbol",
+            "tooltip": "Spielanleitung"
+          },
+          "patchNotes": {
+            "alt": "Patch-Notes-Symbol",
+            "tooltip": "Patch-Notes"
+          },
+          "stats": {
+            "alt": "Statistik-Symbol",
+            "tooltip": "Statistik"
+          },
+          "streak": {
+            "alt": {
+              "active": "Symbol für aktive Serie",
+              "inactive": "Symbol für inaktive Serie"
+            },
+            "tooltip": "Aktuelle Serie (Folge aufeinanderfolgender Siege)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "Fehler: {message}",
+        "no_daily_brawler": "Kein täglicher Fisch gefunden"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "attribute_item_1": "• <strong>Schwierigkeit</strong>: wie schwer er zu fangen ist (höher = schwerer).",
+          "attribute_item_2": "• <strong>Verhalten</strong>: Schwebend, Ruckartig, Gleichmäßig, Gemischt oder Sinkend.",
+          "attribute_item_3": "• <strong>Jahreszeit</strong>: die Jahreszeit(en), in der er gefangen werden kann.",
+          "attribute_item_4": "• <strong>Wetter</strong>: Sonnig, Regnerisch oder Beliebig.",
+          "attribute_item_5": "• <strong>Größe</strong>: seine maximale Größe in Zoll.",
+          "attribute_item_6": "• <strong>Tipp</strong>: Grün bedeutet exakte Übereinstimmung; Orange bei Jahreszeit bedeutet teilweise Überschneidung.",
+          "attributes_description": "Der Fisch-Modus vergleicht folgende Attribute:",
+          "attributes_title": "Fisch-Attribute",
+          "daily_challenge_description": "Komm jeden Tag wieder für einen neuen geheimen Dorfbewohner. Verfolge deine Serie und teile dein Ergebnis mit Freunden.",
+          "daily_challenge_title": "Tägliche Herausforderung",
+          "feedback_arrow_down": "• <strong>Pfeil nach unten (↓)</strong>: Der Wert des geheimen Fisches ist NIEDRIGER.",
+          "feedback_arrow_up": "• <strong>Pfeil nach oben (↑)</strong>: Der Wert des geheimen Fisches ist HÖHER.",
+          "feedback_arrows": "Pfeile erscheinen bei Schwierigkeit und Größe.",
+          "feedback_description": "Jedes Feld ist farblich gekennzeichnet:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Grün</span>: exakte Übereinstimmung mit dem geheimen Dorfbewohner.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rot</span>: keine Übereinstimmung.",
+          "feedback_title": "Feedback",
+          "how_to_play_title": "Spielanleitung",
+          "introduction_description": "Errate den geheimen Stardew-Valley-Fisch des Tages, indem du fünf Attribute vergleichst. Jeder Versuch liefert farbcodiertes Feedback und Pfeile.",
+          "introduction_title": "Klassischer Modus",
+          "step_1": "Mache deinen ersten Versuch mit einem beliebigen Dorfbewohner aus der Suchliste.",
+          "step_2": "Beobachte, wie sich jedes Attributfeld nacheinander umdreht und farbcodiertes Feedback zeigt.",
+          "step_3": "Lies die grünen und roten Felder, um übereinstimmende und nicht übereinstimmende Attribute zu erkennen.",
+          "step_4": "Nutze die Pfeile bei Geburtstag und Alter, um den Bereich einzugrenzen.",
+          "step_5": "Mache deinen nächsten Versuch basierend auf dem gesamten erhaltenen Feedback.",
+          "step_6": "Mach weiter, bis du den geheimen Dorfbewohner richtig erraten hast!",
+          "step_7": "Komm täglich wieder für einen neuen Dorfbewohner im Klassischen Modus.",
+          "strategy_tip_1": "• Beginne mit Dorfbewohnern, die du gut kennst, um eine Basis an Attributen zu schaffen.",
+          "strategy_tip_2": "• Region und Jahreszeit grenzen die Auswahl schnell ein — viele Dorfbewohner teilen sich diese.",
+          "strategy_tip_3": "• Nutze Pfeile, um ganze Gruppen nach Geburtstag oder Alter auszuschließen.",
+          "strategy_tip_4": "• Alter ist ordinal: Kind &lt; Teenager &lt; Erwachsener.",
+          "strategy_tip_5": "• Ein Dorfbewohner muss ALLES grüne Feedback gleichzeitig erfüllen.",
+          "strategy_tip_6": "• Geschlecht, Region, Jahreszeit und Heiratbar müssen exakt übereinstimmen (keine Pfeile).",
+          "strategy_title": "Strategietipps",
+          "title": "Spielanleitung: Fisch-Modus"
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "Hier gibt es noch nichts"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "Patch-Notes konnten nicht geladen werden"
+            },
+            "loading": {
+              "message": "Patch-Notes werden geladen..."
+            }
+          },
+          "title": "Patch-Notes"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "Dein Browser unterstützt das Canvas-Element nicht.",
+            "label": "Versuche",
+            "title": "Anzahl der Versuche pro Spiel"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "Durchschnittliche Anzahl der Versuche pro Spiel",
+              "label": "Durchschnittliche Versuche:"
+            },
+            "best_streak": {
+              "aria_label": "Beste Siegesserie",
+              "label": "Beste Serie:"
+            },
+            "current_streak": {
+              "aria_label": "Aktuelle Siegesserie",
+              "label": "Aktuelle Serie:"
+            },
+            "games_won": {
+              "aria_label": "Anzahl der gewonnenen Spiele",
+              "label": "Gewonnene Spiele:"
+            },
+            "one_shots": {
+              "aria_label": "Anzahl der Spiele, die im ersten Versuch gewonnen wurden",
+              "label": "Volltreffer:"
+            }
+          },
+          "title": "Statistik"
+        }
+      },
+      "page_meta": {
+        "description": "Errate den heutigen Stardew-Valley-Fisch anhand seiner Werte!",
+        "title": "Klassisch"
+      },
+      "result": {
+        "failure": "Versuch es noch mal",
+        "success": "Gut gemacht!"
+      },
+      "scroll_hint": "← Horizontal scrollen, um mehr zu sehen →",
+      "share": {
+        "text": "Ich habe den #Stardewdle-Fisch Nr. {id} in {tries} Versuchen gefunden ",
+        "to_copy": "Ich habe den #Stardewdle-Fisch Nr. {id} in {tries} Versuchen gefunden\n{url}"
+      },
+      "victory": {
+        "back_home": "Zurück zur Startseite",
+        "next_mode": "Klassisch spielen",
+        "stats_button": "Statistik"
+      },
+      "yesterday": "Der gestrige Fisch war <name>{brawlerName}</name>"
     }
   },
   "common": {

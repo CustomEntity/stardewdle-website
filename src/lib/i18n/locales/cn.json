@@ -27,7 +27,42 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "更新 Cookie 偏好"
     },
-    "modals": {}
+    "modals": {
+      "about": {
+        "commitment": {
+          "description": "每天回来挑战新的村民,保持连胜纪录,并与朋友分享你的成绩。",
+          "title": "每日挑战"
+        },
+        "credit": {
+          "description": "由一位星露谷物语粉丝制作,献给所有星露谷物语的粉丝们。🌱",
+          "title": "鸣谢"
+        },
+        "disclaimer": "Stardewdle 是一个非官方的粉丝项目。《星露谷物语》由 ConcernedApe 创作,所有角色和美术作品均归其各自所有者所有。本项目与 ConcernedApe 无任何关联,未获得其赞助或认可。",
+        "discover": "欢迎来到 Stardewdle,一款每日更新的星露谷物语猜谜游戏!在经典(村民)、作物和鱼类三种模式中考验你的知识,每天都有新谜题。",
+        "dle_games": {
+          "description": "喜欢 Stardewdle 吗?在菜单链接的中心页面探索整个每日 -dle 游戏系列。",
+          "title": "更多 -dle 游戏"
+        },
+        "game_modes": {
+          "description": "经典模式比较六项村民属性(性别、地区、生日、可婚配、年龄)。作物模式比较五项作物属性(生长期、价格、可再生、类型、季节)。鱼类模式比较五项鱼类属性(难度、行为、季节、天气、大小)。每种模式每天都有全新谜题。",
+          "title": "三种每日模式"
+        },
+        "inspiration": {
+          "description": "灵感来自 Wordle 以及众多精彩的 -dle 猜谜游戏。",
+          "title": "灵感来源"
+        },
+        "privacy": {
+          "description": "我们力求简单——你的进度和连胜纪录都保存在你自己的浏览器本地。",
+          "title": "隐私"
+        },
+        "signature": {
+          "regards": "爱你的,",
+          "team": "Stardewdle 团队"
+        },
+        "thanks": "感谢游玩,祝你农场愉快!",
+        "title": "关于"
+      }
+    }
   },
   "pages": {
     "home": {
@@ -36,6 +71,14 @@
         "classic": {
           "title": "经典",
           "description": "每次尝试都获得线索"
+        },
+        "crop": {
+          "description": "根据属性猜作物",
+          "title": "作物"
+        },
+        "fish": {
+          "description": "根据属性猜鱼类",
+          "title": "鱼类"
         }
       },
       "reset_in": "重置于: {time}",
@@ -66,7 +109,8 @@
         "to_copy": "我在经典模式下用 {tries} 次找到了 #Stardewdle 英雄 #{id}\n"
       },
       "victory": {
-        "stats_button": "统计"
+        "stats_button": "统计",
+        "back_home": "返回首页"
       },
       "components": {
         "explanationBox": {
@@ -204,7 +248,14 @@
           "movement": "移动",
           "range": "射程",
           "reload": "装填",
-          "year": "年份"
+          "year": "年份",
+          "age": "年龄",
+          "birthday": "生日",
+          "gender": "性别",
+          "marriageable": "可婚配",
+          "region": "地区",
+          "season": "季节",
+          "villager": "村民"
         },
         "rarity": {
           "common": "普通",
@@ -237,8 +288,372 @@
           "normal": "普通",
           "long": "长",
           "very_long": "非常长"
+        },
+        "age": {
+          "Adult": "成年",
+          "Child": "儿童",
+          "Teen": "青少年"
+        },
+        "gender": {
+          "Female": "女性",
+          "Male": "男性",
+          "Undefined": "其他"
+        },
+        "marriageable": {
+          "no": "否",
+          "yes": "是"
+        },
+        "region": {
+          "Beach": "海滩",
+          "Desert": "沙漠",
+          "Forest": "森林",
+          "GingerIsland": "姜岛",
+          "Mountain": "山地",
+          "Sewers": "下水道",
+          "Town": "小镇"
+        },
+        "season": {
+          "Fall": "秋天",
+          "Spring": "春天",
+          "Summer": "夏天",
+          "Winter": "冬天"
         }
-      }
+      },
+      "gift_hint": "喜爱的礼物:{gift}",
+      "gift_hint_locked": "{tries} 次猜测后解锁喜爱礼物提示"
+    },
+    "crop": {
+      "attributes": {
+        "headers": {
+          "crop": "作物",
+          "growth": "生长期",
+          "price": "价格",
+          "regrow": "可再生",
+          "season": "季节",
+          "type": "类型"
+        },
+        "regrow": {
+          "no": "否",
+          "yes": "是"
+        },
+        "season": {
+          "Fall": "秋天",
+          "Spring": "春天",
+          "Summer": "夏天",
+          "Winter": "冬天"
+        },
+        "type": {
+          "Flower": "花卉",
+          "Forage": "采集物",
+          "Fruit": "水果",
+          "Seed": "种子",
+          "Vegetable": "蔬菜"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "输入作物名称.."
+        },
+        "explanationBox": {
+          "bottomHint": "输入任意作物名称即可开始。",
+          "title": "猜猜今天的星露谷物语作物"
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "游戏玩法图标",
+            "tooltip": "游戏玩法"
+          },
+          "patchNotes": {
+            "alt": "更新日志图标",
+            "tooltip": "更新日志"
+          },
+          "stats": {
+            "alt": "统计数据图标",
+            "tooltip": "统计数据"
+          },
+          "streak": {
+            "alt": {
+              "active": "连胜中图标",
+              "inactive": "未连胜图标"
+            },
+            "tooltip": "当前连胜(连续获胜次数)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "错误:{message}",
+        "no_daily_brawler": "未找到今日作物"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "attribute_item_1": "• <strong>生长期</strong>:完全长成所需天数。",
+          "attribute_item_2": "• <strong>价格</strong>:以金币计的基础售价。",
+          "attribute_item_3": "• <strong>可再生</strong>:收获后是否能继续产出?(是/否)。",
+          "attribute_item_4": "• <strong>类型</strong>:蔬菜、水果、花卉、采集物或种子。",
+          "attribute_item_5": "• <strong>季节</strong>:该作物生长的季节。",
+          "attribute_item_6": "• <strong>提示</strong>:绿色表示完全匹配;季节一栏的橙色表示部分重叠。",
+          "attributes_description": "作物模式比较以下属性:",
+          "attributes_title": "作物属性",
+          "daily_challenge_description": "每天回来挑战新的神秘村民。记录你的连胜纪录,并与朋友分享成绩。",
+          "daily_challenge_title": "每日挑战",
+          "feedback_arrow_down": "• <strong>向下箭头(↓)</strong>:神秘作物的数值更低。",
+          "feedback_arrow_up": "• <strong>向上箭头(↑)</strong>:神秘作物的数值更高。",
+          "feedback_arrows": "箭头会出现在生长期和价格上。",
+          "feedback_description": "每个格子都有对应的颜色标示:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">绿色</span>:与神秘村民完全匹配。",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">红色</span>:不匹配。",
+          "feedback_title": "反馈",
+          "how_to_play_title": "游戏玩法",
+          "introduction_description": "通过比较五项属性猜出今日的神秘星露谷物语作物。每次猜测都会给出颜色标示的反馈和箭头。",
+          "introduction_title": "经典模式",
+          "step_1": "从搜索列表中选择任意村民,进行第一次猜测。",
+          "step_2": "观察每个属性格依次翻转,显示颜色标示的反馈。",
+          "step_3": "查看绿色和红色格子,找出匹配与不匹配的属性。",
+          "step_4": "利用生日和年龄上的箭头缩小范围。",
+          "step_5": "根据收到的所有反馈进行下一次猜测。",
+          "step_6": "持续猜测,直到正确找出神秘村民!",
+          "step_7": "每天回来挑战经典模式中的新村民。",
+          "strategy_tip_1": "• 从你熟悉的村民开始,建立属性基准。",
+          "strategy_tip_2": "• 地区和季节能快速缩小范围——许多村民共享这些属性。",
+          "strategy_tip_3": "• 利用箭头按生日或年龄排除整组村民。",
+          "strategy_tip_4": "• 年龄具有顺序性:儿童 &lt; 青少年 &lt; 成年。",
+          "strategy_tip_5": "• 村民必须同时满足所有绿色反馈。",
+          "strategy_tip_6": "• 性别、地区、季节和可婚配需完全匹配(无箭头)。",
+          "strategy_title": "策略提示",
+          "title": "游戏玩法:作物模式"
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "暂无内容"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "更新日志加载失败"
+            },
+            "loading": {
+              "message": "正在加载更新日志..."
+            }
+          },
+          "title": "更新日志"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "你的浏览器不支持 canvas 元素。",
+            "label": "尝试次数",
+            "title": "每局尝试次数"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "每局平均尝试次数",
+              "label": "平均尝试次数:"
+            },
+            "best_streak": {
+              "aria_label": "最佳连胜纪录",
+              "label": "最佳连胜:"
+            },
+            "current_streak": {
+              "aria_label": "当前连胜纪录",
+              "label": "当前连胜:"
+            },
+            "games_won": {
+              "aria_label": "获胜局数",
+              "label": "获胜局数:"
+            },
+            "one_shots": {
+              "aria_label": "一次猜中获胜的局数",
+              "label": "一次猜中:"
+            }
+          },
+          "title": "统计数据"
+        }
+      },
+      "page_meta": {
+        "description": "根据属性猜猜今天的星露谷物语作物!",
+        "title": "经典"
+      },
+      "result": {
+        "failure": "再试一次",
+        "success": "做得好!"
+      },
+      "scroll_hint": "← 左右滑动查看更多 →",
+      "share": {
+        "text": "我在 {tries} 次猜测内找到了 #Stardewdle 作物 #{id} ",
+        "to_copy": "我在 {tries} 次猜测内找到了 #Stardewdle 作物 #{id}\n{url}"
+      },
+      "victory": {
+        "back_home": "返回首页",
+        "next_mode": "游玩经典模式",
+        "stats_button": "统计"
+      },
+      "yesterday": "昨天的作物是 <name>{brawlerName}</name>"
+    },
+    "fish": {
+      "attributes": {
+        "behavior": {
+          "Dart": "急冲",
+          "Floater": "漂浮",
+          "Mixed": "混合",
+          "Sinker": "下沉",
+          "Smooth": "平稳"
+        },
+        "headers": {
+          "behavior": "行为",
+          "difficulty": "难度",
+          "fish": "鱼",
+          "season": "季节",
+          "size": "大小",
+          "weather": "天气"
+        },
+        "season": {
+          "Fall": "秋天",
+          "Spring": "春天",
+          "Summer": "夏天",
+          "Winter": "冬天"
+        },
+        "weather": {
+          "Any": "任意",
+          "Rainy": "雨天",
+          "Sunny": "晴天"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "输入鱼类名称.."
+        },
+        "explanationBox": {
+          "bottomHint": "输入任意鱼类名称即可开始。",
+          "title": "猜猜今天的星露谷物语鱼类"
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "游戏玩法图标",
+            "tooltip": "游戏玩法"
+          },
+          "patchNotes": {
+            "alt": "更新日志图标",
+            "tooltip": "更新日志"
+          },
+          "stats": {
+            "alt": "统计数据图标",
+            "tooltip": "统计数据"
+          },
+          "streak": {
+            "alt": {
+              "active": "连胜中图标",
+              "inactive": "未连胜图标"
+            },
+            "tooltip": "当前连胜(连续获胜次数)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "错误:{message}",
+        "no_daily_brawler": "未找到今日鱼类"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "attribute_item_1": "• <strong>难度</strong>:捕获难度(数值越高越难)。",
+          "attribute_item_2": "• <strong>行为</strong>:漂浮、急冲、平稳、混合或下沉。",
+          "attribute_item_3": "• <strong>季节</strong>:可以捕获该鱼的季节。",
+          "attribute_item_4": "• <strong>天气</strong>:晴天、雨天或任意。",
+          "attribute_item_5": "• <strong>大小</strong>:以英寸计的最大体型。",
+          "attribute_item_6": "• <strong>提示</strong>:绿色表示完全匹配;季节一栏的橙色表示部分重叠。",
+          "attributes_description": "鱼类模式比较以下属性:",
+          "attributes_title": "鱼类属性",
+          "daily_challenge_description": "每天回来挑战新的神秘村民。记录你的连胜纪录,并与朋友分享成绩。",
+          "daily_challenge_title": "每日挑战",
+          "feedback_arrow_down": "• <strong>向下箭头(↓)</strong>:神秘鱼类的数值更低。",
+          "feedback_arrow_up": "• <strong>向上箭头(↑)</strong>:神秘鱼类的数值更高。",
+          "feedback_arrows": "箭头会出现在难度和大小上。",
+          "feedback_description": "每个格子都有对应的颜色标示:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">绿色</span>:与神秘村民完全匹配。",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">红色</span>:不匹配。",
+          "feedback_title": "反馈",
+          "how_to_play_title": "游戏玩法",
+          "introduction_description": "通过比较五项属性猜出今日的神秘星露谷物语鱼类。每次猜测都会给出颜色标示的反馈和箭头。",
+          "introduction_title": "经典模式",
+          "step_1": "从搜索列表中选择任意村民,进行第一次猜测。",
+          "step_2": "观察每个属性格依次翻转,显示颜色标示的反馈。",
+          "step_3": "查看绿色和红色格子,找出匹配与不匹配的属性。",
+          "step_4": "利用生日和年龄上的箭头缩小范围。",
+          "step_5": "根据收到的所有反馈进行下一次猜测。",
+          "step_6": "持续猜测,直到正确找出神秘村民!",
+          "step_7": "每天回来挑战经典模式中的新村民。",
+          "strategy_tip_1": "• 从你熟悉的村民开始,建立属性基准。",
+          "strategy_tip_2": "• 地区和季节能快速缩小范围——许多村民共享这些属性。",
+          "strategy_tip_3": "• 利用箭头按生日或年龄排除整组村民。",
+          "strategy_tip_4": "• 年龄具有顺序性:儿童 &lt; 青少年 &lt; 成年。",
+          "strategy_tip_5": "• 村民必须同时满足所有绿色反馈。",
+          "strategy_tip_6": "• 性别、地区、季节和可婚配需完全匹配(无箭头)。",
+          "strategy_title": "策略提示",
+          "title": "游戏玩法:鱼类模式"
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "暂无内容"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "更新日志加载失败"
+            },
+            "loading": {
+              "message": "正在加载更新日志..."
+            }
+          },
+          "title": "更新日志"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "你的浏览器不支持 canvas 元素。",
+            "label": "尝试次数",
+            "title": "每局尝试次数"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "每局平均尝试次数",
+              "label": "平均尝试次数:"
+            },
+            "best_streak": {
+              "aria_label": "最佳连胜纪录",
+              "label": "最佳连胜:"
+            },
+            "current_streak": {
+              "aria_label": "当前连胜纪录",
+              "label": "当前连胜:"
+            },
+            "games_won": {
+              "aria_label": "获胜局数",
+              "label": "获胜局数:"
+            },
+            "one_shots": {
+              "aria_label": "一次猜中获胜的局数",
+              "label": "一次猜中:"
+            }
+          },
+          "title": "统计数据"
+        }
+      },
+      "page_meta": {
+        "description": "根据属性猜猜今天的星露谷物语鱼类!",
+        "title": "经典"
+      },
+      "result": {
+        "failure": "再试一次",
+        "success": "做得好!"
+      },
+      "scroll_hint": "← 左右滑动查看更多 →",
+      "share": {
+        "text": "我在 {tries} 次猜测内找到了 #Stardewdle 鱼类 #{id} ",
+        "to_copy": "我在 {tries} 次猜测内找到了 #Stardewdle 鱼类 #{id}\n{url}"
+      },
+      "victory": {
+        "back_home": "返回首页",
+        "next_mode": "游玩经典模式",
+        "stats_button": "统计"
+      },
+      "yesterday": "昨天的鱼类是 <name>{brawlerName}</name>"
     }
   },
   "common": {

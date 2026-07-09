@@ -27,7 +27,42 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "Actualizar preferencias de cookies"
     },
-    "modals": {}
+    "modals": {
+      "about": {
+        "commitment": {
+          "description": "Vuelve cada día para adivinar nuevos vecinos, mantén viva tu racha y comparte tus resultados con tus amigos.",
+          "title": "Desafío diario"
+        },
+        "credit": {
+          "description": "Hecho por un fan, para fans de Stardew Valley. 🌱",
+          "title": "Créditos"
+        },
+        "disclaimer": "Stardewdle es un proyecto de fans no oficial. Stardew Valley fue creado por ConcernedApe; todos los personajes e ilustraciones pertenecen a sus respectivos propietarios. Este proyecto no está afiliado, patrocinado ni respaldado por ConcernedApe.",
+        "discover": "¡Bienvenido a Stardewdle, el juego diario de adivinanzas de Stardew Valley! Pon a prueba tus conocimientos en tres modos: Clásico (vecinos), Cultivo y Pez, con un nuevo reto cada día.",
+        "dle_games": {
+          "description": "¿Te ha gustado Stardewdle? Explora toda la familia de juegos diarios -dle en el hub enlazado en el menú.",
+          "title": "Más juegos -dle"
+        },
+        "game_modes": {
+          "description": "Clásico compara seis atributos de los vecinos (género, región, cumpleaños, si es casadero, edad). Cultivo compara cinco atributos del cultivo (crecimiento, precio, rebrote, tipo, estación). Pez compara cinco atributos del pez (dificultad, comportamiento, estación, clima, tamaño). Un reto nuevo para cada modo, cada día.",
+          "title": "Tres modos diarios"
+        },
+        "inspiration": {
+          "description": "Inspirado en Wordle y en los muchos maravillosos juegos de adivinanzas -dle.",
+          "title": "Inspiración"
+        },
+        "privacy": {
+          "description": "Lo mantenemos simple: tu progreso y tu racha se guardan localmente en tu propio navegador.",
+          "title": "Privacidad"
+        },
+        "signature": {
+          "regards": "Con cariño,",
+          "team": "El equipo de Stardewdle"
+        },
+        "thanks": "Gracias por jugar, ¡y feliz cultivo!",
+        "title": "Acerca de"
+      }
+    }
   },
   "pages": {
     "home": {
@@ -36,6 +71,14 @@
         "classic": {
           "title": "Clásico",
           "description": "Obtén pistas en cada intento"
+        },
+        "crop": {
+          "description": "Adivina el cultivo a partir de sus estadísticas",
+          "title": "Cultivo"
+        },
+        "fish": {
+          "description": "Adivina el pez a partir de sus estadísticas",
+          "title": "Pez"
         }
       },
       "reset_in": "Reinicio en: {time}",
@@ -66,7 +109,8 @@
         "to_copy": "Encontré el villager #{id} de #Stardewdle en modo classic en {tries} intentos\n"
       },
       "victory": {
-        "stats_button": "Estadísticas"
+        "stats_button": "Estadísticas",
+        "back_home": "Volver al inicio"
       },
       "components": {
         "explanationBox": {
@@ -204,7 +248,14 @@
           "movement": "Movimiento",
           "range": "Alcance",
           "reload": "Recarga",
-          "year": "Año"
+          "year": "Año",
+          "age": "Edad",
+          "birthday": "Cumpleaños",
+          "gender": "Género",
+          "marriageable": "Casadero",
+          "region": "Región",
+          "season": "Estación",
+          "villager": "Vecino"
         },
         "rarity": {
           "common": "Común",
@@ -237,8 +288,372 @@
           "normal": "Normal",
           "long": "Largo",
           "very_long": "Muy Largo"
+        },
+        "age": {
+          "Adult": "Adulto",
+          "Child": "Niño",
+          "Teen": "Adolescente"
+        },
+        "gender": {
+          "Female": "Femenino",
+          "Male": "Masculino",
+          "Undefined": "Otro"
+        },
+        "marriageable": {
+          "no": "No",
+          "yes": "Sí"
+        },
+        "region": {
+          "Beach": "Playa",
+          "Desert": "Desierto",
+          "Forest": "Bosque",
+          "GingerIsland": "Isla Jengibre",
+          "Mountain": "Montaña",
+          "Sewers": "Alcantarillado",
+          "Town": "Pueblo"
+        },
+        "season": {
+          "Fall": "Otoño",
+          "Spring": "Primavera",
+          "Summer": "Verano",
+          "Winter": "Invierno"
         }
-      }
+      },
+      "gift_hint": "Regalo favorito: {gift}",
+      "gift_hint_locked": "Pista de regalo favorito en {tries} intentos"
+    },
+    "crop": {
+      "attributes": {
+        "headers": {
+          "crop": "Cultivo",
+          "growth": "Crecimiento",
+          "price": "Precio",
+          "regrow": "Rebrote",
+          "season": "Estación",
+          "type": "Tipo"
+        },
+        "regrow": {
+          "no": "No",
+          "yes": "Sí"
+        },
+        "season": {
+          "Fall": "Otoño",
+          "Spring": "Primavera",
+          "Summer": "Verano",
+          "Winter": "Invierno"
+        },
+        "type": {
+          "Flower": "Flor",
+          "Forage": "Silvestre",
+          "Fruit": "Fruta",
+          "Seed": "Semilla",
+          "Vegetable": "Verdura"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "Escribe el nombre de un cultivo.."
+        },
+        "explanationBox": {
+          "bottomHint": "Escribe cualquier cultivo para empezar.",
+          "title": "Adivina el cultivo de hoy de Stardew Valley"
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "Icono de cómo jugar",
+            "tooltip": "Cómo jugar"
+          },
+          "patchNotes": {
+            "alt": "Icono de notas de parche",
+            "tooltip": "Notas de parche"
+          },
+          "stats": {
+            "alt": "Icono de estadísticas",
+            "tooltip": "Estadísticas"
+          },
+          "streak": {
+            "alt": {
+              "active": "Icono de racha activa",
+              "inactive": "Icono de racha inactiva"
+            },
+            "tooltip": "Racha actual (serie de victorias consecutivas)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "Error: {message}",
+        "no_daily_brawler": "No se encontró el cultivo diario"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "attribute_item_1": "• <strong>Crecimiento</strong>: días para crecer por completo.",
+          "attribute_item_2": "• <strong>Precio</strong>: precio de venta base en oro.",
+          "attribute_item_3": "• <strong>Rebrote</strong>: ¿sigue produciendo después de la cosecha? (Sí/No).",
+          "attribute_item_4": "• <strong>Tipo</strong>: Verdura, Fruta, Flor, Silvestre o Semilla.",
+          "attribute_item_5": "• <strong>Estación</strong>: la(s) estación(es) en la(s) que crece.",
+          "attribute_item_6": "• <strong>Consejo</strong>: el verde indica una coincidencia exacta; el naranja en Estación indica una coincidencia parcial.",
+          "attributes_description": "El modo Cultivo compara estos atributos:",
+          "attributes_title": "Atributos del cultivo",
+          "daily_challenge_description": "Vuelve cada día para un nuevo vecino secreto. Sigue tu racha y comparte tu resultado con tus amigos.",
+          "daily_challenge_title": "Desafío diario",
+          "feedback_arrow_down": "• <strong>Flecha abajo (↓)</strong>: el valor del cultivo secreto es MENOR.",
+          "feedback_arrow_up": "• <strong>Flecha arriba (↑)</strong>: el valor del cultivo secreto es MAYOR.",
+          "feedback_arrows": "Las flechas aparecen en Crecimiento y Precio.",
+          "feedback_description": "Cada casilla tiene un color según su coincidencia:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Verde</span>: coincidencia exacta con el vecino secreto.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rojo</span>: sin coincidencia.",
+          "feedback_title": "Retroalimentación",
+          "how_to_play_title": "Cómo jugar",
+          "introduction_description": "Adivina el cultivo secreto del día de Stardew Valley comparando cinco atributos. Cada intento da retroalimentación con colores y flechas.",
+          "introduction_title": "Modo Clásico",
+          "step_1": "Haz tu primer intento con cualquier vecino de la lista de búsqueda.",
+          "step_2": "Observa cómo cada casilla de atributo se voltea en secuencia, revelando retroalimentación con colores.",
+          "step_3": "Lee las casillas verdes y rojas para identificar los atributos que coinciden y los que no.",
+          "step_4": "Usa las flechas en Cumpleaños y Edad para acotar el rango.",
+          "step_5": "Haz tu siguiente intento basándote en toda la retroalimentación recibida.",
+          "step_6": "¡Continúa hasta identificar correctamente al vecino secreto!",
+          "step_7": "Vuelve cada día para adivinar un nuevo vecino en el Modo Clásico.",
+          "strategy_tip_1": "• Empieza con vecinos que conozcas bien para establecer una base de atributos.",
+          "strategy_tip_2": "• Región y Estación acotan rápido las opciones: muchos vecinos las comparten.",
+          "strategy_tip_3": "• Usa las flechas para eliminar grupos enteros por cumpleaños o edad.",
+          "strategy_tip_4": "• La edad es ordinal: Niño &lt; Adolescente &lt; Adulto.",
+          "strategy_tip_5": "• Un vecino debe coincidir con TODA la retroalimentación verde a la vez.",
+          "strategy_tip_6": "• Género, Región, Estación y Casadero coinciden de forma exacta (sin flechas).",
+          "strategy_title": "Consejos de estrategia",
+          "title": "Cómo jugar: Modo Cultivo"
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "Todavía no hay nada aquí"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "Error al cargar las notas de parche"
+            },
+            "loading": {
+              "message": "Cargando notas de parche..."
+            }
+          },
+          "title": "Notas de parche"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "Tu navegador no admite el elemento canvas.",
+            "label": "Intentos",
+            "title": "Número de intentos por partida"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "Número medio de intentos por partida",
+              "label": "Intentos promedio:"
+            },
+            "best_streak": {
+              "aria_label": "Mejor racha de victorias",
+              "label": "Mejor racha:"
+            },
+            "current_streak": {
+              "aria_label": "Racha de victorias actual",
+              "label": "Racha actual:"
+            },
+            "games_won": {
+              "aria_label": "Número de partidas ganadas",
+              "label": "Partidas ganadas:"
+            },
+            "one_shots": {
+              "aria_label": "Número de partidas ganadas en un intento",
+              "label": "A la primera:"
+            }
+          },
+          "title": "Estadísticas"
+        }
+      },
+      "page_meta": {
+        "description": "¡Adivina el cultivo de hoy de Stardew Valley a partir de sus estadísticas!",
+        "title": "Clásico"
+      },
+      "result": {
+        "failure": "Inténtalo de nuevo",
+        "success": "¡Buen trabajo!"
+      },
+      "scroll_hint": "← Desplázate horizontalmente para ver más →",
+      "share": {
+        "text": "Encontré el cultivo #Stardewdle #{id} en {tries} intentos ",
+        "to_copy": "Encontré el cultivo #Stardewdle #{id} en {tries} intentos\n{url}"
+      },
+      "victory": {
+        "back_home": "Volver al inicio",
+        "next_mode": "Jugar Clásico",
+        "stats_button": "Estadísticas"
+      },
+      "yesterday": "El cultivo de ayer fue <name>{brawlerName}</name>"
+    },
+    "fish": {
+      "attributes": {
+        "behavior": {
+          "Dart": "Dardo",
+          "Floater": "Flotador",
+          "Mixed": "Mixto",
+          "Sinker": "Hundidor",
+          "Smooth": "Suave"
+        },
+        "headers": {
+          "behavior": "Comportamiento",
+          "difficulty": "Dificultad",
+          "fish": "Pez",
+          "season": "Estación",
+          "size": "Tamaño",
+          "weather": "Clima"
+        },
+        "season": {
+          "Fall": "Otoño",
+          "Spring": "Primavera",
+          "Summer": "Verano",
+          "Winter": "Invierno"
+        },
+        "weather": {
+          "Any": "Cualquiera",
+          "Rainy": "Lluvioso",
+          "Sunny": "Soleado"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "Escribe el nombre de un pez.."
+        },
+        "explanationBox": {
+          "bottomHint": "Escribe cualquier pez para empezar.",
+          "title": "Adivina el pez de hoy de Stardew Valley"
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "Icono de cómo jugar",
+            "tooltip": "Cómo jugar"
+          },
+          "patchNotes": {
+            "alt": "Icono de notas de parche",
+            "tooltip": "Notas de parche"
+          },
+          "stats": {
+            "alt": "Icono de estadísticas",
+            "tooltip": "Estadísticas"
+          },
+          "streak": {
+            "alt": {
+              "active": "Icono de racha activa",
+              "inactive": "Icono de racha inactiva"
+            },
+            "tooltip": "Racha actual (serie de victorias consecutivas)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "Error: {message}",
+        "no_daily_brawler": "No se encontró el pez diario"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "attribute_item_1": "• <strong>Dificultad</strong>: lo difícil que es de pescar (más alto = más difícil).",
+          "attribute_item_2": "• <strong>Comportamiento</strong>: Flotador, Dardo, Suave, Mixto o Hundidor.",
+          "attribute_item_3": "• <strong>Estación</strong>: la(s) estación(es) en la(s) que se puede pescar.",
+          "attribute_item_4": "• <strong>Clima</strong>: Soleado, Lluvioso o Cualquiera.",
+          "attribute_item_5": "• <strong>Tamaño</strong>: su tamaño máximo en pulgadas.",
+          "attribute_item_6": "• <strong>Consejo</strong>: el verde indica una coincidencia exacta; el naranja en Estación indica una coincidencia parcial.",
+          "attributes_description": "El modo Pez compara estos atributos:",
+          "attributes_title": "Atributos del pez",
+          "daily_challenge_description": "Vuelve cada día para un nuevo vecino secreto. Sigue tu racha y comparte tu resultado con tus amigos.",
+          "daily_challenge_title": "Desafío diario",
+          "feedback_arrow_down": "• <strong>Flecha abajo (↓)</strong>: el valor del pez secreto es MENOR.",
+          "feedback_arrow_up": "• <strong>Flecha arriba (↑)</strong>: el valor del pez secreto es MAYOR.",
+          "feedback_arrows": "Las flechas aparecen en Dificultad y Tamaño.",
+          "feedback_description": "Cada casilla tiene un color según su coincidencia:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Verde</span>: coincidencia exacta con el vecino secreto.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rojo</span>: sin coincidencia.",
+          "feedback_title": "Retroalimentación",
+          "how_to_play_title": "Cómo jugar",
+          "introduction_description": "Adivina el pez secreto del día de Stardew Valley comparando cinco atributos. Cada intento da retroalimentación con colores y flechas.",
+          "introduction_title": "Modo Clásico",
+          "step_1": "Haz tu primer intento con cualquier vecino de la lista de búsqueda.",
+          "step_2": "Observa cómo cada casilla de atributo se voltea en secuencia, revelando retroalimentación con colores.",
+          "step_3": "Lee las casillas verdes y rojas para identificar los atributos que coinciden y los que no.",
+          "step_4": "Usa las flechas en Cumpleaños y Edad para acotar el rango.",
+          "step_5": "Haz tu siguiente intento basándote en toda la retroalimentación recibida.",
+          "step_6": "¡Continúa hasta identificar correctamente al vecino secreto!",
+          "step_7": "Vuelve cada día para adivinar un nuevo vecino en el Modo Clásico.",
+          "strategy_tip_1": "• Empieza con vecinos que conozcas bien para establecer una base de atributos.",
+          "strategy_tip_2": "• Región y Estación acotan rápido las opciones: muchos vecinos las comparten.",
+          "strategy_tip_3": "• Usa las flechas para eliminar grupos enteros por cumpleaños o edad.",
+          "strategy_tip_4": "• La edad es ordinal: Niño &lt; Adolescente &lt; Adulto.",
+          "strategy_tip_5": "• Un vecino debe coincidir con TODA la retroalimentación verde a la vez.",
+          "strategy_tip_6": "• Género, Región, Estación y Casadero coinciden de forma exacta (sin flechas).",
+          "strategy_title": "Consejos de estrategia",
+          "title": "Cómo jugar: Modo Pez"
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "Todavía no hay nada aquí"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "Error al cargar las notas de parche"
+            },
+            "loading": {
+              "message": "Cargando notas de parche..."
+            }
+          },
+          "title": "Notas de parche"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "Tu navegador no admite el elemento canvas.",
+            "label": "Intentos",
+            "title": "Número de intentos por partida"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "Número medio de intentos por partida",
+              "label": "Intentos promedio:"
+            },
+            "best_streak": {
+              "aria_label": "Mejor racha de victorias",
+              "label": "Mejor racha:"
+            },
+            "current_streak": {
+              "aria_label": "Racha de victorias actual",
+              "label": "Racha actual:"
+            },
+            "games_won": {
+              "aria_label": "Número de partidas ganadas",
+              "label": "Partidas ganadas:"
+            },
+            "one_shots": {
+              "aria_label": "Número de partidas ganadas en un intento",
+              "label": "A la primera:"
+            }
+          },
+          "title": "Estadísticas"
+        }
+      },
+      "page_meta": {
+        "description": "¡Adivina el pez de hoy de Stardew Valley a partir de sus estadísticas!",
+        "title": "Clásico"
+      },
+      "result": {
+        "failure": "Inténtalo de nuevo",
+        "success": "¡Buen trabajo!"
+      },
+      "scroll_hint": "← Desplázate horizontalmente para ver más →",
+      "share": {
+        "text": "Encontré el pez #Stardewdle #{id} en {tries} intentos ",
+        "to_copy": "Encontré el pez #Stardewdle #{id} en {tries} intentos\n{url}"
+      },
+      "victory": {
+        "back_home": "Volver al inicio",
+        "next_mode": "Jugar Clásico",
+        "stats_button": "Estadísticas"
+      },
+      "yesterday": "El pez de ayer fue <name>{brawlerName}</name>"
     }
   },
   "common": {

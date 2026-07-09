@@ -27,7 +27,42 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "쿠키 기본 설정 업데이트"
     },
-    "modals": {}
+    "modals": {
+      "about": {
+        "commitment": {
+          "description": "매일 방문해서 새로운 주민을 맞혀보고, 연속 기록을 이어가며, 친구들과 결과를 공유해보세요.",
+          "title": "매일 도전"
+        },
+        "credit": {
+          "description": "스타듀밸리 팬이 팬들을 위해 만들었습니다. 🌱",
+          "title": "제작진"
+        },
+        "disclaimer": "Stardewdle는 비공식 팬 프로젝트입니다. 스타듀밸리는 ConcernedApe가 제작했으며, 모든 캐릭터와 아트워크는 각 소유자에게 저작권이 있습니다. 이 프로젝트는 ConcernedApe와 제휴, 후원 또는 승인 관계가 없습니다.",
+        "discover": "매일 즐기는 스타듀밸리 맞추기 게임, Stardewdle에 오신 것을 환영합니다! Classic(주민), Crop, Fish 세 가지 모드로 매일 새로운 퍼즐에서 당신의 지식을 시험해보세요.",
+        "dle_games": {
+          "description": "Stardewdle가 즐거우셨나요? 메뉴에 연결된 허브에서 다양한 매일 -dle 게임들을 만나보세요.",
+          "title": "더 많은 -dle 게임"
+        },
+        "game_modes": {
+          "description": "Classic은 여섯 가지 주민 속성(성별, 지역, 생일, 결혼 가능 여부, 나이)을 비교합니다. Crop은 다섯 가지 작물 속성(성장, 가격, 재수확, 종류, 계절)을 비교합니다. Fish는 다섯 가지 물고기 속성(난이도, 행동, 계절, 날씨, 크기)을 비교합니다. 매일 각 모드마다 새로운 퍼즐이 제공됩니다.",
+          "title": "매일 세 가지 모드"
+        },
+        "inspiration": {
+          "description": "Wordle과 수많은 멋진 -dle 맞추기 게임에서 영감을 받았습니다.",
+          "title": "영감"
+        },
+        "privacy": {
+          "description": "간단합니다 — 진행 상황과 연속 기록은 사용자의 브라우저에 로컬로 저장됩니다.",
+          "title": "개인정보"
+        },
+        "signature": {
+          "regards": "사랑을 담아,",
+          "team": "Stardewdle 팀"
+        },
+        "thanks": "플레이해주셔서 감사합니다, 즐거운 농장 생활 되세요!",
+        "title": "소개"
+      }
+    }
   },
   "pages": {
     "home": {
@@ -36,6 +71,14 @@
         "classic": {
           "title": "클래식",
           "description": "매 시도마다 단서를 얻으세요"
+        },
+        "crop": {
+          "description": "스탯으로 작물을 맞혀보세요",
+          "title": "Crop"
+        },
+        "fish": {
+          "description": "스탯으로 물고기를 맞혀보세요",
+          "title": "Fish"
         }
       },
       "reset_in": "리셋까지: {time}",
@@ -66,7 +109,8 @@
         "to_copy": "#Stardewdle 브롤러 #{id}를 클래식 모드에서 {tries}번 만에 맞혔어요\n"
       },
       "victory": {
-        "stats_button": "통계"
+        "stats_button": "통계",
+        "back_home": "홈으로 돌아가기"
       },
       "components": {
         "explanationBox": {
@@ -204,7 +248,14 @@
           "movement": "이동",
           "range": "사거리",
           "reload": "재장전",
-          "year": "연도"
+          "year": "연도",
+          "age": "나이",
+          "birthday": "생일",
+          "gender": "성별",
+          "marriageable": "결혼 가능 여부",
+          "region": "지역",
+          "season": "계절",
+          "villager": "주민"
         },
         "rarity": {
           "common": "커먼",
@@ -237,8 +288,372 @@
           "normal": "보통",
           "long": "길음",
           "very_long": "매우 길음"
+        },
+        "age": {
+          "Adult": "성인",
+          "Child": "아이",
+          "Teen": "청소년"
+        },
+        "gender": {
+          "Female": "여성",
+          "Male": "남성",
+          "Undefined": "기타"
+        },
+        "marriageable": {
+          "no": "아니요",
+          "yes": "예"
+        },
+        "region": {
+          "Beach": "해변",
+          "Desert": "사막",
+          "Forest": "숲",
+          "GingerIsland": "진저 아일랜드",
+          "Mountain": "산",
+          "Sewers": "하수도",
+          "Town": "마을"
+        },
+        "season": {
+          "Fall": "가을",
+          "Spring": "봄",
+          "Summer": "여름",
+          "Winter": "겨울"
         }
-      }
+      },
+      "gift_hint": "좋아하는 선물: {gift}",
+      "gift_hint_locked": "{tries}번 시도 후 좋아하는 선물 힌트 공개"
+    },
+    "crop": {
+      "attributes": {
+        "headers": {
+          "crop": "작물",
+          "growth": "성장",
+          "price": "가격",
+          "regrow": "재수확",
+          "season": "계절",
+          "type": "종류"
+        },
+        "regrow": {
+          "no": "아니요",
+          "yes": "예"
+        },
+        "season": {
+          "Fall": "가을",
+          "Spring": "봄",
+          "Summer": "여름",
+          "Winter": "겨울"
+        },
+        "type": {
+          "Flower": "꽃",
+          "Forage": "채집물",
+          "Fruit": "과일",
+          "Seed": "씨앗",
+          "Vegetable": "채소"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "작물 이름을 입력하세요.."
+        },
+        "explanationBox": {
+          "bottomHint": "작물 이름을 입력해 시작하세요.",
+          "title": "오늘의 스타듀밸리 작물을 맞혀보세요"
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "게임 방법 아이콘",
+            "tooltip": "게임 방법"
+          },
+          "patchNotes": {
+            "alt": "패치 노트 아이콘",
+            "tooltip": "패치 노트"
+          },
+          "stats": {
+            "alt": "통계 아이콘",
+            "tooltip": "통계"
+          },
+          "streak": {
+            "alt": {
+              "active": "활성 연속 기록 아이콘",
+              "inactive": "비활성 연속 기록 아이콘"
+            },
+            "tooltip": "현재 연속 기록 (연속 승리 횟수)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "오류: {message}",
+        "no_daily_brawler": "오늘의 작물을 찾을 수 없습니다"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "attribute_item_1": "• <strong>성장</strong>: 완전히 자라는 데 걸리는 일수.",
+          "attribute_item_2": "• <strong>가격</strong>: 골드 단위의 기본 판매 가격.",
+          "attribute_item_3": "• <strong>재수확</strong>: 수확 후에도 계속 생산되나요? (예/아니요).",
+          "attribute_item_4": "• <strong>종류</strong>: 채소, 과일, 꽃, 채집물 또는 씨앗.",
+          "attribute_item_5": "• <strong>계절</strong>: 자라는 계절.",
+          "attribute_item_6": "• <strong>팁</strong>: 초록색은 정확히 일치, 계절의 주황색은 일부만 겹침을 의미합니다.",
+          "attributes_description": "Crop 모드는 다음 속성을 비교합니다:",
+          "attributes_title": "작물 속성",
+          "daily_challenge_description": "매일 새로운 비밀 주민을 맞히러 돌아오세요. 연속 기록을 확인하고 친구들과 결과를 공유하세요.",
+          "daily_challenge_title": "매일 도전",
+          "feedback_arrow_down": "• <strong>아래쪽 화살표 (↓)</strong>: 비밀 작물의 값이 더 낮습니다.",
+          "feedback_arrow_up": "• <strong>위쪽 화살표 (↑)</strong>: 비밀 작물의 값이 더 높습니다.",
+          "feedback_arrows": "화살표는 성장과 가격에 나타납니다.",
+          "feedback_description": "각 타일은 색상으로 구분됩니다:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">초록색</span>: 비밀 주민과 정확히 일치.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">빨간색</span>: 일치하지 않음.",
+          "feedback_title": "피드백",
+          "how_to_play_title": "게임 방법",
+          "introduction_description": "다섯 가지 속성을 비교하여 오늘의 비밀 스타듀밸리 작물을 맞혀보세요. 각 시도마다 색상 피드백과 화살표가 제공됩니다.",
+          "introduction_title": "Classic 모드",
+          "step_1": "검색 목록에서 아무 주민이나 골라 첫 시도를 해보세요.",
+          "step_2": "각 속성 타일이 순서대로 뒤집히며 색상 피드백을 보여주는 것을 확인하세요.",
+          "step_3": "초록색과 빨간색 타일을 확인해 일치하는 속성과 일치하지 않는 속성을 파악하세요.",
+          "step_4": "생일과 나이의 화살표를 활용해 범위를 좁히세요.",
+          "step_5": "받은 모든 피드백을 바탕으로 다음 시도를 해보세요.",
+          "step_6": "비밀 주민을 정확히 맞힐 때까지 계속하세요!",
+          "step_7": "매일 돌아와 Classic 모드에서 새로운 주민을 맞혀보세요.",
+          "strategy_tip_1": "• 잘 아는 주민부터 시작해 속성의 기준을 세워보세요.",
+          "strategy_tip_2": "• 지역과 계절은 후보를 빠르게 좁혀줍니다 — 많은 주민이 이를 공유합니다.",
+          "strategy_tip_3": "• 화살표를 이용해 생일이나 나이로 그룹 전체를 제외하세요.",
+          "strategy_tip_4": "• 나이는 순서가 있습니다: 아이 &lt; 청소년 &lt; 성인.",
+          "strategy_tip_5": "• 주민은 모든 초록색 피드백을 동시에 만족해야 합니다.",
+          "strategy_tip_6": "• 성별, 지역, 계절, 결혼 가능 여부는 정확히 일치해야 합니다 (화살표 없음).",
+          "strategy_title": "전략 팁",
+          "title": "게임 방법: Crop 모드"
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "아직 내용이 없습니다"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "패치 노트를 불러오지 못했습니다"
+            },
+            "loading": {
+              "message": "패치 노트를 불러오는 중..."
+            }
+          },
+          "title": "패치 노트"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "사용 중인 브라우저는 캔버스 요소를 지원하지 않습니다.",
+            "label": "시도 횟수",
+            "title": "게임당 시도 횟수"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "게임당 평균 시도 횟수",
+              "label": "평균 시도 횟수:"
+            },
+            "best_streak": {
+              "aria_label": "최고 연속 승리 기록",
+              "label": "최고 연속 기록:"
+            },
+            "current_streak": {
+              "aria_label": "현재 연속 승리 기록",
+              "label": "현재 연속 기록:"
+            },
+            "games_won": {
+              "aria_label": "승리한 게임 수",
+              "label": "승리한 게임:"
+            },
+            "one_shots": {
+              "aria_label": "한 번에 승리한 게임 수",
+              "label": "원샷:"
+            }
+          },
+          "title": "통계"
+        }
+      },
+      "page_meta": {
+        "description": "오늘의 스타듀밸리 작물을 스탯으로 맞혀보세요!",
+        "title": "Classic"
+      },
+      "result": {
+        "failure": "다시 시도하세요",
+        "success": "잘했어요!"
+      },
+      "scroll_hint": "← 가로로 스크롤하여 더 보기 →",
+      "share": {
+        "text": "#Stardewdle 작물 #{id}를 {tries}번 만에 맞혔어요 ",
+        "to_copy": "#Stardewdle 작물 #{id}를 {tries}번 만에 맞혔어요\n{url}"
+      },
+      "victory": {
+        "back_home": "홈으로 돌아가기",
+        "next_mode": "Classic 플레이하기",
+        "stats_button": "통계"
+      },
+      "yesterday": "어제의 작물은 <name>{brawlerName}</name>였습니다"
+    },
+    "fish": {
+      "attributes": {
+        "behavior": {
+          "Dart": "돌진",
+          "Floater": "부유",
+          "Mixed": "혼합",
+          "Sinker": "하강",
+          "Smooth": "매끄러움"
+        },
+        "headers": {
+          "behavior": "행동",
+          "difficulty": "난이도",
+          "fish": "물고기",
+          "season": "계절",
+          "size": "크기",
+          "weather": "날씨"
+        },
+        "season": {
+          "Fall": "가을",
+          "Spring": "봄",
+          "Summer": "여름",
+          "Winter": "겨울"
+        },
+        "weather": {
+          "Any": "모든 날씨",
+          "Rainy": "비",
+          "Sunny": "맑음"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "물고기 이름을 입력하세요.."
+        },
+        "explanationBox": {
+          "bottomHint": "물고기 이름을 입력해 시작하세요.",
+          "title": "오늘의 스타듀밸리 물고기를 맞혀보세요"
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "게임 방법 아이콘",
+            "tooltip": "게임 방법"
+          },
+          "patchNotes": {
+            "alt": "패치 노트 아이콘",
+            "tooltip": "패치 노트"
+          },
+          "stats": {
+            "alt": "통계 아이콘",
+            "tooltip": "통계"
+          },
+          "streak": {
+            "alt": {
+              "active": "활성 연속 기록 아이콘",
+              "inactive": "비활성 연속 기록 아이콘"
+            },
+            "tooltip": "현재 연속 기록 (연속 승리 횟수)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "오류: {message}",
+        "no_daily_brawler": "오늘의 물고기를 찾을 수 없습니다"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "attribute_item_1": "• <strong>난이도</strong>: 잡기 어려운 정도 (숫자가 높을수록 어려움).",
+          "attribute_item_2": "• <strong>행동</strong>: 부유, 돌진, 매끄러움, 혼합 또는 하강.",
+          "attribute_item_3": "• <strong>계절</strong>: 잡을 수 있는 계절.",
+          "attribute_item_4": "• <strong>날씨</strong>: 맑음, 비 또는 모든 날씨.",
+          "attribute_item_5": "• <strong>크기</strong>: 인치 단위의 최대 크기.",
+          "attribute_item_6": "• <strong>팁</strong>: 초록색은 정확히 일치, 계절의 주황색은 일부만 겹침을 의미합니다.",
+          "attributes_description": "Fish 모드는 다음 속성을 비교합니다:",
+          "attributes_title": "물고기 속성",
+          "daily_challenge_description": "매일 새로운 비밀 주민을 맞히러 돌아오세요. 연속 기록을 확인하고 친구들과 결과를 공유하세요.",
+          "daily_challenge_title": "매일 도전",
+          "feedback_arrow_down": "• <strong>아래쪽 화살표 (↓)</strong>: 비밀 물고기의 값이 더 낮습니다.",
+          "feedback_arrow_up": "• <strong>위쪽 화살표 (↑)</strong>: 비밀 물고기의 값이 더 높습니다.",
+          "feedback_arrows": "화살표는 난이도와 크기에 나타납니다.",
+          "feedback_description": "각 타일은 색상으로 구분됩니다:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">초록색</span>: 비밀 주민과 정확히 일치.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">빨간색</span>: 일치하지 않음.",
+          "feedback_title": "피드백",
+          "how_to_play_title": "게임 방법",
+          "introduction_description": "다섯 가지 속성을 비교하여 오늘의 비밀 스타듀밸리 물고기를 맞혀보세요. 각 시도마다 색상 피드백과 화살표가 제공됩니다.",
+          "introduction_title": "Classic 모드",
+          "step_1": "검색 목록에서 아무 주민이나 골라 첫 시도를 해보세요.",
+          "step_2": "각 속성 타일이 순서대로 뒤집히며 색상 피드백을 보여주는 것을 확인하세요.",
+          "step_3": "초록색과 빨간색 타일을 확인해 일치하는 속성과 일치하지 않는 속성을 파악하세요.",
+          "step_4": "생일과 나이의 화살표를 활용해 범위를 좁히세요.",
+          "step_5": "받은 모든 피드백을 바탕으로 다음 시도를 해보세요.",
+          "step_6": "비밀 주민을 정확히 맞힐 때까지 계속하세요!",
+          "step_7": "매일 돌아와 Classic 모드에서 새로운 주민을 맞혀보세요.",
+          "strategy_tip_1": "• 잘 아는 주민부터 시작해 속성의 기준을 세워보세요.",
+          "strategy_tip_2": "• 지역과 계절은 후보를 빠르게 좁혀줍니다 — 많은 주민이 이를 공유합니다.",
+          "strategy_tip_3": "• 화살표를 이용해 생일이나 나이로 그룹 전체를 제외하세요.",
+          "strategy_tip_4": "• 나이는 순서가 있습니다: 아이 &lt; 청소년 &lt; 성인.",
+          "strategy_tip_5": "• 주민은 모든 초록색 피드백을 동시에 만족해야 합니다.",
+          "strategy_tip_6": "• 성별, 지역, 계절, 결혼 가능 여부는 정확히 일치해야 합니다 (화살표 없음).",
+          "strategy_title": "전략 팁",
+          "title": "게임 방법: Fish 모드"
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "아직 내용이 없습니다"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "패치 노트를 불러오지 못했습니다"
+            },
+            "loading": {
+              "message": "패치 노트를 불러오는 중..."
+            }
+          },
+          "title": "패치 노트"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "사용 중인 브라우저는 캔버스 요소를 지원하지 않습니다.",
+            "label": "시도 횟수",
+            "title": "게임당 시도 횟수"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "게임당 평균 시도 횟수",
+              "label": "평균 시도 횟수:"
+            },
+            "best_streak": {
+              "aria_label": "최고 연속 승리 기록",
+              "label": "최고 연속 기록:"
+            },
+            "current_streak": {
+              "aria_label": "현재 연속 승리 기록",
+              "label": "현재 연속 기록:"
+            },
+            "games_won": {
+              "aria_label": "승리한 게임 수",
+              "label": "승리한 게임:"
+            },
+            "one_shots": {
+              "aria_label": "한 번에 승리한 게임 수",
+              "label": "원샷:"
+            }
+          },
+          "title": "통계"
+        }
+      },
+      "page_meta": {
+        "description": "오늘의 스타듀밸리 물고기를 스탯으로 맞혀보세요!",
+        "title": "Classic"
+      },
+      "result": {
+        "failure": "다시 시도하세요",
+        "success": "잘했어요!"
+      },
+      "scroll_hint": "← 가로로 스크롤하여 더 보기 →",
+      "share": {
+        "text": "#Stardewdle 물고기 #{id}를 {tries}번 만에 맞혔어요 ",
+        "to_copy": "#Stardewdle 물고기 #{id}를 {tries}번 만에 맞혔어요\n{url}"
+      },
+      "victory": {
+        "back_home": "홈으로 돌아가기",
+        "next_mode": "Classic 플레이하기",
+        "stats_button": "통계"
+      },
+      "yesterday": "어제의 물고기는 <name>{brawlerName}</name>였습니다"
     }
   },
   "common": {

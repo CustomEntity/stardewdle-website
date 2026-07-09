@@ -27,7 +27,42 @@
       "copyright": "Stardewdle - {year}",
       "cookie_preferences": "Aggiorna preferenze cookie"
     },
-    "modals": {}
+    "modals": {
+      "about": {
+        "commitment": {
+          "description": "Torna ogni giorno per indovinare nuovi abitanti, mantieni viva la tua serie di vittorie e condividi i risultati con gli amici.",
+          "title": "Sfida giornaliera"
+        },
+        "credit": {
+          "description": "Creato da un fan, per i fan di Stardew Valley. 🌱",
+          "title": "Crediti"
+        },
+        "disclaimer": "Stardewdle è un progetto amatoriale non ufficiale. Stardew Valley è creato da ConcernedApe; tutti i personaggi e le illustrazioni appartengono ai rispettivi proprietari. Questo progetto non è affiliato, sponsorizzato o approvato da ConcernedApe.",
+        "discover": "Benvenuto su Stardewdle, il gioco quotidiano di indovinelli su Stardew Valley! Metti alla prova le tue conoscenze in tre modalità — Classica (abitanti), Raccolto e Pesce — con un nuovo enigma ogni giorno.",
+        "dle_games": {
+          "description": "Ti è piaciuto Stardewdle? Scopri l'intera famiglia di giochi giornalieri -dle nell'hub collegato nel menu.",
+          "title": "Altri giochi -dle"
+        },
+        "game_modes": {
+          "description": "Classica confronta sei attributi degli abitanti (genere, regione, compleanno, sposabile, età). Raccolto confronta cinque attributi del raccolto (crescita, prezzo, ricrescita, tipo, stagione). Pesce confronta cinque attributi del pesce (difficoltà, comportamento, stagione, meteo, dimensione). Un nuovo enigma per ogni modalità, ogni giorno.",
+          "title": "Tre modalità giornaliere"
+        },
+        "inspiration": {
+          "description": "Ispirato da Wordle e dai tanti fantastici giochi di indovinelli -dle.",
+          "title": "Ispirazione"
+        },
+        "privacy": {
+          "description": "Lo teniamo semplice — i tuoi progressi e la tua serie di vittorie sono salvati localmente nel tuo browser.",
+          "title": "Privacy"
+        },
+        "signature": {
+          "regards": "Con affetto,",
+          "team": "Il team di Stardewdle"
+        },
+        "thanks": "Grazie per aver giocato, e buona coltivazione!",
+        "title": "Informazioni"
+      }
+    }
   },
   "pages": {
     "home": {
@@ -36,6 +71,14 @@
         "classic": {
           "title": "Classic",
           "description": "Ottieni indizi a ogni tentativo"
+        },
+        "crop": {
+          "description": "Indovina il raccolto dalle sue statistiche",
+          "title": "Raccolto"
+        },
+        "fish": {
+          "description": "Indovina il pesce dalle sue statistiche",
+          "title": "Pesce"
         }
       },
       "reset_in": "Reset tra: {time}",
@@ -66,7 +109,8 @@
         "to_copy": "Ho trovato il villager #Stardewdle #{id} in modalità classic in {tries} tentativi\n"
       },
       "victory": {
-        "stats_button": "Statistiche"
+        "stats_button": "Statistiche",
+        "back_home": "Torna alla home"
       },
       "components": {
         "explanationBox": {
@@ -204,7 +248,14 @@
           "movement": "Movimento",
           "range": "Portata",
           "reload": "Ricarica",
-          "year": "Anno"
+          "year": "Anno",
+          "age": "Età",
+          "birthday": "Compleanno",
+          "gender": "Genere",
+          "marriageable": "Sposabile",
+          "region": "Regione",
+          "season": "Stagione",
+          "villager": "Abitante"
         },
         "rarity": {
           "common": "Comune",
@@ -237,8 +288,372 @@
           "normal": "Normale",
           "long": "Lunga",
           "very_long": "Molto Lunga"
+        },
+        "age": {
+          "Adult": "Adulto",
+          "Child": "Bambino",
+          "Teen": "Adolescente"
+        },
+        "gender": {
+          "Female": "Femmina",
+          "Male": "Maschio",
+          "Undefined": "Altro"
+        },
+        "marriageable": {
+          "no": "No",
+          "yes": "Sì"
+        },
+        "region": {
+          "Beach": "Spiaggia",
+          "Desert": "Deserto",
+          "Forest": "Foresta",
+          "GingerIsland": "Isola dello Zenzero",
+          "Mountain": "Montagna",
+          "Sewers": "Fogne",
+          "Town": "Città"
+        },
+        "season": {
+          "Fall": "Autunno",
+          "Spring": "Primavera",
+          "Summer": "Estate",
+          "Winter": "Inverno"
         }
-      }
+      },
+      "gift_hint": "Regalo preferito: {gift}",
+      "gift_hint_locked": "Indizio sul regalo preferito tra {tries} tentativi"
+    },
+    "crop": {
+      "attributes": {
+        "headers": {
+          "crop": "Raccolto",
+          "growth": "Crescita",
+          "price": "Prezzo",
+          "regrow": "Ricrescita",
+          "season": "Stagione",
+          "type": "Tipo"
+        },
+        "regrow": {
+          "no": "No",
+          "yes": "Sì"
+        },
+        "season": {
+          "Fall": "Autunno",
+          "Spring": "Primavera",
+          "Summer": "Estate",
+          "Winter": "Inverno"
+        },
+        "type": {
+          "Flower": "Fiore",
+          "Forage": "Raccolta",
+          "Fruit": "Frutto",
+          "Seed": "Seme",
+          "Vegetable": "Verdura"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "Scrivi il nome di un raccolto.."
+        },
+        "explanationBox": {
+          "bottomHint": "Scrivi un raccolto qualsiasi per iniziare.",
+          "title": "Indovina il raccolto di oggi di Stardew Valley"
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "Icona come si gioca",
+            "tooltip": "Come si gioca"
+          },
+          "patchNotes": {
+            "alt": "Icona note di patch",
+            "tooltip": "Note di patch"
+          },
+          "stats": {
+            "alt": "Icona statistiche",
+            "tooltip": "Statistiche"
+          },
+          "streak": {
+            "alt": {
+              "active": "Icona serie attiva",
+              "inactive": "Icona serie inattiva"
+            },
+            "tooltip": "Serie attuale (serie di vittorie consecutive)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "Errore: {message}",
+        "no_daily_brawler": "Nessun raccolto giornaliero trovato"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "attribute_item_1": "• <strong>Crescita</strong>: giorni necessari per crescere completamente.",
+          "attribute_item_2": "• <strong>Prezzo</strong>: prezzo base di vendita in oro.",
+          "attribute_item_3": "• <strong>Ricrescita</strong>: continua a produrre dopo il raccolto? (Sì/No).",
+          "attribute_item_4": "• <strong>Tipo</strong>: Verdura, Frutto, Fiore, Raccolta o Seme.",
+          "attribute_item_5": "• <strong>Stagione</strong>: la stagione o le stagioni in cui cresce.",
+          "attribute_item_6": "• <strong>Suggerimento</strong>: il verde indica una corrispondenza esatta; l'arancione sulla Stagione indica una sovrapposizione parziale.",
+          "attributes_description": "La modalità Raccolto confronta questi attributi:",
+          "attributes_title": "Attributi del raccolto",
+          "daily_challenge_description": "Torna ogni giorno per un nuovo abitante segreto. Tieni traccia della tua serie e condividi il risultato con gli amici.",
+          "daily_challenge_title": "Sfida giornaliera",
+          "feedback_arrow_down": "• <strong>Freccia giù (↓)</strong>: il valore del raccolto segreto è PIÙ BASSO.",
+          "feedback_arrow_up": "• <strong>Freccia su (↑)</strong>: il valore del raccolto segreto è PIÙ ALTO.",
+          "feedback_arrows": "Le frecce compaiono su Crescita e Prezzo.",
+          "feedback_description": "Ogni riquadro ha un colore diverso a seconda del risultato:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Verde</span>: corrispondenza esatta con l'abitante segreto.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rosso</span>: nessuna corrispondenza.",
+          "feedback_title": "Feedback",
+          "how_to_play_title": "Come si gioca",
+          "introduction_description": "Indovina il raccolto segreto di oggi di Stardew Valley confrontando cinque attributi. Ogni tentativo fornisce un riscontro colorato e delle frecce.",
+          "introduction_title": "Modalità Classica",
+          "step_1": "Fai il tuo primo tentativo scegliendo un abitante qualsiasi dalla lista di ricerca.",
+          "step_2": "Osserva ogni riquadro degli attributi girarsi in sequenza, rivelando un riscontro colorato.",
+          "step_3": "Leggi i riquadri verdi e rossi per individuare gli attributi corrispondenti e non corrispondenti.",
+          "step_4": "Usa le frecce su Compleanno ed Età per restringere l'intervallo.",
+          "step_5": "Fai il tuo prossimo tentativo basandoti su tutto il riscontro ricevuto.",
+          "step_6": "Continua finché non identifichi correttamente l'abitante segreto!",
+          "step_7": "Torna ogni giorno per indovinare un nuovo abitante nella Modalità Classica.",
+          "strategy_tip_1": "• Inizia con abitanti che conosci bene per stabilire una base di attributi.",
+          "strategy_tip_2": "• Regione e Stagione restringono rapidamente il gruppo — molti abitanti li condividono.",
+          "strategy_tip_3": "• Usa le frecce per eliminare interi gruppi in base a compleanno o età.",
+          "strategy_tip_4": "• L'età è ordinale: Bambino &lt; Adolescente &lt; Adulto.",
+          "strategy_tip_5": "• Un abitante deve corrispondere a TUTTO il riscontro verde contemporaneamente.",
+          "strategy_tip_6": "• Genere, Regione, Stagione e Sposabile corrispondono esattamente (nessuna freccia).",
+          "strategy_title": "Consigli strategici",
+          "title": "Come si gioca: Modalità Raccolto"
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "Ancora niente qui"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "Impossibile caricare le note di patch"
+            },
+            "loading": {
+              "message": "Caricamento delle note di patch..."
+            }
+          },
+          "title": "Note di patch"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "Il tuo browser non supporta l'elemento canvas.",
+            "label": "Tentativi",
+            "title": "Numero di tentativi per partita"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "Numero medio di tentativi per partita",
+              "label": "Tentativi medi:"
+            },
+            "best_streak": {
+              "aria_label": "Migliore serie di vittorie",
+              "label": "Miglior serie:"
+            },
+            "current_streak": {
+              "aria_label": "Serie di vittorie attuale",
+              "label": "Serie attuale:"
+            },
+            "games_won": {
+              "aria_label": "Numero di partite vinte",
+              "label": "Partite vinte:"
+            },
+            "one_shots": {
+              "aria_label": "Numero di partite vinte al primo tentativo",
+              "label": "Vittorie al primo colpo:"
+            }
+          },
+          "title": "Statistiche"
+        }
+      },
+      "page_meta": {
+        "description": "Indovina il raccolto di oggi di Stardew Valley dalle sue statistiche!",
+        "title": "Classica"
+      },
+      "result": {
+        "failure": "Riprova",
+        "success": "Ottimo lavoro!"
+      },
+      "scroll_hint": "← Scorri orizzontalmente per vedere altro →",
+      "share": {
+        "text": "Ho trovato il raccolto #Stardewdle #{id} in {tries} tentativi ",
+        "to_copy": "Ho trovato il raccolto #Stardewdle #{id} in {tries} tentativi\n{url}"
+      },
+      "victory": {
+        "back_home": "Torna alla home",
+        "next_mode": "Gioca a Classica",
+        "stats_button": "Statistiche"
+      },
+      "yesterday": "Il raccolto di ieri era <name>{brawlerName}</name>"
+    },
+    "fish": {
+      "attributes": {
+        "behavior": {
+          "Dart": "Scatto",
+          "Floater": "Galleggiante",
+          "Mixed": "Misto",
+          "Sinker": "Affondante",
+          "Smooth": "Fluido"
+        },
+        "headers": {
+          "behavior": "Comportamento",
+          "difficulty": "Difficoltà",
+          "fish": "Pesce",
+          "season": "Stagione",
+          "size": "Dimensione",
+          "weather": "Meteo"
+        },
+        "season": {
+          "Fall": "Autunno",
+          "Spring": "Primavera",
+          "Summer": "Estate",
+          "Winter": "Inverno"
+        },
+        "weather": {
+          "Any": "Qualsiasi",
+          "Rainy": "Piovoso",
+          "Sunny": "Soleggiato"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "Scrivi il nome di un pesce.."
+        },
+        "explanationBox": {
+          "bottomHint": "Scrivi un pesce qualsiasi per iniziare.",
+          "title": "Indovina il pesce di oggi di Stardew Valley"
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "Icona come si gioca",
+            "tooltip": "Come si gioca"
+          },
+          "patchNotes": {
+            "alt": "Icona note di patch",
+            "tooltip": "Note di patch"
+          },
+          "stats": {
+            "alt": "Icona statistiche",
+            "tooltip": "Statistiche"
+          },
+          "streak": {
+            "alt": {
+              "active": "Icona serie attiva",
+              "inactive": "Icona serie inattiva"
+            },
+            "tooltip": "Serie attuale (serie di vittorie consecutive)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "Errore: {message}",
+        "no_daily_brawler": "Nessun pesce giornaliero trovato"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "attribute_item_1": "• <strong>Difficoltà</strong>: quanto è difficile da catturare (più alto = più difficile).",
+          "attribute_item_2": "• <strong>Comportamento</strong>: Galleggiante, Scatto, Fluido, Misto o Affondante.",
+          "attribute_item_3": "• <strong>Stagione</strong>: la stagione o le stagioni in cui può essere pescato.",
+          "attribute_item_4": "• <strong>Meteo</strong>: Soleggiato, Piovoso o Qualsiasi.",
+          "attribute_item_5": "• <strong>Dimensione</strong>: la sua dimensione massima in pollici.",
+          "attribute_item_6": "• <strong>Suggerimento</strong>: il verde indica una corrispondenza esatta; l'arancione sulla Stagione indica una sovrapposizione parziale.",
+          "attributes_description": "La modalità Pesce confronta questi attributi:",
+          "attributes_title": "Attributi del pesce",
+          "daily_challenge_description": "Torna ogni giorno per un nuovo abitante segreto. Tieni traccia della tua serie e condividi il risultato con gli amici.",
+          "daily_challenge_title": "Sfida giornaliera",
+          "feedback_arrow_down": "• <strong>Freccia giù (↓)</strong>: il valore del pesce segreto è PIÙ BASSO.",
+          "feedback_arrow_up": "• <strong>Freccia su (↑)</strong>: il valore del pesce segreto è PIÙ ALTO.",
+          "feedback_arrows": "Le frecce compaiono su Difficoltà e Dimensione.",
+          "feedback_description": "Ogni riquadro ha un colore diverso a seconda del risultato:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Verde</span>: corrispondenza esatta con l'abitante segreto.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rosso</span>: nessuna corrispondenza.",
+          "feedback_title": "Feedback",
+          "how_to_play_title": "Come si gioca",
+          "introduction_description": "Indovina il pesce segreto di oggi di Stardew Valley confrontando cinque attributi. Ogni tentativo fornisce un riscontro colorato e delle frecce.",
+          "introduction_title": "Modalità Classica",
+          "step_1": "Fai il tuo primo tentativo scegliendo un abitante qualsiasi dalla lista di ricerca.",
+          "step_2": "Osserva ogni riquadro degli attributi girarsi in sequenza, rivelando un riscontro colorato.",
+          "step_3": "Leggi i riquadri verdi e rossi per individuare gli attributi corrispondenti e non corrispondenti.",
+          "step_4": "Usa le frecce su Compleanno ed Età per restringere l'intervallo.",
+          "step_5": "Fai il tuo prossimo tentativo basandoti su tutto il riscontro ricevuto.",
+          "step_6": "Continua finché non identifichi correttamente l'abitante segreto!",
+          "step_7": "Torna ogni giorno per indovinare un nuovo abitante nella Modalità Classica.",
+          "strategy_tip_1": "• Inizia con abitanti che conosci bene per stabilire una base di attributi.",
+          "strategy_tip_2": "• Regione e Stagione restringono rapidamente il gruppo — molti abitanti li condividono.",
+          "strategy_tip_3": "• Usa le frecce per eliminare interi gruppi in base a compleanno o età.",
+          "strategy_tip_4": "• L'età è ordinale: Bambino &lt; Adolescente &lt; Adulto.",
+          "strategy_tip_5": "• Un abitante deve corrispondere a TUTTO il riscontro verde contemporaneamente.",
+          "strategy_tip_6": "• Genere, Regione, Stagione e Sposabile corrispondono esattamente (nessuna freccia).",
+          "strategy_title": "Consigli strategici",
+          "title": "Come si gioca: Modalità Pesce"
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "Ancora niente qui"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "Impossibile caricare le note di patch"
+            },
+            "loading": {
+              "message": "Caricamento delle note di patch..."
+            }
+          },
+          "title": "Note di patch"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "Il tuo browser non supporta l'elemento canvas.",
+            "label": "Tentativi",
+            "title": "Numero di tentativi per partita"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "Numero medio di tentativi per partita",
+              "label": "Tentativi medi:"
+            },
+            "best_streak": {
+              "aria_label": "Migliore serie di vittorie",
+              "label": "Miglior serie:"
+            },
+            "current_streak": {
+              "aria_label": "Serie di vittorie attuale",
+              "label": "Serie attuale:"
+            },
+            "games_won": {
+              "aria_label": "Numero di partite vinte",
+              "label": "Partite vinte:"
+            },
+            "one_shots": {
+              "aria_label": "Numero di partite vinte al primo tentativo",
+              "label": "Vittorie al primo colpo:"
+            }
+          },
+          "title": "Statistiche"
+        }
+      },
+      "page_meta": {
+        "description": "Indovina il pesce di oggi di Stardew Valley dalle sue statistiche!",
+        "title": "Classica"
+      },
+      "result": {
+        "failure": "Riprova",
+        "success": "Ottimo lavoro!"
+      },
+      "scroll_hint": "← Scorri orizzontalmente per vedere altro →",
+      "share": {
+        "text": "Ho trovato il pesce #Stardewdle #{id} in {tries} tentativi ",
+        "to_copy": "Ho trovato il pesce #Stardewdle #{id} in {tries} tentativi\n{url}"
+      },
+      "victory": {
+        "back_home": "Torna alla home",
+        "next_mode": "Gioca a Classica",
+        "stats_button": "Statistiche"
+      },
+      "yesterday": "Il pesce di ieri era <name>{brawlerName}</name>"
     }
   },
   "common": {
