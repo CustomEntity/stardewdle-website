@@ -69,9 +69,10 @@
                 href="/"
             >
                 <img
-                    src="/logo.svg"
+                    src="/logo.png"
                     alt={locale.t("layout.header.logo_alt")}
-                    class="w-[400px] h-auto"
+                    class="w-[460px] max-w-[92vw] h-auto"
+                    style="filter: drop-shadow(0 3px 4px rgba(0,0,0,0.45));"
                     fetchpriority="high"
                     decoding="async"
                 />
