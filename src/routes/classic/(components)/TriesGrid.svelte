@@ -133,50 +133,23 @@
 </script>
 
 <div class="clue-container w-full overflow-x-auto overflow-y-hidden">
-    <div class="min-w-[420px] grid grid-cols-7 gap-x-19 md:gap-x-1 gap-y-2 py-2 md:p-2">
+    <div class="mx-auto grid gap-x-1.5 gap-y-2 py-2 md:p-2"
+         style="grid-template-columns: 66px 80px 106px 84px 70px 106px 78px;">
         <!-- Headers -->
-        <div class="w-18 h-8 flex items-center justify-center">
-            <span class="text-sm md:text-lg stardew-text">
-                {locale.t('pages.classic.attributes.headers.villager')}
-            </span>
-        </div>
-        <div class="w-18 h-8 flex items-center justify-center">
-            <span class="text-sm md:text-lg stardew-text">
-                {locale.t('pages.classic.attributes.headers.gender')}
-            </span>
-        </div>
-        <div class="w-18 h-8 flex items-center justify-center">
-            <span class="text-sm md:text-lg stardew-text">
-                {locale.t('pages.classic.attributes.headers.region')}
-            </span>
-        </div>
-        <div class="w-18 h-8 flex items-center justify-center">
-            <span class="text-sm md:text-lg stardew-text">
-                {locale.t('pages.classic.attributes.headers.season')}
-            </span>
-        </div>
-        <div class="w-18 h-8 flex items-center justify-center">
-            <span class="text-sm md:text-lg stardew-text">
-                {locale.t('pages.classic.attributes.headers.birthday')}
-            </span>
-        </div>
-        <div class="w-18 h-8 flex items-center justify-center">
-            <span class="text-sm md:text-lg stardew-text">
-                {locale.t('pages.classic.attributes.headers.marriageable')}
-            </span>
-        </div>
-        <div class="w-18 h-8 flex items-center justify-center">
-            <span class="text-sm md:text-lg stardew-text">
-                {locale.t('pages.classic.attributes.headers.age')}
-            </span>
-        </div>
+        {#each ['villager','gender','region','season','birthday','marriageable','age'] as h}
+            <div class="min-h-9 flex items-center justify-center px-0.5">
+                <span class="text-xs md:text-sm leading-[1.05] text-center stardew-text">
+                    {locale.t(`pages.classic.attributes.headers.${h}` as any)}
+                </span>
+            </div>
+        {/each}
 
         <!-- Grid Content -->
         {#each attempts.slice().reverse() as attempt}
 
             <!-- Villager Portrait -->
-            <div class="size-18 sv-tile"
-                 style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {backgroundColor(attempt.villager)};">
+            <div class="h-18 w-full sv-cell"
+                 style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {backgroundColor(attempt.villager)};">
                 <img src={attempt.villager.portrait_url}
                      alt={attempt.villager.name}
                      class="w-full h-full object-cover"/>
@@ -184,8 +157,8 @@
 
             <!-- Gender -->
             <div
-                    class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center"
-                    style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.gender)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 0 ? 'visible' : 'hidden'}">
+                    class="square-{attempt.villager.id} h-18 w-full relative sv-cell flex items-center justify-center"
+                    style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.gender)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 0 ? 'visible' : 'hidden'}">
                 <span class="z-10 text-white text-xs text-center break-words overflow-hidden px-1 w-full stardew-text">
                     {translate('gender', attempt.villager.gender)}
                 </span>
@@ -193,8 +166,8 @@
 
             <!-- Region -->
             <div
-                    class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center"
-                    style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.region)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 1 ? 'visible' : 'hidden'}">
+                    class="square-{attempt.villager.id} h-18 w-full relative sv-cell flex items-center justify-center"
+                    style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.region)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 1 ? 'visible' : 'hidden'}">
                 <span class="z-10 text-white text-xs text-center break-words overflow-hidden px-1 w-full stardew-text">
                     {translate('region', attempt.villager.region)}
                 </span>
@@ -202,8 +175,8 @@
 
             <!-- Birth Season -->
             <div
-                    class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center"
-                    style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.season)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 2 ? 'visible' : 'hidden'}">
+                    class="square-{attempt.villager.id} h-18 w-full relative sv-cell flex items-center justify-center"
+                    style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.season)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 2 ? 'visible' : 'hidden'}">
                 <span class="z-10 text-white text-xs text-center break-words overflow-hidden px-1 w-full stardew-text">
                     {translate('season', attempt.villager.birth_season)}
                 </span>
@@ -211,10 +184,10 @@
 
             <!-- Birthday (day number) -->
             <div
-                    class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center arrow-container"
+                    class="square-{attempt.villager.id} h-18 w-full relative sv-cell flex items-center justify-center arrow-container"
                     class:arrow-up={attempt.differences.birthday === 'HIGHER'}
                     class:arrow-down={attempt.differences.birthday === 'LOWER'}
-                    style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.birthday)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 3 ? 'visible' : 'hidden'};">
+                    style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.birthday)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 3 ? 'visible' : 'hidden'};">
     <span class="z-10 text-white text-lg text-center break-words overflow-hidden px-1 w-full stardew-text">
         {attempt.villager.birth_day}
     </span>
@@ -222,8 +195,8 @@
 
             <!-- Marriageable -->
             <div
-                    class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center"
-                    style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.marriageable)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 4 ? 'visible' : 'hidden'};">
+                    class="square-{attempt.villager.id} h-18 w-full relative sv-cell flex items-center justify-center"
+                    style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.marriageable)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 4 ? 'visible' : 'hidden'};">
     <img src="/ui/heart.png" alt={translateMarriageable(attempt.villager.marriageable)} title={translateMarriageable(attempt.villager.marriageable)}
          class="z-10 w-9 h-9 object-contain"
          style="image-rendering: pixelated; filter: drop-shadow(0 2px 0 rgba(0,0,0,0.4)); {attempt.villager.marriageable ? '' : 'filter: grayscale(1) brightness(1.5) opacity(0.5) drop-shadow(0 2px 0 rgba(0,0,0,0.3));'}"/>
@@ -231,10 +204,10 @@
 
             <!-- Age -->
             <div
-                    class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center arrow-container"
+                    class="square-{attempt.villager.id} h-18 w-full relative sv-cell flex items-center justify-center arrow-container"
                     class:arrow-up={attempt.differences.age === 'HIGHER'}
                     class:arrow-down={attempt.differences.age === 'LOWER'}
-                    style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.age)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 5 ? 'visible' : 'hidden'};">
+                    style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.age)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 5 ? 'visible' : 'hidden'};">
     <span class="z-10 text-white text-xs text-center break-words overflow-hidden px-1 w-full stardew-text">
         {translate('age', attempt.villager.age)}
     </span>

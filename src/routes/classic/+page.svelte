@@ -219,7 +219,7 @@ pointer-events: none;"
         </p>
     {/await}
 
-    <div class="flex flex-col items-center w-full md:max-w-[570px]">
+    <div class="flex flex-col items-center w-full md:max-w-[660px]">
         {#await Promise.all( [data?.villagers, data?.daily, data?.yesterday], ) then [villagers, daily, yesterdayClassic]}
             {#if !daily}
                 <p class="text-white text-lg font-poppins tracking-wide">

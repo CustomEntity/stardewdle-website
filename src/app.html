@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
-	<meta name="description" content="Daily Stardew Valley guessing game — guess the villager from clues: attributes, pixelated portraits, emojis and more.">
+	<meta name="description" content="Daily Stardew Valley guessing game — guess the villager, crop or fish from daily clues across three modes: Classic, Crop and Fish.">
 
 	<!-- JSON-LD for better SEO -->
 	<script type="application/ld+json">
@@ -22,11 +22,17 @@
 	<meta http-equiv="Pragma" content="no-cache">
 
 	<!-- Favicon -->
-	<link rel="icon" href="%sveltekit.assets%/favicon.svg" type="image/svg+xml">
-	<link rel="icon" href="%sveltekit.assets%/favicon.ico" sizes="any" type="image/x-icon">
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" type="image/png" sizes="32x32">
 
 	<!-- AllDle SDK — enables progression tracking when embedded in AllDle -->
 	<script src="https://cdn.alldle.net/sdk.js"></script>
+
+	<!-- Privacy-friendly analytics by Plausible -->
+	<script async src="https://analytics.rematchtracker.com/js/pa-unKUw2aQyZHkNFFQlk-tM.js"></script>
+	<script>
+		window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+		plausible.init()
+	</script>
 
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,14 +45,14 @@
 	<!-- Open Graph -->
 	<meta property="og:title" content="Stardewdle - Daily Stardew Valley Guessing Game">
 	<meta property="og:type" content="website">
-	<meta property="og:description" content="Daily Stardew Valley guessing game! Guess the villager from clues in Classic, Pixel and Emoji modes.">
+	<meta property="og:description" content="Daily Stardew Valley guessing game! Guess the villager, crop or fish in Classic, Crop and Fish modes.">
 	<meta property="og:image" content="https://stardewdle.gg/og-image.webp">
 	<meta property="og:url" content="https://stardewdle.gg">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Stardewdle - Daily Stardew Valley Guessing Game">
-	<meta name="twitter:description" content="Daily Stardew Valley guessing game! Guess the villager from clues in Classic, Pixel and Emoji modes.">
+	<meta name="twitter:description" content="Daily Stardew Valley guessing game! Guess the villager, crop or fish in Classic, Crop and Fish modes.">
 	<meta name="twitter:image" content="https://stardewdle.gg/og-image.webp">
 
 	<!-- PWA -->
