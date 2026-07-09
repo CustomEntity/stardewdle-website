@@ -93,52 +93,53 @@
 </script>
 
 <div class="clue-container w-full overflow-x-auto overflow-y-hidden">
-    <div class="min-w-[440px] grid grid-cols-6 gap-x-1 gap-y-2 py-2 md:p-2">
+    <div class="mx-auto grid gap-x-1.5 gap-y-2 py-2 md:p-2"
+         style="grid-template-columns: 66px 82px 82px 82px 96px 116px;">
         <!-- Headers -->
         {#each ["crop", "growth", "price", "regrow", "type", "season"] as h}
-            <div class="w-18 h-8 flex items-center justify-center">
-                <span class="text-sm md:text-lg stardew-text">{locale.t(`pages.crop.attributes.headers.${h}` as any)}</span>
+            <div class="min-h-9 flex items-center justify-center px-0.5">
+                <span class="text-xs md:text-sm leading-[1.05] text-center stardew-text">{locale.t(`pages.crop.attributes.headers.${h}` as any)}</span>
             </div>
         {/each}
 
         {#each attempts.slice().reverse() as attempt}
             <!-- Crop icon -->
-            <div class="size-18 sv-tile flex items-center justify-center"
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color:#e8d3a0;">
+            <div class="h-18 w-full sv-cell flex items-center justify-center"
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: transparent;">
                 <img src={`/crops/${attempt.crop.key}.png`} alt={attempt.crop.name}
                      title={attempt.crop.name}
                      class="w-12 h-12 object-contain" style="image-rendering: pixelated;"/>
             </div>
 
             <!-- Growth -->
-            <div class="square-{attempt.crop.id} size-18 relative sv-tile flex items-center justify-center arrow-container"
+            <div class="square-{attempt.crop.id} h-18 w-full relative sv-cell flex items-center justify-center arrow-container"
                  class:arrow-up={attempt.differences.growth === 'HIGHER'} class:arrow-down={attempt.differences.growth === 'LOWER'}
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.growth)}; visibility: {animations[attempt.crop.id] === undefined || animations[attempt.crop.id] > 0 ? 'visible' : 'hidden'};">
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.growth)}; visibility: {animations[attempt.crop.id] === undefined || animations[attempt.crop.id] > 0 ? 'visible' : 'hidden'};">
                 <span class="z-10 text-white text-lg stardew-text">{attempt.crop.growth}d</span>
             </div>
 
             <!-- Price -->
-            <div class="square-{attempt.crop.id} size-18 relative sv-tile flex items-center justify-center arrow-container"
+            <div class="square-{attempt.crop.id} h-18 w-full relative sv-cell flex items-center justify-center arrow-container"
                  class:arrow-up={attempt.differences.price === 'HIGHER'} class:arrow-down={attempt.differences.price === 'LOWER'}
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.price)}; visibility: {animations[attempt.crop.id] === undefined || animations[attempt.crop.id] > 1 ? 'visible' : 'hidden'};">
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.price)}; visibility: {animations[attempt.crop.id] === undefined || animations[attempt.crop.id] > 1 ? 'visible' : 'hidden'};">
                 <span class="z-10 text-white text-sm stardew-text">{attempt.crop.price}g</span>
             </div>
 
             <!-- Regrow -->
-            <div class="square-{attempt.crop.id} size-18 relative sv-tile flex items-center justify-center"
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.regrow)}; visibility: {animations[attempt.crop.id] === undefined || animations[attempt.crop.id] > 2 ? 'visible' : 'hidden'};">
+            <div class="square-{attempt.crop.id} h-18 w-full relative sv-cell flex items-center justify-center"
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.regrow)}; visibility: {animations[attempt.crop.id] === undefined || animations[attempt.crop.id] > 2 ? 'visible' : 'hidden'};">
                 <span class="z-10 text-white text-sm stardew-text px-1 text-center">{translate('regrow', attempt.crop.regrow ? 'yes' : 'no')}</span>
             </div>
 
             <!-- Type -->
-            <div class="square-{attempt.crop.id} size-18 relative sv-tile flex items-center justify-center"
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.type)}; visibility: {animations[attempt.crop.id] === undefined || animations[attempt.crop.id] > 3 ? 'visible' : 'hidden'};">
+            <div class="square-{attempt.crop.id} h-18 w-full relative sv-cell flex items-center justify-center"
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.type)}; visibility: {animations[attempt.crop.id] === undefined || animations[attempt.crop.id] > 3 ? 'visible' : 'hidden'};">
                 <span class="z-10 text-white text-xs stardew-text px-1 text-center break-words">{translate('type', attempt.crop.type)}</span>
             </div>
 
             <!-- Season -->
-            <div class="square-{attempt.crop.id} size-18 relative sv-tile flex items-center justify-center"
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.season)}; visibility: {animations[attempt.crop.id] === undefined || animations[attempt.crop.id] > 4 ? 'visible' : 'hidden'};">
+            <div class="square-{attempt.crop.id} h-18 w-full relative sv-cell flex items-center justify-center"
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.season)}; visibility: {animations[attempt.crop.id] === undefined || animations[attempt.crop.id] > 4 ? 'visible' : 'hidden'};">
                 <span class="z-10 text-white text-xs stardew-text px-1 text-center break-words leading-tight">{seasonsText(attempt.crop.seasons)}</span>
             </div>
         {/each}

@@ -89,50 +89,51 @@
 </script>
 
 <div class="clue-container w-full overflow-x-auto overflow-y-hidden">
-    <div class="min-w-[440px] grid grid-cols-6 gap-x-1 gap-y-2 py-2 md:p-2">
+    <div class="mx-auto grid gap-x-1.5 gap-y-2 py-2 md:p-2"
+         style="grid-template-columns: 66px 94px 100px 116px 88px 72px;">
         {#each ["fish", "difficulty", "behavior", "season", "weather", "size"] as h}
-            <div class="w-18 h-8 flex items-center justify-center">
-                <span class="text-sm md:text-lg stardew-text">{locale.t(`pages.fish.attributes.headers.${h}` as any)}</span>
+            <div class="min-h-9 flex items-center justify-center px-0.5">
+                <span class="text-xs md:text-sm leading-[1.05] text-center stardew-text">{locale.t(`pages.fish.attributes.headers.${h}` as any)}</span>
             </div>
         {/each}
 
         {#each attempts.slice().reverse() as attempt}
             <!-- Fish icon -->
-            <div class="size-18 sv-tile flex items-center justify-center"
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color:#a4c8e0;">
+            <div class="h-18 w-full sv-cell flex items-center justify-center"
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: transparent;">
                 <img src={`/fish/${attempt.fish.key}.png`} alt={attempt.fish.name} title={attempt.fish.name}
                      class="w-12 h-12 object-contain" style="image-rendering: pixelated;"/>
             </div>
 
             <!-- Difficulty -->
-            <div class="square-{attempt.fish.id} size-18 relative sv-tile flex items-center justify-center arrow-container"
+            <div class="square-{attempt.fish.id} h-18 w-full relative sv-cell flex items-center justify-center arrow-container"
                  class:arrow-up={attempt.differences.difficulty === 'HIGHER'} class:arrow-down={attempt.differences.difficulty === 'LOWER'}
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.difficulty)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 0 ? 'visible' : 'hidden'};">
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.difficulty)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 0 ? 'visible' : 'hidden'};">
                 <span class="z-10 text-white text-lg stardew-text">{attempt.fish.difficulty}</span>
             </div>
 
             <!-- Behavior -->
-            <div class="square-{attempt.fish.id} size-18 relative sv-tile flex items-center justify-center"
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.behavior)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 1 ? 'visible' : 'hidden'};">
+            <div class="square-{attempt.fish.id} h-18 w-full relative sv-cell flex items-center justify-center"
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.behavior)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 1 ? 'visible' : 'hidden'};">
                 <span class="z-10 text-white text-xs stardew-text px-1 text-center break-words">{translate('behavior', attempt.fish.behavior)}</span>
             </div>
 
             <!-- Season -->
-            <div class="square-{attempt.fish.id} size-18 relative sv-tile flex items-center justify-center"
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.season)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 2 ? 'visible' : 'hidden'};">
+            <div class="square-{attempt.fish.id} h-18 w-full relative sv-cell flex items-center justify-center"
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.season)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 2 ? 'visible' : 'hidden'};">
                 <span class="z-10 text-white text-xs stardew-text px-1 text-center break-words leading-tight">{seasonsText(attempt.fish.seasons)}</span>
             </div>
 
             <!-- Weather -->
-            <div class="square-{attempt.fish.id} size-18 relative sv-tile flex items-center justify-center"
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.weather)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 3 ? 'visible' : 'hidden'};">
+            <div class="square-{attempt.fish.id} h-18 w-full relative sv-cell flex items-center justify-center"
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.weather)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 3 ? 'visible' : 'hidden'};">
                 <span class="z-10 text-white text-sm stardew-text px-1 text-center">{translate('weather', attempt.fish.weather)}</span>
             </div>
 
             <!-- Size -->
-            <div class="square-{attempt.fish.id} size-18 relative sv-tile flex items-center justify-center arrow-container"
+            <div class="square-{attempt.fish.id} h-18 w-full relative sv-cell flex items-center justify-center arrow-container"
                  class:arrow-up={attempt.differences.size === 'HIGHER'} class:arrow-down={attempt.differences.size === 'LOWER'}
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.size)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 4 ? 'visible' : 'hidden'};">
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.size)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 4 ? 'visible' : 'hidden'};">
                 <span class="z-10 text-white text-lg stardew-text">{attempt.fish.maxSize}"</span>
             </div>
         {/each}
