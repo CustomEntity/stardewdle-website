@@ -91,7 +91,7 @@
     },
     "villager": {
       "page_meta": {
-        "title": "Klassisch",
+        "title": "Dorfbewohner",
         "description": "Rate den heutigen Stardew Valley Villager!"
       },
       "errors": {
@@ -105,8 +105,8 @@
       "scroll_hint": "← Horizontal scrollen, um mehr zu sehen →",
       "yesterday": "Der gestrige Villager war <n>{brawlerName}</n>",
       "share": {
-        "text": "Ich habe #Stardewdle Villager #{id} im Classic-Modus in {tries} Versuchen gefunden ",
-        "to_copy": "Ich habe #Stardewdle Villager #{id} im Classic-Modus in {tries} Versuchen gefunden\n"
+        "text": "Ich habe #Stardewdle Villager #{id} im Dorfbewohner-Modus in {tries} Versuchen gefunden ",
+        "to_copy": "Ich habe #Stardewdle Villager #{id} im Dorfbewohner-Modus in {tries} Versuchen gefunden\n"
       },
       "victory": {
         "stats_button": "Statistiken",
@@ -203,11 +203,11 @@
           }
         },
         "how_to_play_classic": {
-          "title": "So spielst du Stardewdle: Classic-Modus - Attribut-Rate-Herausforderung",
+          "title": "So spielst du Stardewdle: Dorfbewohner-Modus - Attribut-Rate-Herausforderung",
           "introduction_title": "Rate den Villager des Tages anhand von Attribut-Hinweisen",
-          "introduction_description": "Der Classic-Modus ist das Haupt-Stardew Valley Ratespiel, bei dem du herausfindest, welcher Charakter es ist, indem du seine einzigartigen Attribute analysierst. Jeder Versuch bringt dich näher, indem er enthüllt, ob deine Vermutungen höher, niedriger sind oder mit den Eigenschaften des mysteriösen Villagers übereinstimmen. Perfekt für Anfänger und Stardew Valley Experten!",
+          "introduction_description": "Der Dorfbewohner-Modus ist das Haupt-Stardew Valley Ratespiel, bei dem du herausfindest, welcher Charakter es ist, indem du seine einzigartigen Attribute analysierst. Jeder Versuch bringt dich näher, indem er enthüllt, ob deine Vermutungen höher, niedriger sind oder mit den Eigenschaften des mysteriösen Villagers übereinstimmen. Perfekt für Anfänger und Stardew Valley Experten!",
           "attributes_title": "Villager-Attribute",
-          "attributes_description": "Der Classic-Modus von Stardewdle bietet diese sechs Schlüsselattribute für jeden Villager:",
+          "attributes_description": "Der Dorfbewohner-Modus von Stardewdle bietet diese sechs Schlüsselattribute für jeden Villager:",
           "attribute_item_1": "• <strong>Seltenheit</strong>: Die Seltenheitsstufe des Villagers (Gewöhnlich, Selten, Super Selten, Episch, Mythisch, Legendär, Ultra Legendär).",
           "attribute_item_2": "• <strong>Klasse</strong>: Die Kampfrolle des Villagers (z.B. Panzer, Schadensdealer, Support, Assassine).",
           "attribute_item_3": "• <strong>Bewegung</strong>: Die Bewegungsgeschwindigkeit des Villagers (Sehr Langsam, Langsam, Normal, Schnell, Sehr Schnell).",
@@ -221,14 +221,14 @@
           "feedback_arrows": "Für die Attribute <strong>Bewegung</strong>, <strong>Reichweite</strong>, <strong>Nachladen</strong> und <strong>Jahr</strong> siehst du Richtungspfeile:",
           "feedback_arrow_up": "• <strong>Pfeil Hoch (↑)</strong>: Der Wert des geheimen Villagers ist HÖHER als dein Versuch.",
           "feedback_arrow_down": "• <strong>Pfeil Runter (↓)</strong>: Der Wert des geheimen Villagers ist NIEDRIGER als dein Versuch.",
-          "how_to_play_title": "Stardewdle Classic-Modus spielen",
+          "how_to_play_title": "Stardewdle Dorfbewohner-Modus spielen",
           "step_1": "Beginne mit dem Erraten eines beliebigen Villagers aus der Suchliste.",
           "step_2": "Beobachte, wie jede Attributkachel nacheinander umdreht und das farbkodierte Feedback offenbart.",
           "step_3": "Analysiere die grünen und roten Kacheln, um übereinstimmende Attribute zu identifizieren.",
           "step_4": "Nutze die Richtungspfeile bei Bewegung, Reichweite, Nachladen und Jahr, um Möglichkeiten einzugrenzen.",
           "step_5": "Mache deinen nächsten Versuch basierend auf dem erhaltenen kombinierten Feedback.",
           "step_6": "Mache weiter, bis du den geheimen Villager korrekt identifizierst!",
-          "step_7": "Komm täglich zurück für einen neuen Villager im Classic-Modus.",
+          "step_7": "Komm täglich zurück für einen neuen Villager im Dorfbewohner-Modus.",
           "strategy_title": "Gewinnstrategien",
           "strategy_tip_1": "• Beginne mit Villagern, die du gut kennst, um eine Basislinie von Attributmustern zu etablieren.",
           "strategy_tip_2": "• Achte auf die sequentielle Flip-Animation – jede Kachel offenbart Informationen der Reihe nach.",
@@ -470,7 +470,7 @@
       },
       "page_meta": {
         "description": "Errate die heutige Stardew-Valley-Pflanze anhand ihrer Werte!",
-        "title": "Klassisch"
+        "title": "Anbau"
       },
       "result": {
         "failure": "Versuch es noch mal",
@@ -637,7 +637,7 @@
       },
       "page_meta": {
         "description": "Errate den heutigen Stardew-Valley-Fisch anhand seiner Werte!",
-        "title": "Klassisch"
+        "title": "Fisch"
       },
       "result": {
         "failure": "Versuch es noch mal",

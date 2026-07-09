@@ -91,7 +91,7 @@
     },
     "villager": {
       "page_meta": {
-        "title": "Clásico",
+        "title": "Aldeano",
         "description": "¡Adivina el villager de Stardew Valley de hoy!"
       },
       "errors": {
@@ -203,11 +203,11 @@
           }
         },
         "how_to_play_classic": {
-          "title": "Cómo Jugar a Stardewdle: Modo Classic - Desafío de Adivinanza de Atributos",
+          "title": "Cómo Jugar a Stardewdle: Modo Aldeano - Desafío de Adivinanza de Atributos",
           "introduction_title": "Adivina el Villager del Día Usando Pistas de Atributos",
-          "introduction_description": "El Modo Classic es el juego de adivinanzas principal de Stardew Valley donde descifras qué personaje es analizando sus atributos únicos. Cada intento te acerca más revelando si tus suposiciones son más altas, más bajas o coinciden con los rasgos del villager misterioso. ¡Perfecto tanto para principiantes como para expertos de Stardew Valley!",
+          "introduction_description": "El Modo Aldeano es el juego de adivinanzas principal de Stardew Valley donde descifras qué personaje es analizando sus atributos únicos. Cada intento te acerca más revelando si tus suposiciones son más altas, más bajas o coinciden con los rasgos del villager misterioso. ¡Perfecto tanto para principiantes como para expertos de Stardew Valley!",
           "attributes_title": "Atributos del Villager",
-          "attributes_description": "El Modo Classic de Stardewdle tiene estos seis atributos clave para cada Villager:",
+          "attributes_description": "El Modo Aldeano de Stardewdle tiene estos seis atributos clave para cada Villager:",
           "attribute_item_1": "• <strong>Rareza</strong>: El nivel de rareza del Villager (Común, Raro, Super Raro, Épico, Mítico, Legendario, Ultra Legendario).",
           "attribute_item_2": "• <strong>Clase</strong>: El rol del Villager en combate (ej: Tanque, Tirador, Soporte, Asesino).",
           "attribute_item_3": "• <strong>Movimiento</strong>: La velocidad de movimiento del Villager (Muy Lento, Lento, Normal, Rápido, Muy Rápido).",
@@ -221,14 +221,14 @@
           "feedback_arrows": "Para los atributos <strong>Movimiento</strong>, <strong>Alcance</strong>, <strong>Recarga</strong> y <strong>Año</strong>, verás flechas direccionales:",
           "feedback_arrow_up": "• <strong>Flecha Arriba (↑)</strong>: El valor del Villager secreto es MAYOR que tu intento.",
           "feedback_arrow_down": "• <strong>Flecha Abajo (↓)</strong>: El valor del Villager secreto es MENOR que tu intento.",
-          "how_to_play_title": "Jugando el Modo Classic de Stardewdle",
+          "how_to_play_title": "Jugando el Modo Aldeano de Stardewdle",
           "step_1": "Comienza adivinando cualquier Villager desde la lista de búsqueda.",
           "step_2": "Observa cómo cada casilla de atributo gira en secuencia, revelando la retroalimentación de color.",
           "step_3": "Analiza las casillas verdes y rojas para identificar atributos coincidentes.",
           "step_4": "Usa las flechas direccionales en Movimiento, Alcance, Recarga y Año para reducir las posibilidades.",
           "step_5": "Haz tu siguiente intento basándote en la retroalimentación combinada recibida.",
           "step_6": "¡Continúa hasta identificar correctamente al Villager secreto!",
-          "step_7": "Vuelve diariamente para un nuevo Villager a adivinar en Modo Classic.",
+          "step_7": "Vuelve diariamente para un nuevo Villager a adivinar en Modo Aldeano.",
           "strategy_title": "Estrategias Ganadoras",
           "strategy_tip_1": "• Comienza con Villagers que conozcas bien para establecer una base de patrones.",
           "strategy_tip_2": "• Presta atención a la animación de giro secuencial – cada casilla revela información en orden.",
@@ -470,7 +470,7 @@
       },
       "page_meta": {
         "description": "¡Adivina el cultivo de hoy de Stardew Valley a partir de sus estadísticas!",
-        "title": "Clásico"
+        "title": "Cultivo"
       },
       "result": {
         "failure": "Inténtalo de nuevo",
@@ -637,7 +637,7 @@
       },
       "page_meta": {
         "description": "¡Adivina el pez de hoy de Stardew Valley a partir de sus estadísticas!",
-        "title": "Clásico"
+        "title": "Pez"
       },
       "result": {
         "failure": "Inténtalo de nuevo",

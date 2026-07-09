@@ -91,7 +91,7 @@
     },
     "villager": {
       "page_meta": {
-        "title": "Clássico",
+        "title": "Aldeão",
         "description": "Adivinhe o villager de Stardew Valley de hoje!"
       },
       "errors": {
@@ -470,7 +470,7 @@
       },
       "page_meta": {
         "description": "Adivinhe o cultivo de hoje de Stardew Valley pelas suas estatísticas!",
-        "title": "Clássico"
+        "title": "Cultivo"
       },
       "result": {
         "failure": "Tente novamente",
@@ -637,7 +637,7 @@
       },
       "page_meta": {
         "description": "Adivinhe o peixe de hoje de Stardew Valley pelas suas estatísticas!",
-        "title": "Clássico"
+        "title": "Peixe"
       },
       "result": {
         "failure": "Tente novamente",

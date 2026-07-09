@@ -91,7 +91,7 @@
     },
     "villager": {
       "page_meta": {
-        "title": "Классический",
+        "title": "Житель",
         "description": "Угадайте сегодняшнего бойца Stardew Valley!"
       },
       "errors": {
@@ -470,7 +470,7 @@
       },
       "page_meta": {
         "description": "Угадайте сегодняшнюю культуру Stardew Valley по её характеристикам!",
-        "title": "Классика"
+        "title": "Культура"
       },
       "result": {
         "failure": "Попробуйте снова",
@@ -637,7 +637,7 @@
       },
       "page_meta": {
         "description": "Угадайте сегодняшнюю рыбу Stardew Valley по её характеристикам!",
-        "title": "Классика"
+        "title": "Рыба"
       },
       "result": {
         "failure": "Попробуйте снова",

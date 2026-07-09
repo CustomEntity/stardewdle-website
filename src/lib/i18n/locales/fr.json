@@ -91,7 +91,7 @@
     },
     "villager": {
       "page_meta": {
-        "title": "Classique",
+        "title": "Villageois",
         "description": "Devine le villageois de Stardew Valley du jour en mode Classique !"
       },
       "errors": {
@@ -271,7 +271,7 @@
     },
     "crop": {
       "page_meta": {
-        "title": "Classique",
+        "title": "Culture",
         "description": "Devine la culture de Stardew Valley du jour d'après ses stats !"
       },
       "errors": {
@@ -437,7 +437,7 @@
     },
     "fish": {
       "page_meta": {
-        "title": "Classique",
+        "title": "Poisson",
         "description": "Devine le poisson de Stardew Valley du jour d'après ses stats !"
       },
       "errors": {

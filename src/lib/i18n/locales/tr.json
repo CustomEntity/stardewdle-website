@@ -91,7 +91,7 @@
     },
     "villager": {
       "page_meta": {
-        "title": "Klasik",
+        "title": "Köylü",
         "description": "Bugünkü Stardew Valley villager'ını tahmin edin!"
       },
       "errors": {
@@ -470,7 +470,7 @@
       },
       "page_meta": {
         "description": "Bugünün Stardew Valley ürününü istatistiklerinden tahmin et!",
-        "title": "Klasik"
+        "title": "Ürün"
       },
       "result": {
         "failure": "Tekrar dene",
@@ -637,7 +637,7 @@
       },
       "page_meta": {
         "description": "Bugünün Stardew Valley balığını istatistiklerinden tahmin et!",
-        "title": "Klasik"
+        "title": "Balık"
       },
       "result": {
         "failure": "Tekrar dene",

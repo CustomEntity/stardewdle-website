@@ -91,7 +91,7 @@
     },
     "villager": {
       "page_meta": {
-        "title": "经典",
+        "title": "村民",
         "description": "猜出今日的 Stardew Valley 英雄！"
       },
       "errors": {
@@ -470,7 +470,7 @@
       },
       "page_meta": {
         "description": "根据属性猜猜今天的星露谷物语作物!",
-        "title": "经典"
+        "title": "作物"
       },
       "result": {
         "failure": "再试一次",
@@ -637,7 +637,7 @@
       },
       "page_meta": {
         "description": "根据属性猜猜今天的星露谷物语鱼类!",
-        "title": "经典"
+        "title": "鱼类"
       },
       "result": {
         "failure": "再试一次",

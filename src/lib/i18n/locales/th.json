@@ -91,7 +91,7 @@
     },
     "villager": {
       "page_meta": {
-        "title": "คลาสสิก",
+        "title": "ชาวบ้าน",
         "description": "ทาย villager ของ Stardew Valley วันนี้!"
       },
       "errors": {
@@ -470,7 +470,7 @@
       },
       "page_meta": {
         "description": "ทายพืชผล Stardew Valley ของวันนี้จากคุณสมบัติของมัน!",
-        "title": "คลาสสิก"
+        "title": "พืชผล"
       },
       "result": {
         "failure": "ลองอีกครั้ง",
@@ -637,7 +637,7 @@
       },
       "page_meta": {
         "description": "ทายปลา Stardew Valley ของวันนี้จากคุณสมบัติของมัน!",
-        "title": "คลาสสิก"
+        "title": "ปลา"
       },
       "result": {
         "failure": "ลองอีกครั้ง",

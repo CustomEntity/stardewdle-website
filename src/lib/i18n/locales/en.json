@@ -5,7 +5,7 @@
   "layout": {
     "page_meta": {
       "base_title": "Daily Stardew Valley Guessing Game",
-      "base_description": "Stardewdle is the daily Stardew Valley guessing game. Take on a new challenge every day across three modes — Classic, Crop and Fish — and test your Stardew Valley knowledge.",
+      "base_description": "Stardewdle is the daily Stardew Valley guessing game. Take on a new challenge every day across three modes — Villager, Crop and Fish — and test your Stardew Valley knowledge.",
       "site_name": "Stardewdle"
     },
     "header": {
@@ -30,11 +30,11 @@
     "modals": {
       "about": {
         "title": "About",
-        "discover": "Welcome to Stardewdle, the daily Stardew Valley guessing game! Test your knowledge across three modes — Classic (villagers), Crop and Fish — with a new puzzle every day.",
+        "discover": "Welcome to Stardewdle, the daily Stardew Valley guessing game! Test your knowledge across three modes — Villager, Crop and Fish — with a new puzzle every day.",
         "disclaimer": "Stardewdle is an unofficial fan project. Stardew Valley is created by ConcernedApe; all characters and artwork belong to their respective owners. This project is not affiliated with, sponsored by, or endorsed by ConcernedApe.",
         "game_modes": {
           "title": "Three daily modes",
-          "description": "Classic compares six villager attributes (gender, region, birthday, marriageable, age). Crop compares five crop attributes (growth, price, regrow, type, season). Fish compares five fish attributes (difficulty, behavior, season, weather, size). A fresh puzzle for each mode, every day."
+          "description": "Villager compares six attributes (gender, region, birthday, marriageable, age). Crop compares five crop attributes (growth, price, regrow, type, season). Fish compares five fish attributes (difficulty, behavior, season, weather, size). A fresh puzzle for each mode, every day."
         },
         "dle_games": {
           "title": "More -dle games",
@@ -91,8 +91,8 @@
     },
     "villager": {
       "page_meta": {
-        "title": "Classic",
-        "description": "Guess today's Stardew Valley villager in Classic mode!"
+        "title": "Villager",
+        "description": "Guess today's Stardew Valley villager in Villager mode!"
       },
       "errors": {
         "no_daily_brawler": "No daily villager found",
@@ -271,7 +271,7 @@
     },
     "crop": {
       "page_meta": {
-        "title": "Classic",
+        "title": "Crop",
         "description": "Guess today's Stardew Valley crop from its stats!"
       },
       "errors": {
@@ -291,7 +291,7 @@
       "victory": {
         "stats_button": "Stats",
         "back_home": "Back to home",
-        "next_mode": "Play Classic"
+        "next_mode": "Play Villager"
       },
       "components": {
         "explanationBox": {
@@ -371,7 +371,7 @@
         },
         "how_to_play_classic": {
           "title": "How to Play: Crop Mode",
-          "introduction_title": "Classic Mode",
+          "introduction_title": "Crop Mode",
           "introduction_description": "Guess the secret Stardew Valley crop of the day by comparing five attributes. Each guess gives color-coded feedback and arrows.",
           "attributes_title": "Crop Attributes",
           "attributes_description": "Crop mode compares these attributes:",
@@ -395,7 +395,7 @@
           "step_4": "Use the arrows on Birthday and Age to narrow the range.",
           "step_5": "Make your next guess based on all the feedback received.",
           "step_6": "Continue until you correctly identify the secret villager!",
-          "step_7": "Return daily for a new villager to guess in Classic Mode.",
+          "step_7": "Return daily for a new villager to guess in Crop Mode.",
           "strategy_title": "Strategy Tips",
           "strategy_tip_1": "• Start with villagers you know well to establish a baseline of attributes.",
           "strategy_tip_2": "• Region and Season narrow the pool fast — many villagers share them.",
@@ -437,7 +437,7 @@
     },
     "fish": {
       "page_meta": {
-        "title": "Classic",
+        "title": "Fish",
         "description": "Guess today's Stardew Valley fish from its stats!"
       },
       "errors": {
@@ -457,7 +457,7 @@
       "victory": {
         "stats_button": "Stats",
         "back_home": "Back to home",
-        "next_mode": "Play Classic"
+        "next_mode": "Play Villager"
       },
       "components": {
         "explanationBox": {
@@ -537,7 +537,7 @@
         },
         "how_to_play_classic": {
           "title": "How to Play: Fish Mode",
-          "introduction_title": "Classic Mode",
+          "introduction_title": "Fish Mode",
           "introduction_description": "Guess the secret Stardew Valley fish of the day by comparing five attributes. Each guess gives color-coded feedback and arrows.",
           "attributes_title": "Fish Attributes",
           "attributes_description": "Fish mode compares these attributes:",
@@ -561,7 +561,7 @@
           "step_4": "Use the arrows on Birthday and Age to narrow the range.",
           "step_5": "Make your next guess based on all the feedback received.",
           "step_6": "Continue until you correctly identify the secret villager!",
-          "step_7": "Return daily for a new villager to guess in Classic Mode.",
+          "step_7": "Return daily for a new villager to guess in Fish Mode.",
           "strategy_title": "Strategy Tips",
           "strategy_tip_1": "• Start with villagers you know well to establish a baseline of attributes.",
           "strategy_tip_2": "• Region and Season narrow the pool fast — many villagers share them.",

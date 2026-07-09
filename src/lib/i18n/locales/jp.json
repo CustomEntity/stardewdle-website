@@ -91,7 +91,7 @@
     },
     "villager": {
       "page_meta": {
-        "title": "クラシック",
+        "title": "住民",
         "description": "今日のStardew Valleyブロウラーを当てよう！"
       },
       "errors": {
@@ -470,7 +470,7 @@
       },
       "page_meta": {
         "description": "ステータスから今日のStardew Valleyの作物を当てよう!",
-        "title": "クラシック"
+        "title": "作物"
       },
       "result": {
         "failure": "もう一度挑戦",
@@ -637,7 +637,7 @@
       },
       "page_meta": {
         "description": "ステータスから今日のStardew Valleyの魚を当てよう!",
-        "title": "クラシック"
+        "title": "魚"
       },
       "result": {
         "failure": "もう一度挑戦",

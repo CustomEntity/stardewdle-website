@@ -38,13 +38,13 @@
           "title": "Crediti"
         },
         "disclaimer": "Stardewdle è un progetto amatoriale non ufficiale. Stardew Valley è creato da ConcernedApe; tutti i personaggi e le illustrazioni appartengono ai rispettivi proprietari. Questo progetto non è affiliato, sponsorizzato o approvato da ConcernedApe.",
-        "discover": "Benvenuto su Stardewdle, il gioco quotidiano di indovinelli su Stardew Valley! Metti alla prova le tue conoscenze in tre modalità — Classica (abitanti), Raccolto e Pesce — con un nuovo enigma ogni giorno.",
+        "discover": "Benvenuto su Stardewdle, il gioco quotidiano di indovinelli su Stardew Valley! Metti alla prova le tue conoscenze in tre modalità — Abitante (abitanti), Raccolto e Pesce — con un nuovo enigma ogni giorno.",
         "dle_games": {
           "description": "Ti è piaciuto Stardewdle? Scopri l'intera famiglia di giochi giornalieri -dle nell'hub collegato nel menu.",
           "title": "Altri giochi -dle"
         },
         "game_modes": {
-          "description": "Classica confronta sei attributi degli abitanti (genere, regione, compleanno, sposabile, età). Raccolto confronta cinque attributi del raccolto (crescita, prezzo, ricrescita, tipo, stagione). Pesce confronta cinque attributi del pesce (difficoltà, comportamento, stagione, meteo, dimensione). Un nuovo enigma per ogni modalità, ogni giorno.",
+          "description": "Abitante confronta sei attributi degli abitanti (genere, regione, compleanno, sposabile, età). Raccolto confronta cinque attributi del raccolto (crescita, prezzo, ricrescita, tipo, stagione). Pesce confronta cinque attributi del pesce (difficoltà, comportamento, stagione, meteo, dimensione). Un nuovo enigma per ogni modalità, ogni giorno.",
           "title": "Tre modalità giornaliere"
         },
         "inspiration": {
@@ -91,7 +91,7 @@
     },
     "villager": {
       "page_meta": {
-        "title": "Classic",
+        "title": "Abitante",
         "description": "Indovina il villager di Stardew Valley di oggi!"
       },
       "errors": {
@@ -203,11 +203,11 @@
           }
         },
         "how_to_play_classic": {
-          "title": "Come Giocare a Stardewdle: Modalità Classic - Sfida Quotidiana di Stardew Valley",
-          "introduction_title": "Comprendere la Modalità Classic di Stardewdle",
-          "introduction_description": "Nella modalità Classic, metterai alla prova le tue conoscenze sui Villager di Stardew Valley attraverso un gioco di indovinelli strategico. Il tuo obiettivo è identificare il Villager segreto analizzando sei attributi chiave. Ad ogni tentativo riceverai feedback codificati a colori e frecce direzionali per guidarti verso la risposta corretta in questa sfida quotidiana.",
+          "title": "Come Giocare a Stardewdle: Modalità Abitante - Sfida Quotidiana di Stardew Valley",
+          "introduction_title": "Comprendere la Modalità Abitante di Stardewdle",
+          "introduction_description": "Nella modalità Abitante, metterai alla prova le tue conoscenze sui Villager di Stardew Valley attraverso un gioco di indovinelli strategico. Il tuo obiettivo è identificare il Villager segreto analizzando sei attributi chiave. Ad ogni tentativo riceverai feedback codificati a colori e frecce direzionali per guidarti verso la risposta corretta in questa sfida quotidiana.",
           "attributes_title": "Attributi del Villager",
-          "attributes_description": "La modalità Classic di Stardewdle include questi sei attributi chiave per ogni Villager:",
+          "attributes_description": "La modalità Abitante di Stardewdle include questi sei attributi chiave per ogni Villager:",
           "attribute_item_1": "• <strong>Rarità</strong>: Il livello di rarità del Villager (Comune, Raro, Super Raro, Epico, Mitico, Leggendario, Ultra Leggendario).",
           "attribute_item_2": "• <strong>Classe</strong>: Il ruolo del Villager in battaglia (es. Tank, Damage Dealer, Support, Assassin).",
           "attribute_item_3": "• <strong>Movimento</strong>: La velocità di movimento del Villager (Molto Lento, Lento, Normale, Veloce, Molto Veloce).",
@@ -221,14 +221,14 @@
           "feedback_arrows": "Per gli attributi <strong>Movimento</strong>, <strong>Gittata</strong>, <strong>Ricarica</strong> e <strong>Anno</strong>, vedrai delle frecce direzionali:",
           "feedback_arrow_up": "• <strong>Freccia Su (↑)</strong>: Il valore del Villager segreto è PIÙ ALTO del tuo tentativo.",
           "feedback_arrow_down": "• <strong>Freccia Giù (↓)</strong>: Il valore del Villager segreto è PIÙ BASSO del tuo tentativo.",
-          "how_to_play_title": "Giocare alla Modalità Classic di Stardewdle",
+          "how_to_play_title": "Giocare alla Modalità Abitante di Stardewdle",
           "step_1": "Inizia facendo il primo tentativo con un qualsiasi Villager dalla lista di ricerca.",
           "step_2": "Osserva ogni casella degli attributi che si ribalta in sequenza, rivelando il feedback colorato.",
           "step_3": "Analizza le caselle verdi e rosse per identificare gli attributi corrispondenti e non corrispondenti.",
           "step_4": "Usa le frecce direzionali su Movimento, Gittata, Ricarica e Anno per restringere le possibilità.",
           "step_5": "Fai il tuo prossimo tentativo basandoti sul feedback combinato ricevuto.",
           "step_6": "Continua finché non identifichi correttamente il Villager segreto!",
-          "step_7": "Torna ogni giorno per un nuovo Villager da indovinare nella modalità Classic.",
+          "step_7": "Torna ogni giorno per un nuovo Villager da indovinare nella modalità Abitante.",
           "strategy_title": "Consigli per una Strategia Vincente",
           "strategy_tip_1": "• Inizia con i Villager che conosci bene per stabilire una base di pattern degli attributi.",
           "strategy_tip_2": "• Presta attenzione all'animazione sequenziale di ribaltamento – ogni casella rivela informazioni in ordine.",
@@ -405,14 +405,14 @@
           "feedback_title": "Feedback",
           "how_to_play_title": "Come si gioca",
           "introduction_description": "Indovina il raccolto segreto di oggi di Stardew Valley confrontando cinque attributi. Ogni tentativo fornisce un riscontro colorato e delle frecce.",
-          "introduction_title": "Modalità Classica",
+          "introduction_title": "Modalità Raccolto",
           "step_1": "Fai il tuo primo tentativo scegliendo un abitante qualsiasi dalla lista di ricerca.",
           "step_2": "Osserva ogni riquadro degli attributi girarsi in sequenza, rivelando un riscontro colorato.",
           "step_3": "Leggi i riquadri verdi e rossi per individuare gli attributi corrispondenti e non corrispondenti.",
           "step_4": "Usa le frecce su Compleanno ed Età per restringere l'intervallo.",
           "step_5": "Fai il tuo prossimo tentativo basandoti su tutto il riscontro ricevuto.",
           "step_6": "Continua finché non identifichi correttamente l'abitante segreto!",
-          "step_7": "Torna ogni giorno per indovinare un nuovo abitante nella Modalità Classica.",
+          "step_7": "Torna ogni giorno per indovinare un nuovo abitante nella Modalità Raccolto.",
           "strategy_tip_1": "• Inizia con abitanti che conosci bene per stabilire una base di attributi.",
           "strategy_tip_2": "• Regione e Stagione restringono rapidamente il gruppo — molti abitanti li condividono.",
           "strategy_tip_3": "• Usa le frecce per eliminare interi gruppi in base a compleanno o età.",
@@ -470,7 +470,7 @@
       },
       "page_meta": {
         "description": "Indovina il raccolto di oggi di Stardew Valley dalle sue statistiche!",
-        "title": "Classica"
+        "title": "Raccolto"
       },
       "result": {
         "failure": "Riprova",
@@ -483,7 +483,7 @@
       },
       "victory": {
         "back_home": "Torna alla home",
-        "next_mode": "Gioca a Classica",
+        "next_mode": "Gioca a Abitante",
         "stats_button": "Statistiche"
       },
       "yesterday": "Il raccolto di ieri era <name>{brawlerName}</name>"
@@ -572,14 +572,14 @@
           "feedback_title": "Feedback",
           "how_to_play_title": "Come si gioca",
           "introduction_description": "Indovina il pesce segreto di oggi di Stardew Valley confrontando cinque attributi. Ogni tentativo fornisce un riscontro colorato e delle frecce.",
-          "introduction_title": "Modalità Classica",
+          "introduction_title": "Modalità Pesce",
           "step_1": "Fai il tuo primo tentativo scegliendo un abitante qualsiasi dalla lista di ricerca.",
           "step_2": "Osserva ogni riquadro degli attributi girarsi in sequenza, rivelando un riscontro colorato.",
           "step_3": "Leggi i riquadri verdi e rossi per individuare gli attributi corrispondenti e non corrispondenti.",
           "step_4": "Usa le frecce su Compleanno ed Età per restringere l'intervallo.",
           "step_5": "Fai il tuo prossimo tentativo basandoti su tutto il riscontro ricevuto.",
           "step_6": "Continua finché non identifichi correttamente l'abitante segreto!",
-          "step_7": "Torna ogni giorno per indovinare un nuovo abitante nella Modalità Classica.",
+          "step_7": "Torna ogni giorno per indovinare un nuovo abitante nella Modalità Pesce.",
           "strategy_tip_1": "• Inizia con abitanti che conosci bene per stabilire una base di attributi.",
           "strategy_tip_2": "• Regione e Stagione restringono rapidamente il gruppo — molti abitanti li condividono.",
           "strategy_tip_3": "• Usa le frecce per eliminare interi gruppi in base a compleanno o età.",
@@ -637,7 +637,7 @@
       },
       "page_meta": {
         "description": "Indovina il pesce di oggi di Stardew Valley dalle sue statistiche!",
-        "title": "Classica"
+        "title": "Pesce"
       },
       "result": {
         "failure": "Riprova",
@@ -650,7 +650,7 @@
       },
       "victory": {
         "back_home": "Torna alla home",
-        "next_mode": "Gioca a Classica",
+        "next_mode": "Gioca a Abitante",
         "stats_button": "Statistiche"
       },
       "yesterday": "Il pesce di ieri era <name>{brawlerName}</name>"
