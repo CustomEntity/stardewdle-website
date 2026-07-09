@@ -85,6 +85,33 @@ CREATE TABLE IF NOT EXISTS daily_crop (
     crop_id  INTEGER NOT NULL REFERENCES crops(id)
 );
 
+CREATE TABLE IF NOT EXISTS fish (
+    id         SERIAL PRIMARY KEY,
+    key        TEXT UNIQUE NOT NULL,   -- fish item id
+    difficulty INTEGER,                -- catch difficulty
+    behavior   TEXT,                   -- Floater | Dart | Smooth | Mixed | Sinker
+    max_size   INTEGER,                -- max size (inches)
+    weather    TEXT,                   -- Sunny | Rainy | Any
+    seasons    TEXT[],
+    sprite     INTEGER,
+    sheet      TEXT,
+    released   BOOLEAN NOT NULL DEFAULT TRUE
+);
+
+CREATE TABLE IF NOT EXISTS fish_translations (
+    fish_id   INTEGER NOT NULL REFERENCES fish(id) ON DELETE CASCADE,
+    language  TEXT NOT NULL,
+    name      TEXT NOT NULL,
+    PRIMARY KEY (fish_id, language)
+);
+
+CREATE TABLE IF NOT EXISTS daily_fish (
+    id       SERIAL PRIMARY KEY,
+    game_id  INTEGER NOT NULL,
+    date     DATE NOT NULL UNIQUE,
+    fish_id  INTEGER NOT NULL REFERENCES fish(id)
+);
+
 CREATE TABLE IF NOT EXISTS patch_notes (
     id      SERIAL PRIMARY KEY,
     date    DATE NOT NULL,

@@ -23,6 +23,12 @@
             href="/crop"/>
     <HomeButton
             class={'w-full h-[120px]'}
+            title={ locale.t('pages.home.button.fish.title') }
+            subtitle={ locale.t('pages.home.button.fish.description') }
+            gameMode="fish"
+            href="/fish"/>
+    <HomeButton
+            class={'w-full h-[120px]'}
             title={ locale.t('pages.home.button.pixel.title') }
             subtitle={ locale.t('pages.home.button.pixel.description') }
             gameMode="pixel"

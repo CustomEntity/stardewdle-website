@@ -62,6 +62,26 @@ interface DailyCropClassic {
     crop: Crop;
 }
 
+interface Fish {
+    id: number;
+    key: string;
+    name: string;
+    difficulty: number;
+    behavior: string;       // Floater | Dart | Smooth | Mixed | Sinker
+    maxSize: number;
+    weather: string;        // Sunny | Rainy | Any
+    seasons: string[];
+    sprite: number | null;
+    sheet: string | null;
+}
+
+interface DailyFishClassic {
+    id: number;
+    game_id: number;
+    date: string;
+    fish: Fish;
+}
+
 interface Brawler {
     id: number;
     name: string;
