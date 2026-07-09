@@ -22,7 +22,8 @@
       "Blackberry Cobbler",
       "Banana Pudding",
       "Monster Compendium"
-    ]
+    ],
+    "lovedGiftSprite": 66
   },
   {
     "key": "Alex",
@@ -42,7 +43,8 @@
       "Complete Breakfast",
       "Salmon Dinner",
       "Jack Be Nimble, Jack Be Thick"
-    ]
+    ],
+    "lovedGiftSprite": 201
   },
   {
     "key": "Caroline",
@@ -63,7 +65,8 @@
       "Green Tea",
       "Summer Spangle",
       "Tropical Curry"
-    ]
+    ],
+    "lovedGiftSprite": 213
   },
   {
     "key": "Clint",
@@ -91,7 +94,8 @@
       "Artichoke Dip",
       "Fiddlehead Risotto",
       "Omni Geode"
-    ]
+    ],
+    "lovedGiftSprite": 60
   },
   {
     "key": "Demetrius",
@@ -112,7 +116,8 @@
       "Rice Pudding",
       "Ice Cream",
       "Strawberry"
-    ]
+    ],
+    "lovedGiftSprite": 207
   },
   {
     "key": "Dwarf",
@@ -138,7 +143,8 @@
       "Jade",
       "Omni Geode",
       "Lava Eel"
-    ]
+    ],
+    "lovedGiftSprite": 554
   },
   {
     "key": "Elliott",
@@ -161,7 +167,8 @@
       "Duck Feather",
       "Pomegranate",
       "Squid Ink"
-    ]
+    ],
+    "lovedGiftSprite": 715
   },
   {
     "key": "Emily",
@@ -188,7 +195,8 @@
       "Cloth",
       "Wool",
       "ParrotEgg"
-    ]
+    ],
+    "lovedGiftSprite": 60
   },
   {
     "key": "Evelyn",
@@ -212,7 +220,8 @@
       "Tulip",
       "Fairy Rose",
       "Raisins"
-    ]
+    ],
+    "lovedGiftSprite": 72
   },
   {
     "key": "George",
@@ -231,7 +240,8 @@
     "lovedGifts": [
       "Leek",
       "Fried Mushroom"
-    ]
+    ],
+    "lovedGiftSprite": 20
   },
   {
     "key": "Gus",
@@ -253,7 +263,8 @@
       "Orange",
       "Escargot",
       "Tropical Curry"
-    ]
+    ],
+    "lovedGiftSprite": 72
   },
   {
     "key": "Haley",
@@ -274,7 +285,8 @@
       "Sunflower",
       "Fruit Salad",
       "Coconut"
-    ]
+    ],
+    "lovedGiftSprite": 221
   },
   {
     "key": "Harvey",
@@ -296,7 +308,8 @@
       "Truffle Oil",
       "Coffee",
       "Pickles"
-    ]
+    ],
+    "lovedGiftSprite": null
   },
   {
     "key": "Jas",
@@ -319,7 +332,8 @@
       "doll_item",
       "toy_item",
       "FairyBox"
-    ]
+    ],
+    "lovedGiftSprite": 221
   },
   {
     "key": "Jodi",
@@ -344,7 +358,8 @@
       "Rhubarb Pie",
       "Fried Eel",
       "Eggplant Parmesan"
-    ]
+    ],
+    "lovedGiftSprite": 72
   },
   {
     "key": "Kent",
@@ -363,7 +378,8 @@
     "lovedGifts": [
       "Roasted Hazelnuts",
       "Fiddlehead Risotto"
-    ]
+    ],
+    "lovedGiftSprite": 607
   },
   {
     "key": "Krobus",
@@ -388,7 +404,8 @@
       "Void Mayonnaise",
       "Monster Musk",
       "Monster Compendium"
-    ]
+    ],
+    "lovedGiftSprite": 72
   },
   {
     "key": "Leah",
@@ -412,7 +429,8 @@
       "Poppyseed Muffin",
       "Goat Cheese",
       "Truffle"
-    ]
+    ],
+    "lovedGiftSprite": 196
   },
   {
     "key": "Leo",
@@ -434,7 +452,8 @@
       "Mango",
       "Poi",
       "ParrotEgg"
-    ]
+    ],
+    "lovedGiftSprite": 444
   },
   {
     "key": "Lewis",
@@ -456,7 +475,8 @@
       "Autumn's Bounty",
       "Green Tea",
       "Hot Pepper"
-    ]
+    ],
+    "lovedGiftSprite": 200
   },
   {
     "key": "Linus",
@@ -479,7 +499,8 @@
       "Dish O' The Sea",
       "Yam",
       "The Alleyway Buffet"
-    ]
+    ],
+    "lovedGiftSprite": 88
   },
   {
     "key": "Marnie",
@@ -500,7 +521,8 @@
       "Pink Cake",
       "Farmer's Lunch",
       "Pumpkin Pie"
-    ]
+    ],
+    "lovedGiftSprite": 72
   },
   {
     "key": "Maru",
@@ -529,7 +551,8 @@
       "Battery Pack",
       "Radioactive Bar",
       "Dwarf Gadget"
-    ]
+    ],
+    "lovedGiftSprite": 72
   },
   {
     "key": "Pam",
@@ -554,7 +577,8 @@
       "Beer",
       "Mead",
       "Piña Colada"
-    ]
+    ],
+    "lovedGiftSprite": 24
   },
   {
     "key": "Penny",
@@ -581,7 +605,8 @@
       "Roots Platter",
       "Melon",
       "book_item"
-    ]
+    ],
+    "lovedGiftSprite": 60
   },
   {
     "key": "Pierre",
@@ -600,7 +625,8 @@
     "lovedGifts": [
       "Fried Calamari",
       "Price Catalogue"
-    ]
+    ],
+    "lovedGiftSprite": 202
   },
   {
     "key": "Robin",
@@ -621,7 +647,8 @@
       "Goat Cheese",
       "Peach",
       "Woody's Secret"
-    ]
+    ],
+    "lovedGiftSprite": 224
   },
   {
     "key": "Sam",
@@ -642,7 +669,8 @@
       "Pizza",
       "Tigerseye",
       "Maple Bar"
-    ]
+    ],
+    "lovedGiftSprite": 90
   },
   {
     "key": "Sandy",
@@ -663,7 +691,8 @@
       "Sweet Pea",
       "Crocus",
       "Mango Sticky Rice"
-    ]
+    ],
+    "lovedGiftSprite": 18
   },
   {
     "key": "Sebastian",
@@ -686,7 +715,8 @@
       "Obsidian",
       "Void Egg",
       "FrogEgg"
-    ]
+    ],
+    "lovedGiftSprite": 84
   },
   {
     "key": "Shane",
@@ -707,7 +737,8 @@
       "Pepper Poppers",
       "Hot Pepper",
       "Beer"
-    ]
+    ],
+    "lovedGiftSprite": 206
   },
   {
     "key": "Vincent",
@@ -730,7 +761,8 @@
       "Snail",
       "Ginger Ale",
       "FrogEgg"
-    ]
+    ],
+    "lovedGiftSprite": 221
   },
   {
     "key": "Willy",
@@ -758,7 +790,8 @@
       "Gold Bar",
       "The Art O' Crabbing",
       "Jewels Of The Sea"
-    ]
+    ],
+    "lovedGiftSprite": 72
   },
   {
     "key": "Wizard",
@@ -780,6 +813,7 @@
       "Void Essence",
       "Solar Essence",
       "Book of Mysteries"
-    ]
+    ],
+    "lovedGiftSprite": 155
   }
 ]

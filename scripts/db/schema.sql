@@ -13,11 +13,15 @@ CREATE TABLE IF NOT EXISTS villagers (
     love_interest TEXT,
     home_location TEXT,
     loved_gifts   JSONB,                         -- string[] of loved gift display names (EN)
+    loved_gift_sprite INTEGER,                   -- springobjects SpriteIndex of the first loved gift (null if custom sheet)
     portrait_url  TEXT,
     released      BOOLEAN NOT NULL DEFAULT TRUE,
     created_at    TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     updated_at    TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+
+-- migrations for columns added after the initial villagers table
+ALTER TABLE villagers ADD COLUMN IF NOT EXISTS loved_gift_sprite INTEGER;
 
 CREATE TABLE IF NOT EXISTS villager_translations (
     villager_id INTEGER NOT NULL REFERENCES villagers(id) ON DELETE CASCADE,

@@ -16,6 +16,7 @@ interface DailyClassicVillager {
     date: string;
     villager: Villager;
     giftHint: string;
+    giftSprite: number | null;
 }
 
 interface DailyPixelVillager {

@@ -224,9 +224,9 @@
             <div
                     class="square-{attempt.villager.id} size-18 relative sv-tile flex items-center justify-center"
                     style="    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); background-color: {getBackgroundColor(attempt.differences.marriageable)}; visibility: {animations[attempt.villager.id] === undefined || animations[attempt.villager.id] > 4 ? 'visible' : 'hidden'};">
-    <span class="z-10 text-white text-sm text-center break-words overflow-hidden px-1 w-full stardew-text">
-        {translateMarriageable(attempt.villager.marriageable)}
-    </span>
+    <img src="/ui/heart.png" alt={translateMarriageable(attempt.villager.marriageable)} title={translateMarriageable(attempt.villager.marriageable)}
+         class="z-10 w-9 h-9 object-contain"
+         style="image-rendering: pixelated; filter: drop-shadow(0 2px 0 rgba(0,0,0,0.4)); {attempt.villager.marriageable ? '' : 'filter: grayscale(1) brightness(1.5) opacity(0.5) drop-shadow(0 2px 0 rgba(0,0,0,0.3));'}"/>
             </div>
 
             <!-- Age -->

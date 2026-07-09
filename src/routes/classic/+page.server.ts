@@ -66,7 +66,8 @@ async function loadDailyVillager(language: string = 'en'): Promise<DailyClassicV
                v.age,
                v.portrait_url,
                ${nameSubquery('v.id')} as name,
-               (v.loved_gifts->>0) as gift_hint
+               (v.loved_gifts->>0) as gift_hint,
+               v.loved_gift_sprite as gift_sprite
         FROM daily_classic d
             JOIN villagers v ON d.villager_id = v.id
         WHERE d.date = CURRENT_DATE
@@ -91,7 +92,8 @@ async function loadDailyVillager(language: string = 'en'): Promise<DailyClassicV
             age: row.age,
             portrait_url: row.portrait_url
         },
-        giftHint: row.gift_hint
+        giftHint: row.gift_hint,
+        giftSprite: row.gift_sprite
     };
 }
 

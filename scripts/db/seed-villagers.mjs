@@ -47,18 +47,19 @@ async function main() {
       for (const v of villagers) {
         const { rows } = await client.query(
           `INSERT INTO villagers (key, gender, region, birth_season, birth_day,
-              marriageable, age, love_interest, home_location, loved_gifts, portrait_url, released)
-           VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,true)
+              marriageable, age, love_interest, home_location, loved_gifts, loved_gift_sprite, portrait_url, released)
+           VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,true)
            ON CONFLICT (key) DO UPDATE SET
               gender=EXCLUDED.gender, region=EXCLUDED.region,
               birth_season=EXCLUDED.birth_season, birth_day=EXCLUDED.birth_day,
               marriageable=EXCLUDED.marriageable, age=EXCLUDED.age,
               love_interest=EXCLUDED.love_interest, home_location=EXCLUDED.home_location,
-              loved_gifts=EXCLUDED.loved_gifts, portrait_url=EXCLUDED.portrait_url, updated_at=NOW()
+              loved_gifts=EXCLUDED.loved_gifts, loved_gift_sprite=EXCLUDED.loved_gift_sprite,
+              portrait_url=EXCLUDED.portrait_url, updated_at=NOW()
            RETURNING id`,
           [v.key, v.gender, v.region, v.birthSeason, v.birthDay, v.marriageable,
            v.age, v.loveInterest, v.homeLocation, JSON.stringify(v.lovedGifts),
-           `/portraits/${v.key}.png`]
+           v.lovedGiftSprite ?? null, `/portraits/${v.key}.png`]
         );
         const id = rows[0].id;
         for (const [lang, name] of [['en', v.name], ['fr', v.name_fr]]) {

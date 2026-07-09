@@ -116,6 +116,20 @@
         if (value === target) return "CORRECT";
         return value > target ? "LOWER" : "HIGHER";
     };
+
+    // position a 16px item tile from the game's springobjects sheet (24 cols, 384x624)
+    function giftIconStyle(idx: number, size = 36): string {
+        const scale = size / 16;
+        const col = idx % 24;
+        const row = Math.floor(idx / 24);
+        return (
+            `width:${size}px;height:${size}px;flex:0 0 auto;` +
+            `background-image:url('/ui/springobjects.png');` +
+            `background-size:${384 * scale}px ${624 * scale}px;` +
+            `background-position:-${col * size}px -${row * size}px;` +
+            `image-rendering:pixelated;filter:drop-shadow(0 2px 0 rgba(0,0,0,0.35));`
+        );
+    }
 </script>
 
 <svelte:window bind:innerWidth />
@@ -177,7 +191,10 @@ pointer-events: none;"
                     {#if classicGameData.tries.length > 0}
                         <span class="block mt-4 text-lg">
                             {#if classicGameData.tries.length >= 6 || isWon}
-                                <span class="text-[#e6cc8f]">
+                                <span class="inline-flex items-center justify-center gap-2 text-[#e6cc8f]">
+                                    {#if daily?.giftSprite != null}
+                                        <span style={giftIconStyle(daily.giftSprite)}></span>
+                                    {/if}
                                     {locale.t("pages.classic.gift_hint", {
                                         gift: daily?.giftHint,
                                     })}

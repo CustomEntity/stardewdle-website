@@ -56,13 +56,22 @@ const pool = Object.keys(chars).filter(
   (k) => giftTastes[k] && !k.startsWith('Universal_')
 );
 
-function lovedGifts(key) {
+function loveIdsOf(key) {
   // NPCGiftTastes format: love_dialogue/love_ids/like_dialogue/like_ids/...
   const raw = giftTastes[key];
   if (!raw) return [];
-  const parts = raw.split('/');
-  const loveIds = (parts[1] || '').trim().split(/\s+/).filter(Boolean);
-  return loveIds.map(objName);
+  return (raw.split('/')[1] || '').trim().split(/\s+/).filter(Boolean);
+}
+
+function lovedGifts(key) {
+  return loveIdsOf(key).map(objName);
+}
+
+// SpriteIndex of the first loved gift, only if it lives on the springobjects
+// sheet (Texture null) so we can position it by index. Else null (name-only).
+function firstGiftSprite(key) {
+  const o = objects[loveIdsOf(key)[0]];
+  return o && !o.Texture && typeof o.SpriteIndex === 'number' ? o.SpriteIndex : null;
 }
 
 const villagers = pool.map((key) => {
@@ -81,7 +90,8 @@ const villagers = pool.map((key) => {
     loveInterest: c.LoveInterest ?? null,
     homeLocation: c.Home?.[0]?.Location ?? null,
     region: LOCATION_REGION[c.Home?.[0]?.Location] ?? c.HomeRegion ?? null,
-    lovedGifts: lovedGifts(key)
+    lovedGifts: lovedGifts(key),
+    lovedGiftSprite: firstGiftSprite(key)
   };
 });
 
