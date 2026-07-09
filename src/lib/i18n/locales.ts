@@ -1,3 +1,5 @@
+// Only the languages Stardew Valley itself ships with, so every in-game name/term has an
+// official translation. (Stardew LanguageCodes: en, fr, es, de, it, pt, ru, tr, th, ja, ko, zh, hu.)
 export enum Locales {
 	en = 'English',
 	fr = 'Français',
@@ -5,21 +7,12 @@ export enum Locales {
 	de = 'Deutsch',
 	it = 'Italiano',
 	pt = 'Português',
-	nl = 'Nederlands',
-	pl = 'Polski',
 	tr = 'Türkçe',
 	ru = 'Русский',
-	ar = 'العربية',
-	he = 'עברית',
-	fi = 'Suomi',
-	id = 'Bahasa Indonesia',
-	ms = 'Bahasa Melayu',
-	vi = 'Tiếng Việt',
 	th = 'ไทย',
 	jp = '日本語',
 	kr = '한국어',
-	cn = '简体中文',
-	cnt = '繁體中文'
+	cn = '简体中文'
 }
 
 export type LocaleCode = keyof typeof Locales;
