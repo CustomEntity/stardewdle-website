@@ -60,7 +60,7 @@
 <div
         id={id}
         class="relative w-[90%] md:w-full max-w-[480px] h-[50px]">
-    <div class="flex h-full w-full">
+    <div class="flex h-full w-full gap-2">
         <input
                 onfocus={() => (showMenu = true)}
                 onblur={() => (showMenu = false)}
