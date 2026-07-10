@@ -47,14 +47,6 @@
                 <p class="text-white text-center font-lilita">Alldle</p>
             </a>
             <a
-                href="https://anidoku.moe"
-                target="_blank"
-                class="flex flex-col gap-1 justify-center items-center group hover:scale-105 transition-transform duration-300 text-center text-white hover:underline"
-            >
-                <img class="h-12 w-12" src="anidoku.svg" alt="Anidoku logo" />
-                <p class="text-white text-center font-lilita">Anidoku</p>
-            </a>
-            <a
                 href="https://cocdle.net"
                 target="_blank"
                 class="flex flex-col gap-1 justify-center items-center group hover:scale-105 transition-transform duration-300 text-center text-white hover:underline"
