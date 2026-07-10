@@ -37,10 +37,7 @@
     "behavior": "Smooth",
     "maxSize": 18,
     "seasons": [
-      "Spring",
-      "Summer",
-      "Fall",
-      "Winter"
+      "Fall"
     ],
     "weather": "Any",
     "sprite": 160,
@@ -171,7 +168,7 @@
     "behavior": "Mixed",
     "maxSize": 20,
     "seasons": [
-      "Winter"
+      "Summer"
     ],
     "weather": "Any",
     "sprite": 159,
@@ -372,10 +369,7 @@
     "behavior": "Mixed",
     "maxSize": 50,
     "seasons": [
-      "Spring",
-      "Summer",
-      "Fall",
-      "Winter"
+      "Spring"
     ],
     "weather": "Rainy",
     "sprite": 163,
@@ -389,10 +383,7 @@
     "behavior": "Mixed",
     "maxSize": 50,
     "seasons": [
-      "Spring",
-      "Summer",
-      "Fall",
-      "Winter"
+      "Spring"
     ],
     "weather": "Rainy",
     "sprite": 900,
@@ -469,10 +460,7 @@
     "behavior": "Smooth",
     "maxSize": 18,
     "seasons": [
-      "Spring",
-      "Summer",
-      "Fall",
-      "Winter"
+      "Fall"
     ],
     "weather": "Any",
     "sprite": 899,
@@ -750,7 +738,7 @@
     "behavior": "Mixed",
     "maxSize": 20,
     "seasons": [
-      "Winter"
+      "Summer"
     ],
     "weather": "Any",
     "sprite": 898,

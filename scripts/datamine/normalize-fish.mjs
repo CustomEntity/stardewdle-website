@@ -57,6 +57,23 @@ for (const [id, line] of Object.entries(fish)) {
   });
 }
 
+// Legendary fish spawn is code-special-cased, so their season in Data/Fish is a wrong
+// placeholder (e.g. Crimsonfish says "winter" but is actually Summer). Override with the
+// real seasons (base legendaries + the 1.5 "Extended Family" variants).
+const LEGENDARY_SEASONS = {
+  '159': ['Summer'],                              // Crimsonfish
+  '160': ['Fall'],                                // Angler
+  '163': ['Spring'],                              // Legend
+  '682': ['Spring', 'Summer', 'Fall', 'Winter'],  // Mutant Carp (Sewers)
+  '775': ['Winter'],                              // Glacierfish
+  '898': ['Summer'],                              // Son of Crimsonfish
+  '899': ['Fall'],                                // Ms. Angler
+  '900': ['Spring'],                              // Legend II
+  '901': ['Spring', 'Summer', 'Fall', 'Winter'],  // Radioactive Carp
+  '902': ['Winter']                               // Glacierfish Jr.
+};
+for (const f of out) if (LEGENDARY_SEASONS[f.key]) f.seasons = LEGENDARY_SEASONS[f.key];
+
 out.sort((a, b) => a.name.localeCompare(b.name));
 fs.writeFileSync(path.join(__dirname, 'fish.json'), JSON.stringify(out, null, 2));
 
