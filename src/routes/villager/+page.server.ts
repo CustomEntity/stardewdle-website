@@ -1,4 +1,5 @@
 import { queryDatabase } from "$lib/server/db";
+import { resolveLocale } from '$lib/server/locale';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
@@ -97,9 +98,9 @@ async function loadDailyVillager(language: string = 'en'): Promise<DailyVillager
     };
 }
 
-export const load: PageServerLoad = async ({ cookies }) => {
+export const load: PageServerLoad = async ({ cookies, request }) => {
     try {
-        const language = cookies.get('locale') || 'en';
+        const language = resolveLocale(cookies, request);
 
         return {
             daily: loadDailyVillager(language),
