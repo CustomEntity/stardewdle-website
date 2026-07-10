@@ -4,7 +4,7 @@
   },
   "layout": {
     "page_meta": {
-      "base_title": "Indovina gli Elementi di Stardew Valley",
+      "base_title": "Gioco di Indovinelli Quotidiano di Stardew Valley",
       "base_description": "Stardewdle - Il gioco quotidiano di indovinelli su Stardew Valley! Affronta nuove sfide ogni giorno e metti alla prova le tue conoscenze di Stardew Valley",
       "site_name": "Stardewdle"
     },
@@ -105,8 +105,8 @@
       "scroll_hint": "← Scorri orizzontalmente per vedere di più →",
       "yesterday": "Il villager di ieri era <name>{brawlerName}</name>",
       "share": {
-        "text": "Ho trovato il villager #Stardewdle #{id} in modalità classic in {tries} tentativi ",
-        "to_copy": "Ho trovato il villager #Stardewdle #{id} in modalità classic in {tries} tentativi\n"
+        "text": "Ho trovato l'abitante #Stardewdle #{id} in {tries} tentativi ",
+        "to_copy": "Ho trovato l'abitante #Stardewdle #{id} in {tries} tentativi\n{url}"
       },
       "victory": {
         "stats_button": "Statistiche",

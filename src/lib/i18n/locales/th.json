@@ -4,7 +4,7 @@
   },
   "layout": {
     "page_meta": {
-      "base_title": "ทายองค์ประกอบของ Stardew Valley",
+      "base_title": "เกมทายคำ Stardew Valley รายวัน",
       "base_description": "Stardewdle - เกมทาย Stardew Valley รายวัน! รับมือกับความท้าทายใหม่ทุกวันและทดสอบความรู้ Stardew Valley ของคุณ",
       "site_name": "Stardewdle"
     },
@@ -105,8 +105,8 @@
       "scroll_hint": "← เลื่อนแนวนอนเพื่อดูเพิ่มเติม →",
       "yesterday": "Villager เมื่อวานคือ <name>{brawlerName}</name>",
       "share": {
-        "text": "ฉันหา villager #{id} ของ #Stardewdle เจอในโหมด classic ภายใน {tries} ครั้ง ",
-        "to_copy": "ฉันหา villager #{id} ของ #Stardewdle เจอในโหมด classic ภายใน {tries} ครั้ง\n"
+        "text": "ฉันทายชาวบ้าน #Stardewdle #{id} ได้ใน {tries} ครั้ง ",
+        "to_copy": "ฉันทายชาวบ้าน #Stardewdle #{id} ได้ใน {tries} ครั้ง\n{url}"
       },
       "victory": {
         "stats_button": "สถิติ",

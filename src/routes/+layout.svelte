@@ -67,12 +67,7 @@
     <title>{metaTitle}</title>
     <meta name="description" content={metaDescription} />
     <link rel="canonical" href={canonical} />
-    <meta property="og:title" content={metaTitle} />
-    <meta property="og:description" content={metaDescription} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:locale" content={locale.locale} />
-    <meta name="twitter:title" content={metaTitle} />
-    <meta name="twitter:description" content={metaDescription} />
 </svelte:head>
 
 <SvBackground />

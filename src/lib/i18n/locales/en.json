@@ -105,8 +105,8 @@
       "scroll_hint": "← Scroll horizontally to view more →",
       "yesterday": "Yesterday's villager was <name>{brawlerName}</name>",
       "share": {
-        "text": "I found #Stardewdle villager #{id} in classic mode in {tries} guesses ",
-        "to_copy": "I found #Stardewdle villager #{id} in classic mode in {tries} guesses\n{url}"
+        "text": "I found #Stardewdle villager #{id} in {tries} guesses ",
+        "to_copy": "I found #Stardewdle villager #{id} in {tries} guesses\n{url}"
       },
       "victory": {
         "stats_button": "Stats",

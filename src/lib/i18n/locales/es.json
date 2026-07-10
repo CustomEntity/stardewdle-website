@@ -4,7 +4,7 @@
   },
   "layout": {
     "page_meta": {
-      "base_title": "Adivina Elementos de Stardew Valley",
+      "base_title": "Juego Diario de Adivinanzas de Stardew Valley",
       "base_description": "Stardewdle - ¡El juego diario de adivinanzas de Stardew Valley! Acepta nuevos desafíos cada día y pon a prueba tus conocimientos de Stardew Valley",
       "site_name": "Stardewdle"
     },
@@ -105,8 +105,8 @@
       "scroll_hint": "← Desliza horizontalmente para ver más →",
       "yesterday": "El villager de ayer era <n>{brawlerName}</n>",
       "share": {
-        "text": "Encontré el villager #{id} de #Stardewdle en modo classic en {tries} intentos ",
-        "to_copy": "Encontré el villager #{id} de #Stardewdle en modo classic en {tries} intentos\n"
+        "text": "Encontré el aldeano #Stardewdle #{id} en {tries} intentos ",
+        "to_copy": "Encontré el aldeano #Stardewdle #{id} en {tries} intentos\n{url}"
       },
       "victory": {
         "stats_button": "Estadísticas",

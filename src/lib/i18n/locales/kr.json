@@ -4,7 +4,7 @@
   },
   "layout": {
     "page_meta": {
-      "base_title": "Stardew Valley 요소를 맞혀보세요",
+      "base_title": "매일 즐기는 스타듀밸리 추리 게임",
       "base_description": "Stardewdle - 매일 즐기는 Stardew Valley 추리 게임! 매일 새로운 도전에 참여하고 배틀로얄 지식을 시험해보세요",
       "site_name": "Stardewdle"
     },
@@ -105,8 +105,8 @@
       "scroll_hint": "← 더 보려면 가로로 스크롤하세요 →",
       "yesterday": "어제의 브롤러는 <name>{brawlerName}</name>였습니다",
       "share": {
-        "text": "#Stardewdle 브롤러 #{id}를 주민 모드에서 {tries}번 만에 맞혔어요 ",
-        "to_copy": "#Stardewdle 브롤러 #{id}를 주민 모드에서 {tries}번 만에 맞혔어요\n"
+        "text": "#Stardewdle 주민 #{id}를 {tries}번 만에 맞혔어요 ",
+        "to_copy": "#Stardewdle 주민 #{id}를 {tries}번 만에 맞혔어요\n{url}"
       },
       "victory": {
         "stats_button": "통계",

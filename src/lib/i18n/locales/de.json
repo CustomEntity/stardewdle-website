@@ -4,7 +4,7 @@
   },
   "layout": {
     "page_meta": {
-      "base_title": "Rate Stardew Valley Elemente",
+      "base_title": "Tägliches Stardew-Valley-Ratespiel",
       "base_description": "Stardewdle - Das tägliche Stardew Valley Ratespiel! Nimm jeden Tag neue Herausforderungen an und teste dein Stardew Valley Wissen",
       "site_name": "Stardewdle"
     },
@@ -105,8 +105,8 @@
       "scroll_hint": "← Horizontal scrollen, um mehr zu sehen →",
       "yesterday": "Der gestrige Villager war <n>{brawlerName}</n>",
       "share": {
-        "text": "Ich habe #Stardewdle Villager #{id} im Dorfbewohner-Modus in {tries} Versuchen gefunden ",
-        "to_copy": "Ich habe #Stardewdle Villager #{id} im Dorfbewohner-Modus in {tries} Versuchen gefunden\n"
+        "text": "Ich habe den #Stardewdle-Dorfbewohner Nr. {id} in {tries} Versuchen gefunden ",
+        "to_copy": "Ich habe den #Stardewdle-Dorfbewohner Nr. {id} in {tries} Versuchen gefunden\n{url}"
       },
       "victory": {
         "stats_button": "Statistiken",

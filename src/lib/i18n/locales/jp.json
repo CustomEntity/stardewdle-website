@@ -4,7 +4,7 @@
   },
   "layout": {
     "page_meta": {
-      "base_title": "Stardew Valleyの要素を当てよう",
+      "base_title": "Stardew Valley 毎日の推理ゲーム",
       "base_description": "Stardewdle - 毎日遊べるStardew Valley推理ゲーム！毎日新しいチャレンジに挑戦して、バトルロイヤルの知識を試そう。",
       "site_name": "Stardewdle"
     },
@@ -105,8 +105,8 @@
       "scroll_hint": "← 横にスクロールしてもっと表示 →",
       "yesterday": "昨日のブロウラーは <name>{brawlerName}</name> でした",
       "share": {
-        "text": "#Stardewdle のブロウラー #{id} を住民モードで {tries} 回で当てました ",
-        "to_copy": "#Stardewdle のブロウラー #{id} を住民モードで {tries} 回で当てました\n"
+        "text": "#Stardewdleの住民 #{id} を{tries}回の推測で当てました ",
+        "to_copy": "#Stardewdleの住民 #{id} を{tries}回の推測で当てました\n{url}"
       },
       "victory": {
         "stats_button": "統計",

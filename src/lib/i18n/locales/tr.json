@@ -4,7 +4,7 @@
   },
   "layout": {
     "page_meta": {
-      "base_title": "Stardew Valley Öğelerini Tahmin Et",
+      "base_title": "Günlük Stardew Valley Tahmin Oyunu",
       "base_description": "Stardewdle - Günlük Stardew Valley tahmin oyunu! Her gün yeni zorluklarla karşılaşın ve Stardew Valley bilginizi test edin",
       "site_name": "Stardewdle"
     },
@@ -105,8 +105,8 @@
       "scroll_hint": "← Daha fazlasını görmek için yatay olarak kaydırın →",
       "yesterday": "Dünkü villager <name>{brawlerName}</name> idi",
       "share": {
-        "text": "#Stardewdle villager #{id}'yi classic modunda {tries} denemede buldum ",
-        "to_copy": "#Stardewdle villager #{id}'yi classic modunda {tries} denemede buldum\n"
+        "text": "#Stardewdle köylüsünü #{id} {tries} tahminde buldum ",
+        "to_copy": "#Stardewdle köylüsünü #{id} {tries} tahminde buldum\n{url}"
       },
       "victory": {
         "stats_button": "İstatistikler",

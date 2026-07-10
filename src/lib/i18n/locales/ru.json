@@ -4,7 +4,7 @@
   },
   "layout": {
     "page_meta": {
-      "base_title": "Угадай элементы Stardew Valley",
+      "base_title": "Ежедневная угадайка по Stardew Valley",
       "base_description": "Stardewdle - ежедневная игра-угадайка по Stardew Valley! Принимайте новые вызовы каждый день и проверяйте свои знания о Stardew Valley",
       "site_name": "Stardewdle"
     },
@@ -105,8 +105,8 @@
       "scroll_hint": "← Прокрутите по горизонтали, чтобы увидеть больше →",
       "yesterday": "Вчерашним бойцом был <name>{brawlerName}</name>",
       "share": {
-        "text": "Я угадал бойца #Stardewdle #{id} в классическом режиме за {tries} попыток ",
-        "to_copy": "Я угадал бойца #Stardewdle #{id} в классическом режиме за {tries} попыток\n"
+        "text": "Я угадал(а) жителя #Stardewdle #{id} за {tries} попыток ",
+        "to_copy": "Я угадал(а) жителя #Stardewdle #{id} за {tries} попыток\n{url}"
       },
       "victory": {
         "stats_button": "Статистика",

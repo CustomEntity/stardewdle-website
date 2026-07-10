@@ -4,7 +4,7 @@
   },
   "layout": {
     "page_meta": {
-      "base_title": "Devinez les Éléments de Stardew Valley",
+      "base_title": "Jeu de Devinettes Quotidien Stardew Valley",
       "base_description": "Stardewdle - Le jeu quotidien de devinettes Stardew Valley ! Relevez de nouveaux défis chaque jour et testez vos connaissances de Stardew Valley",
       "site_name": "Stardewdle"
     },
@@ -105,8 +105,8 @@
       "scroll_hint": "← Faites défiler horizontalement pour voir plus →",
       "yesterday": "Le villageois d'hier était <name>{brawlerName}</name>",
       "share": {
-        "text": "J'ai trouvé le villageois #Stardewdle #{id} en mode classique en {tries} essais ",
-        "to_copy": "J'ai trouvé le villageois #Stardewdle #{id} en mode classique en {tries} essais\n{url}"
+        "text": "J'ai trouvé le villageois #Stardewdle #{id} en {tries} essais ",
+        "to_copy": "J'ai trouvé le villageois #Stardewdle #{id} en {tries} essais\n{url}"
       },
       "victory": {
         "stats_button": "Stats",

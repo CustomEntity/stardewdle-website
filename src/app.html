@@ -38,10 +38,17 @@
 	<!-- Dark mode protection -->
 	<meta name="darkreader-lock">
 
-	<!-- Open Graph / Twitter (site-level; per-page title, description & url are injected by the app) -->
+	<!-- Open Graph / Twitter — static, canonical English so social embeds (Discord, etc.) are
+	     consistent regardless of the crawler's language. The in-app <title>/description still
+	     adapt to the visitor's locale. -->
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Stardewdle">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:title" content="Stardewdle - Daily Stardew Valley Guessing Game">
+	<meta property="og:description" content="Stardewdle is the daily Stardew Valley guessing game. Take on a new challenge every day across three modes — Villager, Crop and Fish — and test your Stardew Valley knowledge.">
 	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Stardewdle - Daily Stardew Valley Guessing Game">
+	<meta name="twitter:description" content="Stardewdle is the daily Stardew Valley guessing game. Take on a new challenge every day across three modes — Villager, Crop and Fish — and test your Stardew Valley knowledge.">
 
 	<!-- PWA -->
 	<meta name="theme-color" content="#3a7d2c">

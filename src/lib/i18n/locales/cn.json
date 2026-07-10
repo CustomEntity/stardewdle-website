@@ -4,7 +4,7 @@
   },
   "layout": {
     "page_meta": {
-      "base_title": "猜测 Stardew Valley 元素",
+      "base_title": "每日 Stardew Valley 猜谜游戏",
       "base_description": "Stardewdle - 每日 Stardew Valley 猜谜游戏！每天迎接新挑战，测试你的荒野乱斗知识",
       "site_name": "Stardewdle"
     },
@@ -105,8 +105,8 @@
       "scroll_hint": "← 水平滚动以查看更多 →",
       "yesterday": "昨天的英雄是 <name>{brawlerName}</name>",
       "share": {
-        "text": "我在村民模式下用 {tries} 次找到了 #Stardewdle 英雄 #{id}",
-        "to_copy": "我在村民模式下用 {tries} 次找到了 #Stardewdle 英雄 #{id}\n"
+        "text": "我在 {tries} 次猜测内找到了 #Stardewdle 村民 #{id} ",
+        "to_copy": "我在 {tries} 次猜测内找到了 #Stardewdle 村民 #{id}\n{url}"
       },
       "victory": {
         "stats_button": "统计",
