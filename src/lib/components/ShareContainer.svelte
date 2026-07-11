@@ -16,16 +16,25 @@
 
         let {text, copyText, websiteUrl, class: clazz, tries}: Props = $props();
 
-        function getUrlFormattedText(): string {
-            return copyText.replace(/#/g, '%23').replace(/\n/g, '%0A') + '%0A' + websiteUrl;
-        }
+        // Wordle-style emoji grid for the shared/copied message (chronological — the winning
+        // guess is the all-🟩 last row), matching what the .com share looks like.
+        const EMOJI: Record<string, string> = { CORRECT: '🟩', 'PARTIALLY-CORRECT': '🟨' };
+        const cell = (s: string) => EMOJI[s] ?? '🟥';
+        const grid = $derived(
+            tries && tries.length
+                ? tries.map((a) => Object.values(a).map(cell).join('')).join('\n')
+                : ''
+        );
+        const shareMessage = $derived(
+            (grid ? `${text.trim()}\n\n${grid}\n` : `${text.trim()}\n`) + `https://${websiteUrl}`
+        );
     </script>
     <div class="flex flex-col w-full justify-center items-center gap-1 text-center justify-items-center py-4 px-6 sv-frame font-lilita"
     >
         <span class="text-xl text-white stardew-text max-w-[250px]">{@html text}</span>
         {#if tries}
             <div class="mt-4">
-                {#each tries.reverse().slice(0, 5) as attempt}
+                {#each [...tries].reverse().slice(0, 5) as attempt}
                     <p class="my-1 flex justify-center space-x-1">
                         {#each Object.values(attempt) as status}
                             <span>{status === 'CORRECT' ? '🟩' : status === 'HIGHER' ? '⬆️' : status === 'LOWER' ? '⬇️' : status === 'PARTIALLY-CORRECT' ? '🟧' : '🟥'}</span>
@@ -47,7 +56,7 @@
                     class="max-w-[194px]"
                     title={locale.t('components.shareContainer.buttons.tweet.title')}
                     ariaLabel={locale.t('components.shareContainer.buttons.tweet.aria_label')}
-                    onClick={() => window.open(`https://twitter.com/intent/tweet?text=${getUrlFormattedText()}`, '_blank')}
+                    onClick={() => window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareMessage)}`, '_blank')}
             >
             </MarvelRivalsButton>
             <MarvelRivalsButton
@@ -57,7 +66,7 @@
                     height={'50'}
                     title={locale.t('components.shareContainer.buttons.copy.title')}
                     ariaLabel={locale.t('components.shareContainer.buttons.copy.aria_label')}
-                    onClick={() => navigator.clipboard.writeText(copyText)}
+                    onClick={() => navigator.clipboard.writeText(shareMessage)}
             >
             </MarvelRivalsButton>
         </div>
