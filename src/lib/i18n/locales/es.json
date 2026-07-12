@@ -79,6 +79,10 @@
         "fish": {
           "description": "Adivina el pez a partir de sus estadísticas",
           "title": "Pez"
+        },
+        "dish": {
+          "title": "Plato",
+          "description": "Adivina el plato a partir de sus estadísticas"
         }
       },
       "reset_in": "Reinicio en: {time}",
@@ -654,6 +658,177 @@
         "stats_button": "Estadísticas"
       },
       "yesterday": "El pez de ayer fue <name>{brawlerName}</name>"
+    },
+    "dish": {
+      "attributes": {
+        "headers": {
+          "dish": "Plato",
+          "energy": "Energía",
+          "price": "Precio",
+          "ingredients": "Ingredientes",
+          "source": "Origen",
+          "buffs": "Buff"
+        },
+        "source": {
+          "QueenOfSauce": "La Reina de la Salsa",
+          "Friendship": "Amistad",
+          "Skill": "Habilidad",
+          "Starter": "Inicial",
+          "Special": "Especial"
+        },
+        "buff": {
+          "None": "Ninguno",
+          "Farming": "Agricultura",
+          "Fishing": "Pesca",
+          "Mining": "Minería",
+          "Foraging": "Recolección",
+          "Combat": "Combate",
+          "Luck": "Suerte",
+          "MaxEnergy": "Energía máx.",
+          "Magnetism": "Magnetismo",
+          "Speed": "Velocidad",
+          "Defense": "Defensa",
+          "Attack": "Ataque",
+          "Immunity": "Inmunidad"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "Escribe el nombre de un plato.."
+        },
+        "explanationBox": {
+          "title": "Adivina el plato de hoy de Stardew Valley",
+          "bottomHint": "Escribe cualquier plato para empezar."
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "Icono de cómo jugar",
+            "tooltip": "Cómo jugar"
+          },
+          "patchNotes": {
+            "alt": "Icono de notas de parche",
+            "tooltip": "Notas de parche"
+          },
+          "stats": {
+            "alt": "Icono de estadísticas",
+            "tooltip": "Estadísticas"
+          },
+          "streak": {
+            "alt": {
+              "active": "Icono de racha activa",
+              "inactive": "Icono de racha inactiva"
+            },
+            "tooltip": "Racha actual (serie de victorias consecutivas)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "Error: {message}",
+        "no_daily_brawler": "No se encontró el plato diario"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "title": "Cómo jugar: Modo Plato",
+          "introduction_title": "Modo Plato",
+          "introduction_description": "Adivina el plato cocinado secreto del día de Stardew Valley comparando cinco atributos. Cada intento te da información codificada por colores y flechas direccionales para guiarte.",
+          "attributes_title": "Atributos del plato",
+          "attributes_description": "El modo Plato compara estos atributos:",
+          "attribute_item_1": "• <strong>Energía</strong>: energía que restaura al comerlo.",
+          "attribute_item_2": "• <strong>Precio</strong>: precio base de venta en monedas de oro.",
+          "attribute_item_3": "• <strong>Ingredientes</strong>: número de ingredientes de la receta.",
+          "attribute_item_4": "• <strong>Origen</strong>: cómo se aprende la receta — La Reina de la Salsa, Amistad, Habilidad, Inicial o Especial.",
+          "attribute_item_5": "• <strong>Buff</strong>: el buff que otorga el plato al comerlo (o Ninguno).",
+          "attribute_item_6": "• <strong>Consejo</strong>: el verde indica una coincidencia exacta; el naranja en Buff indica una coincidencia parcial.",
+          "feedback_title": "Información",
+          "feedback_description": "Cada casilla tiene un color:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Verde</span></span>: coincidencia exacta con el plato secreto.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rojo</span></span>: sin coincidencia.",
+          "feedback_arrows": "Las flechas aparecen en Energía, Precio e Ingredientes.",
+          "feedback_arrow_up": "• <strong>Flecha arriba (↑)</strong>: el valor del plato secreto es MAYOR.",
+          "feedback_arrow_down": "• <strong>Flecha abajo (↓)</strong>: el valor del plato secreto es MENOR.",
+          "how_to_play_title": "Cómo jugar",
+          "step_1": "Haz tu primer intento con cualquier plato de la lista de búsqueda.",
+          "step_2": "Observa cómo cada casilla de atributo se voltea en secuencia, revelando información codificada por colores.",
+          "step_3": "Lee las casillas verdes y rojas para identificar los atributos que coinciden y los que no.",
+          "step_4": "Usa las flechas en Energía, Precio e Ingredientes para acotar el rango.",
+          "step_5": "Haz tu siguiente intento según toda la información recibida.",
+          "step_6": "¡Continúa hasta identificar correctamente el plato secreto!",
+          "step_7": "Vuelve cada día para adivinar un nuevo plato en el Modo Plato.",
+          "strategy_title": "Consejos de estrategia",
+          "strategy_tip_1": "• Empieza con platos que cocines a menudo para establecer una base de atributos.",
+          "strategy_tip_2": "• Origen y Buff reducen las opciones rápidamente — muchos platos los comparten.",
+          "strategy_tip_3": "• Usa las flechas para eliminar grupos enteros según la energía, el precio o el número de ingredientes.",
+          "strategy_tip_4": "• Cerca de la mitad de los platos no otorgan ningún buff — esa sola división reduce las opciones a la mitad.",
+          "strategy_tip_5": "• Un plato debe coincidir con TODA la información verde a la vez.",
+          "strategy_tip_6": "• Origen coincide de forma exacta; el naranja en Buff indica una coincidencia parcial.",
+          "daily_challenge_title": "Desafío diario",
+          "daily_challenge_description": "Vuelve cada día para un nuevo plato secreto. Lleva la cuenta de tu racha y comparte tu resultado con tus amigos."
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "Todavía no hay nada aquí"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "Error al cargar las notas de parche"
+            },
+            "loading": {
+              "message": "Cargando notas de parche..."
+            }
+          },
+          "title": "Notas de parche"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "Tu navegador no admite el elemento canvas.",
+            "label": "Intentos",
+            "title": "Número de intentos por partida"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "Número medio de intentos por partida",
+              "label": "Intentos promedio:"
+            },
+            "best_streak": {
+              "aria_label": "Mejor racha de victorias",
+              "label": "Mejor racha:"
+            },
+            "current_streak": {
+              "aria_label": "Racha de victorias actual",
+              "label": "Racha actual:"
+            },
+            "games_won": {
+              "aria_label": "Número de partidas ganadas",
+              "label": "Partidas ganadas:"
+            },
+            "one_shots": {
+              "aria_label": "Número de partidas ganadas en un intento",
+              "label": "A la primera:"
+            }
+          },
+          "title": "Estadísticas"
+        }
+      },
+      "page_meta": {
+        "title": "Plato",
+        "description": "¡Adivina el plato cocinado de hoy de Stardew Valley a partir de sus estadísticas!"
+      },
+      "result": {
+        "failure": "Inténtalo de nuevo",
+        "success": "¡Buen trabajo!"
+      },
+      "scroll_hint": "← Desplázate horizontalmente para ver más →",
+      "share": {
+        "text": "Encontré el plato #Stardewdle #{id} en {tries} intentos ",
+        "to_copy": "Encontré el plato #Stardewdle #{id} en {tries} intentos\n{url}"
+      },
+      "victory": {
+        "back_home": "Volver al inicio",
+        "next_mode": "Jugar Aldeano",
+        "stats_button": "Estadísticas"
+      },
+      "yesterday": "El plato de ayer fue <name>{brawlerName}</name>"
     }
   },
   "common": {

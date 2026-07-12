@@ -79,6 +79,10 @@
         "fish": {
           "title": "Fish",
           "description": "Guess the fish from its stats"
+        },
+        "dish": {
+          "title": "Dish",
+          "description": "Guess the dish from its stats"
         }
       },
       "reset_in": "Reset in: {time}",
@@ -599,6 +603,177 @@
           "Summer": "Summer",
           "Fall": "Fall",
           "Winter": "Winter"
+        }
+      }
+    },
+    "dish": {
+      "page_meta": {
+        "title": "Dish",
+        "description": "Guess today's Stardew Valley cooked dish from its stats!"
+      },
+      "errors": {
+        "no_daily_brawler": "No daily dish found",
+        "generic_error": "Error: {message}"
+      },
+      "result": {
+        "success": "Good job!",
+        "failure": "Try again"
+      },
+      "scroll_hint": "← Scroll horizontally to view more →",
+      "yesterday": "Yesterday's dish was <name>{brawlerName}</name>",
+      "share": {
+        "text": "I found #Stardewdle dish #{id} in {tries} guesses ",
+        "to_copy": "I found #Stardewdle dish #{id} in {tries} guesses\n{url}"
+      },
+      "victory": {
+        "stats_button": "Stats",
+        "back_home": "Back to home",
+        "next_mode": "Play Villager"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Guess today's Stardew Valley dish",
+          "bottomHint": "Type any dish to begin."
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Statistics",
+            "alt": "Statistics icon"
+          },
+          "streak": {
+            "tooltip": "Current streak (Series of consecutive victories)",
+            "alt": {
+              "active": "Active streak icon",
+              "inactive": "Inactive streak icon"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Patch notes",
+            "alt": "Patch notes icon"
+          },
+          "howToPlay": {
+            "tooltip": "How to play",
+            "alt": "How to play icon"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Type a dish name.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Statistics",
+          "metrics": {
+            "games_won": {
+              "label": "Games won:",
+              "aria_label": "Number of games won"
+            },
+            "average_tries": {
+              "label": "Average tries:",
+              "aria_label": "Average number of attempts per game"
+            },
+            "one_shots": {
+              "label": "One shots:",
+              "aria_label": "Number of games won in one try"
+            },
+            "current_streak": {
+              "label": "Current streak:",
+              "aria_label": "Current winning streak"
+            },
+            "best_streak": {
+              "label": "Best streak:",
+              "aria_label": "Best winning streak"
+            }
+          },
+          "graph": {
+            "title": "Number of tries per game",
+            "label": "Tries",
+            "fallback": "Your browser does not support the canvas element."
+          }
+        },
+        "patchNotes": {
+          "title": "Patch notes",
+          "states": {
+            "loading": {
+              "message": "Loading patch notes..."
+            },
+            "empty": {
+              "message": "Nothing here yet"
+            },
+            "error": {
+              "title": "Failed to load patch notes",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "How to Play: Dish Mode",
+          "introduction_title": "Dish Mode",
+          "introduction_description": "Guess the secret Stardew Valley cooked dish of the day by comparing five attributes. Each guess gives color-coded feedback and directional arrows to guide you.",
+          "attributes_title": "Dish Attributes",
+          "attributes_description": "Dish mode compares these attributes:",
+          "attribute_item_1": "• <strong>Energy</strong>: energy restored when eaten.",
+          "attribute_item_2": "• <strong>Price</strong>: base sell price in gold.",
+          "attribute_item_3": "• <strong>Ingredients</strong>: number of ingredients in the recipe.",
+          "attribute_item_4": "• <strong>Source</strong>: how the recipe is learned — Queen of Sauce, Friendship, Skill, Starter or Special.",
+          "attribute_item_5": "• <strong>Buff</strong>: the buff the dish grants when eaten (or None).",
+          "attribute_item_6": "• <strong>Tip</strong>: green is an exact match; orange on Buff means a partial overlap.",
+          "feedback_title": "Feedback",
+          "feedback_description": "Each tile is color-coded:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Green</span></span>: exact match with the secret dish.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Red</span></span>: no match.",
+          "feedback_arrows": "Arrows appear on Energy, Price and Ingredients.",
+          "feedback_arrow_up": "• <strong>Arrow Up (↑)</strong>: the secret dish's value is HIGHER.",
+          "feedback_arrow_down": "• <strong>Arrow Down (↓)</strong>: the secret dish's value is LOWER.",
+          "how_to_play_title": "How to Play",
+          "step_1": "Make your first guess of any dish from the search list.",
+          "step_2": "Watch each attribute tile flip in sequence, revealing color-coded feedback.",
+          "step_3": "Read the green and red tiles to spot matching and non-matching attributes.",
+          "step_4": "Use the arrows on Energy, Price and Ingredients to narrow the range.",
+          "step_5": "Make your next guess based on all the feedback received.",
+          "step_6": "Continue until you correctly identify the secret dish!",
+          "step_7": "Return daily for a new dish to guess in Dish Mode.",
+          "strategy_title": "Strategy Tips",
+          "strategy_tip_1": "• Start with dishes you cook often to establish a baseline of attributes.",
+          "strategy_tip_2": "• Source and Buff narrow the pool fast — many dishes share them.",
+          "strategy_tip_3": "• Use the arrows to eliminate whole groups by energy, price or ingredient count.",
+          "strategy_tip_4": "• About half of all dishes grant no buff — that split alone cuts the pool in two.",
+          "strategy_tip_5": "• A dish must match ALL green feedback at once.",
+          "strategy_tip_6": "• Source matches exactly; orange on Buff means a partial overlap.",
+          "daily_challenge_title": "Daily Challenge",
+          "daily_challenge_description": "Return each day for a new secret dish. Track your streak and share your result with friends."
+        }
+      },
+      "attributes": {
+        "headers": {
+          "dish": "Dish",
+          "energy": "Energy",
+          "price": "Price",
+          "ingredients": "Ingredients",
+          "source": "Source",
+          "buffs": "Buff"
+        },
+        "source": {
+          "QueenOfSauce": "Queen of Sauce",
+          "Friendship": "Friendship",
+          "Skill": "Skill",
+          "Starter": "Starter",
+          "Special": "Special"
+        },
+        "buff": {
+          "None": "None",
+          "Farming": "Farming",
+          "Fishing": "Fishing",
+          "Mining": "Mining",
+          "Foraging": "Foraging",
+          "Combat": "Combat",
+          "Luck": "Luck",
+          "MaxEnergy": "Max Energy",
+          "Magnetism": "Magnetism",
+          "Speed": "Speed",
+          "Defense": "Defense",
+          "Attack": "Attack",
+          "Immunity": "Immunity"
         }
       }
     }

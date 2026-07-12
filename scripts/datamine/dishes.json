@@ -1,0 +1,1069 @@
+[
+  {
+    "key": "456",
+    "name": "Algae Soup",
+    "name_fr": "Soupe aux algues",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 75,
+    "price": 100,
+    "ingredients": 1,
+    "sprite": 456,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "605",
+    "name": "Artichoke Dip",
+    "name_fr": "Trempette aux artichauts",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 100,
+    "price": 210,
+    "ingredients": 2,
+    "sprite": 605,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "235",
+    "name": "Autumn's Bounty",
+    "name_fr": "Récompense d’automne",
+    "source": "Friendship",
+    "buffs": [
+      "Foraging",
+      "Defense"
+    ],
+    "energy": 220,
+    "price": 350,
+    "ingredients": 2,
+    "sprite": 235,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "198",
+    "name": "Baked Fish",
+    "name_fr": "Poisson cuit au four",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 75,
+    "price": 100,
+    "ingredients": 3,
+    "sprite": 198,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "904",
+    "name": "Banana Pudding",
+    "name_fr": "Pudding à la banane",
+    "source": "QueenOfSauce",
+    "buffs": [
+      "Mining",
+      "Luck",
+      "Defense"
+    ],
+    "energy": 125,
+    "price": 260,
+    "ingredients": 3,
+    "sprite": 904,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "207",
+    "name": "Bean Hotpot",
+    "name_fr": "Ragoût aux haricots",
+    "source": "Friendship",
+    "buffs": [
+      "MaxEnergy",
+      "Magnetism"
+    ],
+    "energy": 125,
+    "price": 100,
+    "ingredients": 1,
+    "sprite": 207,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "611",
+    "name": "Blackberry Cobbler",
+    "name_fr": "Tourte aux mûres",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 175,
+    "price": 260,
+    "ingredients": 3,
+    "sprite": 611,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "234",
+    "name": "Blueberry Tart",
+    "name_fr": "Tarte aux myrtilles",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 125,
+    "price": 150,
+    "ingredients": 4,
+    "sprite": 234,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "216",
+    "name": "Bread",
+    "name_fr": "Pain",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 50,
+    "price": 60,
+    "ingredients": 1,
+    "sprite": 216,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "618",
+    "name": "Bruschetta",
+    "name_fr": "Bruschetta",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 113,
+    "price": 210,
+    "ingredients": 3,
+    "sprite": 618,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "209",
+    "name": "Carp Surprise",
+    "name_fr": "Carpe surprise",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 90,
+    "price": 150,
+    "ingredients": 1,
+    "sprite": 209,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "197",
+    "name": "Cheese Cauliflower",
+    "name_fr": "Gratin de chou-fleur",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 138,
+    "price": 300,
+    "ingredients": 2,
+    "sprite": 197,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "220",
+    "name": "Chocolate Cake",
+    "name_fr": "Gâteau au chocolat",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 150,
+    "price": 200,
+    "ingredients": 3,
+    "sprite": 220,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "727",
+    "name": "Chowder",
+    "name_fr": "Soupe de palourdes",
+    "source": "Friendship",
+    "buffs": [
+      "Fishing"
+    ],
+    "energy": 225,
+    "price": 135,
+    "ingredients": 2,
+    "sprite": 727,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "648",
+    "name": "Coleslaw",
+    "name_fr": "Salade de chou",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 213,
+    "price": 345,
+    "ingredients": 3,
+    "sprite": 648,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "201",
+    "name": "Complete Breakfast",
+    "name_fr": "Petit-déjeuner complet",
+    "source": "QueenOfSauce",
+    "buffs": [
+      "Farming",
+      "MaxEnergy"
+    ],
+    "energy": 200,
+    "price": 350,
+    "ingredients": 4,
+    "sprite": 201,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "223",
+    "name": "Cookies",
+    "name_fr": "Biscuit",
+    "source": "Special",
+    "buffs": [],
+    "energy": 90,
+    "price": 140,
+    "ingredients": 3,
+    "sprite": 223,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "732",
+    "name": "Crab Cakes",
+    "name_fr": "Beignets de crabe",
+    "source": "QueenOfSauce",
+    "buffs": [
+      "Speed",
+      "Defense"
+    ],
+    "energy": 225,
+    "price": 275,
+    "ingredients": 4,
+    "sprite": 732,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "612",
+    "name": "Cranberry Candy",
+    "name_fr": "Bonbons aux canneberges",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 125,
+    "price": 175,
+    "ingredients": 3,
+    "sprite": 612,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "238",
+    "name": "Cranberry Sauce",
+    "name_fr": "Sauce aux canneberges",
+    "source": "Friendship",
+    "buffs": [
+      "Mining"
+    ],
+    "energy": 125,
+    "price": 120,
+    "ingredients": 2,
+    "sprite": 238,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "214",
+    "name": "Crispy Bass",
+    "name_fr": "Achigan croustillant",
+    "source": "Friendship",
+    "buffs": [
+      "Magnetism"
+    ],
+    "energy": 90,
+    "price": 150,
+    "ingredients": 3,
+    "sprite": 214,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "242",
+    "name": "Dish O' The Sea",
+    "name_fr": "Plat de la mer",
+    "source": "Skill",
+    "buffs": [
+      "Fishing"
+    ],
+    "energy": 150,
+    "price": 220,
+    "ingredients": 2,
+    "sprite": 242,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "231",
+    "name": "Eggplant Parmesan",
+    "name_fr": "Aubergine au parmesan",
+    "source": "Friendship",
+    "buffs": [
+      "Mining",
+      "Defense"
+    ],
+    "energy": 175,
+    "price": 200,
+    "ingredients": 2,
+    "sprite": 231,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "729",
+    "name": "Escargot",
+    "name_fr": "Escargots",
+    "source": "Friendship",
+    "buffs": [
+      "Fishing"
+    ],
+    "energy": 225,
+    "price": 125,
+    "ingredients": 2,
+    "sprite": 729,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "240",
+    "name": "Farmer's Lunch",
+    "name_fr": "Déjeuner du fermier",
+    "source": "Skill",
+    "buffs": [
+      "Farming"
+    ],
+    "energy": 200,
+    "price": 150,
+    "ingredients": 2,
+    "sprite": 240,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "649",
+    "name": "Fiddlehead Risotto",
+    "name_fr": "Risotto aux crosses de fougère",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 225,
+    "price": 350,
+    "ingredients": 3,
+    "sprite": 649,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "728",
+    "name": "Fish Stew",
+    "name_fr": "Ragoût de poisson",
+    "source": "Friendship",
+    "buffs": [
+      "Fishing"
+    ],
+    "energy": 225,
+    "price": 175,
+    "ingredients": 4,
+    "sprite": 728,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "213",
+    "name": "Fish Taco",
+    "name_fr": "Tacos de poisson",
+    "source": "Friendship",
+    "buffs": [
+      "Fishing"
+    ],
+    "energy": 165,
+    "price": 500,
+    "ingredients": 4,
+    "sprite": 213,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "202",
+    "name": "Fried Calamari",
+    "name_fr": "Calmars frits",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 80,
+    "price": 150,
+    "ingredients": 3,
+    "sprite": 202,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "225",
+    "name": "Fried Eel",
+    "name_fr": "Anguille grillée",
+    "source": "Friendship",
+    "buffs": [
+      "Luck"
+    ],
+    "energy": 75,
+    "price": 120,
+    "ingredients": 2,
+    "sprite": 225,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "194",
+    "name": "Fried Egg",
+    "name_fr": "Oeuf sur le plat",
+    "source": "Starter",
+    "buffs": [],
+    "energy": 50,
+    "price": 35,
+    "ingredients": 1,
+    "sprite": 194,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "205",
+    "name": "Fried Mushroom",
+    "name_fr": "Champignon frit",
+    "source": "Friendship",
+    "buffs": [
+      "Attack"
+    ],
+    "energy": 135,
+    "price": 200,
+    "ingredients": 3,
+    "sprite": 205,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "610",
+    "name": "Fruit Salad",
+    "name_fr": "Salade de fruits",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 263,
+    "price": 450,
+    "ingredients": 3,
+    "sprite": 610,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "903",
+    "name": "Ginger Ale",
+    "name_fr": "Soda au gingembre",
+    "source": "QueenOfSauce",
+    "buffs": [
+      "Luck"
+    ],
+    "energy": 63,
+    "price": 200,
+    "ingredients": 2,
+    "sprite": 903,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "208",
+    "name": "Glazed Yams",
+    "name_fr": "Ignames glacées",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 200,
+    "price": 200,
+    "ingredients": 2,
+    "sprite": 208,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "210",
+    "name": "Hashbrowns",
+    "name_fr": "Galettes de pommes de terre",
+    "source": "QueenOfSauce",
+    "buffs": [
+      "Farming"
+    ],
+    "energy": 90,
+    "price": 120,
+    "ingredients": 2,
+    "sprite": 210,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "233",
+    "name": "Ice Cream",
+    "name_fr": "Crème glacée",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 100,
+    "price": 120,
+    "ingredients": 2,
+    "sprite": 233,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "730",
+    "name": "Lobster Bisque",
+    "name_fr": "Bisque de homard",
+    "source": "Friendship",
+    "buffs": [
+      "Fishing",
+      "MaxEnergy"
+    ],
+    "energy": 225,
+    "price": 205,
+    "ingredients": 2,
+    "sprite": 730,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "204",
+    "name": "Lucky Lunch",
+    "name_fr": "Déjeuner chanceux",
+    "source": "Skill",
+    "buffs": [
+      "Luck"
+    ],
+    "energy": 100,
+    "price": 250,
+    "ingredients": 3,
+    "sprite": 204,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "228",
+    "name": "Maki Roll",
+    "name_fr": "Maki",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 100,
+    "price": 220,
+    "ingredients": 3,
+    "sprite": 228,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "905",
+    "name": "Mango Sticky Rice",
+    "name_fr": "Riz gluant à la mangue",
+    "source": "Friendship",
+    "buffs": [
+      "Defense"
+    ],
+    "energy": 113,
+    "price": 250,
+    "ingredients": 3,
+    "sprite": 905,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "731",
+    "name": "Maple Bar",
+    "name_fr": "Gâteau d’érable",
+    "source": "QueenOfSauce",
+    "buffs": [
+      "Farming",
+      "Fishing",
+      "Mining"
+    ],
+    "energy": 225,
+    "price": 300,
+    "ingredients": 3,
+    "sprite": 731,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "243",
+    "name": "Miner's Treat",
+    "name_fr": "Friandise de mineur",
+    "source": "Skill",
+    "buffs": [
+      "Mining",
+      "Magnetism"
+    ],
+    "energy": 125,
+    "price": 200,
+    "ingredients": 3,
+    "sprite": 243,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "MossSoup",
+    "name": "Moss Soup",
+    "name_fr": "Soupe de mousse végétale",
+    "source": "Skill",
+    "buffs": [],
+    "energy": 70,
+    "price": 80,
+    "ingredients": 1,
+    "sprite": 144,
+    "sheet": "objects_2"
+  },
+  {
+    "key": "195",
+    "name": "Omelet",
+    "name_fr": "Omelette",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 100,
+    "price": 125,
+    "ingredients": 2,
+    "sprite": 195,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "457",
+    "name": "Pale Broth",
+    "name_fr": "Bouillon clair",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 125,
+    "price": 150,
+    "ingredients": 1,
+    "sprite": 457,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "211",
+    "name": "Pancakes",
+    "name_fr": "Pancakes",
+    "source": "QueenOfSauce",
+    "buffs": [
+      "Foraging"
+    ],
+    "energy": 90,
+    "price": 80,
+    "ingredients": 2,
+    "sprite": 211,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "199",
+    "name": "Parsnip Soup",
+    "name_fr": "Soupe de panais",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 85,
+    "price": 120,
+    "ingredients": 3,
+    "sprite": 199,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "215",
+    "name": "Pepper Poppers",
+    "name_fr": "Poivron farci",
+    "source": "Friendship",
+    "buffs": [
+      "Farming",
+      "Speed"
+    ],
+    "energy": 130,
+    "price": 200,
+    "ingredients": 2,
+    "sprite": 215,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "221",
+    "name": "Pink Cake",
+    "name_fr": "Gâteau rose",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 250,
+    "price": 480,
+    "ingredients": 4,
+    "sprite": 221,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "206",
+    "name": "Pizza",
+    "name_fr": "Pizza",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 150,
+    "price": 300,
+    "ingredients": 3,
+    "sprite": 206,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "604",
+    "name": "Plum Pudding",
+    "name_fr": "Pudding aux prunes",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 175,
+    "price": 260,
+    "ingredients": 3,
+    "sprite": 604,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "906",
+    "name": "Poi",
+    "name_fr": "Poï",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 75,
+    "price": 400,
+    "ingredients": 1,
+    "sprite": 906,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "651",
+    "name": "Poppyseed Muffin",
+    "name_fr": "Muffin aux graines de pavot",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 150,
+    "price": 250,
+    "ingredients": 3,
+    "sprite": 651,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "608",
+    "name": "Pumpkin Pie",
+    "name_fr": "Tarte à la citrouille",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 225,
+    "price": 385,
+    "ingredients": 4,
+    "sprite": 608,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "236",
+    "name": "Pumpkin Soup",
+    "name_fr": "Soupe à la citrouille",
+    "source": "Friendship",
+    "buffs": [
+      "Luck",
+      "Defense"
+    ],
+    "energy": 200,
+    "price": 300,
+    "ingredients": 2,
+    "sprite": 236,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "609",
+    "name": "Radish Salad",
+    "name_fr": "Salade de radis",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 200,
+    "price": 300,
+    "ingredients": 3,
+    "sprite": 609,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "230",
+    "name": "Red Plate",
+    "name_fr": "Assiette d’antioxydants",
+    "source": "Friendship",
+    "buffs": [
+      "MaxEnergy"
+    ],
+    "energy": 240,
+    "price": 400,
+    "ingredients": 2,
+    "sprite": 230,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "222",
+    "name": "Rhubarb Pie",
+    "name_fr": "Tarte à la rhubarbe",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 215,
+    "price": 400,
+    "ingredients": 3,
+    "sprite": 222,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "232",
+    "name": "Rice Pudding",
+    "name_fr": "Riz au lait",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 115,
+    "price": 260,
+    "ingredients": 3,
+    "sprite": 232,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "607",
+    "name": "Roasted Hazelnuts",
+    "name_fr": "Noisettes grillées",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 175,
+    "price": 270,
+    "ingredients": 1,
+    "sprite": 607,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "244",
+    "name": "Roots Platter",
+    "name_fr": "Plateau de racines",
+    "source": "Skill",
+    "buffs": [
+      "Attack"
+    ],
+    "energy": 125,
+    "price": 100,
+    "ingredients": 2,
+    "sprite": 244,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "196",
+    "name": "Salad",
+    "name_fr": "Salade",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 113,
+    "price": 110,
+    "ingredients": 3,
+    "sprite": 196,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "212",
+    "name": "Salmon Dinner",
+    "name_fr": "Dîner de saumon",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 125,
+    "price": 300,
+    "ingredients": 3,
+    "sprite": 212,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "227",
+    "name": "Sashimi",
+    "name_fr": "Sashimi",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 75,
+    "price": 75,
+    "ingredients": 1,
+    "sprite": 227,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "265",
+    "name": "Seafoam Pudding",
+    "name_fr": "Pudding de mousse de mer",
+    "source": "Skill",
+    "buffs": [
+      "Fishing"
+    ],
+    "energy": 175,
+    "price": 300,
+    "ingredients": 3,
+    "sprite": 265,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "733",
+    "name": "Shrimp Cocktail",
+    "name_fr": "Cocktail de crevettes",
+    "source": "QueenOfSauce",
+    "buffs": [
+      "Fishing",
+      "Luck"
+    ],
+    "energy": 225,
+    "price": 160,
+    "ingredients": 3,
+    "sprite": 733,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "224",
+    "name": "Spaghetti",
+    "name_fr": "Spaghetti",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 75,
+    "price": 120,
+    "ingredients": 2,
+    "sprite": 224,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "226",
+    "name": "Spicy Eel",
+    "name_fr": "Anguille épicée",
+    "source": "Friendship",
+    "buffs": [
+      "Luck",
+      "Speed"
+    ],
+    "energy": 115,
+    "price": 175,
+    "ingredients": 2,
+    "sprite": 226,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "921",
+    "name": "Squid Ink Ravioli",
+    "name_fr": "Raviolis à l’encre de seiche",
+    "source": "Skill",
+    "buffs": [
+      "Mining"
+    ],
+    "energy": 125,
+    "price": 150,
+    "ingredients": 3,
+    "sprite": 921,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "606",
+    "name": "Stir Fry",
+    "name_fr": "Sauté",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 200,
+    "price": 335,
+    "ingredients": 4,
+    "sprite": 606,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "203",
+    "name": "Strange Bun",
+    "name_fr": "Petit pain étrange",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 100,
+    "price": 225,
+    "ingredients": 3,
+    "sprite": 203,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "239",
+    "name": "Stuffing",
+    "name_fr": "Farce",
+    "source": "Friendship",
+    "buffs": [
+      "Defense"
+    ],
+    "energy": 170,
+    "price": 165,
+    "ingredients": 3,
+    "sprite": 239,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "237",
+    "name": "Super Meal",
+    "name_fr": "Repas énergétique",
+    "source": "Friendship",
+    "buffs": [
+      "MaxEnergy",
+      "Speed"
+    ],
+    "energy": 160,
+    "price": 220,
+    "ingredients": 3,
+    "sprite": 237,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "241",
+    "name": "Survival Burger",
+    "name_fr": "Hamburger de survie",
+    "source": "Skill",
+    "buffs": [
+      "Foraging"
+    ],
+    "energy": 125,
+    "price": 180,
+    "ingredients": 3,
+    "sprite": 241,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "218",
+    "name": "Tom Kha Soup",
+    "name_fr": "Soupe tom-kha",
+    "source": "Friendship",
+    "buffs": [
+      "Farming",
+      "MaxEnergy"
+    ],
+    "energy": 175,
+    "price": 250,
+    "ingredients": 3,
+    "sprite": 218,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "229",
+    "name": "Tortilla",
+    "name_fr": "Tortilla",
+    "source": "QueenOfSauce",
+    "buffs": [],
+    "energy": 50,
+    "price": 50,
+    "ingredients": 1,
+    "sprite": 229,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "253",
+    "name": "Triple Shot Espresso",
+    "name_fr": "Triple dose d’espresso",
+    "source": "QueenOfSauce",
+    "buffs": [
+      "Speed"
+    ],
+    "energy": 8,
+    "price": 450,
+    "ingredients": 1,
+    "sprite": 253,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "907",
+    "name": "Tropical Curry",
+    "name_fr": "Curry tropical",
+    "source": "QueenOfSauce",
+    "buffs": [
+      "Foraging"
+    ],
+    "energy": 150,
+    "price": 500,
+    "ingredients": 3,
+    "sprite": 907,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "219",
+    "name": "Trout Soup",
+    "name_fr": "Soupe à la truite",
+    "source": "QueenOfSauce",
+    "buffs": [
+      "Fishing"
+    ],
+    "energy": 100,
+    "price": 100,
+    "ingredients": 2,
+    "sprite": 219,
+    "sheet": "springobjects"
+  },
+  {
+    "key": "200",
+    "name": "Vegetable Medley",
+    "name_fr": "Mélange de légumes",
+    "source": "Friendship",
+    "buffs": [],
+    "energy": 165,
+    "price": 120,
+    "ingredients": 2,
+    "sprite": 200,
+    "sheet": "springobjects"
+  }
+]

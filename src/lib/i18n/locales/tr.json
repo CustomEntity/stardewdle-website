@@ -79,6 +79,10 @@
         "fish": {
           "description": "Balığı istatistiklerinden tahmin et",
           "title": "Balık"
+        },
+        "dish": {
+          "title": "Yemek",
+          "description": "Yemeği istatistiklerinden tahmin et"
         }
       },
       "reset_in": "Sıfırlanma: {time}",
@@ -654,6 +658,177 @@
         "stats_button": "İstatistikler"
       },
       "yesterday": "Dünün balığı <name>{brawlerName}</name> idi"
+    },
+    "dish": {
+      "attributes": {
+        "headers": {
+          "dish": "Yemek",
+          "energy": "Enerji",
+          "price": "Fiyat",
+          "ingredients": "Malzeme",
+          "source": "Kaynak",
+          "buffs": "Buff"
+        },
+        "source": {
+          "QueenOfSauce": "Sos Kraliçesi",
+          "Friendship": "Arkadaşlık",
+          "Skill": "Beceri",
+          "Starter": "Başlangıç",
+          "Special": "Özel"
+        },
+        "buff": {
+          "None": "Yok",
+          "Farming": "Çiftçilik",
+          "Fishing": "Balıkçılık",
+          "Mining": "Madencilik",
+          "Foraging": "Yiyecek Toplama",
+          "Combat": "Dövüş",
+          "Luck": "Şans",
+          "MaxEnergy": "Maks. Enerji",
+          "Magnetism": "Manyetizma",
+          "Speed": "Hız",
+          "Defense": "Savunma",
+          "Attack": "Saldırı",
+          "Immunity": "Bağışıklık"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "Bir yemek adı yaz.."
+        },
+        "explanationBox": {
+          "title": "Bugünün Stardew Valley yemeğini tahmin et",
+          "bottomHint": "Başlamak için bir yemek adı yaz."
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "Nasıl oynanır simgesi",
+            "tooltip": "Nasıl oynanır"
+          },
+          "patchNotes": {
+            "alt": "Yama notları simgesi",
+            "tooltip": "Yama notları"
+          },
+          "stats": {
+            "alt": "İstatistikler simgesi",
+            "tooltip": "İstatistikler"
+          },
+          "streak": {
+            "alt": {
+              "active": "Aktif seri simgesi",
+              "inactive": "Pasif seri simgesi"
+            },
+            "tooltip": "Mevcut seri (Art arda kazanılan galibiyetler dizisi)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "Hata: {message}",
+        "no_daily_brawler": "Günlük yemek bulunamadı"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "title": "Nasıl Oynanır: Yemek Modu",
+          "introduction_title": "Yemek Modu",
+          "introduction_description": "Beş özelliği karşılaştırarak günün gizli Stardew Valley yemeğini tahmin edin. Her tahmin, size yol gösteren renk kodlu geri bildirim ve yön okları sağlar.",
+          "attributes_title": "Yemek Özellikleri",
+          "attributes_description": "Yemek modu şu özellikleri karşılaştırır:",
+          "attribute_item_1": "• <strong>Enerji</strong>: yendiğinde geri kazandırdığı enerji.",
+          "attribute_item_2": "• <strong>Fiyat</strong>: altın cinsinden temel satış fiyatı.",
+          "attribute_item_3": "• <strong>Malzemeler</strong>: tarifteki malzeme sayısı.",
+          "attribute_item_4": "• <strong>Kaynak</strong>: tarifin nasıl öğrenildiği — Sos Kraliçesi, Arkadaşlık, Beceri, Başlangıç veya Özel.",
+          "attribute_item_5": "• <strong>Buff</strong>: yendiğinde yemeğin sağladığı buff (ya da Yok).",
+          "attribute_item_6": "• <strong>İpucu</strong>: yeşil tam eşleşme anlamına gelir; Buff üzerindeki turuncu ise kısmi bir örtüşmeyi gösterir.",
+          "feedback_title": "Geri Bildirim",
+          "feedback_description": "Her kutu renk koduyla gösterilir:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Yeşil</span></span>: gizli yemekle tam eşleşme.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Kırmızı</span></span>: eşleşme yok.",
+          "feedback_arrows": "Oklar, Enerji, Fiyat ve Malzemeler üzerinde görünür.",
+          "feedback_arrow_up": "• <strong>Yukarı Ok (↑)</strong>: gizli yemeğin değeri DAHA YÜKSEK.",
+          "feedback_arrow_down": "• <strong>Aşağı Ok (↓)</strong>: gizli yemeğin değeri DAHA DÜŞÜK.",
+          "how_to_play_title": "Nasıl Oynanır",
+          "step_1": "Arama listesinden herhangi bir yemekle ilk tahmininizi yapın.",
+          "step_2": "Her özellik kutusunun sırayla dönerek renk kodlu geri bildirimi ortaya çıkarmasını izleyin.",
+          "step_3": "Eşleşen ve eşleşmeyen özellikleri tespit etmek için yeşil ve kırmızı kutuları inceleyin.",
+          "step_4": "Aralığı daraltmak için Enerji, Fiyat ve Malzemeler üzerindeki okları kullanın.",
+          "step_5": "Aldığınız tüm geri bildirimlere dayanarak bir sonraki tahmininizi yapın.",
+          "step_6": "Gizli yemeği doğru şekilde bulana kadar devam edin!",
+          "step_7": "Yemek Modu'nda tahmin etmek için her gün yeni bir yemekle geri dönün.",
+          "strategy_title": "Strateji İpuçları",
+          "strategy_tip_1": "• Özelliklerde bir başlangıç noktası oluşturmak için sık pişirdiğiniz yemeklerle başlayın.",
+          "strategy_tip_2": "• Kaynak ve Buff, olası seçenekleri hızla daraltır — birçok yemek bunları paylaşır.",
+          "strategy_tip_3": "• Enerji, fiyat veya malzeme sayısına göre tüm grupları elemek için okları kullanın.",
+          "strategy_tip_4": "• Tüm yemeklerin yaklaşık yarısı hiç buff vermez — bu ayrım bile olası seçenekleri ikiye böler.",
+          "strategy_tip_5": "• Bir yemek, TÜM yeşil geri bildirimlerle aynı anda eşleşmelidir.",
+          "strategy_tip_6": "• Kaynak birebir eşleşir; Buff üzerindeki turuncu ise kısmi bir örtüşmeyi gösterir.",
+          "daily_challenge_title": "Günlük Meydan Okuma",
+          "daily_challenge_description": "Yeni bir gizli yemek için her gün geri dönün. Serinizi takip edin ve sonucunuzu arkadaşlarınızla paylaşın."
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "Henüz burada bir şey yok"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "Yama notları yüklenemedi"
+            },
+            "loading": {
+              "message": "Yama notları yükleniyor..."
+            }
+          },
+          "title": "Yama notları"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "Tarayıcınız canvas öğesini desteklemiyor.",
+            "label": "Denemeler",
+            "title": "Oyun başına deneme sayısı"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "Oyun başına ortalama deneme sayısı",
+              "label": "Ortalama deneme:"
+            },
+            "best_streak": {
+              "aria_label": "En iyi galibiyet serisi",
+              "label": "En iyi seri:"
+            },
+            "current_streak": {
+              "aria_label": "Mevcut galibiyet serisi",
+              "label": "Mevcut seri:"
+            },
+            "games_won": {
+              "aria_label": "Kazanılan oyun sayısı",
+              "label": "Kazanılan oyunlar:"
+            },
+            "one_shots": {
+              "aria_label": "Tek denemede kazanılan oyun sayısı",
+              "label": "Tek denemeler:"
+            }
+          },
+          "title": "İstatistikler"
+        }
+      },
+      "page_meta": {
+        "title": "Yemek",
+        "description": "Bugünün Stardew Valley yemeğini istatistiklerinden tahmin et!"
+      },
+      "result": {
+        "failure": "Tekrar dene",
+        "success": "Aferin!"
+      },
+      "scroll_hint": "← Daha fazlasını görmek için yatay kaydır →",
+      "share": {
+        "text": "#Stardewdle yemeğini #{id} {tries} tahminde buldum ",
+        "to_copy": "#Stardewdle yemeğini #{id} {tries} tahminde buldum\n{url}"
+      },
+      "victory": {
+        "back_home": "Ana sayfaya dön",
+        "next_mode": "Köylü'yü Oyna",
+        "stats_button": "İstatistikler"
+      },
+      "yesterday": "Dünün yemeği <name>{brawlerName}</name> idi"
     }
   },
   "common": {

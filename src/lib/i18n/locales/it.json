@@ -79,6 +79,10 @@
         "fish": {
           "description": "Indovina il pesce dalle sue statistiche",
           "title": "Pesce"
+        },
+        "dish": {
+          "title": "Piatto",
+          "description": "Indovina il piatto dalle sue statistiche"
         }
       },
       "reset_in": "Reset tra: {time}",
@@ -654,6 +658,177 @@
         "stats_button": "Statistiche"
       },
       "yesterday": "Il pesce di ieri era <name>{brawlerName}</name>"
+    },
+    "dish": {
+      "attributes": {
+        "headers": {
+          "dish": "Piatto",
+          "energy": "Energia",
+          "price": "Prezzo",
+          "ingredients": "Ingredienti",
+          "source": "Fonte",
+          "buffs": "Buff"
+        },
+        "source": {
+          "QueenOfSauce": "Regina della Salsa",
+          "Friendship": "Amicizia",
+          "Skill": "Abilità",
+          "Starter": "Iniziale",
+          "Special": "Speciale"
+        },
+        "buff": {
+          "None": "Nessuno",
+          "Farming": "Agricoltura",
+          "Fishing": "Pesca",
+          "Mining": "Estrazione",
+          "Foraging": "Silvicoltura",
+          "Combat": "Combattimento",
+          "Luck": "Fortuna",
+          "MaxEnergy": "Energia max",
+          "Magnetism": "Magnetismo",
+          "Speed": "Velocità",
+          "Defense": "Difesa",
+          "Attack": "Attacco",
+          "Immunity": "Immunità"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "Scrivi il nome di un piatto.."
+        },
+        "explanationBox": {
+          "title": "Indovina il piatto di oggi di Stardew Valley",
+          "bottomHint": "Scrivi un piatto qualsiasi per iniziare."
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "Icona come si gioca",
+            "tooltip": "Come si gioca"
+          },
+          "patchNotes": {
+            "alt": "Icona note di patch",
+            "tooltip": "Note di patch"
+          },
+          "stats": {
+            "alt": "Icona statistiche",
+            "tooltip": "Statistiche"
+          },
+          "streak": {
+            "alt": {
+              "active": "Icona serie attiva",
+              "inactive": "Icona serie inattiva"
+            },
+            "tooltip": "Serie attuale (serie di vittorie consecutive)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "Errore: {message}",
+        "no_daily_brawler": "Nessun piatto giornaliero trovato"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "title": "Come si gioca: Modalità Piatto",
+          "introduction_title": "Modalità Piatto",
+          "introduction_description": "Indovina il piatto cucinato segreto del giorno di Stardew Valley confrontando cinque attributi. Ogni tentativo fornisce un feedback colorato e frecce direzionali per guidarti.",
+          "attributes_title": "Attributi del Piatto",
+          "attributes_description": "La modalità Piatto confronta questi attributi:",
+          "attribute_item_1": "• <strong>Energia</strong>: energia ripristinata quando viene mangiato.",
+          "attribute_item_2": "• <strong>Prezzo</strong>: prezzo di vendita base in oro.",
+          "attribute_item_3": "• <strong>Ingredienti</strong>: numero di ingredienti nella ricetta.",
+          "attribute_item_4": "• <strong>Fonte</strong>: come si impara la ricetta — Regina della Salsa, Amicizia, Abilità, Iniziale o Speciale.",
+          "attribute_item_5": "• <strong>Buff</strong>: il buff che il piatto conferisce quando viene mangiato (o Nessuno).",
+          "attribute_item_6": "• <strong>Suggerimento</strong>: il verde indica una corrispondenza esatta; l'arancione sul Buff indica una sovrapposizione parziale.",
+          "feedback_title": "Feedback",
+          "feedback_description": "Ogni riquadro ha un colore specifico:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Verde</span></span>: corrispondenza esatta con il piatto segreto.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rosso</span></span>: nessuna corrispondenza.",
+          "feedback_arrows": "Le frecce compaiono su Energia, Prezzo e Ingredienti.",
+          "feedback_arrow_up": "• <strong>Freccia su (↑)</strong>: il valore del piatto segreto è PIÙ ALTO.",
+          "feedback_arrow_down": "• <strong>Freccia giù (↓)</strong>: il valore del piatto segreto è PIÙ BASSO.",
+          "how_to_play_title": "Come si gioca",
+          "step_1": "Fai il tuo primo tentativo scegliendo un piatto qualsiasi dall'elenco di ricerca.",
+          "step_2": "Osserva ogni riquadro degli attributi girarsi in sequenza, rivelando un feedback colorato.",
+          "step_3": "Leggi i riquadri verdi e rossi per individuare gli attributi corrispondenti e non corrispondenti.",
+          "step_4": "Usa le frecce su Energia, Prezzo e Ingredienti per restringere l'intervallo.",
+          "step_5": "Fai il tuo tentativo successivo basandoti su tutto il feedback ricevuto.",
+          "step_6": "Continua finché non identifichi correttamente il piatto segreto!",
+          "step_7": "Torna ogni giorno per indovinare un nuovo piatto nella Modalità Piatto.",
+          "strategy_title": "Consigli di Strategia",
+          "strategy_tip_1": "• Inizia con piatti che cucini spesso per stabilire una base di attributi.",
+          "strategy_tip_2": "• Fonte e Buff restringono rapidamente le possibilità — molti piatti li condividono.",
+          "strategy_tip_3": "• Usa le frecce per eliminare interi gruppi in base a energia, prezzo o numero di ingredienti.",
+          "strategy_tip_4": "• Circa la metà dei piatti non conferisce alcun buff — questa sola distinzione dimezza le possibilità.",
+          "strategy_tip_5": "• Un piatto deve corrispondere a TUTTO il feedback verde contemporaneamente.",
+          "strategy_tip_6": "• La Fonte corrisponde esattamente; l'arancione sul Buff indica una sovrapposizione parziale.",
+          "daily_challenge_title": "Sfida Giornaliera",
+          "daily_challenge_description": "Torna ogni giorno per un nuovo piatto segreto. Tieni traccia della tua serie e condividi il risultato con gli amici."
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "Ancora niente qui"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "Impossibile caricare le note di patch"
+            },
+            "loading": {
+              "message": "Caricamento delle note di patch..."
+            }
+          },
+          "title": "Note di patch"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "Il tuo browser non supporta l'elemento canvas.",
+            "label": "Tentativi",
+            "title": "Numero di tentativi per partita"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "Numero medio di tentativi per partita",
+              "label": "Tentativi medi:"
+            },
+            "best_streak": {
+              "aria_label": "Migliore serie di vittorie",
+              "label": "Miglior serie:"
+            },
+            "current_streak": {
+              "aria_label": "Serie di vittorie attuale",
+              "label": "Serie attuale:"
+            },
+            "games_won": {
+              "aria_label": "Numero di partite vinte",
+              "label": "Partite vinte:"
+            },
+            "one_shots": {
+              "aria_label": "Numero di partite vinte al primo tentativo",
+              "label": "Vittorie al primo colpo:"
+            }
+          },
+          "title": "Statistiche"
+        }
+      },
+      "page_meta": {
+        "title": "Piatto",
+        "description": "Indovina il piatto cucinato di oggi di Stardew Valley dalle sue statistiche!"
+      },
+      "result": {
+        "failure": "Riprova",
+        "success": "Ottimo lavoro!"
+      },
+      "scroll_hint": "← Scorri orizzontalmente per vedere altro →",
+      "share": {
+        "text": "Ho trovato il piatto #Stardewdle #{id} in {tries} tentativi ",
+        "to_copy": "Ho trovato il piatto #Stardewdle #{id} in {tries} tentativi\n{url}"
+      },
+      "victory": {
+        "back_home": "Torna alla home",
+        "next_mode": "Gioca a Abitante",
+        "stats_button": "Statistiche"
+      },
+      "yesterday": "Il piatto di ieri era <name>{brawlerName}</name>"
     }
   },
   "common": {

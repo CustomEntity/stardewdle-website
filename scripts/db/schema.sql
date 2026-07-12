@@ -91,6 +91,33 @@ CREATE TABLE IF NOT EXISTS daily_fish (
     fish_id  INTEGER NOT NULL REFERENCES fish(id)
 );
 
+CREATE TABLE IF NOT EXISTS dishes (
+    id          SERIAL PRIMARY KEY,
+    key         TEXT UNIQUE NOT NULL,   -- yield (cooked object) item id
+    source      TEXT,                   -- QueenOfSauce | Friendship | Skill | Starter | Special
+    buffs       TEXT[],                 -- Farming | Fishing | Mining | Foraging | Combat | Luck | MaxEnergy | Magnetism | Speed | Defense | Attack | Immunity
+    energy      INTEGER,                -- energy restored
+    price       INTEGER,                -- base sell price (g)
+    ingredients INTEGER,                -- ingredient count
+    sprite      INTEGER,
+    sheet       TEXT,                   -- springobjects | objects_2
+    released    BOOLEAN NOT NULL DEFAULT TRUE
+);
+
+CREATE TABLE IF NOT EXISTS dish_translations (
+    dish_id   INTEGER NOT NULL REFERENCES dishes(id) ON DELETE CASCADE,
+    language  TEXT NOT NULL,
+    name      TEXT NOT NULL,
+    PRIMARY KEY (dish_id, language)
+);
+
+CREATE TABLE IF NOT EXISTS daily_dish (
+    id       SERIAL PRIMARY KEY,
+    game_id  INTEGER NOT NULL,
+    date     DATE NOT NULL UNIQUE,
+    dish_id  INTEGER NOT NULL REFERENCES dishes(id)
+);
+
 CREATE TABLE IF NOT EXISTS patch_notes (
     id      SERIAL PRIMARY KEY,
     date    DATE NOT NULL,

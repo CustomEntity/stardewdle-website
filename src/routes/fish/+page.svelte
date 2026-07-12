@@ -153,10 +153,10 @@
                             {#snippet nextMode()}
                                 <HomeButton
                                     class="w-full max-w-[380px] h-[96px] mt-1"
-                                    title={locale.t("pages.home.button.villager.title")}
-                                    subtitle={locale.t("pages.home.button.villager.description")}
-                                    gameMode="villager"
-                                    href="/villager"/>
+                                    title={locale.t("pages.home.button.dish.title")}
+                                    subtitle={locale.t("pages.home.button.dish.description")}
+                                    gameMode="dish"
+                                    href="/dish"/>
                             {/snippet}
                         </VictoryContainer>
                         <ShareContainer

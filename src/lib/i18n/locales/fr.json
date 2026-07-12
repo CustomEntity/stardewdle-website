@@ -79,6 +79,10 @@
         "fish": {
           "title": "Poisson",
           "description": "Devine le poisson d'après ses stats"
+        },
+        "dish": {
+          "title": "Plat",
+          "description": "Devine le plat d'après ses stats"
         }
       },
       "reset_in": "Réinit. dans : {time}",
@@ -599,6 +603,177 @@
           "Summer": "Été",
           "Fall": "Automne",
           "Winter": "Hiver"
+        }
+      }
+    },
+    "dish": {
+      "page_meta": {
+        "title": "Plat",
+        "description": "Devine le plat de Stardew Valley du jour d'après ses stats !"
+      },
+      "errors": {
+        "no_daily_brawler": "Aucun plat du jour trouvé",
+        "generic_error": "Erreur : {message}"
+      },
+      "result": {
+        "success": "Bien joué !",
+        "failure": "Réessayez"
+      },
+      "scroll_hint": "← Faites défiler horizontalement pour voir plus →",
+      "yesterday": "Le plat d'hier était <name>{brawlerName}</name>",
+      "share": {
+        "text": "J'ai trouvé le plat #Stardewdle #{id} en {tries} essais ",
+        "to_copy": "J'ai trouvé le plat #Stardewdle #{id} en {tries} essais\n{url}"
+      },
+      "victory": {
+        "stats_button": "Stats",
+        "back_home": "Retour à l'accueil",
+        "next_mode": "Jouer au Villageois"
+      },
+      "components": {
+        "explanationBox": {
+          "title": "Devine le plat de Stardew Valley du jour",
+          "bottomHint": "Tape un plat pour commencer."
+        },
+        "toolsBar": {
+          "stats": {
+            "tooltip": "Statistiques",
+            "alt": "Icône de statistiques"
+          },
+          "streak": {
+            "tooltip": "Série actuelle (Série de victoires consécutives)",
+            "alt": {
+              "active": "Icône de série active",
+              "inactive": "Icône de série inactive"
+            }
+          },
+          "patchNotes": {
+            "tooltip": "Notes de mise à jour",
+            "alt": "Icône des notes de mise à jour"
+          },
+          "howToPlay": {
+            "tooltip": "Comment jouer",
+            "alt": "Icône comment jouer"
+          }
+        },
+        "answerInput": {
+          "placeholder": "Tape un nom de plat.."
+        }
+      },
+      "modals": {
+        "stats": {
+          "title": "Statistiques",
+          "metrics": {
+            "games_won": {
+              "label": "Parties gagnées :",
+              "aria_label": "Nombre de parties gagnées"
+            },
+            "average_tries": {
+              "label": "Essais moyens :",
+              "aria_label": "Nombre moyen de tentatives par partie"
+            },
+            "one_shots": {
+              "label": "Du premier coup :",
+              "aria_label": "Nombre de parties gagnées en un essai"
+            },
+            "current_streak": {
+              "label": "Série actuelle :",
+              "aria_label": "Série de victoires actuelle"
+            },
+            "best_streak": {
+              "label": "Meilleure série :",
+              "aria_label": "Meilleure série de victoires"
+            }
+          },
+          "graph": {
+            "title": "Nombre d'essais par partie",
+            "label": "Essais",
+            "fallback": "Votre navigateur ne supporte pas l'élément canvas."
+          }
+        },
+        "patchNotes": {
+          "title": "Notes de mise à jour",
+          "states": {
+            "loading": {
+              "message": "Chargement des notes de mise à jour..."
+            },
+            "empty": {
+              "message": "Rien ici pour le moment"
+            },
+            "error": {
+              "title": "Échec du chargement des notes de mise à jour",
+              "message": "{error}"
+            }
+          }
+        },
+        "how_to_play_classic": {
+          "title": "Comment jouer : Mode Plat",
+          "introduction_title": "Mode Plat",
+          "introduction_description": "Devinez le plat cuisiné secret du jour de Stardew Valley en comparant cinq attributs. Chaque tentative fournit un retour codé par couleur et des flèches directionnelles pour vous guider.",
+          "attributes_title": "Attributs des plats",
+          "attributes_description": "Le mode Plat compare les attributs suivants :",
+          "attribute_item_1": "• <strong>Énergie</strong> : énergie restaurée à la consommation.",
+          "attribute_item_2": "• <strong>Prix</strong> : prix de vente de base en pièces d'or.",
+          "attribute_item_3": "• <strong>Ingrédients</strong> : nombre d'ingrédients dans la recette.",
+          "attribute_item_4": "• <strong>Source</strong> : comment la recette s'apprend — Reine des Sauces, Amitié, Compétence, De base ou Spécial.",
+          "attribute_item_5": "• <strong>Bonus</strong> : le bonus que le plat confère à la consommation (ou Aucun).",
+          "attribute_item_6": "• <strong>Astuce</strong> : le vert indique une correspondance exacte ; l'orange sur Bonus signifie un chevauchement partiel.",
+          "feedback_title": "Retour",
+          "feedback_description": "Chaque case est codée par couleur :",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Vert</span></span> : correspondance exacte avec le plat secret.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rouge</span></span> : aucune correspondance.",
+          "feedback_arrows": "Des flèches apparaissent sur Énergie, Prix et Ingrédients.",
+          "feedback_arrow_up": "• <strong>Flèche vers le haut (↑)</strong> : la valeur du plat secret est PLUS ÉLEVÉE.",
+          "feedback_arrow_down": "• <strong>Flèche vers le bas (↓)</strong> : la valeur du plat secret est PLUS BASSE.",
+          "how_to_play_title": "Comment jouer",
+          "step_1": "Faites votre première tentative en choisissant un plat dans la liste de recherche.",
+          "step_2": "Observez chaque case d'attribut se retourner l'une après l'autre, révélant un retour codé par couleur.",
+          "step_3": "Lisez les cases vertes et rouges pour repérer les attributs correspondants et non correspondants.",
+          "step_4": "Utilisez les flèches sur Énergie, Prix et Ingrédients pour affiner la fourchette.",
+          "step_5": "Faites votre prochaine tentative en vous basant sur tous les retours reçus.",
+          "step_6": "Continuez jusqu'à identifier correctement le plat secret !",
+          "step_7": "Revenez chaque jour pour deviner un nouveau plat en Mode Plat.",
+          "strategy_title": "Astuces stratégiques",
+          "strategy_tip_1": "• Commencez par des plats que vous cuisinez souvent pour établir une base d'attributs.",
+          "strategy_tip_2": "• Source et Bonus réduisent rapidement les possibilités — de nombreux plats les partagent.",
+          "strategy_tip_3": "• Utilisez les flèches pour éliminer des groupes entiers selon l'énergie, le prix ou le nombre d'ingrédients.",
+          "strategy_tip_4": "• Environ la moitié des plats ne confèrent aucun bonus — cette seule distinction divise les possibilités en deux.",
+          "strategy_tip_5": "• Un plat doit correspondre à TOUS les retours verts à la fois.",
+          "strategy_tip_6": "• Source correspond exactement ; l'orange sur Bonus signifie un chevauchement partiel.",
+          "daily_challenge_title": "Défi quotidien",
+          "daily_challenge_description": "Revenez chaque jour pour un nouveau plat secret. Suivez votre série et partagez votre résultat avec vos amis."
+        }
+      },
+      "attributes": {
+        "headers": {
+          "dish": "Plat",
+          "energy": "Énergie",
+          "price": "Prix",
+          "ingredients": "Ingrédients",
+          "source": "Source",
+          "buffs": "Bonus"
+        },
+        "source": {
+          "QueenOfSauce": "Reine des Sauces",
+          "Friendship": "Amitié",
+          "Skill": "Compétence",
+          "Starter": "De base",
+          "Special": "Spécial"
+        },
+        "buff": {
+          "None": "Aucun",
+          "Farming": "Agriculture",
+          "Fishing": "Pêche",
+          "Mining": "Extraction",
+          "Foraging": "Cueillette",
+          "Combat": "Combat",
+          "Luck": "Chance",
+          "MaxEnergy": "Énergie max",
+          "Magnetism": "Magnétisme",
+          "Speed": "Vitesse",
+          "Defense": "Défense",
+          "Attack": "Attaque",
+          "Immunity": "Immunité"
         }
       }
     }

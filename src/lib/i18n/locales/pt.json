@@ -79,6 +79,10 @@
         "fish": {
           "description": "Adivinhe o peixe pelas suas estatísticas",
           "title": "Peixe"
+        },
+        "dish": {
+          "title": "Prato",
+          "description": "Adivinhe o prato pelas suas estatísticas"
         }
       },
       "reset_in": "Reinicia em: {time}",
@@ -654,6 +658,177 @@
         "stats_button": "Estatísticas"
       },
       "yesterday": "O peixe de ontem era <name>{brawlerName}</name>"
+    },
+    "dish": {
+      "attributes": {
+        "headers": {
+          "dish": "Prato",
+          "energy": "Energia",
+          "price": "Preço",
+          "ingredients": "Ingredientes",
+          "source": "Origem",
+          "buffs": "Bônus"
+        },
+        "source": {
+          "QueenOfSauce": "Rainha dos Molhos",
+          "Friendship": "Amizade",
+          "Skill": "Habilidade",
+          "Starter": "Inicial",
+          "Special": "Especial"
+        },
+        "buff": {
+          "None": "Nenhum",
+          "Farming": "Agricultura",
+          "Fishing": "Pesca",
+          "Mining": "Mineração",
+          "Foraging": "Coleta",
+          "Combat": "Combate",
+          "Luck": "Sorte",
+          "MaxEnergy": "Energia Máx.",
+          "Magnetism": "Magnetismo",
+          "Speed": "Velocidade",
+          "Defense": "Defesa",
+          "Attack": "Ataque",
+          "Immunity": "Imunidade"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "Digite o nome de um prato.."
+        },
+        "explanationBox": {
+          "title": "Adivinhe o prato de hoje de Stardew Valley",
+          "bottomHint": "Digite qualquer prato para começar."
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "Ícone de como jogar",
+            "tooltip": "Como jogar"
+          },
+          "patchNotes": {
+            "alt": "Ícone de notas de atualização",
+            "tooltip": "Notas de atualização"
+          },
+          "stats": {
+            "alt": "Ícone de estatísticas",
+            "tooltip": "Estatísticas"
+          },
+          "streak": {
+            "alt": {
+              "active": "Ícone de sequência ativa",
+              "inactive": "Ícone de sequência inativa"
+            },
+            "tooltip": "Sequência atual (série de vitórias consecutivas)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "Erro: {message}",
+        "no_daily_brawler": "Nenhum prato diário encontrado"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "title": "Como Jogar: Modo Prato",
+          "introduction_title": "Modo Prato",
+          "introduction_description": "Adivinhe o prato secreto do dia de Stardew Valley comparando cinco atributos. Cada tentativa fornece feedback com cores e setas direcionais para guiar você.",
+          "attributes_title": "Atributos do Prato",
+          "attributes_description": "O modo Prato compara estes atributos:",
+          "attribute_item_1": "• <strong>Energia</strong>: energia restaurada ao ser consumido.",
+          "attribute_item_2": "• <strong>Preço</strong>: preço de venda base em ouro.",
+          "attribute_item_3": "• <strong>Ingredientes</strong>: número de ingredientes na receita.",
+          "attribute_item_4": "• <strong>Origem</strong>: como a receita é aprendida — Rainha dos Molhos, Amizade, Habilidade, Inicial ou Especial.",
+          "attribute_item_5": "• <strong>Bônus</strong>: o bônus que o prato concede ao ser consumido (ou Nenhum).",
+          "attribute_item_6": "• <strong>Dica</strong>: verde é uma correspondência exata; laranja em Bônus significa uma sobreposição parcial.",
+          "feedback_title": "Feedback",
+          "feedback_description": "Cada bloco tem uma cor:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Verde</span></span>: correspondência exata com o prato secreto.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Vermelho</span></span>: nenhuma correspondência.",
+          "feedback_arrows": "As setas aparecem em Energia, Preço e Ingredientes.",
+          "feedback_arrow_up": "• <strong>Seta para Cima (↑)</strong>: o valor do prato secreto é MAIOR.",
+          "feedback_arrow_down": "• <strong>Seta para Baixo (↓)</strong>: o valor do prato secreto é MENOR.",
+          "how_to_play_title": "Como Jogar",
+          "step_1": "Faça sua primeira tentativa com qualquer prato da lista de busca.",
+          "step_2": "Observe cada bloco de atributo virar em sequência, revelando o feedback colorido.",
+          "step_3": "Leia os blocos verdes e vermelhos para identificar atributos correspondentes e não correspondentes.",
+          "step_4": "Use as setas em Energia, Preço e Ingredientes para estreitar o intervalo.",
+          "step_5": "Faça sua próxima tentativa com base em todo o feedback recebido.",
+          "step_6": "Continue até identificar corretamente o prato secreto!",
+          "step_7": "Volte todos os dias para um novo prato para adivinhar no Modo Prato.",
+          "strategy_title": "Dicas de Estratégia",
+          "strategy_tip_1": "• Comece com pratos que você cozinha com frequência para estabelecer uma referência de atributos.",
+          "strategy_tip_2": "• Origem e Bônus estreitam o grupo rapidamente — muitos pratos compartilham esses atributos.",
+          "strategy_tip_3": "• Use as setas para eliminar grupos inteiros por energia, preço ou número de ingredientes.",
+          "strategy_tip_4": "• Cerca de metade dos pratos não concede nenhum bônus — essa divisão sozinha corta o grupo ao meio.",
+          "strategy_tip_5": "• Um prato precisa corresponder a TODO o feedback verde ao mesmo tempo.",
+          "strategy_tip_6": "• Origem corresponde exatamente; laranja em Bônus significa uma sobreposição parcial.",
+          "daily_challenge_title": "Desafio Diário",
+          "daily_challenge_description": "Volte todos os dias para um novo prato secreto. Acompanhe sua sequência e compartilhe seu resultado com amigos."
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "Nada por aqui ainda"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "Falha ao carregar notas de atualização"
+            },
+            "loading": {
+              "message": "Carregando notas de atualização..."
+            }
+          },
+          "title": "Notas de atualização"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "Seu navegador não suporta o elemento canvas.",
+            "label": "Tentativas",
+            "title": "Número de tentativas por partida"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "Número médio de tentativas por partida",
+              "label": "Tentativas médias:"
+            },
+            "best_streak": {
+              "aria_label": "Melhor sequência de vitórias",
+              "label": "Melhor sequência:"
+            },
+            "current_streak": {
+              "aria_label": "Sequência de vitórias atual",
+              "label": "Sequência atual:"
+            },
+            "games_won": {
+              "aria_label": "Número de partidas vencidas",
+              "label": "Partidas vencidas:"
+            },
+            "one_shots": {
+              "aria_label": "Número de partidas vencidas em uma tentativa",
+              "label": "De primeira:"
+            }
+          },
+          "title": "Estatísticas"
+        }
+      },
+      "page_meta": {
+        "title": "Prato",
+        "description": "Adivinhe o prato de hoje de Stardew Valley pelas suas estatísticas!"
+      },
+      "result": {
+        "failure": "Tente novamente",
+        "success": "Muito bem!"
+      },
+      "scroll_hint": "← Role horizontalmente para ver mais →",
+      "share": {
+        "text": "Encontrei o prato #Stardewdle #{id} em {tries} tentativas ",
+        "to_copy": "Encontrei o prato #Stardewdle #{id} em {tries} tentativas\n{url}"
+      },
+      "victory": {
+        "back_home": "Voltar ao início",
+        "next_mode": "Jogar Aldeão",
+        "stats_button": "Estatísticas"
+      },
+      "yesterday": "O prato de ontem era <name>{brawlerName}</name>"
     }
   },
   "common": {

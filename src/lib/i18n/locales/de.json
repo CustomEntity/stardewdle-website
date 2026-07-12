@@ -79,6 +79,10 @@
         "fish": {
           "description": "Errate den Fisch anhand seiner Werte",
           "title": "Fisch"
+        },
+        "dish": {
+          "title": "Gericht",
+          "description": "Errate das Gericht anhand seiner Werte"
         }
       },
       "reset_in": "Reset in: {time}",
@@ -654,6 +658,177 @@
         "stats_button": "Statistik"
       },
       "yesterday": "Der gestrige Fisch war <name>{brawlerName}</name>"
+    },
+    "dish": {
+      "attributes": {
+        "headers": {
+          "dish": "Gericht",
+          "energy": "Energie",
+          "price": "Preis",
+          "ingredients": "Zutaten",
+          "source": "Quelle",
+          "buffs": "Buff"
+        },
+        "source": {
+          "QueenOfSauce": "Königin der Soßen",
+          "Friendship": "Freundschaft",
+          "Skill": "Fertigkeit",
+          "Starter": "Startrezept",
+          "Special": "Spezial"
+        },
+        "buff": {
+          "None": "Keiner",
+          "Farming": "Landwirtschaft",
+          "Fishing": "Angeln",
+          "Mining": "Bergbau",
+          "Foraging": "Sammeln",
+          "Combat": "Kampf",
+          "Luck": "Glück",
+          "MaxEnergy": "Max. Energie",
+          "Magnetism": "Magnetismus",
+          "Speed": "Geschwindigkeit",
+          "Defense": "Verteidigung",
+          "Attack": "Angriff",
+          "Immunity": "Immunität"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "Gib den Namen eines Gerichts ein.."
+        },
+        "explanationBox": {
+          "title": "Errate das heutige Stardew-Valley-Gericht",
+          "bottomHint": "Gib ein beliebiges Gericht ein, um zu beginnen."
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "Spielanleitung-Symbol",
+            "tooltip": "Spielanleitung"
+          },
+          "patchNotes": {
+            "alt": "Patch-Notes-Symbol",
+            "tooltip": "Patch-Notes"
+          },
+          "stats": {
+            "alt": "Statistik-Symbol",
+            "tooltip": "Statistik"
+          },
+          "streak": {
+            "alt": {
+              "active": "Symbol für aktive Serie",
+              "inactive": "Symbol für inaktive Serie"
+            },
+            "tooltip": "Aktuelle Serie (Folge aufeinanderfolgender Siege)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "Fehler: {message}",
+        "no_daily_brawler": "Kein tägliches Gericht gefunden"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "title": "Spielanleitung: Gericht-Modus",
+          "introduction_title": "Gericht-Modus",
+          "introduction_description": "Errate das geheime Stardew-Valley-Gericht des Tages, indem du fünf Eigenschaften vergleichst. Jeder Versuch liefert dir farblich codiertes Feedback und Richtungspfeile zur Orientierung.",
+          "attributes_title": "Gericht-Eigenschaften",
+          "attributes_description": "Der Gericht-Modus vergleicht folgende Eigenschaften:",
+          "attribute_item_1": "• <strong>Energie</strong>: Energie, die beim Verzehr wiederhergestellt wird.",
+          "attribute_item_2": "• <strong>Preis</strong>: Grundverkaufspreis in Gold.",
+          "attribute_item_3": "• <strong>Zutaten</strong>: Anzahl der Zutaten im Rezept.",
+          "attribute_item_4": "• <strong>Quelle</strong>: wie das Rezept erlernt wird — Königin der Soßen, Freundschaft, Fertigkeit, Startrezept oder Spezial.",
+          "attribute_item_5": "• <strong>Buff</strong>: der Buff, den das Gericht beim Verzehr gewährt (oder Keiner).",
+          "attribute_item_6": "• <strong>Tipp</strong>: Grün bedeutet eine genaue Übereinstimmung; Orange bei Buff bedeutet eine teilweise Überschneidung.",
+          "feedback_title": "Feedback",
+          "feedback_description": "Jede Kachel ist farblich codiert:",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">Grün</span></span>: genaue Übereinstimmung mit dem geheimen Gericht.",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">Rot</span></span>: keine Übereinstimmung.",
+          "feedback_arrows": "Pfeile erscheinen bei Energie, Preis und Zutaten.",
+          "feedback_arrow_up": "• <strong>Pfeil nach oben (↑)</strong>: Der Wert des geheimen Gerichts ist HÖHER.",
+          "feedback_arrow_down": "• <strong>Pfeil nach unten (↓)</strong>: Der Wert des geheimen Gerichts ist NIEDRIGER.",
+          "how_to_play_title": "Spielanleitung",
+          "step_1": "Mache deinen ersten Rateversuch mit einem beliebigen Gericht aus der Suchliste.",
+          "step_2": "Beobachte, wie sich jede Eigenschaftskachel nacheinander umdreht und farblich codiertes Feedback zeigt.",
+          "step_3": "Lies die grünen und roten Kacheln, um übereinstimmende und nicht übereinstimmende Eigenschaften zu erkennen.",
+          "step_4": "Nutze die Pfeile bei Energie, Preis und Zutaten, um den Bereich einzugrenzen.",
+          "step_5": "Mache deinen nächsten Rateversuch basierend auf dem gesamten erhaltenen Feedback.",
+          "step_6": "Mache weiter, bis du das geheime Gericht richtig erraten hast!",
+          "step_7": "Komm täglich wieder für ein neues Gericht im Gericht-Modus.",
+          "strategy_title": "Strategietipps",
+          "strategy_tip_1": "• Beginne mit Gerichten, die du oft kochst, um eine Basis an Eigenschaften festzulegen.",
+          "strategy_tip_2": "• Quelle und Buff grenzen die Auswahl schnell ein — viele Gerichte teilen sich diese Werte.",
+          "strategy_tip_3": "• Nutze die Pfeile, um ganze Gruppen anhand von Energie, Preis oder Zutatenzahl auszuschließen.",
+          "strategy_tip_4": "• Etwa die Hälfte aller Gerichte gewährt keinen Buff — allein diese Aufteilung halbiert die Auswahl.",
+          "strategy_tip_5": "• Ein Gericht muss ALLE grünen Rückmeldungen gleichzeitig erfüllen.",
+          "strategy_tip_6": "• Quelle stimmt exakt überein; Orange bei Buff bedeutet eine teilweise Überschneidung.",
+          "daily_challenge_title": "Tägliche Herausforderung",
+          "daily_challenge_description": "Komm jeden Tag wieder für ein neues geheimes Gericht. Verfolge deine Serie und teile dein Ergebnis mit Freunden."
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "Hier gibt es noch nichts"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "Patch-Notes konnten nicht geladen werden"
+            },
+            "loading": {
+              "message": "Patch-Notes werden geladen..."
+            }
+          },
+          "title": "Patch-Notes"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "Dein Browser unterstützt das Canvas-Element nicht.",
+            "label": "Versuche",
+            "title": "Anzahl der Versuche pro Spiel"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "Durchschnittliche Anzahl der Versuche pro Spiel",
+              "label": "Durchschnittliche Versuche:"
+            },
+            "best_streak": {
+              "aria_label": "Beste Siegesserie",
+              "label": "Beste Serie:"
+            },
+            "current_streak": {
+              "aria_label": "Aktuelle Siegesserie",
+              "label": "Aktuelle Serie:"
+            },
+            "games_won": {
+              "aria_label": "Anzahl der gewonnenen Spiele",
+              "label": "Gewonnene Spiele:"
+            },
+            "one_shots": {
+              "aria_label": "Anzahl der Spiele, die im ersten Versuch gewonnen wurden",
+              "label": "Volltreffer:"
+            }
+          },
+          "title": "Statistik"
+        }
+      },
+      "page_meta": {
+        "title": "Gericht",
+        "description": "Errate das heutige Stardew-Valley-Gericht anhand seiner Werte!"
+      },
+      "result": {
+        "failure": "Versuch es noch mal",
+        "success": "Gut gemacht!"
+      },
+      "scroll_hint": "← Horizontal scrollen, um mehr zu sehen →",
+      "share": {
+        "text": "Ich habe das #Stardewdle-Gericht Nr. {id} in {tries} Versuchen gefunden ",
+        "to_copy": "Ich habe das #Stardewdle-Gericht Nr. {id} in {tries} Versuchen gefunden\n{url}"
+      },
+      "victory": {
+        "back_home": "Zurück zur Startseite",
+        "next_mode": "Klassisch spielen",
+        "stats_button": "Statistik"
+      },
+      "yesterday": "Das gestrige Gericht war <name>{brawlerName}</name>"
     }
   },
   "common": {

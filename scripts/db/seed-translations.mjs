@@ -48,6 +48,7 @@ const tokenOf = (displayName) => {
 const villagers = rd(path.join(DM, 'villagers.json'));
 const crops = rd(path.join(DM, 'crops.json'));
 const fish = rd(path.join(DM, 'fish.json'));
+const dishes = rd(path.join(DM, 'dishes.json'));
 
 // name resolvers per entity type -> { loc: name }
 const villagerNames = (key, enName) => {
@@ -81,7 +82,7 @@ async function main() {
       const { rows } = await client.query(`SELECT id, key FROM ${table}`);
       return new Map(rows.map((r) => [r.key, r.id]));
     };
-    const [vId, cId, fId] = [await idBy('villagers'), await idBy('crops'), await idBy('fish')];
+    const [vId, cId, fId, dId] = [await idBy('villagers'), await idBy('crops'), await idBy('fish'), await idBy('dishes')];
 
     let v = 0;
     for (const x of villagers) {
@@ -98,7 +99,12 @@ async function main() {
       const id = fId.get(x.key); if (!id) continue;
       await upsert(client, 'fish_translations', 'fish_id', id, objectNames(x.key, x.name)); f++;
     }
-    console.log(`✓ translated ${v} villagers, ${c} crops, ${f} fish into ${Object.keys(LANGS).length} languages`);
+    let d = 0;
+    for (const x of dishes) {
+      const id = dId.get(x.key); if (!id) continue;
+      await upsert(client, 'dish_translations', 'dish_id', id, objectNames(x.key, x.name)); d++;
+    }
+    console.log(`✓ translated ${v} villagers, ${c} crops, ${f} fish, ${d} dishes into ${Object.keys(LANGS).length} languages`);
   } finally {
     await client.end();
   }

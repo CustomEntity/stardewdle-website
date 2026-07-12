@@ -5,7 +5,7 @@
         href: string;
         title: string;
         subtitle: string;
-        gameMode: "villager" | "crop" | "fish";
+        gameMode: "villager" | "crop" | "fish" | "dish";
         class?: string;
     }
 
@@ -21,6 +21,7 @@
         villager: "/ui/icon-villager.png",
         crop: "/ui/icon-crop.png",
         fish: "/ui/icon-fish.png",
+        dish: "/ui/icon-dish.png",
     };
 
     function handleClick(event: MouseEvent) {
@@ -88,7 +89,9 @@
         color: #6a3b18;
         text-shadow: 1px 1px 0 rgba(255, 247, 214, 0.7);
     }
-    .sub { font-size: 15px; line-height: 1.15; color: #7a5a34; }
+    /* text-shadow: none prevents inheriting the black outline from a .stardew-text ancestor
+       (e.g. the victory "next mode" slot), so the subtitle matches the home page. */
+    .sub { font-size: 15px; line-height: 1.15; color: #7a5a34; text-shadow: none; }
 
     @media (max-width: 828px) {
         .title { font-size: 22px; }

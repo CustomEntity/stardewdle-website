@@ -69,7 +69,7 @@ export async function initAllDle(): Promise<void> {
  * @param data     { won: boolean, attempts?: number }
  */
 export async function notifyModeComplete(
-    mode: 'villager' | 'crop' | 'fish',
+    mode: 'villager' | 'crop' | 'fish' | 'dish',
     data: ModeCompletionData
 ): Promise<void> {
     if (!sdkInstance || !session) return;

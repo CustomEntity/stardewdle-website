@@ -79,6 +79,10 @@
         "fish": {
           "description": "根据属性猜鱼类",
           "title": "鱼类"
+        },
+        "dish": {
+          "title": "料理",
+          "description": "根据属性猜料理"
         }
       },
       "reset_in": "重置于: {time}",
@@ -654,6 +658,177 @@
         "stats_button": "统计"
       },
       "yesterday": "昨天的鱼类是 <name>{brawlerName}</name>"
+    },
+    "dish": {
+      "attributes": {
+        "headers": {
+          "dish": "料理",
+          "energy": "体力",
+          "price": "价格",
+          "ingredients": "食材",
+          "source": "来源",
+          "buffs": "增益"
+        },
+        "source": {
+          "QueenOfSauce": "调味女王",
+          "Friendship": "友谊",
+          "Skill": "技能",
+          "Starter": "初始",
+          "Special": "特殊"
+        },
+        "buff": {
+          "None": "无",
+          "Farming": "农业",
+          "Fishing": "钓鱼",
+          "Mining": "采矿",
+          "Foraging": "采集",
+          "Combat": "战斗",
+          "Luck": "幸运",
+          "MaxEnergy": "最大体力",
+          "Magnetism": "磁力",
+          "Speed": "速度",
+          "Defense": "防御",
+          "Attack": "攻击",
+          "Immunity": "免疫"
+        }
+      },
+      "components": {
+        "answerInput": {
+          "placeholder": "输入料理名称.."
+        },
+        "explanationBox": {
+          "title": "猜猜今天的星露谷物语料理",
+          "bottomHint": "输入任意料理名称即可开始。"
+        },
+        "toolsBar": {
+          "howToPlay": {
+            "alt": "游戏玩法图标",
+            "tooltip": "游戏玩法"
+          },
+          "patchNotes": {
+            "alt": "更新日志图标",
+            "tooltip": "更新日志"
+          },
+          "stats": {
+            "alt": "统计数据图标",
+            "tooltip": "统计数据"
+          },
+          "streak": {
+            "alt": {
+              "active": "连胜中图标",
+              "inactive": "未连胜图标"
+            },
+            "tooltip": "当前连胜(连续获胜次数)"
+          }
+        }
+      },
+      "errors": {
+        "generic_error": "错误:{message}",
+        "no_daily_brawler": "未找到今日料理"
+      },
+      "modals": {
+        "how_to_play_classic": {
+          "title": "游戏玩法：料理模式",
+          "introduction_title": "料理模式",
+          "introduction_description": "通过比较五项属性，猜出星露谷物语当日的神秘料理。每次猜测都会提供颜色编码的反馈和方向箭头来引导你。",
+          "attributes_title": "料理属性",
+          "attributes_description": "料理模式会比较以下属性：",
+          "attribute_item_1": "• <strong>体力</strong>：食用后恢复的体力。",
+          "attribute_item_2": "• <strong>价格</strong>：以金币计的基础售价。",
+          "attribute_item_3": "• <strong>食材</strong>：食谱中的食材数量。",
+          "attribute_item_4": "• <strong>来源</strong>：食谱的获得方式——调味女王、友谊、技能、初始或特殊。",
+          "attribute_item_5": "• <strong>增益</strong>：食用料理后获得的增益效果（或无）。",
+          "attribute_item_6": "• <strong>提示</strong>：绿色表示完全匹配；增益一栏显示橙色表示部分重叠。",
+          "feedback_title": "反馈",
+          "feedback_description": "每个方块都有颜色编码：",
+          "feedback_item_1": "• <span style=\"color: #32c21c\">绿色</span></span>：与神秘料理完全匹配。",
+          "feedback_item_2": "• <span style=\"color: #d40c00\">红色</span></span>：不匹配。",
+          "feedback_arrows": "箭头会出现在体力、价格和食材上。",
+          "feedback_arrow_up": "• <strong>向上箭头 (↑)</strong>：神秘料理的数值更高。",
+          "feedback_arrow_down": "• <strong>向下箭头 (↓)</strong>：神秘料理的数值更低。",
+          "how_to_play_title": "游戏玩法",
+          "step_1": "从搜索列表中选择任意料理进行第一次猜测。",
+          "step_2": "观察每个属性方块依次翻转，显示颜色编码的反馈。",
+          "step_3": "通过绿色和红色方块来判断哪些属性匹配、哪些不匹配。",
+          "step_4": "利用体力、价格和食材上的箭头来缩小范围。",
+          "step_5": "根据获得的所有反馈进行下一次猜测。",
+          "step_6": "持续猜测，直到你正确找出神秘料理！",
+          "step_7": "每天回来挑战料理模式中的新料理。",
+          "strategy_title": "策略提示",
+          "strategy_tip_1": "• 先从你常做的料理入手，建立属性的基准。",
+          "strategy_tip_2": "• 来源和增益能快速缩小范围——许多料理在这两项上是相同的。",
+          "strategy_tip_3": "• 利用箭头按体力、价格或食材数量排除整批料理。",
+          "strategy_tip_4": "• 约有一半的料理不提供任何增益——仅这一区分就能将范围一分为二。",
+          "strategy_tip_5": "• 料理必须同时匹配所有绿色反馈。",
+          "strategy_tip_6": "• 来源需要完全匹配；增益一栏显示橙色表示部分重叠。",
+          "daily_challenge_title": "每日挑战",
+          "daily_challenge_description": "每天回来挑战新的神秘料理。记录你的连胜纪录，并与朋友分享你的成绩。"
+        },
+        "patchNotes": {
+          "states": {
+            "empty": {
+              "message": "暂无内容"
+            },
+            "error": {
+              "message": "{error}",
+              "title": "更新日志加载失败"
+            },
+            "loading": {
+              "message": "正在加载更新日志..."
+            }
+          },
+          "title": "更新日志"
+        },
+        "stats": {
+          "graph": {
+            "fallback": "你的浏览器不支持 canvas 元素。",
+            "label": "尝试次数",
+            "title": "每局尝试次数"
+          },
+          "metrics": {
+            "average_tries": {
+              "aria_label": "每局平均尝试次数",
+              "label": "平均尝试次数:"
+            },
+            "best_streak": {
+              "aria_label": "最佳连胜纪录",
+              "label": "最佳连胜:"
+            },
+            "current_streak": {
+              "aria_label": "当前连胜纪录",
+              "label": "当前连胜:"
+            },
+            "games_won": {
+              "aria_label": "获胜局数",
+              "label": "获胜局数:"
+            },
+            "one_shots": {
+              "aria_label": "一次猜中获胜的局数",
+              "label": "一次猜中:"
+            }
+          },
+          "title": "统计数据"
+        }
+      },
+      "page_meta": {
+        "title": "料理",
+        "description": "根据属性猜猜今天的星露谷物语料理!"
+      },
+      "result": {
+        "failure": "再试一次",
+        "success": "做得好!"
+      },
+      "scroll_hint": "← 左右滑动查看更多 →",
+      "share": {
+        "text": "我在 {tries} 次猜测内找到了 #Stardewdle 料理 #{id} ",
+        "to_copy": "我在 {tries} 次猜测内找到了 #Stardewdle 料理 #{id}\n{url}"
+      },
+      "victory": {
+        "back_home": "返回首页",
+        "next_mode": "游玩村民模式",
+        "stats_button": "统计"
+      },
+      "yesterday": "昨天的料理是 <name>{brawlerName}</name>"
     }
   },
   "common": {

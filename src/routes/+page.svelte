@@ -27,4 +27,10 @@
             subtitle={ locale.t('pages.home.button.fish.description') }
             gameMode="fish"
             href="/fish"/>
+    <HomeButton
+            class={'w-full h-[120px]'}
+            title={ locale.t('pages.home.button.dish.title') }
+            subtitle={ locale.t('pages.home.button.dish.description') }
+            gameMode="dish"
+            href="/dish"/>
 </div>

@@ -59,6 +59,26 @@ interface DailyFishClassic {
     fish: Fish;
 }
 
+interface Dish {
+    id: number;
+    key: string;
+    name: string;
+    source: string;        // QueenOfSauce | Friendship | Skill | Starter | Special
+    buffs: string[];       // Farming | Fishing | Mining | Foraging | Combat | Luck | MaxEnergy | Magnetism | Speed | Defense | Attack | Immunity
+    energy: number;        // energy restored
+    price: number;         // base sell price (g)
+    ingredients: number;   // ingredient count
+    sprite: number | null;
+    sheet: string | null;  // springobjects | objects_2
+}
+
+interface DailyDishClassic {
+    id: number;
+    game_id: number;
+    date: string;
+    dish: Dish;
+}
+
 interface Brawler {
     id: number;
     name: string;

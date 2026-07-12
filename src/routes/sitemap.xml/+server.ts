@@ -6,7 +6,8 @@ const PAGES: { path: string; changefreq: string; priority: string }[] = [
 	{ path: '/', changefreq: 'daily', priority: '1.0' },
 	{ path: '/villager', changefreq: 'daily', priority: '0.9' },
 	{ path: '/crop', changefreq: 'daily', priority: '0.9' },
-	{ path: '/fish', changefreq: 'daily', priority: '0.9' }
+	{ path: '/fish', changefreq: 'daily', priority: '0.9' },
+	{ path: '/dish', changefreq: 'daily', priority: '0.9' }
 ];
 
 export async function GET() {
