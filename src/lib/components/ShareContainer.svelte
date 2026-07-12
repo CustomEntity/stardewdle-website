@@ -16,13 +16,13 @@
 
         let {text, copyText, websiteUrl, class: clazz, tries}: Props = $props();
 
-        // Wordle-style emoji grid for the shared/copied message (chronological — the winning
-        // guess is the all-🟩 last row), matching what the .com share looks like.
+        // Wordle-style emoji grid for the shared/copied message (🟩 correct, 🟨 partial, 🟥 wrong).
+        // Winning (all-🟩) guess FIRST, to match the on-screen grid below (which reverses tries).
         const EMOJI: Record<string, string> = { CORRECT: '🟩', 'PARTIALLY-CORRECT': '🟨' };
         const cell = (s: string) => EMOJI[s] ?? '🟥';
         const grid = $derived(
             tries && tries.length
-                ? tries.map((a) => Object.values(a).map(cell).join('')).join('\n')
+                ? [...tries].reverse().map((a) => Object.values(a).map(cell).join('')).join('\n')
                 : ''
         );
         const shareMessage = $derived(
