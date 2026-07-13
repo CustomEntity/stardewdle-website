@@ -25,16 +25,25 @@ function objName(o, dict) {
   return resolveToken(o.DisplayName, dict) ?? o.Name ?? null;
 }
 
+// Cooking recipes Gus sells at the Saloon (yield object ids). Only Triple Shot Espresso (253)
+// is purchase-ONLY; the others are also learnable via Queen of Sauce / friendship.
+const SHOP_RECIPES = new Set(['210', '195', '211', '216', '229', '206', '228', '223', '253']);
+
 // Data\CookingRecipes value: "<ingredients>/<unused>/<yield>/<unlock>/<displayName?>"
-// unlock: default (starter) | f <NPC> <hearts> | s <skill> <lvl> | l <n> (Queen of Sauce TV) | null (special)
-function sourceOf(unlock) {
+// unlock: default (starter) | f <NPC> <hearts> | s <skill> <lvl> | l <n> (Queen of Sauce TV;
+// 10-26 = Year-1 episodes, 100 = Year-2+ random rotation) | null.
+// Single canonical source. Two data-driven overrides fix the two known misclassifications:
+// Cookies (unlock=null but really Evelyn friendship) and Triple Shot Espresso (l100 but Saloon-only).
+function sourceOf(unlock, yieldId) {
   const u = (unlock || '').trim();
+  if (yieldId === '253') return 'Purchased';    // Triple Shot Espresso — Saloon only (never aired)
+  if (yieldId === '223') return 'Friendship';   // Cookies — Evelyn 4 hearts (unlock field is null)
   if (u === 'default') return 'Starter';
-  if (u === '' || u === 'null') return 'Special';
-  if (u.startsWith('f ')) return 'Friendship';
   if (u.startsWith('s ')) return 'Skill';
+  if (u.startsWith('f ')) return 'Friendship';
   if (u.startsWith('l ')) return 'QueenOfSauce';
-  return 'Special';
+  if (SHOP_RECIPES.has(yieldId)) return 'Purchased';
+  return 'Friendship';                          // no vanilla recipe actually reaches here
 }
 
 // Buff CustomAttributes -> our short labels (kept in a stable display order)
@@ -80,7 +89,7 @@ for (const [recipeKey, raw] of Object.entries(recipes)) {
     key: String(yieldId),
     name: objName(o, objNamesEN) ?? recipeKey,
     name_fr: objName(o, objNamesFR) ?? objName(o, objNamesEN) ?? recipeKey,
-    source: sourceOf(p[3]),
+    source: sourceOf(p[3], yieldId),
     buffs: buffsOf(o),
     energy: Math.round((o.Edibility ?? 0) * 2.5),
     price: o.Price ?? null,

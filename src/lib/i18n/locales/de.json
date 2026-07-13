@@ -508,7 +508,8 @@
           "season": "Jahreszeit",
           "size": "Größe",
           "weather": "Wetter",
-          "area": "Ort"
+          "area": "Ort",
+          "time": "Zeit"
         },
         "season": {
           "Fall": "Herbst",
@@ -534,6 +535,12 @@
           "WitchSwamp": "Hexensumpf",
           "NightMarket": "Nachtmarkt",
           "GingerIsland": "Ginger-Insel"
+        },
+        "time": {
+          "Morning": "Morgen",
+          "Afternoon": "Nachmittag",
+          "Evening": "Abend",
+          "AllDay": "Ganztags"
         }
       },
       "components": {
@@ -573,18 +580,18 @@
       "modals": {
         "how_to_play_classic": {
           "attribute_item_1": "• <strong>Schwierigkeit</strong>: wie schwer der Fisch zu fangen ist.",
-          "attribute_item_2": "• <strong>Verhalten</strong>: wie er sich bewegt — Treiber, Flitzer, Ruhig, Gemischt oder Sinker.",
+          "attribute_item_2": "• <strong>Zeit</strong>: die Tageszeit, zu der er beißt — Morgen, Nachmittag, Abend oder Ganztags.",
           "attribute_item_3": "• <strong>Jahreszeit</strong>: die Jahreszeit(en), in der/denen du ihn fangen kannst.",
           "attribute_item_4": "• <strong>Wetter</strong>: Sonnig, Regnerisch oder Beliebig.",
-          "attribute_item_5": "• <strong>Größe</strong>: seine maximale Größe in Zoll.",
-          "attribute_item_6": "• <strong>Ort</strong>: die Angelstelle(n), an der/denen du ihn findest.",
+          "attribute_item_5": "• <strong>Ort</strong>: die Angelstelle(n), an der/denen du ihn findest.",
+          "attribute_item_6": "• <strong>Tipp</strong>: Grün bedeutet eine genaue Übereinstimmung; Orange bei Jahreszeit oder Ort bedeutet eine teilweise Überschneidung.",
           "attributes_description": "Der Fisch-Modus vergleicht folgende Eigenschaften:",
           "attributes_title": "Fisch-Eigenschaften",
           "daily_challenge_description": "Komm jeden Tag wieder für einen neuen geheimen Fisch. Verfolge deine Serie und teile dein Ergebnis mit Freunden.",
           "daily_challenge_title": "Tägliche Herausforderung",
           "feedback_arrow_down": "• <strong>Pfeil nach unten (↓)</strong>: Der Wert des geheimen Fisches ist NIEDRIGER.",
           "feedback_arrow_up": "• <strong>Pfeil nach oben (↑)</strong>: Der Wert des geheimen Fisches ist HÖHER.",
-          "feedback_arrows": "Pfeile erscheinen bei Schwierigkeit und Größe.",
+          "feedback_arrows": "Pfeile erscheinen bei Schwierigkeit.",
           "feedback_description": "Jede Kachel ist farblich codiert:",
           "feedback_item_1": "• <span style=\"color: #32c21c\">Grün</span></span>: genaue Übereinstimmung mit dem geheimen Fisch.",
           "feedback_item_2": "• <span style=\"color: #d40c00\">Rot</span></span>: keine Übereinstimmung.",
@@ -606,8 +613,7 @@
           "strategy_tip_5": "• Ein Fisch muss ALLE grünen Rückmeldungen gleichzeitig erfüllen.",
           "strategy_tip_6": "• Verhalten, Jahreszeit und Wetter müssen exakt übereinstimmen (keine Pfeile).",
           "strategy_title": "Strategietipps",
-          "title": "Spielanleitung: Fisch-Modus",
-          "attribute_item_7": "• <strong>Tipp</strong>: Grün bedeutet eine genaue Übereinstimmung; Orange bei Jahreszeit oder Ort bedeutet eine teilweise Überschneidung."
+          "title": "Spielanleitung: Fisch-Modus"
         },
         "patchNotes": {
           "states": {
@@ -690,7 +696,7 @@
           "Friendship": "Freundschaft",
           "Skill": "Fertigkeit",
           "Starter": "Startrezept",
-          "Special": "Spezial"
+          "Purchased": "Gekauft"
         },
         "buff": {
           "None": "Keiner",

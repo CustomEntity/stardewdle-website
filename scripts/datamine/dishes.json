@@ -210,7 +210,7 @@
     "key": "223",
     "name": "Cookies",
     "name_fr": "Biscuit",
-    "source": "Special",
+    "source": "Friendship",
     "buffs": [],
     "energy": 90,
     "price": 140,
@@ -1016,7 +1016,7 @@
     "key": "253",
     "name": "Triple Shot Espresso",
     "name_fr": "Triple dose d’espresso",
-    "source": "QueenOfSauce",
+    "source": "Purchased",
     "buffs": [
       "Speed"
     ],

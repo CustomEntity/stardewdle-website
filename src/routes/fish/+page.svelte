@@ -95,7 +95,7 @@
         </p>
     {/await}
 
-    <div class="flex flex-col items-center w-full md:max-w-[720px]">
+    <div class="flex flex-col items-center w-full md:max-w-[600px]">
         {#await Promise.all( [data?.fish, data?.daily, data?.yesterday], ) then [fish, daily, yesterdayFish]}
             {#if !daily}
                 <p class="text-white text-lg font-poppins tracking-wide">
@@ -170,10 +170,9 @@
                                     if (!f) return null;
                                     return {
                                         difficulty: compareNumber(f.difficulty, daily.fish.difficulty),
-                                        behavior: f.behavior === daily.fish.behavior ? "CORRECT" : "INCORRECT",
+                                        time: compareSeasons(f.time, daily.fish.time),
                                         season: compareSeasons(f.seasons, daily.fish.seasons),
                                         weather: f.weather === daily.fish.weather ? "CORRECT" : "INCORRECT",
-                                        size: compareNumber(f.maxSize, daily.fish.maxSize),
                                         area: compareSeasons(f.area, daily.fish.area),
                                     };
                                 })

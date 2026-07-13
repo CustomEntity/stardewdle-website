@@ -508,7 +508,8 @@
           "season": "季节",
           "size": "大小",
           "weather": "天气",
-          "area": "区域"
+          "area": "区域",
+          "time": "时间"
         },
         "season": {
           "Fall": "秋天",
@@ -534,6 +535,12 @@
           "WitchSwamp": "女巫沼泽",
           "NightMarket": "夜市",
           "GingerIsland": "姜岛"
+        },
+        "time": {
+          "Morning": "早晨",
+          "Afternoon": "下午",
+          "Evening": "傍晚",
+          "AllDay": "全天"
         }
       },
       "components": {
@@ -573,18 +580,18 @@
       "modals": {
         "how_to_play_classic": {
           "attribute_item_1": "• <strong>难度</strong>：钓到这条鱼的难易程度。",
-          "attribute_item_2": "• <strong>行为</strong>：它的移动方式——漂浮、猛冲、平滑、混合或下沉。",
+          "attribute_item_2": "• <strong>时间</strong>：可以钓到它的时间段 — 早晨、下午、傍晚或全天。",
           "attribute_item_3": "• <strong>季节</strong>：可以钓到它的季节。",
           "attribute_item_4": "• <strong>天气</strong>：晴天、雨天或不限。",
-          "attribute_item_5": "• <strong>尺寸</strong>：以英寸计的最大体型。",
-          "attribute_item_6": "• <strong>区域</strong>：可以钓到它的钓点。",
+          "attribute_item_5": "• <strong>区域</strong>：可以钓到它的钓点。",
+          "attribute_item_6": "• <strong>提示</strong>：绿色表示完全匹配；季节或区域一栏显示橙色表示部分重叠。",
           "attributes_description": "鱼类模式会比较以下属性：",
           "attributes_title": "鱼类属性",
           "daily_challenge_description": "每天回来挑战新的神秘鱼类。记录你的连胜纪录，并与朋友分享你的成绩。",
           "daily_challenge_title": "每日挑战",
           "feedback_arrow_down": "• <strong>向下箭头 (↓)</strong>：神秘鱼类的数值更低。",
           "feedback_arrow_up": "• <strong>向上箭头 (↑)</strong>：神秘鱼类的数值更高。",
-          "feedback_arrows": "箭头会出现在难度和尺寸上。",
+          "feedback_arrows": "箭头会出现在难度上。",
           "feedback_description": "每个方块都有颜色编码：",
           "feedback_item_1": "• <span style=\"color: #32c21c\">绿色</span></span>：与神秘鱼类完全匹配。",
           "feedback_item_2": "• <span style=\"color: #d40c00\">红色</span></span>：不匹配。",
@@ -606,8 +613,7 @@
           "strategy_tip_5": "• 神秘鱼类必须同时匹配所有绿色反馈。",
           "strategy_tip_6": "• 行为、季节和天气需要完全匹配（没有箭头）。",
           "strategy_title": "策略提示",
-          "title": "游戏玩法：鱼类模式",
-          "attribute_item_7": "• <strong>提示</strong>：绿色表示完全匹配；季节或区域一栏显示橙色表示部分重叠。"
+          "title": "游戏玩法：鱼类模式"
         },
         "patchNotes": {
           "states": {
@@ -690,7 +696,7 @@
           "Friendship": "友谊",
           "Skill": "技能",
           "Starter": "初始",
-          "Special": "特殊"
+          "Purchased": "购买"
         },
         "buff": {
           "None": "无",

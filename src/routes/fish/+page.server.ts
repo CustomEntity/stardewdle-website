@@ -22,6 +22,7 @@ function mapFish(row: any): Fish {
         weather: row.weather,
         seasons: row.seasons ?? [],
         area: row.area ?? [],
+        time: row.time ?? [],
         sprite: row.sprite,
         sheet: row.sheet
     };
@@ -30,7 +31,7 @@ function mapFish(row: any): Fish {
 async function loadFish(language: string = 'en'): Promise<Fish[]> {
     const statement = `
         SELECT f.id, f.key, ${nameSubquery('f.id')} as name,
-               f.difficulty, f.behavior, f.max_size, f.weather, f.seasons, f.area, f.sprite, f.sheet
+               f.difficulty, f.behavior, f.max_size, f.weather, f.seasons, f.area, f.time, f.sprite, f.sheet
         FROM fish f
         WHERE f.released = true
         ORDER BY f.id;
@@ -54,7 +55,7 @@ async function loadDailyFish(language: string = 'en'): Promise<DailyFishClassic 
     const statement = `
         SELECT d.id, d.game_id, d.date, f.id as fish_id, f.key,
                ${nameSubquery('f.id')} as name,
-               f.difficulty, f.behavior, f.max_size, f.weather, f.seasons, f.area, f.sprite, f.sheet
+               f.difficulty, f.behavior, f.max_size, f.weather, f.seasons, f.area, f.time, f.sprite, f.sheet
         FROM daily_fish d
             JOIN fish f ON d.fish_id = f.id
         WHERE d.date = CURRENT_DATE

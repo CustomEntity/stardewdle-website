@@ -508,7 +508,8 @@
           "season": "Estação",
           "size": "Tamanho",
           "weather": "Clima",
-          "area": "Área"
+          "area": "Área",
+          "time": "Hora"
         },
         "season": {
           "Fall": "Outono",
@@ -534,6 +535,12 @@
           "WitchSwamp": "Pântano da Bruxa",
           "NightMarket": "Mercado Noturno",
           "GingerIsland": "Ilha Gengibre"
+        },
+        "time": {
+          "Morning": "Manhã",
+          "Afternoon": "Tarde",
+          "Evening": "Noite",
+          "AllDay": "Dia todo"
         }
       },
       "components": {
@@ -573,18 +580,18 @@
       "modals": {
         "how_to_play_classic": {
           "attribute_item_1": "• <strong>Dificuldade</strong>: quão difícil é pescar o peixe.",
-          "attribute_item_2": "• <strong>Comportamento</strong>: como ele se move — Flutuante, Investida, Suave, Misto ou Afundador.",
+          "attribute_item_2": "• <strong>Hora</strong>: o horário do dia em que morde — Manhã, Tarde, Noite ou Dia todo.",
           "attribute_item_3": "• <strong>Estação</strong>: a(s) estação(ões) em que pode ser pescado.",
           "attribute_item_4": "• <strong>Clima</strong>: Ensolarado, Chuvoso ou Qualquer.",
-          "attribute_item_5": "• <strong>Tamanho</strong>: seu tamanho máximo em polegadas.",
-          "attribute_item_6": "• <strong>Área</strong>: o(s) local(is) de pesca onde ele é encontrado.",
+          "attribute_item_5": "• <strong>Área</strong>: o(s) local(is) de pesca onde ele é encontrado.",
+          "attribute_item_6": "• <strong>Dica</strong>: verde é uma correspondência exata; laranja em Estação ou Área significa uma sobreposição parcial.",
           "attributes_description": "O modo Peixe compara estes atributos:",
           "attributes_title": "Atributos do Peixe",
           "daily_challenge_description": "Volte todos os dias para um novo peixe secreto. Acompanhe sua sequência e compartilhe seu resultado com amigos.",
           "daily_challenge_title": "Desafio Diário",
           "feedback_arrow_down": "• <strong>Seta para Baixo (↓)</strong>: o valor do peixe secreto é MENOR.",
           "feedback_arrow_up": "• <strong>Seta para Cima (↑)</strong>: o valor do peixe secreto é MAIOR.",
-          "feedback_arrows": "As setas aparecem em Dificuldade e Tamanho.",
+          "feedback_arrows": "As setas aparecem em Dificuldade.",
           "feedback_description": "Cada bloco tem uma cor:",
           "feedback_item_1": "• <span style=\"color: #32c21c\">Verde</span></span>: correspondência exata com o peixe secreto.",
           "feedback_item_2": "• <span style=\"color: #d40c00\">Vermelho</span></span>: nenhuma correspondência.",
@@ -606,8 +613,7 @@
           "strategy_tip_5": "• Um peixe precisa corresponder a TODO o feedback verde ao mesmo tempo.",
           "strategy_tip_6": "• Comportamento, Estação e Clima correspondem exatamente (sem setas).",
           "strategy_title": "Dicas de Estratégia",
-          "title": "Como Jogar: Modo Peixe",
-          "attribute_item_7": "• <strong>Dica</strong>: verde é uma correspondência exata; laranja em Estação ou Área significa uma sobreposição parcial."
+          "title": "Como Jogar: Modo Peixe"
         },
         "patchNotes": {
           "states": {
@@ -690,7 +696,7 @@
           "Friendship": "Amizade",
           "Skill": "Habilidade",
           "Starter": "Inicial",
-          "Special": "Especial"
+          "Purchased": "Comprada"
         },
         "buff": {
           "None": "Nenhum",

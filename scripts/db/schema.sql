@@ -73,13 +73,15 @@ CREATE TABLE IF NOT EXISTS fish (
     weather    TEXT,                   -- Sunny | Rainy | Any
     seasons    TEXT[],
     area       TEXT[],                 -- Town | Forest | Mountain | Ocean | Desert | SecretWoods | Sewers | BugLair | Mines | WitchSwamp | NightMarket | GingerIsland
+    time       TEXT[],                 -- Morning | Afternoon | Evening (all three = all day)
     sprite     INTEGER,
     sheet      TEXT,
     released   BOOLEAN NOT NULL DEFAULT TRUE
 );
 
--- migration for the fishing-area column added after the initial fish table
+-- migrations for columns added after the initial fish table
 ALTER TABLE fish ADD COLUMN IF NOT EXISTS area TEXT[];
+ALTER TABLE fish ADD COLUMN IF NOT EXISTS time TEXT[];
 
 CREATE TABLE IF NOT EXISTS fish_translations (
     fish_id   INTEGER NOT NULL REFERENCES fish(id) ON DELETE CASCADE,

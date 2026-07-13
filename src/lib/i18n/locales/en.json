@@ -546,16 +546,16 @@
           "attributes_title": "Fish Attributes",
           "attributes_description": "Fish mode compares these attributes:",
           "attribute_item_1": "• <strong>Difficulty</strong>: how hard the fish is to catch.",
-          "attribute_item_2": "• <strong>Behavior</strong>: how it moves — Floater, Dart, Smooth, Mixed or Sinker.",
+          "attribute_item_2": "• <strong>Time</strong>: the time of day it bites — Morning, Afternoon, Evening, or All Day.",
           "attribute_item_3": "• <strong>Season</strong>: the season(s) you can catch it.",
           "attribute_item_4": "• <strong>Weather</strong>: Sunny, Rainy or Any.",
-          "attribute_item_5": "• <strong>Size</strong>: its maximum size in inches.",
-          "attribute_item_6": "• <strong>Area</strong>: the fishing spot(s) where it's found.",
+          "attribute_item_5": "• <strong>Area</strong>: the fishing spot(s) where it's found.",
+          "attribute_item_6": "• <strong>Tip</strong>: green is an exact match; orange on Season or Area means a partial overlap.",
           "feedback_title": "Feedback",
           "feedback_description": "Each tile is color-coded:",
           "feedback_item_1": "• <span style=\"color: #32c21c\">Green</span></span>: exact match with the secret fish.",
           "feedback_item_2": "• <span style=\"color: #d40c00\">Red</span></span>: no match.",
-          "feedback_arrows": "Arrows appear on Difficulty and Size.",
+          "feedback_arrows": "Arrows appear on Difficulty.",
           "feedback_arrow_up": "• <strong>Arrow Up (↑)</strong>: the secret fish's value is HIGHER.",
           "feedback_arrow_down": "• <strong>Arrow Down (↓)</strong>: the secret fish's value is LOWER.",
           "how_to_play_title": "How to Play",
@@ -574,8 +574,7 @@
           "strategy_tip_5": "• A fish must match ALL green feedback at once.",
           "strategy_tip_6": "• Behavior, Season and Weather match exactly (no arrows).",
           "daily_challenge_title": "Daily Challenge",
-          "daily_challenge_description": "Return each day for a new secret fish. Track your streak and share your result with friends.",
-          "attribute_item_7": "• <strong>Tip</strong>: green is an exact match; orange on Season or Area means a partial overlap."
+          "daily_challenge_description": "Return each day for a new secret fish. Track your streak and share your result with friends."
         }
       },
       "attributes": {
@@ -586,7 +585,8 @@
           "season": "Season",
           "weather": "Weather",
           "size": "Size",
-          "area": "Area"
+          "area": "Area",
+          "time": "Time"
         },
         "behavior": {
           "Floater": "Floater",
@@ -619,6 +619,12 @@
           "WitchSwamp": "Witch's Swamp",
           "NightMarket": "Night Market",
           "GingerIsland": "Ginger Island"
+        },
+        "time": {
+          "Morning": "Morning",
+          "Afternoon": "Afternoon",
+          "Evening": "Evening",
+          "AllDay": "All Day"
         }
       }
     },
@@ -774,7 +780,7 @@
           "Friendship": "Friendship",
           "Skill": "Skill",
           "Starter": "Starter",
-          "Special": "Special"
+          "Purchased": "Purchased"
         },
         "buff": {
           "None": "None",

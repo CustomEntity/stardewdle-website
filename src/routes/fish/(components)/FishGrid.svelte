@@ -17,7 +17,7 @@
     let initialAttemptsCount = $state(-1);
 
     onMount(() => {
-        attempts.forEach((a) => (animations[a.fish.id] = 6));
+        attempts.forEach((a) => (animations[a.fish.id] = 5));
         initialAttemptsCount = attempts.length;
     });
 
@@ -42,10 +42,9 @@
                     fish: f,
                     differences: {
                         difficulty: compareNumber(f.difficulty, dailyFish.difficulty),
-                        behavior: f.behavior === dailyFish.behavior ? "CORRECT" : "INCORRECT",
+                        time: compareSeasons(f.time, dailyFish.time),
                         season: compareSeasons(f.seasons, dailyFish.seasons),
                         weather: f.weather === dailyFish.weather ? "CORRECT" : "INCORRECT",
-                        size: compareNumber(f.maxSize, dailyFish.maxSize),
                         area: compareSeasons(f.area, dailyFish.area),
                     },
                 };
@@ -89,12 +88,14 @@
     };
     const seasonsText = (seasons: string[]) => seasons.map((s) => translate("season", s)).join(" / ") || "—";
     const areaText = (area: string[]) => area.map((a) => translate("area", a)).join(" / ") || "—";
+    const timeText = (time: string[]) =>
+        time.length === 3 ? translate("time", "AllDay") : time.map((t) => translate("time", t)).join(" / ") || "—";
 </script>
 
 <div class="clue-container w-full overflow-x-auto overflow-y-hidden">
     <div class="mx-auto grid gap-x-1.5 gap-y-2 py-2 md:p-2"
-         style="grid-template-columns: 58px 94px 96px 110px 84px 62px 124px;">
-        {#each ["fish", "difficulty", "behavior", "season", "weather", "size", "area"] as h}
+         style="grid-template-columns: 52px 94px 96px 106px 78px 112px;">
+        {#each ["fish", "difficulty", "time", "season", "weather", "area"] as h}
             <div class="min-h-9 flex items-center justify-center px-0.5">
                 <span class="text-xs md:text-sm leading-[1.05] text-center stardew-text">{locale.t(`pages.fish.attributes.headers.${h}` as any)}</span>
             </div>
@@ -115,10 +116,10 @@
                 <span class="z-10 text-white text-lg stardew-text">{attempt.fish.difficulty}</span>
             </div>
 
-            <!-- Behavior -->
+            <!-- Time of day -->
             <div class="square-{attempt.fish.id} h-18 w-full relative sv-cell flex items-center justify-center"
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.behavior)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 1 ? 'visible' : 'hidden'};">
-                <span class="z-10 text-white text-xs stardew-text px-1 text-center break-words">{translate('behavior', attempt.fish.behavior)}</span>
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.time)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 1 ? 'visible' : 'hidden'};">
+                <span class="z-10 text-white text-xs stardew-text px-1 text-center break-words leading-tight">{timeText(attempt.fish.time)}</span>
             </div>
 
             <!-- Season -->
@@ -133,16 +134,9 @@
                 <span class="z-10 text-white text-sm stardew-text px-1 text-center">{translate('weather', attempt.fish.weather)}</span>
             </div>
 
-            <!-- Size -->
-            <div class="square-{attempt.fish.id} h-18 w-full relative sv-cell flex items-center justify-center arrow-container"
-                 class:arrow-up={attempt.differences.size === 'HIGHER'} class:arrow-down={attempt.differences.size === 'LOWER'}
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.size)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 4 ? 'visible' : 'hidden'};">
-                <span class="z-10 text-white text-lg stardew-text">{attempt.fish.maxSize}"</span>
-            </div>
-
             <!-- Area -->
             <div class="square-{attempt.fish.id} h-18 w-full relative sv-cell flex items-center justify-center"
-                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.area)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 5 ? 'visible' : 'hidden'};">
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.area)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 4 ? 'visible' : 'hidden'};">
                 <span class="z-10 text-white text-xs stardew-text px-1 text-center break-words leading-tight">{areaText(attempt.fish.area)}</span>
             </div>
         {/each}

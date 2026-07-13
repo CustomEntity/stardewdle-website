@@ -508,7 +508,8 @@
           "season": "季節",
           "size": "サイズ",
           "weather": "天気",
-          "area": "場所"
+          "area": "場所",
+          "time": "時間"
         },
         "season": {
           "Fall": "秋",
@@ -534,6 +535,12 @@
           "WitchSwamp": "魔女の沼",
           "NightMarket": "ナイトマーケット",
           "GingerIsland": "ジンジャー島"
+        },
+        "time": {
+          "Morning": "朝",
+          "Afternoon": "昼",
+          "Evening": "夕方",
+          "AllDay": "終日"
         }
       },
       "components": {
@@ -573,18 +580,18 @@
       "modals": {
         "how_to_play_classic": {
           "attribute_item_1": "• <strong>難易度</strong>：魚を釣るのがどれだけ難しいか。",
-          "attribute_item_2": "• <strong>動き</strong>：魚の動き方——フロート、ダート、スムーズ、ミックス、シンカーのいずれか。",
+          "attribute_item_2": "• <strong>時間</strong>：釣れる時間帯 — 朝、昼、夕方、終日。",
           "attribute_item_3": "• <strong>季節</strong>：釣ることができる季節。",
           "attribute_item_4": "• <strong>天気</strong>：晴れ、雨、またはすべて。",
-          "attribute_item_5": "• <strong>サイズ</strong>：インチで表した最大サイズ。",
-          "attribute_item_6": "• <strong>場所</strong>：その魚が釣れる釣り場。",
+          "attribute_item_5": "• <strong>場所</strong>：その魚が釣れる釣り場。",
+          "attribute_item_6": "• <strong>ヒント</strong>：緑は完全一致、季節または場所がオレンジの場合は部分的に一致していることを示します。",
           "attributes_description": "魚モードでは、以下の属性を比較します。",
           "attributes_title": "魚の属性",
           "daily_challenge_description": "毎日訪れて新しい秘密の魚に挑戦しましょう。連続記録を記録し、結果を友達と共有できます。",
           "daily_challenge_title": "デイリーチャレンジ",
           "feedback_arrow_down": "• <strong>下矢印（↓）</strong>：秘密の魚の値がより低いことを示します。",
           "feedback_arrow_up": "• <strong>上矢印（↑）</strong>：秘密の魚の値がより高いことを示します。",
-          "feedback_arrows": "難易度とサイズには矢印が表示されます。",
+          "feedback_arrows": "難易度には矢印が表示されます。",
           "feedback_description": "各タイルは色分けされています。",
           "feedback_item_1": "• <span style=\"color: #32c21c\">緑</span></span>：秘密の魚と完全に一致。",
           "feedback_item_2": "• <span style=\"color: #d40c00\">赤</span></span>：不一致。",
@@ -606,8 +613,7 @@
           "strategy_tip_5": "• 魚はすべての緑のフィードバックに同時に一致する必要があります。",
           "strategy_tip_6": "• 動き、季節、天気は完全一致のみです（矢印はありません）。",
           "strategy_title": "攻略のヒント",
-          "title": "遊び方：魚モード",
-          "attribute_item_7": "• <strong>ヒント</strong>：緑は完全一致、季節または場所がオレンジの場合は部分的に一致していることを示します。"
+          "title": "遊び方：魚モード"
         },
         "patchNotes": {
           "states": {
@@ -690,7 +696,7 @@
           "Friendship": "友好度",
           "Skill": "スキル",
           "Starter": "最初から",
-          "Special": "特殊"
+          "Purchased": "購入"
         },
         "buff": {
           "None": "なし",

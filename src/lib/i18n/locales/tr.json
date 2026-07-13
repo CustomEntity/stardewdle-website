@@ -508,7 +508,8 @@
           "season": "Mevsim",
           "size": "Boyut",
           "weather": "Hava Durumu",
-          "area": "Bölge"
+          "area": "Bölge",
+          "time": "Zaman"
         },
         "season": {
           "Fall": "Sonbahar",
@@ -534,6 +535,12 @@
           "WitchSwamp": "Cadı Bataklığı",
           "NightMarket": "Gece Pazarı",
           "GingerIsland": "Zencefil Adası"
+        },
+        "time": {
+          "Morning": "Sabah",
+          "Afternoon": "Öğleden Sonra",
+          "Evening": "Akşam",
+          "AllDay": "Tüm Gün"
         }
       },
       "components": {
@@ -573,18 +580,18 @@
       "modals": {
         "how_to_play_classic": {
           "attribute_item_1": "• <strong>Zorluk</strong>: balığın yakalanmasının ne kadar zor olduğu.",
-          "attribute_item_2": "• <strong>Davranış</strong>: nasıl hareket ettiği — Yüzücü, Fırlayan, Sakin, Karışık veya Batan.",
+          "attribute_item_2": "• <strong>Zaman</strong>: balığın vurduğu vakit — Sabah, Öğleden Sonra, Akşam veya Tüm Gün.",
           "attribute_item_3": "• <strong>Mevsim</strong>: yakalayabileceğiniz mevsim(ler).",
           "attribute_item_4": "• <strong>Hava Durumu</strong>: Güneşli, Yağmurlu veya Herhangi.",
-          "attribute_item_5": "• <strong>Boyut</strong>: inç cinsinden maksimum boyutu.",
-          "attribute_item_6": "• <strong>Bölge</strong>: bulunduğu balık tutma nokta(ları).",
+          "attribute_item_5": "• <strong>Bölge</strong>: bulunduğu balık tutma nokta(ları).",
+          "attribute_item_6": "• <strong>İpucu</strong>: yeşil tam eşleşme anlamına gelir; Mevsim veya Bölge üzerindeki turuncu ise kısmi bir örtüşmeyi gösterir.",
           "attributes_description": "Balık modu şu özellikleri karşılaştırır:",
           "attributes_title": "Balık Özellikleri",
           "daily_challenge_description": "Yeni bir gizli balık için her gün geri dönün. Serinizi takip edin ve sonucunuzu arkadaşlarınızla paylaşın.",
           "daily_challenge_title": "Günlük Meydan Okuma",
           "feedback_arrow_down": "• <strong>Aşağı Ok (↓)</strong>: gizli balığın değeri DAHA DÜŞÜK.",
           "feedback_arrow_up": "• <strong>Yukarı Ok (↑)</strong>: gizli balığın değeri DAHA YÜKSEK.",
-          "feedback_arrows": "Oklar, Zorluk ve Boyut üzerinde görünür.",
+          "feedback_arrows": "Oklar, Zorluk üzerinde görünür.",
           "feedback_description": "Her kutu renk koduyla gösterilir:",
           "feedback_item_1": "• <span style=\"color: #32c21c\">Yeşil</span></span>: gizli balıkla tam eşleşme.",
           "feedback_item_2": "• <span style=\"color: #d40c00\">Kırmızı</span></span>: eşleşme yok.",
@@ -606,8 +613,7 @@
           "strategy_tip_5": "• Bir balık, TÜM yeşil geri bildirimlerle aynı anda eşleşmelidir.",
           "strategy_tip_6": "• Davranış, Mevsim ve Hava Durumu birebir eşleşir (ok yoktur).",
           "strategy_title": "Strateji İpuçları",
-          "title": "Nasıl Oynanır: Balık Modu",
-          "attribute_item_7": "• <strong>İpucu</strong>: yeşil tam eşleşme anlamına gelir; Mevsim veya Bölge üzerindeki turuncu ise kısmi bir örtüşmeyi gösterir."
+          "title": "Nasıl Oynanır: Balık Modu"
         },
         "patchNotes": {
           "states": {
@@ -690,7 +696,7 @@
           "Friendship": "Arkadaşlık",
           "Skill": "Beceri",
           "Starter": "Başlangıç",
-          "Special": "Özel"
+          "Purchased": "Satın Alınan"
         },
         "buff": {
           "None": "Yok",

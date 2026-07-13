@@ -508,7 +508,8 @@
           "season": "ฤดูกาล",
           "size": "ขนาด",
           "weather": "สภาพอากาศ",
-          "area": "พื้นที่"
+          "area": "พื้นที่",
+          "time": "เวลา"
         },
         "season": {
           "Fall": "ฤดูใบไม้ร่วง",
@@ -534,6 +535,12 @@
           "WitchSwamp": "บึงแม่มด",
           "NightMarket": "ตลาดกลางคืน",
           "GingerIsland": "เกาะจินเจอร์"
+        },
+        "time": {
+          "Morning": "เช้า",
+          "Afternoon": "บ่าย",
+          "Evening": "เย็น",
+          "AllDay": "ทั้งวัน"
         }
       },
       "components": {
@@ -573,18 +580,18 @@
       "modals": {
         "how_to_play_classic": {
           "attribute_item_1": "• <strong>ความยาก</strong>: ความยากในการจับปลาตัวนี้",
-          "attribute_item_2": "• <strong>พฤติกรรม</strong>: ลักษณะการเคลื่อนไหว ได้แก่ ลอยตัว (Floater) พุ่งฉับไว (Dart) เคลื่อนที่นุ่มนวล (Smooth) แบบผสม (Mixed) หรือจมดิ่ง (Sinker)",
+          "attribute_item_2": "• <strong>เวลา</strong>: ช่วงเวลาของวันที่มันกินเบ็ด — เช้า, บ่าย, เย็น หรือทั้งวัน",
           "attribute_item_3": "• <strong>ฤดูกาล</strong>: ฤดูกาลที่จับปลาตัวนี้ได้",
           "attribute_item_4": "• <strong>สภาพอากาศ</strong>: แดดจัด ฝนตก หรือทุกสภาพอากาศ",
-          "attribute_item_5": "• <strong>ขนาด</strong>: ขนาดสูงสุดเป็นนิ้ว",
-          "attribute_item_6": "• <strong>พื้นที่</strong>: แหล่งตกปลาที่พบปลาตัวนี้ได้",
+          "attribute_item_5": "• <strong>พื้นที่</strong>: แหล่งตกปลาที่พบปลาตัวนี้ได้",
+          "attribute_item_6": "• <strong>เคล็ดลับ</strong>: สีเขียวหมายถึงตรงกันทุกประการ ส่วนสีส้มในช่องฤดูกาลหรือพื้นที่หมายถึงตรงกันบางส่วน",
           "attributes_description": "โหมดปลาจะเปรียบเทียบคุณสมบัติเหล่านี้:",
           "attributes_title": "คุณสมบัติของปลา",
           "daily_challenge_description": "กลับมาทุกวันเพื่อพบปลาลับใหม่ ติดตามสถิติต่อเนื่องของคุณและแชร์ผลลัพธ์ให้เพื่อน ๆ",
           "daily_challenge_title": "ความท้าทายประจำวัน",
           "feedback_arrow_down": "• <strong>ลูกศรลง (↓)</strong>: ค่าของปลาลับต่ำกว่า",
           "feedback_arrow_up": "• <strong>ลูกศรขึ้น (↑)</strong>: ค่าของปลาลับสูงกว่า",
-          "feedback_arrows": "ลูกศรจะปรากฏในช่องความยากและขนาด",
+          "feedback_arrows": "ลูกศรจะปรากฏในช่องความยาก",
           "feedback_description": "แต่ละช่องจะแสดงเป็นสีต่าง ๆ ดังนี้:",
           "feedback_item_1": "• <span style=\"color: #32c21c\">สีเขียว</span></span>: ตรงกับปลาลับทุกประการ",
           "feedback_item_2": "• <span style=\"color: #d40c00\">สีแดง</span></span>: ไม่ตรงกันเลย",
@@ -606,8 +613,7 @@
           "strategy_tip_5": "• ปลาที่ถูกต้องต้องตรงกับผลตอบกลับสีเขียวทั้งหมดพร้อมกัน",
           "strategy_tip_6": "• พฤติกรรม ฤดูกาล และสภาพอากาศ ต้องตรงกันแบบเป๊ะ ๆ (ไม่มีลูกศร)",
           "strategy_title": "เคล็ดลับกลยุทธ์",
-          "title": "วิธีเล่น: โหมดปลา",
-          "attribute_item_7": "• <strong>เคล็ดลับ</strong>: สีเขียวหมายถึงตรงกันทุกประการ ส่วนสีส้มในช่องฤดูกาลหรือพื้นที่หมายถึงตรงกันบางส่วน"
+          "title": "วิธีเล่น: โหมดปลา"
         },
         "patchNotes": {
           "states": {
@@ -690,7 +696,7 @@
           "Friendship": "มิตรภาพ",
           "Skill": "ทักษะ",
           "Starter": "เริ่มต้น",
-          "Special": "พิเศษ"
+          "Purchased": "ซื้อ"
         },
         "buff": {
           "None": "ไม่มี",

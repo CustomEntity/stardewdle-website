@@ -508,7 +508,8 @@
           "season": "Estación",
           "size": "Tamaño",
           "weather": "Clima",
-          "area": "Zona"
+          "area": "Zona",
+          "time": "Hora"
         },
         "season": {
           "Fall": "Otoño",
@@ -534,6 +535,12 @@
           "WitchSwamp": "Pantano de la Bruja",
           "NightMarket": "Mercado Nocturno",
           "GingerIsland": "Isla Jengibre"
+        },
+        "time": {
+          "Morning": "Mañana",
+          "Afternoon": "Tarde",
+          "Evening": "Noche",
+          "AllDay": "Todo el día"
         }
       },
       "components": {
@@ -573,18 +580,18 @@
       "modals": {
         "how_to_play_classic": {
           "attribute_item_1": "• <strong>Dificultad</strong>: lo difícil que es pescar el pez.",
-          "attribute_item_2": "• <strong>Comportamiento</strong>: cómo se mueve: Flotador, Errático, Suave, Mixto o Hundidor.",
+          "attribute_item_2": "• <strong>Hora</strong>: el momento del día en que pica — Mañana, Tarde, Noche o Todo el día.",
           "attribute_item_3": "• <strong>Estación</strong>: la(s) estación(es) en la(s) que se puede pescar.",
           "attribute_item_4": "• <strong>Clima</strong>: Soleado, Lluvioso o Cualquiera.",
-          "attribute_item_5": "• <strong>Tamaño</strong>: su tamaño máximo en pulgadas.",
-          "attribute_item_6": "• <strong>Zona</strong>: el(los) lugar(es) de pesca donde se encuentra.",
+          "attribute_item_5": "• <strong>Zona</strong>: el(los) lugar(es) de pesca donde se encuentra.",
+          "attribute_item_6": "• <strong>Consejo</strong>: el verde indica una coincidencia exacta; el naranja en Estación o Zona indica una coincidencia parcial.",
           "attributes_description": "El modo Pez compara estos atributos:",
           "attributes_title": "Atributos del pez",
           "daily_challenge_description": "Vuelve cada día para un nuevo pez secreto. Lleva la cuenta de tu racha y comparte tu resultado con tus amigos.",
           "daily_challenge_title": "Desafío diario",
           "feedback_arrow_down": "• <strong>Flecha abajo (↓)</strong>: el valor del pez secreto es MENOR.",
           "feedback_arrow_up": "• <strong>Flecha arriba (↑)</strong>: el valor del pez secreto es MAYOR.",
-          "feedback_arrows": "Las flechas aparecen en Dificultad y Tamaño.",
+          "feedback_arrows": "Las flechas aparecen en Dificultad.",
           "feedback_description": "Cada casilla tiene un color:",
           "feedback_item_1": "• <span style=\"color: #32c21c\">Verde</span></span>: coincidencia exacta con el pez secreto.",
           "feedback_item_2": "• <span style=\"color: #d40c00\">Rojo</span></span>: sin coincidencia.",
@@ -606,8 +613,7 @@
           "strategy_tip_5": "• Un pez debe coincidir con TODA la información verde a la vez.",
           "strategy_tip_6": "• Comportamiento, Estación y Clima coinciden de forma exacta (sin flechas).",
           "strategy_title": "Consejos de estrategia",
-          "title": "Cómo jugar: Modo Pez",
-          "attribute_item_7": "• <strong>Consejo</strong>: el verde indica una coincidencia exacta; el naranja en Estación o Zona indica una coincidencia parcial."
+          "title": "Cómo jugar: Modo Pez"
         },
         "patchNotes": {
           "states": {
@@ -690,7 +696,7 @@
           "Friendship": "Amistad",
           "Skill": "Habilidad",
           "Starter": "Inicial",
-          "Special": "Especial"
+          "Purchased": "Comprada"
         },
         "buff": {
           "None": "Ninguno",

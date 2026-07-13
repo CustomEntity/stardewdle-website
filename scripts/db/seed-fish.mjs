@@ -33,13 +33,14 @@ async function main() {
 
     for (const f of fish) {
       const { rows } = await client.query(
-        `INSERT INTO fish (key, difficulty, behavior, max_size, weather, seasons, area, sprite, sheet, released)
-         VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,true)
+        `INSERT INTO fish (key, difficulty, behavior, max_size, weather, seasons, area, time, sprite, sheet, released)
+         VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11)
          ON CONFLICT (key) DO UPDATE SET
             difficulty=EXCLUDED.difficulty, behavior=EXCLUDED.behavior, max_size=EXCLUDED.max_size,
-            weather=EXCLUDED.weather, seasons=EXCLUDED.seasons, area=EXCLUDED.area, sprite=EXCLUDED.sprite, sheet=EXCLUDED.sheet
+            weather=EXCLUDED.weather, seasons=EXCLUDED.seasons, area=EXCLUDED.area, time=EXCLUDED.time,
+            sprite=EXCLUDED.sprite, sheet=EXCLUDED.sheet, released=EXCLUDED.released
          RETURNING id`,
-        [f.key, f.difficulty, f.behavior, f.maxSize, f.weather, f.seasons, f.area, f.sprite, f.sheet]
+        [f.key, f.difficulty, f.behavior, f.maxSize, f.weather, f.seasons, f.area, f.time, f.sprite, f.sheet, f.released ?? true]
       );
       const id = rows[0].id;
       for (const [lang, name] of [['en', f.name], ['fr', f.name_fr]]) {
@@ -53,8 +54,20 @@ async function main() {
     }
     console.log(`✓ upserted ${fish.length} fish (+ en/fr names)`);
 
-    const { rows: ids } = await client.query('SELECT id FROM fish ORDER BY key');
+    const { rows: ids } = await client.query('SELECT id FROM fish WHERE released = true ORDER BY key');
     const pool = ids.map((r) => r.id);
+
+    // Re-roll any already-seeded upcoming daily that landed on a now-unreleased fish.
+    const { rows: bad } = await client.query(
+      `SELECT to_char(date, 'YYYY-MM-DD') AS iso FROM daily_fish
+       WHERE date >= CURRENT_DATE AND fish_id NOT IN (SELECT id FROM fish WHERE released = true)`
+    );
+    for (const { iso } of bad) {
+      await client.query('UPDATE daily_fish SET fish_id=$1 WHERE date=$2::date',
+        [pool[hashDate('fish' + iso) % pool.length], iso]);
+    }
+    if (bad.length) console.log(`✓ re-rolled ${bad.length} upcoming daily_fish off excluded fish`);
+
     const today = new Date();
     let inserted = 0;
     for (let i = 0; i < 60; i++) {

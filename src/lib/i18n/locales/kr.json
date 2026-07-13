@@ -508,7 +508,8 @@
           "season": "계절",
           "size": "크기",
           "weather": "날씨",
-          "area": "지역"
+          "area": "지역",
+          "time": "시간"
         },
         "season": {
           "Fall": "가을",
@@ -534,6 +535,12 @@
           "WitchSwamp": "마녀의 늪",
           "NightMarket": "야시장",
           "GingerIsland": "진저 아일랜드"
+        },
+        "time": {
+          "Morning": "아침",
+          "Afternoon": "오후",
+          "Evening": "저녁",
+          "AllDay": "종일"
         }
       },
       "components": {
@@ -573,18 +580,18 @@
       "modals": {
         "how_to_play_classic": {
           "attribute_item_1": "• <strong>난이도</strong>: 물고기를 잡기 얼마나 어려운지.",
-          "attribute_item_2": "• <strong>움직임</strong>: 이동 방식 — 부유형, 돌진형, 유선형, 혼합형 또는 침강형.",
+          "attribute_item_2": "• <strong>시간</strong>: 물고기가 잡히는 시간대 — 아침, 오후, 저녁 또는 종일.",
           "attribute_item_3": "• <strong>계절</strong>: 잡을 수 있는 계절.",
           "attribute_item_4": "• <strong>날씨</strong>: 맑음, 비 또는 상관없음.",
-          "attribute_item_5": "• <strong>크기</strong>: 인치 단위의 최대 크기.",
-          "attribute_item_6": "• <strong>지역</strong>: 물고기가 잡히는 낚시 장소.",
+          "attribute_item_5": "• <strong>지역</strong>: 물고기가 잡히는 낚시 장소.",
+          "attribute_item_6": "• <strong>팁</strong>: 초록색은 정확히 일치함을, 계절이나 지역의 주황색은 부분적으로 겹침을 의미합니다.",
           "attributes_description": "물고기 모드는 다음 속성들을 비교합니다:",
           "attributes_title": "물고기 속성",
           "daily_challenge_description": "매일 새로운 비밀 물고기에 도전해보세요. 연속 기록을 확인하고 친구들과 결과를 공유하세요.",
           "daily_challenge_title": "일일 도전",
           "feedback_arrow_down": "• <strong>아래쪽 화살표 (↓)</strong>: 비밀 물고기의 값이 더 낮음.",
           "feedback_arrow_up": "• <strong>위쪽 화살표 (↑)</strong>: 비밀 물고기의 값이 더 높음.",
-          "feedback_arrows": "화살표는 난이도와 크기에 표시됩니다.",
+          "feedback_arrows": "화살표는 난이도에 표시됩니다.",
           "feedback_description": "각 타일은 색상으로 구분됩니다:",
           "feedback_item_1": "• <span style=\"color: #32c21c\">초록색</span></span>: 비밀 물고기와 정확히 일치.",
           "feedback_item_2": "• <span style=\"color: #d40c00\">빨간색</span></span>: 일치하지 않음.",
@@ -606,8 +613,7 @@
           "strategy_tip_5": "• 정답 물고기는 모든 초록색 피드백과 동시에 일치해야 합니다.",
           "strategy_tip_6": "• 움직임, 계절, 날씨는 정확히 일치해야 합니다 (화살표 없음).",
           "strategy_title": "전략 팁",
-          "title": "플레이 방법: 물고기 모드",
-          "attribute_item_7": "• <strong>팁</strong>: 초록색은 정확히 일치함을, 계절이나 지역의 주황색은 부분적으로 겹침을 의미합니다."
+          "title": "플레이 방법: 물고기 모드"
         },
         "patchNotes": {
           "states": {
@@ -690,7 +696,7 @@
           "Friendship": "우정",
           "Skill": "숙련도",
           "Starter": "기본",
-          "Special": "특별"
+          "Purchased": "구매"
         },
         "buff": {
           "None": "없음",

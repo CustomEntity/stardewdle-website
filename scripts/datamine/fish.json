@@ -14,6 +14,11 @@
     "area": [
       "Ocean"
     ],
+    "time": [
+      "Morning",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 705,
     "sheet": "springobjects"
   },
@@ -32,6 +37,12 @@
     "area": [
       "Ocean"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 129,
     "sheet": "springobjects"
   },
@@ -49,6 +60,12 @@
     "area": [
       "Town"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 160,
     "sheet": "springobjects"
   },
@@ -60,15 +77,18 @@
     "behavior": "Floater",
     "maxSize": 25,
     "seasons": [
-      "Spring",
-      "Summer",
-      "Fall",
       "Winter"
     ],
     "weather": "Any",
     "area": [
       "NightMarket"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 800,
     "sheet": "springobjects"
   },
@@ -89,6 +109,12 @@
     "area": [
       "GingerIsland"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 838,
     "sheet": "springobjects"
   },
@@ -110,6 +136,10 @@
       "Town",
       "Forest"
     ],
+    "time": [
+      "Evening"
+    ],
+    "released": true,
     "sprite": 132,
     "sheet": "springobjects"
   },
@@ -130,6 +160,12 @@
     "area": [
       "Mountain"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 700,
     "sheet": "springobjects"
   },
@@ -152,6 +188,12 @@
       "Sewers",
       "BugLair"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 142,
     "sheet": "springobjects"
   },
@@ -174,6 +216,12 @@
       "SecretWoods",
       "WitchSwamp"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 143,
     "sheet": "springobjects"
   },
@@ -195,6 +243,12 @@
       "Forest",
       "Mountain"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 702,
     "sheet": "springobjects"
   },
@@ -212,6 +266,12 @@
     "area": [
       "Ocean"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 159,
     "sheet": "springobjects"
   },
@@ -229,6 +289,12 @@
     "area": [
       "Forest"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 704,
     "sheet": "springobjects"
   },
@@ -247,6 +313,11 @@
     "area": [
       "Ocean"
     ],
+    "time": [
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 148,
     "sheet": "springobjects"
   },
@@ -266,6 +337,12 @@
       "Ocean",
       "GingerIsland"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 267,
     "sheet": "springobjects"
   },
@@ -286,6 +363,12 @@
     "area": [
       "Mines"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 156,
     "sheet": "springobjects"
   },
@@ -303,6 +386,12 @@
     "area": [
       "Forest"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 775,
     "sheet": "springobjects"
   },
@@ -320,6 +409,12 @@
     "area": [
       "Forest"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": false,
     "sprite": 902,
     "sheet": "springobjects"
   },
@@ -339,6 +434,11 @@
     "area": [
       "Forest"
     ],
+    "time": [
+      "Morning",
+      "Afternoon"
+    ],
+    "released": true,
     "sprite": 135,
     "sheet": "objects_2"
   },
@@ -358,6 +458,11 @@
     "area": [
       "Ocean"
     ],
+    "time": [
+      "Morning",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 708,
     "sheet": "springobjects"
   },
@@ -376,6 +481,12 @@
     "area": [
       "Ocean"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 147,
     "sheet": "springobjects"
   },
@@ -396,6 +507,12 @@
     "area": [
       "Mines"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 161,
     "sheet": "springobjects"
   },
@@ -416,6 +533,12 @@
     "area": [
       "Mountain"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 136,
     "sheet": "springobjects"
   },
@@ -436,6 +559,12 @@
     "area": [
       "GingerIsland"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 162,
     "sheet": "springobjects"
   },
@@ -453,6 +582,12 @@
     "area": [
       "Mountain"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 163,
     "sheet": "springobjects"
   },
@@ -470,6 +605,12 @@
     "area": [
       "Mountain"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": false,
     "sprite": 900,
     "sheet": "springobjects"
   },
@@ -489,6 +630,12 @@
       "Forest",
       "Mountain"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 707,
     "sheet": "springobjects"
   },
@@ -509,6 +656,12 @@
     "area": [
       "GingerIsland"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 837,
     "sheet": "springobjects"
   },
@@ -529,6 +682,10 @@
       "Mountain",
       "GingerIsland"
     ],
+    "time": [
+      "Evening"
+    ],
+    "released": true,
     "sprite": 269,
     "sheet": "springobjects"
   },
@@ -540,15 +697,18 @@
     "behavior": "Sinker",
     "maxSize": 25,
     "seasons": [
-      "Spring",
-      "Summer",
-      "Fall",
       "Winter"
     ],
     "weather": "Any",
     "area": [
       "NightMarket"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 798,
     "sheet": "springobjects"
   },
@@ -566,6 +726,12 @@
     "area": [
       "Town"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": false,
     "sprite": 899,
     "sheet": "springobjects"
   },
@@ -586,6 +752,12 @@
     "area": [
       "Sewers"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 682,
     "sheet": "springobjects"
   },
@@ -604,6 +776,11 @@
       "Ocean",
       "GingerIsland"
     ],
+    "time": [
+      "Morning",
+      "Afternoon"
+    ],
+    "released": true,
     "sprite": 149,
     "sheet": "springobjects"
   },
@@ -623,6 +800,12 @@
       "Forest",
       "Mountain"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 141,
     "sheet": "springobjects"
   },
@@ -642,6 +825,12 @@
       "Town",
       "Forest"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 144,
     "sheet": "springobjects"
   },
@@ -660,6 +849,10 @@
       "Ocean",
       "GingerIsland"
     ],
+    "time": [
+      "Afternoon"
+    ],
+    "released": true,
     "sprite": 128,
     "sheet": "springobjects"
   },
@@ -680,6 +873,12 @@
     "area": [
       "Sewers"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": false,
     "sprite": 901,
     "sheet": "springobjects"
   },
@@ -699,6 +898,12 @@
       "Forest",
       "Mountain"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 138,
     "sheet": "springobjects"
   },
@@ -717,6 +922,12 @@
     "area": [
       "Ocean"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 146,
     "sheet": "springobjects"
   },
@@ -736,6 +947,12 @@
     "area": [
       "Ocean"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 150,
     "sheet": "springobjects"
   },
@@ -754,6 +971,12 @@
       "Town",
       "Forest"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 139,
     "sheet": "springobjects"
   },
@@ -774,6 +997,12 @@
     "area": [
       "Desert"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 164,
     "sheet": "springobjects"
   },
@@ -794,6 +1023,12 @@
     "area": [
       "Ocean"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 131,
     "sheet": "springobjects"
   },
@@ -814,6 +1049,12 @@
     "area": [
       "Desert"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 165,
     "sheet": "springobjects"
   },
@@ -832,6 +1073,12 @@
     "area": [
       "Ocean"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 154,
     "sheet": "springobjects"
   },
@@ -852,6 +1099,12 @@
       "Town",
       "Forest"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 706,
     "sheet": "springobjects"
   },
@@ -872,6 +1125,12 @@
     "area": [
       "BugLair"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 796,
     "sheet": "springobjects"
   },
@@ -891,6 +1150,12 @@
       "Town",
       "Forest"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 137,
     "sheet": "springobjects"
   },
@@ -908,6 +1173,12 @@
     "area": [
       "Ocean"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": false,
     "sprite": 898,
     "sheet": "springobjects"
   },
@@ -919,15 +1190,18 @@
     "behavior": "Dart",
     "maxSize": 25,
     "seasons": [
-      "Spring",
-      "Summer",
-      "Fall",
       "Winter"
     ],
     "weather": "Any",
     "area": [
       "NightMarket"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 799,
     "sheet": "springobjects"
   },
@@ -945,6 +1219,10 @@
     "area": [
       "Ocean"
     ],
+    "time": [
+      "Evening"
+    ],
+    "released": true,
     "sprite": 151,
     "sheet": "springobjects"
   },
@@ -965,6 +1243,12 @@
     "area": [
       "GingerIsland"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 836,
     "sheet": "springobjects"
   },
@@ -985,6 +1269,12 @@
     "area": [
       "Mines"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 158,
     "sheet": "springobjects"
   },
@@ -1003,6 +1293,12 @@
     "area": [
       "Mountain"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 698,
     "sheet": "springobjects"
   },
@@ -1022,6 +1318,12 @@
       "Town",
       "Forest"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 145,
     "sheet": "springobjects"
   },
@@ -1041,6 +1343,10 @@
       "Ocean",
       "GingerIsland"
     ],
+    "time": [
+      "Evening"
+    ],
+    "released": true,
     "sprite": 155,
     "sheet": "springobjects"
   },
@@ -1062,6 +1368,12 @@
       "Town",
       "Forest"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 699,
     "sheet": "springobjects"
   },
@@ -1081,6 +1393,11 @@
       "Ocean",
       "GingerIsland"
     ],
+    "time": [
+      "Morning",
+      "Afternoon"
+    ],
+    "released": true,
     "sprite": 701,
     "sheet": "springobjects"
   },
@@ -1100,6 +1417,12 @@
       "Ocean",
       "GingerIsland"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 130,
     "sheet": "springobjects"
   },
@@ -1120,6 +1443,12 @@
     "area": [
       "WitchSwamp"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 795,
     "sheet": "springobjects"
   },
@@ -1140,6 +1469,11 @@
       "Forest",
       "Mountain"
     ],
+    "time": [
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 140,
     "sheet": "springobjects"
   },
@@ -1160,6 +1494,12 @@
     "area": [
       "SecretWoods"
     ],
+    "time": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "released": true,
     "sprite": 734,
     "sheet": "springobjects"
   }

@@ -107,7 +107,6 @@
                         <li class="mb-1">{@html locale.t('pages.fish.modals.how_to_play_classic.attribute_item_4')}</li>
                         <li class="mb-1">{@html locale.t('pages.fish.modals.how_to_play_classic.attribute_item_5')}</li>
                         <li class="mb-1">{@html locale.t('pages.fish.modals.how_to_play_classic.attribute_item_6')}</li>
-                        <li class="mb-1">{@html locale.t('pages.fish.modals.how_to_play_classic.attribute_item_7')}</li>
                     </ul>
                 </div>
 

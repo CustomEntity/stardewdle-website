@@ -546,16 +546,16 @@
           "attributes_title": "Attributs des poissons",
           "attributes_description": "Le mode Poisson compare les attributs suivants :",
           "attribute_item_1": "• <strong>Difficulté</strong> : à quel point le poisson est difficile à attraper.",
-          "attribute_item_2": "• <strong>Comportement</strong> : sa façon de se déplacer — Flotteur, Fonceur, Fluide, Mixte ou Plongeur.",
+          "attribute_item_2": "• <strong>Heure</strong> : le moment de la journée où il mord — Matin, Après-midi, Soir ou Toute la journée.",
           "attribute_item_3": "• <strong>Saison</strong> : la ou les saisons où vous pouvez l'attraper.",
           "attribute_item_4": "• <strong>Météo</strong> : Ensoleillé, Pluvieux ou Toutes.",
-          "attribute_item_5": "• <strong>Taille</strong> : sa taille maximale en pouces.",
-          "attribute_item_6": "• <strong>Zone</strong> : le ou les lieux de pêche où on le trouve.",
+          "attribute_item_5": "• <strong>Zone</strong> : le ou les lieux de pêche où on le trouve.",
+          "attribute_item_6": "• <strong>Astuce</strong> : le vert indique une correspondance exacte ; l'orange sur Saison ou Zone signifie un chevauchement partiel.",
           "feedback_title": "Retour",
           "feedback_description": "Chaque case est codée par couleur :",
           "feedback_item_1": "• <span style=\"color: #32c21c\">Vert</span></span> : correspondance exacte avec le poisson secret.",
           "feedback_item_2": "• <span style=\"color: #d40c00\">Rouge</span></span> : aucune correspondance.",
-          "feedback_arrows": "Des flèches apparaissent sur Difficulté et Taille.",
+          "feedback_arrows": "Des flèches apparaissent sur Difficulté.",
           "feedback_arrow_up": "• <strong>Flèche vers le haut (↑)</strong> : la valeur du poisson secret est PLUS ÉLEVÉE.",
           "feedback_arrow_down": "• <strong>Flèche vers le bas (↓)</strong> : la valeur du poisson secret est PLUS BASSE.",
           "how_to_play_title": "Comment jouer",
@@ -574,8 +574,7 @@
           "strategy_tip_5": "• Un poisson doit correspondre à TOUS les retours verts à la fois.",
           "strategy_tip_6": "• Comportement, Saison et Météo correspondent exactement (pas de flèches).",
           "daily_challenge_title": "Défi quotidien",
-          "daily_challenge_description": "Revenez chaque jour pour un nouveau poisson secret. Suivez votre série et partagez votre résultat avec vos amis.",
-          "attribute_item_7": "• <strong>Astuce</strong> : le vert indique une correspondance exacte ; l'orange sur Saison ou Zone signifie un chevauchement partiel."
+          "daily_challenge_description": "Revenez chaque jour pour un nouveau poisson secret. Suivez votre série et partagez votre résultat avec vos amis."
         }
       },
       "attributes": {
@@ -586,7 +585,8 @@
           "season": "Saison",
           "weather": "Météo",
           "size": "Taille",
-          "area": "Zone"
+          "area": "Zone",
+          "time": "Heure"
         },
         "behavior": {
           "Floater": "Flottant",
@@ -619,6 +619,12 @@
           "WitchSwamp": "Marais de la sorcière",
           "NightMarket": "Marché nocturne",
           "GingerIsland": "Île Gingembre"
+        },
+        "time": {
+          "Morning": "Matin",
+          "Afternoon": "Après-midi",
+          "Evening": "Soir",
+          "AllDay": "Toute la journée"
         }
       }
     },
@@ -774,7 +780,7 @@
           "Friendship": "Amitié",
           "Skill": "Compétence",
           "Starter": "De base",
-          "Special": "Spécial"
+          "Purchased": "Acheté"
         },
         "buff": {
           "None": "Aucun",

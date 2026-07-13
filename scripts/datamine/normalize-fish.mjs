@@ -65,6 +65,23 @@ const SEASON = { spring: 'Spring', summer: 'Summer', fall: 'Fall', winter: 'Wint
 const WEATHER = { sunny: 'Sunny', rainy: 'Rainy', both: 'Any' };
 const BEHAVIOR = { floater: 'Floater', dart: 'Dart', smooth: 'Smooth', mixed: 'Mixed', sinker: 'Sinker' };
 
+// Time-of-day buckets from Data/Fish times (field 5, e.g. "600 2600" = 6am-2am). Windows use a
+// 26h clock (2600 = 2am next day). Morning 6-12, Afternoon 12-18, Evening 18-26.
+const timeOfDay = (line) => {
+  const nums = (line.split('/')[5] || '').split(/\s+/).map(Number).filter((n) => !Number.isNaN(n));
+  const b = new Set();
+  for (let i = 0; i < nums.length; i += 2) {
+    const s = nums[i], e = nums[i + 1];
+    if (s < 1200 && e > 600) b.add('Morning');
+    if (s < 1800 && e > 1200) b.add('Afternoon');
+    if (s < 2600 && e > 1800) b.add('Evening');
+  }
+  return ['Morning', 'Afternoon', 'Evening'].filter((x) => b.has(x));
+};
+// The "Extended Family" legendaries (1.5) have byte-identical guessable stats to their base
+// legendary -> excluded from the guess pool so no two fish share the same clue row.
+const EXTENDED_FAMILY = new Set(['898', '899', '900', '901', '902']);
+
 function resolveToken(token, dict) {
   if (typeof token !== 'string') return null;
   const m = token.match(/\[LocalizedText\s+Strings\\[^:]+:([^\]]+)\]/);
@@ -101,6 +118,8 @@ for (const [id, line] of Object.entries(fish)) {
     seasons: (p[6] || '').trim().split(/\s+/).filter(Boolean).map((s) => SEASON[s] ?? cap(s)),
     weather: WEATHER[p[7]] ?? cap(p[7] || ''),
     area: areasFor(id),
+    time: timeOfDay(line),
+    released: !EXTENDED_FAMILY.has(String(id)),
     sprite,
     sheet
   });
@@ -123,6 +142,11 @@ const LEGENDARY_SEASONS = {
 };
 for (const f of out) if (LEGENDARY_SEASONS[f.key]) f.seasons = LEGENDARY_SEASONS[f.key];
 
+// Night Market fish: Data/Fish lists them as all-season (placeholder), but they're only
+// catchable in the submarine during the Winter 15-17 Night Market. Override to Winter.
+const NIGHT_MARKET_SEASON = { '798': ['Winter'], '799': ['Winter'], '800': ['Winter'] };
+for (const f of out) if (NIGHT_MARKET_SEASON[f.key]) f.seasons = NIGHT_MARKET_SEASON[f.key];
+
 out.sort((a, b) => a.name.localeCompare(b.name));
 fs.writeFileSync(path.join(__dirname, 'fish.json'), JSON.stringify(out, null, 2));
 
@@ -134,3 +158,6 @@ console.log('behaviors:', [...new Set(out.map((f) => f.behavior))].join(', '));
 console.log('areas:', [...new Set(out.flatMap((f) => f.area))].join(', '));
 console.log('no-area:', out.filter((f) => f.area.length === 0).map((f) => f.name).join(', ') || 'none');
 console.log('no-sprite:', out.filter((f) => f.sprite == null).map((f) => f.name).join(', ') || 'none');
+const todLabel = (t) => t.length === 3 ? 'All Day' : t.join('/') || '(none)';
+console.log('time distribution:', JSON.stringify(out.reduce((m, f) => (m[todLabel(f.time)] = (m[todLabel(f.time)] || 0) + 1, m), {})));
+console.log('excluded (released=false):', out.filter((f) => !f.released).map((f) => f.name).join(', ') || 'none');

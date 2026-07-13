@@ -508,7 +508,8 @@
           "season": "Stagione",
           "size": "Dimensione",
           "weather": "Meteo",
-          "area": "Area"
+          "area": "Area",
+          "time": "Ora"
         },
         "season": {
           "Fall": "Autunno",
@@ -534,6 +535,12 @@
           "WitchSwamp": "Palude della Strega",
           "NightMarket": "Mercato Notturno",
           "GingerIsland": "Isola dello Zenzero"
+        },
+        "time": {
+          "Morning": "Mattina",
+          "Afternoon": "Pomeriggio",
+          "Evening": "Sera",
+          "AllDay": "Tutto il giorno"
         }
       },
       "components": {
@@ -573,18 +580,18 @@
       "modals": {
         "how_to_play_classic": {
           "attribute_item_1": "• <strong>Difficoltà</strong>: quanto è difficile catturare il pesce.",
-          "attribute_item_2": "• <strong>Comportamento</strong>: come si muove — Fluttuante, Scatto, Fluido, Misto o A picco.",
+          "attribute_item_2": "• <strong>Ora</strong>: il momento del giorno in cui abbocca — Mattina, Pomeriggio, Sera o Tutto il giorno.",
           "attribute_item_3": "• <strong>Stagione</strong>: la stagione o le stagioni in cui puoi pescarlo.",
           "attribute_item_4": "• <strong>Meteo</strong>: Soleggiato, Piovoso o Qualsiasi.",
-          "attribute_item_5": "• <strong>Dimensione</strong>: la sua dimensione massima in pollici.",
-          "attribute_item_6": "• <strong>Area</strong>: il punto o i punti di pesca in cui si trova.",
+          "attribute_item_5": "• <strong>Area</strong>: il punto o i punti di pesca in cui si trova.",
+          "attribute_item_6": "• <strong>Suggerimento</strong>: il verde indica una corrispondenza esatta; l'arancione sulla Stagione o sull'Area indica una sovrapposizione parziale.",
           "attributes_description": "La modalità Pesci confronta questi attributi:",
           "attributes_title": "Attributi del Pesce",
           "daily_challenge_description": "Torna ogni giorno per un nuovo pesce segreto. Tieni traccia della tua serie e condividi il risultato con gli amici.",
           "daily_challenge_title": "Sfida Giornaliera",
           "feedback_arrow_down": "• <strong>Freccia giù (↓)</strong>: il valore del pesce segreto è PIÙ BASSO.",
           "feedback_arrow_up": "• <strong>Freccia su (↑)</strong>: il valore del pesce segreto è PIÙ ALTO.",
-          "feedback_arrows": "Le frecce compaiono su Difficoltà e Dimensione.",
+          "feedback_arrows": "Le frecce compaiono su Difficoltà.",
           "feedback_description": "Ogni riquadro ha un colore specifico:",
           "feedback_item_1": "• <span style=\"color: #32c21c\">Verde</span></span>: corrispondenza esatta con il pesce segreto.",
           "feedback_item_2": "• <span style=\"color: #d40c00\">Rosso</span></span>: nessuna corrispondenza.",
@@ -606,8 +613,7 @@
           "strategy_tip_5": "• Un pesce deve corrispondere a TUTTO il feedback verde contemporaneamente.",
           "strategy_tip_6": "• Comportamento, Stagione e Meteo corrispondono esattamente (senza frecce).",
           "strategy_title": "Consigli di Strategia",
-          "title": "Come si gioca: Modalità Pesci",
-          "attribute_item_7": "• <strong>Suggerimento</strong>: il verde indica una corrispondenza esatta; l'arancione sulla Stagione o sull'Area indica una sovrapposizione parziale."
+          "title": "Come si gioca: Modalità Pesci"
         },
         "patchNotes": {
           "states": {
@@ -690,7 +696,7 @@
           "Friendship": "Amicizia",
           "Skill": "Abilità",
           "Starter": "Iniziale",
-          "Special": "Speciale"
+          "Purchased": "Acquistata"
         },
         "buff": {
           "None": "Nessuno",
