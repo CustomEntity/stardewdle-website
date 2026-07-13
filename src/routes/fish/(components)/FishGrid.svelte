@@ -93,7 +93,7 @@
 
 <div class="clue-container w-full overflow-x-auto overflow-y-hidden">
     <div class="mx-auto grid gap-x-1.5 gap-y-2 py-2 md:p-2"
-         style="grid-template-columns: 66px 94px 100px 116px 88px 72px 140px;">
+         style="grid-template-columns: 58px 94px 96px 110px 84px 62px 124px;">
         {#each ["fish", "difficulty", "behavior", "season", "weather", "size", "area"] as h}
             <div class="min-h-9 flex items-center justify-center px-0.5">
                 <span class="text-xs md:text-sm leading-[1.05] text-center stardew-text">{locale.t(`pages.fish.attributes.headers.${h}` as any)}</span>

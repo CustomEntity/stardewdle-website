@@ -95,7 +95,7 @@
         </p>
     {/await}
 
-    <div class="flex flex-col items-center w-full md:max-w-[600px]">
+    <div class="flex flex-col items-center w-full md:max-w-[720px]">
         {#await Promise.all( [data?.fish, data?.daily, data?.yesterday], ) then [fish, daily, yesterdayFish]}
             {#if !daily}
                 <p class="text-white text-lg font-poppins tracking-wide">
