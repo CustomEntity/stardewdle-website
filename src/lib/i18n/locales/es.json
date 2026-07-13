@@ -507,7 +507,8 @@
           "fish": "Pez",
           "season": "Estación",
           "size": "Tamaño",
-          "weather": "Clima"
+          "weather": "Clima",
+          "area": "Zona"
         },
         "season": {
           "Fall": "Otoño",
@@ -519,6 +520,20 @@
           "Any": "Cualquiera",
           "Rainy": "Lluvioso",
           "Sunny": "Soleado"
+        },
+        "area": {
+          "Town": "Pueblo",
+          "Forest": "Bosque",
+          "Mountain": "Montaña",
+          "Ocean": "Océano",
+          "Desert": "Desierto",
+          "SecretWoods": "Bosque Secreto",
+          "Sewers": "Alcantarillado",
+          "BugLair": "Guarida de Insectos",
+          "Mines": "Minas",
+          "WitchSwamp": "Pantano de la Bruja",
+          "NightMarket": "Mercado Nocturno",
+          "GingerIsland": "Isla Jengibre"
         }
       },
       "components": {
@@ -562,7 +577,7 @@
           "attribute_item_3": "• <strong>Estación</strong>: la(s) estación(es) en la(s) que se puede pescar.",
           "attribute_item_4": "• <strong>Clima</strong>: Soleado, Lluvioso o Cualquiera.",
           "attribute_item_5": "• <strong>Tamaño</strong>: su tamaño máximo en pulgadas.",
-          "attribute_item_6": "• <strong>Consejo</strong>: el verde indica una coincidencia exacta; el naranja en Estación indica una coincidencia parcial.",
+          "attribute_item_6": "• <strong>Zona</strong>: el(los) lugar(es) de pesca donde se encuentra.",
           "attributes_description": "El modo Pez compara estos atributos:",
           "attributes_title": "Atributos del pez",
           "daily_challenge_description": "Vuelve cada día para un nuevo pez secreto. Lleva la cuenta de tu racha y comparte tu resultado con tus amigos.",
@@ -591,7 +606,8 @@
           "strategy_tip_5": "• Un pez debe coincidir con TODA la información verde a la vez.",
           "strategy_tip_6": "• Comportamiento, Estación y Clima coinciden de forma exacta (sin flechas).",
           "strategy_title": "Consejos de estrategia",
-          "title": "Cómo jugar: Modo Pez"
+          "title": "Cómo jugar: Modo Pez",
+          "attribute_item_7": "• <strong>Consejo</strong>: el verde indica una coincidencia exacta; el naranja en Estación o Zona indica una coincidencia parcial."
         },
         "patchNotes": {
           "states": {

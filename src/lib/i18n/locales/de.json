@@ -507,7 +507,8 @@
           "fish": "Fisch",
           "season": "Jahreszeit",
           "size": "Größe",
-          "weather": "Wetter"
+          "weather": "Wetter",
+          "area": "Ort"
         },
         "season": {
           "Fall": "Herbst",
@@ -519,6 +520,20 @@
           "Any": "Beliebig",
           "Rainy": "Regnerisch",
           "Sunny": "Sonnig"
+        },
+        "area": {
+          "Town": "Stadt",
+          "Forest": "Wald",
+          "Mountain": "Berg",
+          "Ocean": "Meer",
+          "Desert": "Wüste",
+          "SecretWoods": "Geheimer Wald",
+          "Sewers": "Kanalisation",
+          "BugLair": "Käferhöhle",
+          "Mines": "Minen",
+          "WitchSwamp": "Hexensumpf",
+          "NightMarket": "Nachtmarkt",
+          "GingerIsland": "Ginger-Insel"
         }
       },
       "components": {
@@ -562,7 +577,7 @@
           "attribute_item_3": "• <strong>Jahreszeit</strong>: die Jahreszeit(en), in der/denen du ihn fangen kannst.",
           "attribute_item_4": "• <strong>Wetter</strong>: Sonnig, Regnerisch oder Beliebig.",
           "attribute_item_5": "• <strong>Größe</strong>: seine maximale Größe in Zoll.",
-          "attribute_item_6": "• <strong>Tipp</strong>: Grün bedeutet eine genaue Übereinstimmung; Orange bei Jahreszeit bedeutet eine teilweise Überschneidung.",
+          "attribute_item_6": "• <strong>Ort</strong>: die Angelstelle(n), an der/denen du ihn findest.",
           "attributes_description": "Der Fisch-Modus vergleicht folgende Eigenschaften:",
           "attributes_title": "Fisch-Eigenschaften",
           "daily_challenge_description": "Komm jeden Tag wieder für einen neuen geheimen Fisch. Verfolge deine Serie und teile dein Ergebnis mit Freunden.",
@@ -591,7 +606,8 @@
           "strategy_tip_5": "• Ein Fisch muss ALLE grünen Rückmeldungen gleichzeitig erfüllen.",
           "strategy_tip_6": "• Verhalten, Jahreszeit und Wetter müssen exakt übereinstimmen (keine Pfeile).",
           "strategy_title": "Strategietipps",
-          "title": "Spielanleitung: Fisch-Modus"
+          "title": "Spielanleitung: Fisch-Modus",
+          "attribute_item_7": "• <strong>Tipp</strong>: Grün bedeutet eine genaue Übereinstimmung; Orange bei Jahreszeit oder Ort bedeutet eine teilweise Überschneidung."
         },
         "patchNotes": {
           "states": {

@@ -507,7 +507,8 @@
           "fish": "Pesce",
           "season": "Stagione",
           "size": "Dimensione",
-          "weather": "Meteo"
+          "weather": "Meteo",
+          "area": "Area"
         },
         "season": {
           "Fall": "Autunno",
@@ -519,6 +520,20 @@
           "Any": "Qualsiasi",
           "Rainy": "Piovoso",
           "Sunny": "Soleggiato"
+        },
+        "area": {
+          "Town": "Città",
+          "Forest": "Foresta",
+          "Mountain": "Montagna",
+          "Ocean": "Mare",
+          "Desert": "Deserto",
+          "SecretWoods": "Bosco Segreto",
+          "Sewers": "Fogne",
+          "BugLair": "Covo degli Insetti",
+          "Mines": "Miniere",
+          "WitchSwamp": "Palude della Strega",
+          "NightMarket": "Mercato Notturno",
+          "GingerIsland": "Isola dello Zenzero"
         }
       },
       "components": {
@@ -562,7 +577,7 @@
           "attribute_item_3": "• <strong>Stagione</strong>: la stagione o le stagioni in cui puoi pescarlo.",
           "attribute_item_4": "• <strong>Meteo</strong>: Soleggiato, Piovoso o Qualsiasi.",
           "attribute_item_5": "• <strong>Dimensione</strong>: la sua dimensione massima in pollici.",
-          "attribute_item_6": "• <strong>Suggerimento</strong>: il verde indica una corrispondenza esatta; l'arancione sulla Stagione indica una sovrapposizione parziale.",
+          "attribute_item_6": "• <strong>Area</strong>: il punto o i punti di pesca in cui si trova.",
           "attributes_description": "La modalità Pesci confronta questi attributi:",
           "attributes_title": "Attributi del Pesce",
           "daily_challenge_description": "Torna ogni giorno per un nuovo pesce segreto. Tieni traccia della tua serie e condividi il risultato con gli amici.",
@@ -591,7 +606,8 @@
           "strategy_tip_5": "• Un pesce deve corrispondere a TUTTO il feedback verde contemporaneamente.",
           "strategy_tip_6": "• Comportamento, Stagione e Meteo corrispondono esattamente (senza frecce).",
           "strategy_title": "Consigli di Strategia",
-          "title": "Come si gioca: Modalità Pesci"
+          "title": "Come si gioca: Modalità Pesci",
+          "attribute_item_7": "• <strong>Suggerimento</strong>: il verde indica una corrispondenza esatta; l'arancione sulla Stagione o sull'Area indica una sovrapposizione parziale."
         },
         "patchNotes": {
           "states": {

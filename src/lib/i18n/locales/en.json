@@ -550,7 +550,7 @@
           "attribute_item_3": "• <strong>Season</strong>: the season(s) you can catch it.",
           "attribute_item_4": "• <strong>Weather</strong>: Sunny, Rainy or Any.",
           "attribute_item_5": "• <strong>Size</strong>: its maximum size in inches.",
-          "attribute_item_6": "• <strong>Tip</strong>: green is an exact match; orange on Season means a partial overlap.",
+          "attribute_item_6": "• <strong>Area</strong>: the fishing spot(s) where it's found.",
           "feedback_title": "Feedback",
           "feedback_description": "Each tile is color-coded:",
           "feedback_item_1": "• <span style=\"color: #32c21c\">Green</span></span>: exact match with the secret fish.",
@@ -574,7 +574,8 @@
           "strategy_tip_5": "• A fish must match ALL green feedback at once.",
           "strategy_tip_6": "• Behavior, Season and Weather match exactly (no arrows).",
           "daily_challenge_title": "Daily Challenge",
-          "daily_challenge_description": "Return each day for a new secret fish. Track your streak and share your result with friends."
+          "daily_challenge_description": "Return each day for a new secret fish. Track your streak and share your result with friends.",
+          "attribute_item_7": "• <strong>Tip</strong>: green is an exact match; orange on Season or Area means a partial overlap."
         }
       },
       "attributes": {
@@ -584,7 +585,8 @@
           "behavior": "Behavior",
           "season": "Season",
           "weather": "Weather",
-          "size": "Size"
+          "size": "Size",
+          "area": "Area"
         },
         "behavior": {
           "Floater": "Floater",
@@ -603,6 +605,20 @@
           "Summer": "Summer",
           "Fall": "Fall",
           "Winter": "Winter"
+        },
+        "area": {
+          "Town": "Town",
+          "Forest": "Forest",
+          "Mountain": "Mountain",
+          "Ocean": "Ocean",
+          "Desert": "Desert",
+          "SecretWoods": "Secret Woods",
+          "Sewers": "Sewers",
+          "BugLair": "Bug Lair",
+          "Mines": "Mines",
+          "WitchSwamp": "Witch's Swamp",
+          "NightMarket": "Night Market",
+          "GingerIsland": "Ginger Island"
         }
       }
     },

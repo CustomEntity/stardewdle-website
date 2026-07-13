@@ -507,7 +507,8 @@
           "fish": "물고기",
           "season": "계절",
           "size": "크기",
-          "weather": "날씨"
+          "weather": "날씨",
+          "area": "지역"
         },
         "season": {
           "Fall": "가을",
@@ -519,6 +520,20 @@
           "Any": "모든 날씨",
           "Rainy": "비",
           "Sunny": "맑음"
+        },
+        "area": {
+          "Town": "마을",
+          "Forest": "숲",
+          "Mountain": "산",
+          "Ocean": "바다",
+          "Desert": "사막",
+          "SecretWoods": "비밀의 숲",
+          "Sewers": "하수도",
+          "BugLair": "돌연변이 벌레 소굴",
+          "Mines": "광산",
+          "WitchSwamp": "마녀의 늪",
+          "NightMarket": "야시장",
+          "GingerIsland": "진저 아일랜드"
         }
       },
       "components": {
@@ -562,7 +577,7 @@
           "attribute_item_3": "• <strong>계절</strong>: 잡을 수 있는 계절.",
           "attribute_item_4": "• <strong>날씨</strong>: 맑음, 비 또는 상관없음.",
           "attribute_item_5": "• <strong>크기</strong>: 인치 단위의 최대 크기.",
-          "attribute_item_6": "• <strong>팁</strong>: 초록색은 정확히 일치함을, 계절의 주황색은 부분적으로 겹침을 의미합니다.",
+          "attribute_item_6": "• <strong>지역</strong>: 물고기가 잡히는 낚시 장소.",
           "attributes_description": "물고기 모드는 다음 속성들을 비교합니다:",
           "attributes_title": "물고기 속성",
           "daily_challenge_description": "매일 새로운 비밀 물고기에 도전해보세요. 연속 기록을 확인하고 친구들과 결과를 공유하세요.",
@@ -591,7 +606,8 @@
           "strategy_tip_5": "• 정답 물고기는 모든 초록색 피드백과 동시에 일치해야 합니다.",
           "strategy_tip_6": "• 움직임, 계절, 날씨는 정확히 일치해야 합니다 (화살표 없음).",
           "strategy_title": "전략 팁",
-          "title": "플레이 방법: 물고기 모드"
+          "title": "플레이 방법: 물고기 모드",
+          "attribute_item_7": "• <strong>팁</strong>: 초록색은 정확히 일치함을, 계절이나 지역의 주황색은 부분적으로 겹침을 의미합니다."
         },
         "patchNotes": {
           "states": {

@@ -550,7 +550,7 @@
           "attribute_item_3": "• <strong>Saison</strong> : la ou les saisons où vous pouvez l'attraper.",
           "attribute_item_4": "• <strong>Météo</strong> : Ensoleillé, Pluvieux ou Toutes.",
           "attribute_item_5": "• <strong>Taille</strong> : sa taille maximale en pouces.",
-          "attribute_item_6": "• <strong>Astuce</strong> : le vert indique une correspondance exacte ; l'orange sur Saison signifie un chevauchement partiel.",
+          "attribute_item_6": "• <strong>Zone</strong> : le ou les lieux de pêche où on le trouve.",
           "feedback_title": "Retour",
           "feedback_description": "Chaque case est codée par couleur :",
           "feedback_item_1": "• <span style=\"color: #32c21c\">Vert</span></span> : correspondance exacte avec le poisson secret.",
@@ -574,7 +574,8 @@
           "strategy_tip_5": "• Un poisson doit correspondre à TOUS les retours verts à la fois.",
           "strategy_tip_6": "• Comportement, Saison et Météo correspondent exactement (pas de flèches).",
           "daily_challenge_title": "Défi quotidien",
-          "daily_challenge_description": "Revenez chaque jour pour un nouveau poisson secret. Suivez votre série et partagez votre résultat avec vos amis."
+          "daily_challenge_description": "Revenez chaque jour pour un nouveau poisson secret. Suivez votre série et partagez votre résultat avec vos amis.",
+          "attribute_item_7": "• <strong>Astuce</strong> : le vert indique une correspondance exacte ; l'orange sur Saison ou Zone signifie un chevauchement partiel."
         }
       },
       "attributes": {
@@ -584,7 +585,8 @@
           "behavior": "Comportement",
           "season": "Saison",
           "weather": "Météo",
-          "size": "Taille"
+          "size": "Taille",
+          "area": "Zone"
         },
         "behavior": {
           "Floater": "Flottant",
@@ -603,6 +605,20 @@
           "Summer": "Été",
           "Fall": "Automne",
           "Winter": "Hiver"
+        },
+        "area": {
+          "Town": "Ville",
+          "Forest": "Forêt",
+          "Mountain": "Montagne",
+          "Ocean": "Océan",
+          "Desert": "Désert",
+          "SecretWoods": "Bois Secret",
+          "Sewers": "Égouts",
+          "BugLair": "Antre des insectes",
+          "Mines": "Mines",
+          "WitchSwamp": "Marais de la sorcière",
+          "NightMarket": "Marché nocturne",
+          "GingerIsland": "Île Gingembre"
         }
       }
     },

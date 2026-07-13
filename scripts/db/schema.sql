@@ -72,10 +72,14 @@ CREATE TABLE IF NOT EXISTS fish (
     max_size   INTEGER,                -- max size (inches)
     weather    TEXT,                   -- Sunny | Rainy | Any
     seasons    TEXT[],
+    area       TEXT[],                 -- Town | Forest | Mountain | Ocean | Desert | SecretWoods | Sewers | BugLair | Mines | WitchSwamp | NightMarket | GingerIsland
     sprite     INTEGER,
     sheet      TEXT,
     released   BOOLEAN NOT NULL DEFAULT TRUE
 );
+
+-- migration for the fishing-area column added after the initial fish table
+ALTER TABLE fish ADD COLUMN IF NOT EXISTS area TEXT[];
 
 CREATE TABLE IF NOT EXISTS fish_translations (
     fish_id   INTEGER NOT NULL REFERENCES fish(id) ON DELETE CASCADE,

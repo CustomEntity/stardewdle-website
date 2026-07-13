@@ -174,6 +174,7 @@
                                         season: compareSeasons(f.seasons, daily.fish.seasons),
                                         weather: f.weather === daily.fish.weather ? "CORRECT" : "INCORRECT",
                                         size: compareNumber(f.maxSize, daily.fish.maxSize),
+                                        area: compareSeasons(f.area, daily.fish.area),
                                     };
                                 })
                                 .filter(Boolean)}

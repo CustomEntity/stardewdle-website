@@ -11,6 +11,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean"
+    ],
     "sprite": 705,
     "sheet": "springobjects"
   },
@@ -26,6 +29,9 @@
       "Fall"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean"
+    ],
     "sprite": 129,
     "sheet": "springobjects"
   },
@@ -40,6 +46,9 @@
       "Fall"
     ],
     "weather": "Any",
+    "area": [
+      "Town"
+    ],
     "sprite": 160,
     "sheet": "springobjects"
   },
@@ -57,6 +66,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "NightMarket"
+    ],
     "sprite": 800,
     "sheet": "springobjects"
   },
@@ -74,6 +86,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "GingerIsland"
+    ],
     "sprite": 838,
     "sheet": "springobjects"
   },
@@ -91,6 +106,10 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Town",
+      "Forest"
+    ],
     "sprite": 132,
     "sheet": "springobjects"
   },
@@ -108,6 +127,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Mountain"
+    ],
     "sprite": 700,
     "sheet": "springobjects"
   },
@@ -124,6 +146,12 @@
       "Fall"
     ],
     "weather": "Any",
+    "area": [
+      "Mountain",
+      "SecretWoods",
+      "Sewers",
+      "BugLair"
+    ],
     "sprite": 142,
     "sheet": "springobjects"
   },
@@ -140,6 +168,12 @@
       "Winter"
     ],
     "weather": "Rainy",
+    "area": [
+      "Town",
+      "Forest",
+      "SecretWoods",
+      "WitchSwamp"
+    ],
     "sprite": 143,
     "sheet": "springobjects"
   },
@@ -157,6 +191,10 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Forest",
+      "Mountain"
+    ],
     "sprite": 702,
     "sheet": "springobjects"
   },
@@ -171,6 +209,9 @@
       "Summer"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean"
+    ],
     "sprite": 159,
     "sheet": "springobjects"
   },
@@ -185,6 +226,9 @@
       "Summer"
     ],
     "weather": "Any",
+    "area": [
+      "Forest"
+    ],
     "sprite": 704,
     "sheet": "springobjects"
   },
@@ -200,6 +244,9 @@
       "Fall"
     ],
     "weather": "Rainy",
+    "area": [
+      "Ocean"
+    ],
     "sprite": 148,
     "sheet": "springobjects"
   },
@@ -215,6 +262,10 @@
       "Summer"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean",
+      "GingerIsland"
+    ],
     "sprite": 267,
     "sheet": "springobjects"
   },
@@ -232,6 +283,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Mines"
+    ],
     "sprite": 156,
     "sheet": "springobjects"
   },
@@ -246,6 +300,9 @@
       "Winter"
     ],
     "weather": "Sunny",
+    "area": [
+      "Forest"
+    ],
     "sprite": 775,
     "sheet": "springobjects"
   },
@@ -260,6 +317,9 @@
       "Winter"
     ],
     "weather": "Sunny",
+    "area": [
+      "Forest"
+    ],
     "sprite": 902,
     "sheet": "springobjects"
   },
@@ -276,6 +336,9 @@
       "Fall"
     ],
     "weather": "Any",
+    "area": [
+      "Forest"
+    ],
     "sprite": 135,
     "sheet": "objects_2"
   },
@@ -292,6 +355,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean"
+    ],
     "sprite": 708,
     "sheet": "springobjects"
   },
@@ -307,6 +373,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean"
+    ],
     "sprite": 147,
     "sheet": "springobjects"
   },
@@ -324,6 +393,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Mines"
+    ],
     "sprite": 161,
     "sheet": "springobjects"
   },
@@ -341,6 +413,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Mountain"
+    ],
     "sprite": 136,
     "sheet": "springobjects"
   },
@@ -358,6 +433,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "GingerIsland"
+    ],
     "sprite": 162,
     "sheet": "springobjects"
   },
@@ -372,6 +450,9 @@
       "Spring"
     ],
     "weather": "Rainy",
+    "area": [
+      "Mountain"
+    ],
     "sprite": 163,
     "sheet": "springobjects"
   },
@@ -386,6 +467,9 @@
       "Spring"
     ],
     "weather": "Rainy",
+    "area": [
+      "Mountain"
+    ],
     "sprite": 900,
     "sheet": "springobjects"
   },
@@ -400,6 +484,11 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Town",
+      "Forest",
+      "Mountain"
+    ],
     "sprite": 707,
     "sheet": "springobjects"
   },
@@ -417,6 +506,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "GingerIsland"
+    ],
     "sprite": 837,
     "sheet": "springobjects"
   },
@@ -432,6 +524,11 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Forest",
+      "Mountain",
+      "GingerIsland"
+    ],
     "sprite": 269,
     "sheet": "springobjects"
   },
@@ -449,6 +546,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "NightMarket"
+    ],
     "sprite": 798,
     "sheet": "springobjects"
   },
@@ -463,6 +563,9 @@
       "Fall"
     ],
     "weather": "Any",
+    "area": [
+      "Town"
+    ],
     "sprite": 899,
     "sheet": "springobjects"
   },
@@ -480,6 +583,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Sewers"
+    ],
     "sprite": 682,
     "sheet": "springobjects"
   },
@@ -494,6 +600,10 @@
       "Summer"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean",
+      "GingerIsland"
+    ],
     "sprite": 149,
     "sheet": "springobjects"
   },
@@ -508,6 +618,11 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Town",
+      "Forest",
+      "Mountain"
+    ],
     "sprite": 141,
     "sheet": "springobjects"
   },
@@ -523,6 +638,10 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Town",
+      "Forest"
+    ],
     "sprite": 144,
     "sheet": "springobjects"
   },
@@ -537,6 +656,10 @@
       "Summer"
     ],
     "weather": "Sunny",
+    "area": [
+      "Ocean",
+      "GingerIsland"
+    ],
     "sprite": 128,
     "sheet": "springobjects"
   },
@@ -554,6 +677,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Sewers"
+    ],
     "sprite": 901,
     "sheet": "springobjects"
   },
@@ -568,6 +694,11 @@
       "Summer"
     ],
     "weather": "Sunny",
+    "area": [
+      "Town",
+      "Forest",
+      "Mountain"
+    ],
     "sprite": 138,
     "sheet": "springobjects"
   },
@@ -583,6 +714,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean"
+    ],
     "sprite": 146,
     "sheet": "springobjects"
   },
@@ -599,6 +733,9 @@
       "Winter"
     ],
     "weather": "Rainy",
+    "area": [
+      "Ocean"
+    ],
     "sprite": 150,
     "sheet": "springobjects"
   },
@@ -613,6 +750,10 @@
       "Fall"
     ],
     "weather": "Any",
+    "area": [
+      "Town",
+      "Forest"
+    ],
     "sprite": 139,
     "sheet": "springobjects"
   },
@@ -630,6 +771,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Desert"
+    ],
     "sprite": 164,
     "sheet": "springobjects"
   },
@@ -647,6 +791,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean"
+    ],
     "sprite": 131,
     "sheet": "springobjects"
   },
@@ -664,6 +811,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Desert"
+    ],
     "sprite": 165,
     "sheet": "springobjects"
   },
@@ -679,6 +829,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean"
+    ],
     "sprite": 154,
     "sheet": "springobjects"
   },
@@ -695,6 +848,10 @@
       "Fall"
     ],
     "weather": "Rainy",
+    "area": [
+      "Town",
+      "Forest"
+    ],
     "sprite": 706,
     "sheet": "springobjects"
   },
@@ -712,6 +869,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "BugLair"
+    ],
     "sprite": 796,
     "sheet": "springobjects"
   },
@@ -727,6 +887,10 @@
       "Fall"
     ],
     "weather": "Any",
+    "area": [
+      "Town",
+      "Forest"
+    ],
     "sprite": 137,
     "sheet": "springobjects"
   },
@@ -741,6 +905,9 @@
       "Summer"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean"
+    ],
     "sprite": 898,
     "sheet": "springobjects"
   },
@@ -758,6 +925,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "NightMarket"
+    ],
     "sprite": 799,
     "sheet": "springobjects"
   },
@@ -772,6 +942,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean"
+    ],
     "sprite": 151,
     "sheet": "springobjects"
   },
@@ -789,6 +962,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "GingerIsland"
+    ],
     "sprite": 836,
     "sheet": "springobjects"
   },
@@ -806,6 +982,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Mines"
+    ],
     "sprite": 158,
     "sheet": "springobjects"
   },
@@ -821,6 +1000,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Mountain"
+    ],
     "sprite": 698,
     "sheet": "springobjects"
   },
@@ -836,6 +1018,10 @@
       "Summer"
     ],
     "weather": "Sunny",
+    "area": [
+      "Town",
+      "Forest"
+    ],
     "sprite": 145,
     "sheet": "springobjects"
   },
@@ -851,6 +1037,10 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean",
+      "GingerIsland"
+    ],
     "sprite": 155,
     "sheet": "springobjects"
   },
@@ -868,6 +1058,10 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Town",
+      "Forest"
+    ],
     "sprite": 699,
     "sheet": "springobjects"
   },
@@ -883,6 +1077,10 @@
       "Fall"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean",
+      "GingerIsland"
+    ],
     "sprite": 701,
     "sheet": "springobjects"
   },
@@ -898,6 +1096,10 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "Ocean",
+      "GingerIsland"
+    ],
     "sprite": 130,
     "sheet": "springobjects"
   },
@@ -915,6 +1117,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "WitchSwamp"
+    ],
     "sprite": 795,
     "sheet": "springobjects"
   },
@@ -930,6 +1135,11 @@
       "Winter"
     ],
     "weather": "Rainy",
+    "area": [
+      "Town",
+      "Forest",
+      "Mountain"
+    ],
     "sprite": 140,
     "sheet": "springobjects"
   },
@@ -947,6 +1157,9 @@
       "Winter"
     ],
     "weather": "Any",
+    "area": [
+      "SecretWoods"
+    ],
     "sprite": 734,
     "sheet": "springobjects"
   }

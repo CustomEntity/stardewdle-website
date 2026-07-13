@@ -507,7 +507,8 @@
           "fish": "Peixe",
           "season": "Estação",
           "size": "Tamanho",
-          "weather": "Clima"
+          "weather": "Clima",
+          "area": "Área"
         },
         "season": {
           "Fall": "Outono",
@@ -519,6 +520,20 @@
           "Any": "Qualquer",
           "Rainy": "Chuvoso",
           "Sunny": "Ensolarado"
+        },
+        "area": {
+          "Town": "Cidade",
+          "Forest": "Floresta",
+          "Mountain": "Montanha",
+          "Ocean": "Oceano",
+          "Desert": "Deserto",
+          "SecretWoods": "Floresta Secreta",
+          "Sewers": "Esgoto",
+          "BugLair": "Covil dos Insetos",
+          "Mines": "Minas",
+          "WitchSwamp": "Pântano da Bruxa",
+          "NightMarket": "Mercado Noturno",
+          "GingerIsland": "Ilha Gengibre"
         }
       },
       "components": {
@@ -562,7 +577,7 @@
           "attribute_item_3": "• <strong>Estação</strong>: a(s) estação(ões) em que pode ser pescado.",
           "attribute_item_4": "• <strong>Clima</strong>: Ensolarado, Chuvoso ou Qualquer.",
           "attribute_item_5": "• <strong>Tamanho</strong>: seu tamanho máximo em polegadas.",
-          "attribute_item_6": "• <strong>Dica</strong>: verde é uma correspondência exata; laranja em Estação significa uma sobreposição parcial.",
+          "attribute_item_6": "• <strong>Área</strong>: o(s) local(is) de pesca onde ele é encontrado.",
           "attributes_description": "O modo Peixe compara estes atributos:",
           "attributes_title": "Atributos do Peixe",
           "daily_challenge_description": "Volte todos os dias para um novo peixe secreto. Acompanhe sua sequência e compartilhe seu resultado com amigos.",
@@ -591,7 +606,8 @@
           "strategy_tip_5": "• Um peixe precisa corresponder a TODO o feedback verde ao mesmo tempo.",
           "strategy_tip_6": "• Comportamento, Estação e Clima correspondem exatamente (sem setas).",
           "strategy_title": "Dicas de Estratégia",
-          "title": "Como Jogar: Modo Peixe"
+          "title": "Como Jogar: Modo Peixe",
+          "attribute_item_7": "• <strong>Dica</strong>: verde é uma correspondência exata; laranja em Estação ou Área significa uma sobreposição parcial."
         },
         "patchNotes": {
           "states": {

@@ -33,13 +33,13 @@ async function main() {
 
     for (const f of fish) {
       const { rows } = await client.query(
-        `INSERT INTO fish (key, difficulty, behavior, max_size, weather, seasons, sprite, sheet, released)
-         VALUES ($1,$2,$3,$4,$5,$6,$7,$8,true)
+        `INSERT INTO fish (key, difficulty, behavior, max_size, weather, seasons, area, sprite, sheet, released)
+         VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,true)
          ON CONFLICT (key) DO UPDATE SET
             difficulty=EXCLUDED.difficulty, behavior=EXCLUDED.behavior, max_size=EXCLUDED.max_size,
-            weather=EXCLUDED.weather, seasons=EXCLUDED.seasons, sprite=EXCLUDED.sprite, sheet=EXCLUDED.sheet
+            weather=EXCLUDED.weather, seasons=EXCLUDED.seasons, area=EXCLUDED.area, sprite=EXCLUDED.sprite, sheet=EXCLUDED.sheet
          RETURNING id`,
-        [f.key, f.difficulty, f.behavior, f.maxSize, f.weather, f.seasons, f.sprite, f.sheet]
+        [f.key, f.difficulty, f.behavior, f.maxSize, f.weather, f.seasons, f.area, f.sprite, f.sheet]
       );
       const id = rows[0].id;
       for (const [lang, name] of [['en', f.name], ['fr', f.name_fr]]) {

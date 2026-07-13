@@ -48,6 +48,7 @@ interface Fish {
     maxSize: number;
     weather: string;        // Sunny | Rainy | Any
     seasons: string[];
+    area: string[];         // Town | Forest | Mountain | Ocean | Desert | SecretWoods | Sewers | BugLair | Mines | WitchSwamp | NightMarket | GingerIsland
     sprite: number | null;
     sheet: string | null;
 }

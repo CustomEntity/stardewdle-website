@@ -17,7 +17,7 @@
     let initialAttemptsCount = $state(-1);
 
     onMount(() => {
-        attempts.forEach((a) => (animations[a.fish.id] = 5));
+        attempts.forEach((a) => (animations[a.fish.id] = 6));
         initialAttemptsCount = attempts.length;
     });
 
@@ -46,6 +46,7 @@
                         season: compareSeasons(f.seasons, dailyFish.seasons),
                         weather: f.weather === dailyFish.weather ? "CORRECT" : "INCORRECT",
                         size: compareNumber(f.maxSize, dailyFish.maxSize),
+                        area: compareSeasons(f.area, dailyFish.area),
                     },
                 };
             })
@@ -87,12 +88,13 @@
         return t === key ? value : t;
     };
     const seasonsText = (seasons: string[]) => seasons.map((s) => translate("season", s)).join(" / ") || "—";
+    const areaText = (area: string[]) => area.map((a) => translate("area", a)).join(" / ") || "—";
 </script>
 
 <div class="clue-container w-full overflow-x-auto overflow-y-hidden">
     <div class="mx-auto grid gap-x-1.5 gap-y-2 py-2 md:p-2"
-         style="grid-template-columns: 66px 94px 100px 116px 88px 72px;">
-        {#each ["fish", "difficulty", "behavior", "season", "weather", "size"] as h}
+         style="grid-template-columns: 66px 94px 100px 116px 88px 72px 140px;">
+        {#each ["fish", "difficulty", "behavior", "season", "weather", "size", "area"] as h}
             <div class="min-h-9 flex items-center justify-center px-0.5">
                 <span class="text-xs md:text-sm leading-[1.05] text-center stardew-text">{locale.t(`pages.fish.attributes.headers.${h}` as any)}</span>
             </div>
@@ -136,6 +138,12 @@
                  class:arrow-up={attempt.differences.size === 'HIGHER'} class:arrow-down={attempt.differences.size === 'LOWER'}
                  style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.size)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 4 ? 'visible' : 'hidden'};">
                 <span class="z-10 text-white text-lg stardew-text">{attempt.fish.maxSize}"</span>
+            </div>
+
+            <!-- Area -->
+            <div class="square-{attempt.fish.id} h-18 w-full relative sv-cell flex items-center justify-center"
+                 style="filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.8)); --status: {getBackgroundColor(attempt.differences.area)}; visibility: {animations[attempt.fish.id] === undefined || animations[attempt.fish.id] > 5 ? 'visible' : 'hidden'};">
+                <span class="z-10 text-white text-xs stardew-text px-1 text-center break-words leading-tight">{areaText(attempt.fish.area)}</span>
             </div>
         {/each}
     </div>

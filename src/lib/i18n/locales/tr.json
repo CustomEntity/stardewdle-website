@@ -507,7 +507,8 @@
           "fish": "Balık",
           "season": "Mevsim",
           "size": "Boyut",
-          "weather": "Hava Durumu"
+          "weather": "Hava Durumu",
+          "area": "Bölge"
         },
         "season": {
           "Fall": "Sonbahar",
@@ -519,6 +520,20 @@
           "Any": "Herhangi",
           "Rainy": "Yağmurlu",
           "Sunny": "Güneşli"
+        },
+        "area": {
+          "Town": "Kasaba",
+          "Forest": "Orman",
+          "Mountain": "Dağ",
+          "Ocean": "Okyanus",
+          "Desert": "Çöl",
+          "SecretWoods": "Gizli Orman",
+          "Sewers": "Kanalizasyon",
+          "BugLair": "Böcek İni",
+          "Mines": "Madenler",
+          "WitchSwamp": "Cadı Bataklığı",
+          "NightMarket": "Gece Pazarı",
+          "GingerIsland": "Zencefil Adası"
         }
       },
       "components": {
@@ -562,7 +577,7 @@
           "attribute_item_3": "• <strong>Mevsim</strong>: yakalayabileceğiniz mevsim(ler).",
           "attribute_item_4": "• <strong>Hava Durumu</strong>: Güneşli, Yağmurlu veya Herhangi.",
           "attribute_item_5": "• <strong>Boyut</strong>: inç cinsinden maksimum boyutu.",
-          "attribute_item_6": "• <strong>İpucu</strong>: yeşil tam eşleşme anlamına gelir; Mevsim üzerindeki turuncu ise kısmi bir örtüşmeyi gösterir.",
+          "attribute_item_6": "• <strong>Bölge</strong>: bulunduğu balık tutma nokta(ları).",
           "attributes_description": "Balık modu şu özellikleri karşılaştırır:",
           "attributes_title": "Balık Özellikleri",
           "daily_challenge_description": "Yeni bir gizli balık için her gün geri dönün. Serinizi takip edin ve sonucunuzu arkadaşlarınızla paylaşın.",
@@ -591,7 +606,8 @@
           "strategy_tip_5": "• Bir balık, TÜM yeşil geri bildirimlerle aynı anda eşleşmelidir.",
           "strategy_tip_6": "• Davranış, Mevsim ve Hava Durumu birebir eşleşir (ok yoktur).",
           "strategy_title": "Strateji İpuçları",
-          "title": "Nasıl Oynanır: Balık Modu"
+          "title": "Nasıl Oynanır: Balık Modu",
+          "attribute_item_7": "• <strong>İpucu</strong>: yeşil tam eşleşme anlamına gelir; Mevsim veya Bölge üzerindeki turuncu ise kısmi bir örtüşmeyi gösterir."
         },
         "patchNotes": {
           "states": {
