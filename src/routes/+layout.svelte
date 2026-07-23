@@ -61,6 +61,100 @@
         }
     });
 
+    const isProduction = process.env.NODE_ENV === "production";
+
+    function isInIframe() {
+        try {
+            return window.self !== window.top;
+        } catch (e) {
+            return true;
+        }
+    }
+
+    $effect(() => {
+        if (isProduction && !isInIframe()) {
+            const windowNitroAds: any = (window as any)["nitroAds"];
+
+            windowNitroAds.createAd("floating-video-player", {
+                demo: false,
+                refreshTime: 30,
+                format: "floating",
+                floating: {
+                    reduceMobileSize: true,
+                },
+            });
+
+            windowNitroAds.createAd("footer-banner", {
+                height: 90,
+                delayLoading: true,
+                report: {
+                    enabled: true,
+                    icon: true,
+                    wording: "Report Ad",
+                    position: "bottom-right",
+                },
+            });
+
+            windowNitroAds.createAd("anchor-ad", {
+                refreshTime: 30,
+                format: "anchor-v2",
+                anchor: "bottom",
+                anchorPersistClose: false,
+                mediaQuery: "(min-width: 0px)",
+                report: {
+                    enabled: true,
+                    icon: true,
+                    wording: "Report Ad",
+                    position: "top-right",
+                },
+            });
+
+            windowNitroAds.createAd("left-side-ad", {
+                refreshTime: 30,
+                format: "rail",
+                rail: "left",
+                railOffsetTop: 0,
+                railOffsetBottom: 0,
+                railCollisionWhitelist: ["*"],
+                sizes: [
+                    ["160", "600"],
+                    ["300", "600"],
+                    ["300", "250"],
+                ],
+                report: {
+                    enabled: true,
+                    icon: true,
+                    wording: "Report Ad",
+                    position: "top-right",
+                },
+                mediaQuery:
+                    "(min-width: 1025px), (min-width: 768px) and (max-width: 1024px)",
+            });
+
+            windowNitroAds.createAd("right-side-ad", {
+                refreshTime: 30,
+                format: "rail",
+                rail: "right",
+                railOffsetTop: 0,
+                railOffsetBottom: 0,
+                railCollisionWhitelist: ["*"],
+                sizes: [
+                    ["160", "600"],
+                    ["300", "600"],
+                    ["300", "250"],
+                ],
+                report: {
+                    enabled: true,
+                    icon: true,
+                    wording: "Report Ad",
+                    position: "top-right",
+                },
+                mediaQuery:
+                    "(min-width: 1025px), (min-width: 768px) and (max-width: 1024px)",
+            });
+        }
+    });
+
 </script>
 
 <svelte:head>

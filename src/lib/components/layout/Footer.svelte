@@ -338,6 +338,17 @@
         <p class="text-center text-sm text-white uppercase stardew-text">
             {locale.t("layout.footer.copyright", { year: currentYear })}
         </p>
+        <span class="text-white" data-ccpa-link="1"></span>
+        <div id="consent-box" style="display:none">
+            <button
+                class="w-full p-4 text-sm cursor-pointer font-semibold text-white shadow-sm hover:underline"
+                onclick={() => {
+                    window.__cmp?.("showModal");
+                }}
+            >
+                {locale.t("layout.footer.cookie_preferences")}
+            </button>
+        </div>
     </div>
 </footer>
 
